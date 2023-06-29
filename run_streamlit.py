@@ -108,9 +108,6 @@ def streamlit_app():
     with tab1:
         st.title("Data Provenance Explorer")
 
-        # st.header("")
-
-
         with st.sidebar:
             st.markdown("""Select the preferred criteria for your datasets.""")
 
@@ -145,16 +142,8 @@ def streamlit_app():
                 INFO["data"], license_multiselect, language_multiselect, taskcats_multiselect)
             metrics = util.compute_metrics(filtered_df)
 
-            st.header('Properties of your collection')
-
-
-            # def insert_metric_container(title):
-            #     with st.container():
-            #         st.subheader(title)
-            #         stats = f"{len(metrics['collections'])} / {len(df_metadata['collections'])}"
-            #         st.caption(stats)
-                    
-
+            st.subheader('Properties of your collection')
+            # st.text("See what data fits your criteria.")
 
             st.markdown('#')
             st.markdown('#')
@@ -169,34 +158,47 @@ def streamlit_app():
             # st.divider()
             st.markdown('#')
             # st.markdown('#')
+
+            def insert_metric_container(title, key):
+                with st.container():
+                    st.caption(title)
+                    # stats = f"{len(metrics['collections'])} / {len(df_metadata['collections'])}"
+                    # st.caption(stats)
+                    fig = util.plot_altair_piechart(metrics[key], title)
+                    st.altair_chart(fig, use_container_width=False, theme="streamlit")
+                    
+            insert_metric_container("License Distribution", "licenses")
+            insert_metric_container("Language Distribution", "languages")
+            insert_metric_container("Task Category Distribution", "task_categories")
+
             # st.header('Properties for your collection')
             with st.container(): 
-                piechart_columns = st.columns(3)
-                # licensing dist
-                # st.write("License Distribution")
-                # fig0 = util.plot_piechart(metrics["licenses"], "License Distribution")
-                # piechart_columns[0].pyplot(fig0)
-                fig0 = util.plot_altair_piechart(metrics["licenses"], "License Distribution")
-                piechart_columns[0].caption("License Distribution")
-                piechart_columns[0].altair_chart(fig0, use_container_width=False, theme="streamlit")
+            #     piechart_columns = st.columns(3)
+            #     # licensing dist
+            #     # st.write("License Distribution")
+            #     # fig0 = util.plot_piechart(metrics["licenses"], "License Distribution")
+            #     # piechart_columns[0].pyplot(fig0)
+            #     fig0 = util.plot_altair_piechart(metrics["licenses"], "License Distribution")
+            #     piechart_columns[0].caption("License Distribution")
+            #     piechart_columns[0].altair_chart(fig0, use_container_width=False, theme="streamlit")
 
-                # language dist
-                # st.write("Language Distribution")
-                # fig1 = util.plot_piechart(metrics["languages"], "Language Distribution")
-                # piechart_columns[1].pyplot(fig1)
-                fig1 = util.plot_altair_piechart(metrics["languages"], "Language Distribution")
-                piechart_columns[1].caption("Language Distribution")
-                piechart_columns[1].altair_chart(fig1, use_container_width=False, theme="streamlit")
+            #     # language dist
+            #     # st.write("Language Distribution")
+            #     # fig1 = util.plot_piechart(metrics["languages"], "Language Distribution")
+            #     # piechart_columns[1].pyplot(fig1)
+            #     fig1 = util.plot_altair_piechart(metrics["languages"], "Language Distribution")
+            #     piechart_columns[1].caption("Language Distribution")
+            #     piechart_columns[1].altair_chart(fig1, use_container_width=False, theme="streamlit")
 
-                # task category dist
-                # st.write("Task Categories Distribution")
-                # fig2 = util.plot_piechart(metrics["task_categories"], "Task Categories Distribution")
-                # piechart_columns[2].pyplot(fig2)
-                fig2 = util.plot_altair_piechart(metrics["task_categories"], "Task Category Distribution")
-                piechart_columns[2].caption("Task Category Distribution")
-                piechart_columns[2].altair_chart(fig2, use_container_width=False, theme="streamlit")
+            #     # task category dist
+            #     # st.write("Task Categories Distribution")
+            #     # fig2 = util.plot_piechart(metrics["task_categories"], "Task Categories Distribution")
+            #     # piechart_columns[2].pyplot(fig2)
+            #     fig2 = util.plot_altair_piechart(metrics["task_categories"], "Task Category Distribution")
+            #     piechart_columns[2].caption("Task Category Distribution")
+            #     piechart_columns[2].altair_chart(fig2, use_container_width=False, theme="streamlit")
 
-                st.markdown('#')
+            #     st.markdown('#')
                 st.header('Collections Data')
                 table = util.prep_collection_table(filtered_df, INFO["data"], metrics)
                 setup_table(table)
