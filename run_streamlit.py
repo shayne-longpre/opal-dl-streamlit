@@ -134,6 +134,12 @@ def streamlit_app():
                     ["All"] + list(constants.TASK_CATEGORY_GROUPS.keys()),
                     ["All"])
 
+                with st.expander("More advanced criteria"):
+                    format_multiselect = st.multiselect(
+                        'Select the format types to cover in your datasets',
+                        ["All"] + ["Zero-Shot Prompt", "Multi-turn Dialog"],
+                        ["All"])
+
                 # Every form must have a submit button.
                 submitted = st.form_submit_button("Submit Selection")
 
@@ -141,6 +147,7 @@ def streamlit_app():
             filtered_df = util.apply_filters(
                 INFO["data"], license_multiselect, language_multiselect, taskcats_multiselect)
             metrics = util.compute_metrics(filtered_df)
+            st.text(format_multiselect)
 
             st.subheader('Properties of your collection')
             # st.text("See what data fits your criteria.")
