@@ -192,7 +192,8 @@ def plot_altair_barchart(counts):
     # create the chart
     chart = alt.Chart(df).mark_bar().encode(
         x='count:Q',
-        y=alt.Y('category:N', sort='-x'),
+        # y=alt.Y('category:N', sort='-x'),
+        y=alt.Y('category:N', sort=alt.EncodingSortField(field="count", op="sum", order='descending')),
         color=alt.Color('category:N', scale=palette),
         tooltip=['category', 'count', 'percentage']
     )
