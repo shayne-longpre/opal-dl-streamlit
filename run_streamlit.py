@@ -199,23 +199,6 @@ def streamlit_app():
             submitted2 = st.form_submit_button("Submit Selection")
 
         if submitted2:
-
-        # dataset_select = ["All"]
-        # st.markdown("""""")
-        # with st.form("data_explorer"):
-        #     collection_select = st.selectbox(
-        #         'Select the collection to inspect',
-        #         list(set(INFO["data"]["Collection"])))
-        #     # relevant
-        #     dataset_select = ["All"]
-        #     # dataset_select = st.selectbox(
-        #     #     'Select the dataset in this collection to inspect',
-        #     #     ["All"] + list(set(INFO["data"]["Unique Dataset Identifier"])))
-
-        #     submitted2 = st.form_submit_button("Submit Selection")
-
-        # if submitted2:
-            
         
             if dataset_select == "All":
                 tab2_selected_df = INFO["data"][INFO["data"]["Collection"] == collection_select]
@@ -253,7 +236,7 @@ def streamlit_app():
                         if key == "Licenses":
                             return set([x["License"] for xs in entries for x in xs if x])
                         elif isinstance(entries[0], list):
-                            return set([x for xs in entries for x in xs if x])
+                            return set([x for xs in entries if xs for x in xs if x])
                         else:
                             return set(entries)
 
