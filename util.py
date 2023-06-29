@@ -11,7 +11,7 @@ import altair as alt
 
 import streamlit as st
 
-import constants
+from src import constants
 
 
 def apply_filters(
