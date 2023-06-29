@@ -31,6 +31,7 @@ FORMAT_GROUPS = {
 
 DOMAIN_GROUPS = {
     "Wikipedia": ["Wikipedia"],
+    "Web": ["Web"],
     "News": ["News"],
     "Social Media": ["Social Media"],
     "Books": ["Books"],

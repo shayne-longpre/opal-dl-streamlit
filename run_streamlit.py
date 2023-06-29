@@ -251,8 +251,10 @@ def streamlit_app():
                     if not entries:
                         return []
                     else:
-                        if isinstance(entries[0], list):
-                            return set([x for xs in entries for x in xs])
+                        if key == "Licenses":
+                            return set([x["License"] for xs in entries for x in xs if x])
+                        elif isinstance(entries[0], list):
+                            return set([x for xs in entries for x in xs if x])
                         else:
                             return set(entries)
 
@@ -272,6 +274,7 @@ def streamlit_app():
                 st.caption("Data Provenance")
                 for info_key in data_provenance_info_keys:
                     st.text(f"{info_key}: {extract_infos(tab2_selected_df, info_key)}")
+
             # st.text(f"Format: {tab2_selected_df['Format']}")
             # st.text(f"Licenses: {tab2_selected_df['Licenses']}")
             # st.text(f"Languages: {tab2_selected_df['Languages']}")
