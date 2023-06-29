@@ -19,6 +19,9 @@ def apply_filters(
     selected_licenses,
     selected_languages,
     selected_task_categories,
+    selected_formats,
+    selected_text_domains,
+    time_range_selection,
 ):
     filtered_df = df
 
@@ -48,29 +51,24 @@ def apply_filters(
             filtered_df["Licenses"].apply(lambda xs: license_strs >= set([x["License"] for x in xs]))
         ]
 
-    if selected_languages and "All" not in selected_languages:
-        lang_strs = set(
-            [
-                lang_str
-                for k in selected_languages
-                for lang_str in constants.LANGUAGE_GROUPS[k]
+    def filter_on_key(df, selection_criteria, key, options):
+        if selection_criteria and "All" not in selection_criteria:
+            selected_strs = set(
+                [
+                    select_str
+                    for k in selection_criteria
+                    for select_str in options[k]
+                ]
+            )
+            df = df[
+                df[key].apply(lambda x: selected_strs >= set(x))
             ]
-        )
-        filtered_df = filtered_df[
-            filtered_df["Languages"].apply(lambda x: lang_strs >= set(x))
-        ]
+        return df
 
-    if selected_task_categories and "All" not in selected_task_categories:
-        taskcat_strs = set(
-            [
-                taskcat_str
-                for k in selected_task_categories
-                for taskcat_str in constants.TASK_CATEGORY_GROUPS[k]
-            ]
-        )
-        filtered_df = filtered_df[
-            filtered_df["Task Categories"].apply(lambda x: taskcat_strs >= set(x))
-        ]
+    filtered_df = filter_on_key(filtered_df, selected_languages, "Languages", constants.LANGUAGE_GROUPS)
+    filtered_df = filter_on_key(filtered_df, selected_task_categories, "Task Categories", constants.TASK_CATEGORY_GROUPS)
+    filtered_df = filter_on_key(filtered_df, selected_formats, "Format", constants.FORMAT_GROUPS)
+    filtered_df = filter_on_key(filtered_df, selected_text_domains, "Text Domains", constants.DOMAIN_GROUPS)
 
     return filtered_df
 

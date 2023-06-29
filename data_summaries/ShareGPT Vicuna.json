@@ -21,7 +21,6 @@
         "Number of Examples": null,
         "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
             "Multi-turn Dialog"
         ],
         "Time of Collection": null,

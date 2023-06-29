@@ -24,7 +24,6 @@
         "Number of Examples": null,
         "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
             "Response Ranking"
         ],
         "Time of Collection": null,

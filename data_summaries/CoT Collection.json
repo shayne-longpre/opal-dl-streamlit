@@ -21,8 +21,6 @@
         "Number of Examples": null,
         "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt",
             "Chain-of-Thought Prompt"
         ],
         "Time of Collection": null,
@@ -68,8 +66,6 @@
         "Number of Examples": null,
         "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt",
             "Chain-of-Thought Prompt"
         ],
         "Time of Collection": null,
@@ -115,8 +111,6 @@
         "Number of Examples": null,
         "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt",
             "Chain-of-Thought Prompt"
         ],
         "Time of Collection": null,
@@ -162,8 +156,6 @@
         "Number of Examples": null,
         "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt",
             "Chain-of-Thought Prompt"
         ],
         "Time of Collection": null,
@@ -209,8 +201,6 @@
         "Number of Examples": null,
         "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt",
             "Chain-of-Thought Prompt"
         ],
         "Time of Collection": null,
@@ -256,8 +246,6 @@
         "Number of Examples": null,
         "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt",
             "Chain-of-Thought Prompt"
         ],
         "Time of Collection": null,

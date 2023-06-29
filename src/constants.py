@@ -21,6 +21,25 @@ LICENSE_GROUPS = {
     # "Fully commerical, but must attribute": []
 }
 
+FORMAT_GROUPS = {
+    "Zero-Shot Prompt": ["Zero-Shot Prompt"],
+    "Few-Shot Prompt": ["Few-Shot Prompt"],
+    "Chain-of-Thought Prompt": ["Chain-of-Thought Prompt"],
+    "Multi-turn Dialog": ["Multi-turn Dialog"],
+    "Response Ranking": ["Response Ranking"],
+}
+
+DOMAIN_GROUPS = {
+    "Wikipedia": ["Wikipedia"],
+    "News": ["News"],
+    "Social Media": ["Social Media"],
+    "Books": ["Books"],
+    "Biomedical": ["Biomedical"],
+    "Academic": ["Academic"],
+    "Code": ["Code"],
+    "Legal": ["Legal"],
+}
+
 LANGUAGE_GROUPS = {
     "English": ["English"],
     "French": ["French"],

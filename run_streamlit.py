@@ -135,17 +135,34 @@ def streamlit_app():
                     ["All"])
 
                 with st.expander("More advanced criteria"):
+
                     format_multiselect = st.multiselect(
                         'Select the format types to cover in your datasets',
-                        ["All"] + ["Zero-Shot Prompt", "Multi-turn Dialog"],
+                        ["All"] + list(constants.FORMAT_GROUPS.keys()),
                         ["All"])
+
+                    domain_multiselect = st.multiselect(
+                        'Select the domain types to cover in your datasets',
+                        ["All"] + list(constants.DOMAIN_GROUPS.keys()),
+                        ["All"])
+
+                    time_range_selection = st.slider(
+                        "Select data release time constraints",
+                        value=(datetime(2000, 1, 1), datetime(2023, 7, 1)))
 
                 # Every form must have a submit button.
                 submitted = st.form_submit_button("Submit Selection")
 
         if submitted:
             filtered_df = util.apply_filters(
-                INFO["data"], license_multiselect, language_multiselect, taskcats_multiselect)
+                INFO["data"], 
+                license_multiselect, 
+                language_multiselect, 
+                taskcats_multiselect,
+                format_multiselect,
+                ["All"], #domain_multiselect,
+                time_range_selection,
+            )
             metrics = util.compute_metrics(filtered_df)
             st.text(format_multiselect)
 
