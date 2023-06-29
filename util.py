@@ -106,7 +106,7 @@ def prep_collection_table(df, original_df, metrics):
     return pd.DataFrame(table)
 
 
-def plot_altair_piechart(counts, title, threshold_cutoff=20):
+def plot_altair_piechart(counts, title, threshold_cutoff=16):
     top_keys = sorted(counts.keys(), reverse=True, key=lambda x: counts[x])[:threshold_cutoff]
     thresholded_counts = {}
     other_count = 0
@@ -169,3 +169,48 @@ def plot_altair_piechart(counts, title, threshold_cutoff=20):
 #     ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 #     plt.title(title)
 #     return fig1
+
+
+def plot_altair_barchart(counts, key):
+
+    # import pandas as pd
+    # import altair as alt
+    # import numpy as np
+
+    # assuming df has columns `category` and `count`
+    # df = pd.DataFrame(...)
+
+    df = pd.DataFrame({
+        "category": list(counts[key].keys()),
+        "count": list(counts[key].values()),
+    })
+    # calculate total count
+    total = df['count'].sum()
+
+    # create a new column for percentage
+    df['percentage'] = 100 * df['count'] / total
+
+    # sort the DataFrame and only select the top 20 categories
+    df = df.sort_values('count', ascending=False)[:20][::-1]
+
+    # for having a different color for each bar
+    palette = alt.Scale(scheme='category20')
+
+    # create the chart
+    chart = alt.Chart(df).mark_bar().encode(
+        x='count:Q',
+        y=alt.Y('category:N', sort='-x'),
+        color=alt.Color('category:N', scale=palette),
+        tooltip=['category', 'count', 'percentage']
+    )
+
+    # text label for percentage
+    text = chart.mark_text(
+        align='left',
+        baseline='middle',
+        dx=3  # Nudges text to right so it doesn't appear on top of the bar
+    ).encode(
+        text=alt.Text('percentage:Q', format='.1f')
+    )
+
+    return (chart + text).properties(height=500, width=800)

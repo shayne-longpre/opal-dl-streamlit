@@ -87,7 +87,8 @@ def insert_metric_container(title, key, metrics):
         st.caption(title)
         # stats = f"{len(metrics['collections'])} / {len(df_metadata['collections'])}"
         # st.caption(stats)
-        fig = util.plot_altair_piechart(metrics[key], title)
+        fig = util.plot_altair_barchart(metrics[key])
+        # fig = util.plot_altair_piechart(metrics[key], title)
         st.altair_chart(fig, use_container_width=True, theme="streamlit")
 
 def streamlit_app():
@@ -235,22 +236,13 @@ def streamlit_app():
                     elif key == "Licenses":
                             return set([x["License"] for xs in entries for x in xs if x and x["License"]])
                     elif isinstance(entries[0], list):
-                        # if key == "Text Sources":
-                        st.text(key)
-                        # return [x for x in entries if x]
-                        return [x for xs in entries if xs for x in xs if x]
+                        return set([x for xs in entries if xs for x in xs if x])
                     else:
                         return set([x for x in entries if x])
 
                 # st.caption("Collection Information")
                 # for info_key in collection_info_keys:
                 #     st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
-
-                text_sources = tab2_selected_df["Text Sources"].tolist()
-                text_domains = tab2_selected_df["Text Domains"].tolist()
-                st.text(set([type(ts) for ts in text_sources]))
-                st.text(set([type(ts) for ts in text_domains]))
-
 
                 if dataset_select != "All":
                     st.caption("Dataset Information")
@@ -265,13 +257,6 @@ def streamlit_app():
                 for info_key in data_provenance_info_keys:
                     st.text(f"{info_key}: {extract_infos(tab2_selected_df, info_key)}")
 
-            # st.text(f"Format: {tab2_selected_df['Format']}")
-            # st.text(f"Licenses: {tab2_selected_df['Licenses']}")
-            # st.text(f"Languages: {tab2_selected_df['Languages']}")
-            # st.text(f"Task Categories: {tab2_selected_df['Task Categories']}")
-            # st.text(f"Task Categories: {tab2_selected_df['Task Categories']}")
-            # st.text(f"Task Categories: {tab2_selected_df['Task Categories']}")
-            # st.text(f"Task Categories: {tab2_selected_df['Task Categories']}")
         
 
             
