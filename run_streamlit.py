@@ -192,7 +192,7 @@ def streamlit_app():
                 'Select the dataset in this collection to inspect',
                 ["All"] + list(set(INFO["data"]["Unique Dataset Identifier"])))
 
-        submitted2 = st.form_submit_button("Submit Selection")
+            submitted2 = st.form_submit_button("Submit Selection")
 
         if submitted2:
             
