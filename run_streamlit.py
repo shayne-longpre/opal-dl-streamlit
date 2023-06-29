@@ -185,8 +185,20 @@ def streamlit_app():
 
         collection_select = st.selectbox(
             'Select the collection to inspect',
-            list(set(INFO["data"]["Collection"])))
+            ["All"] + list(set(INFO["data"]["Collection"])))
 
+        if collection_select == ["All"]:
+            dataset_select = st.selectbox(
+                'Select the dataset in this collection to inspect',
+                ["All"] + list(set(INFO["data"]["Unique Dataset Identifier"])))
+        else:
+            collection_subset = INFO["data"][INFO["data"]["Collection"] == collection_select]
+            dataset_select = st.selectbox(
+                'Select the dataset in this collection to inspect',
+                ["All"] + list(set(collection_subset["Unique Dataset Identifier"])))
+
+
+        # dataset_select = ["All"]
         # st.markdown("""""")
         # with st.form("data_explorer"):
         #     collection_select = st.selectbox(
@@ -202,56 +214,58 @@ def streamlit_app():
 
         # if submitted2:
             
-        if dataset_select == ["All"]:
-            tab2_selected_df = df[df["Collection"] == collection_select]
-            tab2_metrics = util.compute_metrics(tab2_selected_df)
-        else:
-            tab2_selected_df = df[df["Unique Dataset Identifier"] == dataset_select]
-            tab2_metrics = util.compute_metrics(tab2_selected_df)
 
-        display_metrics(tab2_metrics, df_metadata)
+        
+        # if dataset_select == ["All"]:
+        #     tab2_selected_df = df[df["Collection"] == collection_select]
+        #     tab2_metrics = util.compute_metrics(tab2_selected_df)
+        # else:
+        #     tab2_selected_df = df[df["Unique Dataset Identifier"] == dataset_select]
+        #     tab2_metrics = util.compute_metrics(tab2_selected_df)
 
-        with st.container():
-            collection_info_keys = [
-                "Collection Name",
-                "Collection URL",
-                "Collection Hugging Face URL",
-                "Collection Paper Title",
-            ]
-            dataset_info_keys = {
-                "Unique Dataset Identifier",
-                "Paper Title",
-                "Dataset URL",
-                "Hugging Face URL",
-            }
-            data_characteristics_info_keys = [
-                "Format", "Languages", "Task Categories", "Text Topics", 
-                "Text Domains", "Number of Examples", "Text Length Metrics",
-            ]
-            data_provenance_info_keys = ["Creators", "Text Sources", "Licenses"]
+        # display_metrics(tab2_metrics, df_metadata)
 
-            def extract_infos(df, key):
-                if isinstance(df[key].iloc[0], list):
-                    return set([x for xs in tab2_selected_df[item].tolist() for x in xs])
-                else:
-                    return set([tab2_selected_df[item]])
+        # with st.container():
+        #     collection_info_keys = [
+        #         "Collection Name",
+        #         "Collection URL",
+        #         "Collection Hugging Face URL",
+        #         "Collection Paper Title",
+        #     ]
+        #     dataset_info_keys = {
+        #         "Unique Dataset Identifier",
+        #         "Paper Title",
+        #         "Dataset URL",
+        #         "Hugging Face URL",
+        #     }
+        #     data_characteristics_info_keys = [
+        #         "Format", "Languages", "Task Categories", "Text Topics", 
+        #         "Text Domains", "Number of Examples", "Text Length Metrics",
+        #     ]
+        #     data_provenance_info_keys = ["Creators", "Text Sources", "Licenses"]
 
-            st.caption("Collection Information")
-            for info_key in collection_info_keys:
-                st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
+        #     def extract_infos(df, key):
+        #         if isinstance(df[key].iloc[0], list):
+        #             return set([x for xs in tab2_selected_df[item].tolist() for x in xs])
+        #         else:
+        #             return set([tab2_selected_df[item]])
 
-            if dataset_select != ["All"]:
-                st.caption("Dataset Information")
-                for info_key in dataset_info_keys:
-                    st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
+        #     st.caption("Collection Information")
+        #     for info_key in collection_info_keys:
+        #         st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
 
-            st.caption("Data Characteristics")
-            for info_key in data_characteristics_info_keys:
-                st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
+        #     if dataset_select != ["All"]:
+        #         st.caption("Dataset Information")
+        #         for info_key in dataset_info_keys:
+        #             st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
 
-            st.caption("Data Provenance")
-            for info_key in data_provenance_info_keys:
-                st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
+        #     st.caption("Data Characteristics")
+        #     for info_key in data_characteristics_info_keys:
+        #         st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
+
+        #     st.caption("Data Provenance")
+        #     for info_key in data_provenance_info_keys:
+        #         st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
             # st.text(f"Format: {tab2_selected_df['Format']}")
             # st.text(f"Licenses: {tab2_selected_df['Licenses']}")
             # st.text(f"Languages: {tab2_selected_df['Languages']}")
