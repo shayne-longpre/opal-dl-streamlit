@@ -236,7 +236,7 @@ def streamlit_app():
                         if key == "Licenses":
                             return set([x["License"] for xs in entries for x in xs if x])
                         elif isinstance(entries[0], list):
-                            if key == "Task Sources":
+                            if key == "Text Sources":
                                 st.text(entries)
                             return [x for xs in entries if xs for x in xs if x]
                         else:
