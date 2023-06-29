@@ -221,12 +221,11 @@ def streamlit_app():
 
         
             if dataset_select == ["All"]:
-                tab2_selected_df = df[df["Collection"] == collection_select]
-                tab2_metrics = util.compute_metrics(tab2_selected_df)
+                tab2_selected_df = INFO["data"][INFO["data"]["Collection"] == collection_select]
             else:
-                tab2_selected_df = df[df["Unique Dataset Identifier"] == dataset_select]
-                tab2_metrics = util.compute_metrics(tab2_selected_df)
+                tab2_selected_df = INFO["data"][INFO["data"]["Unique Dataset Identifier"] == dataset_select]
 
+            tab2_metrics = util.compute_metrics(tab2_selected_df)
             display_metrics(tab2_metrics, df_metadata)
 
             with st.container():
@@ -254,9 +253,9 @@ def streamlit_app():
                     else:
                         return set([tab2_selected_df[item]])
 
-                st.caption("Collection Information")
-                for info_key in collection_info_keys:
-                    st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
+                # st.caption("Collection Information")
+                # for info_key in collection_info_keys:
+                #     st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
 
                 if dataset_select != ["All"]:
                     st.caption("Dataset Information")
