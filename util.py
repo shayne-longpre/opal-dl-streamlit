@@ -171,7 +171,7 @@ def plot_altair_piechart(counts, title, threshold_cutoff=16):
 #     return fig1
 
 
-def plot_altair_barchart(counts, key):
+def plot_altair_barchart(counts):
 
     # import pandas as pd
     # import altair as alt
@@ -181,8 +181,8 @@ def plot_altair_barchart(counts, key):
     # df = pd.DataFrame(...)
 
     df = pd.DataFrame({
-        "category": list(counts[key].keys()),
-        "count": list(counts[key].values()),
+        "category": list(counts.keys()),
+        "count": list(counts.values()),
     })
     # calculate total count
     total = df['count'].sum()
