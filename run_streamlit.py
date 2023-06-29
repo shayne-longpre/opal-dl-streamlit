@@ -229,7 +229,6 @@ def streamlit_app():
                 data_provenance_info_keys = ["Creators", "Text Sources", "Licenses"]
 
                 def extract_infos(df, key):
-                    st.text(df.columns)
                     entries = df[key].tolist()
                     if not entries:
                         return []
@@ -246,6 +245,12 @@ def streamlit_app():
                 # st.caption("Collection Information")
                 # for info_key in collection_info_keys:
                 #     st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
+
+                text_sources = tab2_selected_df["Text Sources"].tolist()
+                text_domains = tab2_selected_df["Text Domains"].tolist()
+                st.text(set([type(ts) for ts in text_sources]))
+                st.text(set([type(ts) for ts in text_domains]))
+
 
                 if dataset_select != "All":
                     st.caption("Dataset Information")
