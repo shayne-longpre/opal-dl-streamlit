@@ -107,7 +107,7 @@ def compute_metrics(df):
     collections_count = dict(Counter(df["Collection"].tolist()).most_common())
     language_counts = dict(Counter([lang for row in df["Languages"] for lang in row]).most_common())
     taskcat_counts = dict(Counter([tc for row in df["Task Categories"] for tc in row]).most_common())
-    license_counts = dict(Counter([lic["License"] for lic in df["Licenses"].tolist() if lic["License"]]).most_common())
+    license_counts = dict(Counter([license_info["License"] for licenses in df["Licenses"].tolist() for license_info in licenses if license_info["License"]]).most_common())
     
     return {
         "collections": collections_count,
