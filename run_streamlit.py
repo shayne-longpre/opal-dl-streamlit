@@ -260,15 +260,15 @@ def streamlit_app():
                 if dataset_select != ["All"]:
                     st.caption("Dataset Information")
                     for info_key in dataset_info_keys:
-                        st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
+                        st.text(f"{info_key}: {extract_infos(tab2_selected_df, info_key)}")
 
                 st.caption("Data Characteristics")
                 for info_key in data_characteristics_info_keys:
-                    st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
+                    st.text(f"{info_key}: {extract_infos(tab2_selected_df, info_key)}")
 
                 st.caption("Data Provenance")
                 for info_key in data_provenance_info_keys:
-                    st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
+                    st.text(f"{info_key}: {extract_infos(tab2_selected_df, info_key)}")
             # st.text(f"Format: {tab2_selected_df['Format']}")
             # st.text(f"Licenses: {tab2_selected_df['Licenses']}")
             # st.text(f"Languages: {tab2_selected_df['Languages']}")
