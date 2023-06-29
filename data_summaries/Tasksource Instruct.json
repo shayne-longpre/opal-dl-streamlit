@@ -842,7 +842,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -883,7 +883,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -924,7 +924,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -965,7 +965,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1006,7 +1006,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1047,7 +1047,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1088,7 +1088,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1129,7 +1129,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1170,7 +1170,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1211,7 +1211,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1252,7 +1252,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1293,7 +1293,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1334,7 +1334,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1379,7 +1379,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1424,7 +1424,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1469,7 +1469,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1510,7 +1510,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1551,7 +1551,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1592,7 +1592,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1633,7 +1633,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1674,7 +1674,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1715,7 +1715,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1756,7 +1756,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1797,7 +1797,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1838,7 +1838,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1879,7 +1879,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1920,7 +1920,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -1969,7 +1969,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2010,7 +2010,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2051,7 +2051,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2096,7 +2096,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2141,7 +2141,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2182,7 +2182,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2223,7 +2223,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2264,7 +2264,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2305,7 +2305,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2346,7 +2346,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2387,7 +2387,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2428,7 +2428,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2469,7 +2469,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2510,7 +2510,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2551,7 +2551,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2592,7 +2592,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2633,7 +2633,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2674,7 +2674,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2715,7 +2715,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2756,7 +2756,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2797,7 +2797,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2838,7 +2838,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2879,7 +2879,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2920,7 +2920,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -2961,7 +2961,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3002,7 +3002,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3043,7 +3043,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3084,7 +3084,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3125,7 +3125,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3166,7 +3166,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3207,7 +3207,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3248,7 +3248,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3289,7 +3289,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3330,7 +3330,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3371,7 +3371,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3412,7 +3412,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3453,7 +3453,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3494,7 +3494,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3535,7 +3535,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3576,7 +3576,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3617,7 +3617,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3701,7 +3701,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3746,7 +3746,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3791,7 +3791,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3836,7 +3836,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3877,7 +3877,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3918,7 +3918,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -3959,7 +3959,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4000,7 +4000,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4041,7 +4041,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4082,7 +4082,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4123,7 +4123,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4164,7 +4164,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4205,7 +4205,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4246,7 +4246,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4287,7 +4287,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4328,7 +4328,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4369,7 +4369,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4410,7 +4410,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4451,7 +4451,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4492,7 +4492,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4533,7 +4533,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4574,7 +4574,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4615,7 +4615,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4656,7 +4656,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4697,7 +4697,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4738,7 +4738,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4779,7 +4779,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4820,7 +4820,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4861,7 +4861,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4902,7 +4902,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4943,7 +4943,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -4984,7 +4984,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -5025,7 +5025,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -5066,7 +5066,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -5150,7 +5150,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -5919,7 +5919,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -5960,7 +5960,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -6001,7 +6001,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -6042,7 +6042,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -6083,7 +6083,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -6124,7 +6124,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -6165,7 +6165,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -6206,7 +6206,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -6247,7 +6247,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -6292,7 +6292,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -6419,7 +6419,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -6460,7 +6460,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -6501,7 +6501,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -6542,7 +6542,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -6587,7 +6587,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -6628,7 +6628,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -6669,7 +6669,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -7019,7 +7019,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -7189,7 +7189,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -7230,7 +7230,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -7271,7 +7271,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -7312,7 +7312,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -7396,7 +7396,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -7437,7 +7437,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -7478,7 +7478,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -7519,7 +7519,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -7560,7 +7560,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -7988,7 +7988,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -8029,7 +8029,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -8070,7 +8070,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -8111,7 +8111,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -8152,7 +8152,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -8236,7 +8236,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -8406,7 +8406,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -8447,7 +8447,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -8488,7 +8488,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -8529,7 +8529,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -8656,7 +8656,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -8740,7 +8740,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -8781,7 +8781,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -8865,7 +8865,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -8906,7 +8906,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -8990,7 +8990,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -9074,7 +9074,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -9115,7 +9115,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -9156,7 +9156,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -9197,7 +9197,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -9281,7 +9281,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -9322,7 +9322,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -9363,7 +9363,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -9404,7 +9404,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -9445,7 +9445,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -9486,7 +9486,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -9527,7 +9527,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -9568,7 +9568,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -9695,7 +9695,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -9736,7 +9736,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -9777,7 +9777,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -9818,7 +9818,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -9988,7 +9988,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10029,7 +10029,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10070,7 +10070,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10197,7 +10197,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10238,7 +10238,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10279,7 +10279,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10320,7 +10320,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10361,7 +10361,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10402,7 +10402,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10443,7 +10443,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10484,7 +10484,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10525,7 +10525,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10566,7 +10566,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10650,7 +10650,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10691,7 +10691,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10732,7 +10732,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10773,7 +10773,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10814,7 +10814,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10855,7 +10855,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10896,7 +10896,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10937,7 +10937,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -10978,7 +10978,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11019,7 +11019,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11060,7 +11060,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11101,7 +11101,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11142,7 +11142,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11183,7 +11183,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11224,7 +11224,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11265,7 +11265,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11306,7 +11306,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11347,7 +11347,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11388,7 +11388,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11429,7 +11429,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11470,7 +11470,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11511,7 +11511,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11552,7 +11552,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11593,7 +11593,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11677,7 +11677,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11718,7 +11718,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11759,7 +11759,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11800,7 +11800,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11841,7 +11841,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11882,7 +11882,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11923,7 +11923,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -11964,7 +11964,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12005,7 +12005,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12046,7 +12046,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12087,7 +12087,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12171,7 +12171,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12255,7 +12255,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12339,7 +12339,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12380,7 +12380,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12421,7 +12421,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12462,7 +12462,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12503,7 +12503,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12544,7 +12544,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12585,7 +12585,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12626,7 +12626,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12667,7 +12667,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12708,7 +12708,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12749,7 +12749,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12790,7 +12790,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12831,7 +12831,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12872,7 +12872,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12913,7 +12913,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12954,7 +12954,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -12995,7 +12995,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -13036,7 +13036,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -13077,7 +13077,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -13118,7 +13118,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -13159,7 +13159,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -13200,7 +13200,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -13241,7 +13241,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -13282,7 +13282,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -13323,7 +13323,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -13364,7 +13364,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -13405,7 +13405,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -13446,7 +13446,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -13487,7 +13487,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -13571,7 +13571,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -13612,7 +13612,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
@@ -13653,7 +13653,7 @@
         ],
         "Time of Collection": null,
         "Model Generated": null,
-        "Text Sources": null,
+        "Text Sources": [],
         "Creators": null,
         "Licenses": [
             {
