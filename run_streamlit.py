@@ -99,19 +99,23 @@ def setup_table(selected_data):
 
 
 def streamlit_app():
-    st.set_page_config(page_title="Open Alignment Data Selection", layout="wide")#, initial_sidebar_state='collapsed')
+    st.set_page_config(page_title="Data Provenance Explorer", layout="wide")#, initial_sidebar_state='collapsed')
     INFO["data"] = load_data()
     df_metadata = util.compute_metrics(INFO["data"])
 
     tab1, tab2 = st.tabs(["Data Selection", "Project Details"])
 
     with tab1:
-        st.title("Open Alignment Data Selection")
+        st.title("Data Provenance Explorer")
 
         # st.header("")
         st.markdown("""
         Select the preferred criteria for your datasets.
         """)
+
+        with st.sidebar:
+            with st.echo():
+                st.write("This code will be printed to the sidebar.")
 
 
         with st.form("data_selection"):

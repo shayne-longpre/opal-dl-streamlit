@@ -75,33 +75,6 @@ def apply_filters(
     return filtered_df
 
 
-
-# def read_dataset_table(fp):
-#     list_cols = {k: literal_eval for k in ["Collection URL", "Languages", "Task Domains", "Task Categories", "Task Reasoning"]}
-#     df = pd.read_csv(fp, converters=list_cols).fillna("")
-    # return df
-
-# def apply_filters(
-#     df,
-#     selected_licenses,
-#     selected_languages,
-#     selected_task_categories,
-# ):
-#     filtered_df = copy.deepcopy(df)
-#     if "All" not in selected_licenses:
-#         # st.write(selected_licenses)
-#         license_strs = [license_str for k in selected_licenses for license_str in constants._LICENSE_GROUPINGS[k]]
-#         filtered_df = filtered_df[filtered_df["License"].isin(license_strs)]
-#     if "All" not in selected_languages:
-#         # st.write("Lang Filter")
-#         lang_strs = set([lang_str for k in selected_languages for lang_str in constants._LANGUAGE_GROUPS[k]])
-#         filtered_df = filtered_df[filtered_df["Languages"].apply(lambda x: len(set(x).intersection(lang_strs)) > 0)]
-#     if "All" not in selected_task_categories:
-#         taskcat_strs = set([taskcat_str for k in selected_task_categories for taskcat_str in constants._TASK_CATEGORY_GROUPS[k]])
-#         filtered_df = filtered_df[filtered_df["Task Categories"].apply(lambda x: len(set(x).intersection(taskcat_strs)) > 0)]
-
-#     return filtered_df
-
 def compute_metrics(df):
     datasets_count = dict(Counter(df["Dataset Name"]))
     collections_count = dict(Counter(df["Collection"].tolist()).most_common())

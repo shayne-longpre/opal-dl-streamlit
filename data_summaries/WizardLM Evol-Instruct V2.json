@@ -1,10 +1,10 @@
 {
-    "wizardlm-evol_instruct": {
-        "Unique Dataset Identifier": "wizardlm-evol_instruct",
-        "Dataset Name": "evol_instruct",
+    "wizardlm-evol_instruct2": {
+        "Unique Dataset Identifier": "wizardlm-evol_instruct2",
+        "Dataset Name": "evol_instruct2",
         "Paper Title": null,
         "Dataset URL": "https://github.com/nlpxucan/evol-instruct",
-        "Hugging Face URL": "https://huggingface.co/datasets/WizardLM/evol_instruct_70k",
+        "Hugging Face URL": "https://huggingface.co/datasets/WizardLM/WizardLM_evol_instruct_V2_196k",
         "Papers with Code URL": null,
         "ArXiv URL": null,
         "Semantic Scholar Corpus ID": null,
