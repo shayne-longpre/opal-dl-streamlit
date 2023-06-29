@@ -82,13 +82,13 @@ def display_metrics(metrics, df_metadata):
     metric_columns[3].metric("Task Categories", len(metrics["task_categories"]), delta=f"/ {len(df_metadata['task_categories'])}")
 
 
-def insert_metric_container(title, key):
+def insert_metric_container(title, key, metrics):
     with st.container():
         st.caption(title)
         # stats = f"{len(metrics['collections'])} / {len(df_metadata['collections'])}"
         # st.caption(stats)
         fig = util.plot_altair_piechart(metrics[key], title)
-        st.altair_chart(fig, use_container_width=False, theme="streamlit")
+        st.altair_chart(fig, use_container_width=True, theme="streamlit")
 
 def streamlit_app():
     st.set_page_config(page_title="Data Provenance Explorer", layout="wide")#, initial_sidebar_state='collapsed')
@@ -96,8 +96,6 @@ def streamlit_app():
     df_metadata = util.compute_metrics(INFO["data"])
 
     tab1, tab2 = st.tabs(["Data Selection", "Project Details"])
-
-
 
     with tab1:
         st.title("Data Provenance Explorer")
@@ -171,9 +169,9 @@ def streamlit_app():
             st.markdown('#')
             # st.markdown('#')
 
-            insert_metric_container("License Distribution", "licenses")
-            insert_metric_container("Language Distribution", "languages")
-            insert_metric_container("Task Category Distribution", "task_categories")
+            insert_metric_container("License Distribution", "licenses", metrics)
+            insert_metric_container("Language Distribution", "languages", metrics)
+            insert_metric_container("Task Category Distribution", "task_categories", metrics)
 
             with st.container(): 
                 st.header('Collections Data')
@@ -233,6 +231,7 @@ def streamlit_app():
                     "Collection URL",
                     "Collection Hugging Face URL",
                     "Collection Paper Title",
+                    "Collection Creators",
                 ]
                 dataset_info_keys = [
                     "Unique Dataset Identifier",
