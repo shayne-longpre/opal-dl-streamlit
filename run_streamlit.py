@@ -163,8 +163,8 @@ def streamlit_app():
             metric_columns1[0].metric("Collections", len(metrics["collections"]), delta=f"/ {len(df_metadata['collections'])}")#, delta_color="off")
             metric_columns1[1].metric("Datasets", len(metrics["datasets"]), delta=f"/ {len(df_metadata['datasets'])}")
             # metric_columns2 = st.columns(2)
-            metric_columns1[3].metric("Languages", len(metrics["languages"]), delta=f"/ {len(df_metadata['languages'])}")
-            metric_columns1[4].metric("Task Categories", len(metrics["task_categories"]), delta=f"/ {len(df_metadata['task_categories'])}")
+            metric_columns1[2].metric("Languages", len(metrics["languages"]), delta=f"/ {len(df_metadata['languages'])}")
+            metric_columns1[3].metric("Task Categories", len(metrics["task_categories"]), delta=f"/ {len(df_metadata['task_categories'])}")
 
             # st.divider()
             st.markdown('#')
