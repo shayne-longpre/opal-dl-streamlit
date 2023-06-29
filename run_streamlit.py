@@ -218,9 +218,8 @@ def streamlit_app():
 
         # if submitted2:
             
-
         
-            if dataset_select == ["All"]:
+            if dataset_select == "All":
                 tab2_selected_df = INFO["data"][INFO["data"]["Collection"] == collection_select]
             else:
                 tab2_selected_df = INFO["data"][INFO["data"]["Unique Dataset Identifier"] == dataset_select]
@@ -235,12 +234,12 @@ def streamlit_app():
                     "Collection Hugging Face URL",
                     "Collection Paper Title",
                 ]
-                dataset_info_keys = {
+                dataset_info_keys = [
                     "Unique Dataset Identifier",
                     "Paper Title",
                     "Dataset URL",
                     "Hugging Face URL",
-                }
+                ]
                 data_characteristics_info_keys = [
                     "Format", "Languages", "Task Categories", "Text Topics", 
                     "Text Domains", "Number of Examples", "Text Length Metrics",
@@ -261,7 +260,7 @@ def streamlit_app():
                 # for info_key in collection_info_keys:
                 #     st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
 
-                if dataset_select != ["All"]:
+                if dataset_select != "All":
                     st.caption("Dataset Information")
                     for info_key in dataset_info_keys:
                         st.text(f"{info_key}: {extract_infos(tab2_selected_df, info_key)}")
