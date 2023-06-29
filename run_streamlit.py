@@ -238,8 +238,8 @@ def streamlit_app():
                         elif isinstance(entries[0], list):
                             if key == "Text Sources":
                                 st.text(entries)
-                            return [x for x in entries if x]
-                            # return [x for xs in entries if xs for x in xs if x]
+                            # return [x for x in entries if x]
+                            return [x for xs in entries if xs for x in xs if x]
                         else:
                             return set([x for x in entries if x])
 
