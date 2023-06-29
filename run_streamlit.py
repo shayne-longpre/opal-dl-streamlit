@@ -159,7 +159,7 @@ def streamlit_app():
             st.markdown('#')
             st.markdown('#')
             
-            metric_columns1 = st.columns(2)
+            metric_columns1 = st.columns(4)
             metric_columns1[0].metric("Collections", len(metrics["collections"]), delta=f"/ {len(df_metadata['collections'])}")#, delta_color="off")
             metric_columns1[1].metric("Datasets", len(metrics["datasets"]), delta=f"/ {len(df_metadata['datasets'])}")
             # metric_columns2 = st.columns(2)
