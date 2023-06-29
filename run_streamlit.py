@@ -229,6 +229,7 @@ def streamlit_app():
                 data_provenance_info_keys = ["Creators", "Text Sources", "Licenses"]
 
                 def extract_infos(df, key):
+                    st.text(df.columns)
                     entries = df[key].tolist()
                     if not entries:
                         return []
