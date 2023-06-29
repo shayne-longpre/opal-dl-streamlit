@@ -234,13 +234,14 @@ def streamlit_app():
                         return []
                     else:
                         if key == "Licenses":
-                            return set([x["License"] for xs in entries for x in xs if x])
+                            return set([x["License"] for xs in entries for x in xs if x and x["License"]])
                         elif isinstance(entries[0], list):
                             if key == "Text Sources":
                                 st.text(entries)
-                            return [x for xs in entries if xs for x in xs if x]
+                            return [x for x in entries if x]
+                            # return [x for xs in entries if xs for x in xs if x]
                         else:
-                            return set(entries)
+                            return set([x for x in entries if x])
 
                 # st.caption("Collection Information")
                 # for info_key in collection_info_keys:
