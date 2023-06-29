@@ -28,7 +28,7 @@ INFO = {}
 
 @st.cache_data
 def load_data():
-    data = io.read_dataset_table("data_summaries/")
+    data = io.read_data_summary_json("data_summaries/")
     # data["all"] = ...
     return data
 
