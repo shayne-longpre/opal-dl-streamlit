@@ -106,7 +106,7 @@ def prep_collection_table(df, original_df, metrics):
     return pd.DataFrame(table)
 
 
-def plot_altair_piechart(counts, title, threshold_cutoff=8):
+def plot_altair_piechart(counts, title, threshold_cutoff=20):
     top_keys = sorted(counts.keys(), reverse=True, key=lambda x: counts[x])[:threshold_cutoff]
     thresholded_counts = {}
     other_count = 0
