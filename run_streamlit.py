@@ -249,9 +249,9 @@ def streamlit_app():
 
                 def extract_infos(df, key):
                     if isinstance(df[key].iloc[0], list):
-                        return set([x for xs in tab2_selected_df[item].tolist() for x in xs])
+                        return set([x for xs in tab2_selected_df[key].tolist() for x in xs])
                     else:
-                        return set([tab2_selected_df[item]])
+                        return set([tab2_selected_df[key]])
 
                 # st.caption("Collection Information")
                 # for info_key in collection_info_keys:
