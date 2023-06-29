@@ -69,12 +69,11 @@ def apply_filters(
     filtered_df = filter_on_key(filtered_df, selected_task_categories, "Task Categories", constants.TASK_CATEGORY_GROUPS)
     filtered_df = filter_on_key(filtered_df, selected_formats, "Format", constants.FORMAT_GROUPS)
     filtered_df = filter_on_key(filtered_df, selected_text_domains, "Text Domains", constants.DOMAIN_GROUPS)
-
     return filtered_df
 
 
 def compute_metrics(df):
-    datasets_count = dict(Counter(df["Dataset Name"]))
+    datasets_count = dict(Counter(df["Unique Dataset Identifier"]))
     collections_count = dict(Counter(df["Collection"].tolist()).most_common())
     language_counts = dict(Counter([lang for row in df["Languages"] for lang in row]).most_common())
     taskcat_counts = dict(Counter([tc for row in df["Task Categories"] for tc in row]).most_common())
@@ -95,8 +94,8 @@ def prep_collection_table(df, original_df, metrics):
         table["Collection"].append(collection)
         subset_df = df[df["Collection"] == collection]
         original_subset_df = original_df[original_df["Collection"] == collection]
-        original_datasets = set(original_subset_df["Dataset Name"])
-        subset_datasets = set(subset_df["Dataset Name"])
+        original_datasets = set(original_subset_df["Unique Dataset Identifier"])
+        subset_datasets = set(subset_df["Unique Dataset Identifier"])
         subset_langs = set([lang for row in subset_df["Languages"] for lang in row])
         subset_taskcats = set([tc for row in subset_df["Task Categories"] for tc in row])
         table["Num Datasets"].append(len(subset_datasets))

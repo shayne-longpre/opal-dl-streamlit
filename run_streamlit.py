@@ -24,13 +24,9 @@ import requests
 INFO = {}
 
 
-
-
 @st.cache_data
 def load_data():
-    data = io.read_data_summary_json("data_summaries/")
-    # data["all"] = ...
-    return data
+    return io.read_data_summary_json("data_summaries/")
 
 
 # def render_tweet(tweet_url):
@@ -78,25 +74,21 @@ def setup_table(selected_data):
     #     row_index = selected_rows[0]["rowIndex"]
     #     selected_info = resp_data.iloc[row_index]
 
+def display_metrics(metrics, df_metadata):
+    metric_columns = st.columns(4)
+    metric_columns[0].metric("Collections", len(metrics["collections"]), delta=f"/ {len(df_metadata['collections'])}")#, delta_color="off")
+    metric_columns[1].metric("Datasets", len(metrics["datasets"]), delta=f"/ {len(df_metadata['datasets'])}")
+    metric_columns[2].metric("Languages", len(metrics["languages"]), delta=f"/ {len(df_metadata['languages'])}")
+    metric_columns[3].metric("Task Categories", len(metrics["task_categories"]), delta=f"/ {len(df_metadata['task_categories'])}")
 
 
-# @st.cache_data
-# def run_query(date_range, ranking_fn_select, filter_fn_select, platform_select):
-#     ranking_fn = _RANKING_FUNCTIONS[ranking_fn_select]
-#     filter_fn = _FILTER_FUNCTIONS[filter_fn_select]
-#     actor_lb_info, primary_lb_info, secondary_lb_info = INFO["data"].get(platform_select.lower())
-
-
-#     NUM_INFLUENCERS = 50
-
-#     leaderboard = util.generate_leaderboard(
-#         lb_stats, rank_fn=ranking_fn, filter_fn=filter_fn
-#     )
-#     presentable_lb = util.present_leaderboard(
-#         leaderboard, actor_lb_info, n=NUM_INFLUENCERS
-#     )
-#     return leaderboard, presentable_lb
-
+def insert_metric_container(title, key):
+    with st.container():
+        st.caption(title)
+        # stats = f"{len(metrics['collections'])} / {len(df_metadata['collections'])}"
+        # st.caption(stats)
+        fig = util.plot_altair_piechart(metrics[key], title)
+        st.altair_chart(fig, use_container_width=False, theme="streamlit")
 
 def streamlit_app():
     st.set_page_config(page_title="Data Provenance Explorer", layout="wide")#, initial_sidebar_state='collapsed')
@@ -104,6 +96,8 @@ def streamlit_app():
     df_metadata = util.compute_metrics(INFO["data"])
 
     tab1, tab2 = st.tabs(["Data Selection", "Project Details"])
+
+
 
     with tab1:
         st.title("Data Provenance Explorer")
@@ -164,7 +158,6 @@ def streamlit_app():
                 time_range_selection,
             )
             metrics = util.compute_metrics(filtered_df)
-            st.text(format_multiselect)
 
             st.subheader('Properties of your collection')
             # st.text("See what data fits your criteria.")
@@ -172,80 +165,97 @@ def streamlit_app():
             st.markdown('#')
             st.markdown('#')
             
-            metric_columns1 = st.columns(4)
-            metric_columns1[0].metric("Collections", len(metrics["collections"]), delta=f"/ {len(df_metadata['collections'])}")#, delta_color="off")
-            metric_columns1[1].metric("Datasets", len(metrics["datasets"]), delta=f"/ {len(df_metadata['datasets'])}")
-            # metric_columns2 = st.columns(2)
-            metric_columns1[2].metric("Languages", len(metrics["languages"]), delta=f"/ {len(df_metadata['languages'])}")
-            metric_columns1[3].metric("Task Categories", len(metrics["task_categories"]), delta=f"/ {len(df_metadata['task_categories'])}")
+            display_metrics(metrics, df_metadata)
 
             # st.divider()
             st.markdown('#')
             # st.markdown('#')
 
-            def insert_metric_container(title, key):
-                with st.container():
-                    st.caption(title)
-                    # stats = f"{len(metrics['collections'])} / {len(df_metadata['collections'])}"
-                    # st.caption(stats)
-                    fig = util.plot_altair_piechart(metrics[key], title)
-                    st.altair_chart(fig, use_container_width=False, theme="streamlit")
-                    
             insert_metric_container("License Distribution", "licenses")
             insert_metric_container("Language Distribution", "languages")
             insert_metric_container("Task Category Distribution", "task_categories")
 
-            # st.header('Properties for your collection')
             with st.container(): 
-            #     piechart_columns = st.columns(3)
-            #     # licensing dist
-            #     # st.write("License Distribution")
-            #     # fig0 = util.plot_piechart(metrics["licenses"], "License Distribution")
-            #     # piechart_columns[0].pyplot(fig0)
-            #     fig0 = util.plot_altair_piechart(metrics["licenses"], "License Distribution")
-            #     piechart_columns[0].caption("License Distribution")
-            #     piechart_columns[0].altair_chart(fig0, use_container_width=False, theme="streamlit")
-
-            #     # language dist
-            #     # st.write("Language Distribution")
-            #     # fig1 = util.plot_piechart(metrics["languages"], "Language Distribution")
-            #     # piechart_columns[1].pyplot(fig1)
-            #     fig1 = util.plot_altair_piechart(metrics["languages"], "Language Distribution")
-            #     piechart_columns[1].caption("Language Distribution")
-            #     piechart_columns[1].altair_chart(fig1, use_container_width=False, theme="streamlit")
-
-            #     # task category dist
-            #     # st.write("Task Categories Distribution")
-            #     # fig2 = util.plot_piechart(metrics["task_categories"], "Task Categories Distribution")
-            #     # piechart_columns[2].pyplot(fig2)
-            #     fig2 = util.plot_altair_piechart(metrics["task_categories"], "Task Category Distribution")
-            #     piechart_columns[2].caption("Task Category Distribution")
-            #     piechart_columns[2].altair_chart(fig2, use_container_width=False, theme="streamlit")
-
-            #     st.markdown('#')
                 st.header('Collections Data')
                 table = util.prep_collection_table(filtered_df, INFO["data"], metrics)
                 setup_table(table)
 
     with tab2:
-        st.header("Project Details")
+        st.header("Collection Explorer")
 
-        st.markdown("""
-            Intro
-            main tab: set of options:
-                license constraints
-                language constraints
-                task category constraints
+        # st.markdown("""""")
+        with st.form("data_explorer"):
+            collection_select = st.selectbox(
+                'Select the collection to inspect',
+                list(set(INFO["data"]["Collection"])))
+            dataset_select = st.selectbox(
+                'Select the dataset in this collection to inspect',
+                ["All"] + list(set(INFO["data"]["Unique Dataset Identifier"])))
 
-            # 0. Metrics:
-                num datasets, num languages, num tasks,
-                pie chart of languages, pie chart of licenses, pie chart of collections + tasks
+        submitted2 = st.form_submit_button("Submit Selection")
 
-            # 1. render table of collections that are left after selection:
-                name, num datasets, num languages, num tasks, % in use.
-            # 2. render table of datasets.
+        if submitted2:
+            
+            if dataset_select == ["All"]:
+                tab2_selected_df = df[df["Collection"] == collection_select]
+                tab2_metrics = util.compute_metrics(tab2_selected_df)
+            else:
+                tab2_selected_df = df[df["Unique Dataset Identifier"] == dataset_select]
+                tab2_metrics = util.compute_metrics(tab2_selected_df)
 
-        """)
+            display_metrics(tab2_metrics, df_metadata)
+
+            with st.container():
+                collection_info_keys = [
+                    "Collection Name",
+                    "Collection URL",
+                    "Collection Hugging Face URL",
+                    "Collection Paper Title",
+                ]
+                dataset_info_keys = {
+                    "Unique Dataset Identifier",
+                    "Paper Title",
+                    "Dataset URL",
+                    "Hugging Face URL",
+                }
+                data_characteristics_info_keys = [
+                    "Format", "Languages", "Task Categories", "Text Topics", 
+                    "Text Domains", "Number of Examples", "Text Length Metrics",
+                ]
+                data_provenance_info_keys = ["Creators", "Text Sources", "Licenses"]
+
+                def extract_infos(df, key):
+                    if isinstance(df[key].iloc[0], list):
+                        return set([x for xs in tab2_selected_df[item].tolist() for x in xs])
+                    else:
+                       return set([tab2_selected_df[item]])
+
+                st.caption("Collection Information")
+                for info_key in collection_info_keys:
+                    st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
+
+                if dataset_select != ["All"]:
+                    st.caption("Dataset Information")
+                    for info_key in dataset_info_keys:
+                        st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
+
+                st.caption("Data Characteristics")
+                for info_key in data_characteristics_info_keys:
+                    st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
+
+                st.caption("Data Provenance")
+                for info_key in data_provenance_info_keys:
+                    st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
+                # st.text(f"Format: {tab2_selected_df['Format']}")
+                # st.text(f"Licenses: {tab2_selected_df['Licenses']}")
+                # st.text(f"Languages: {tab2_selected_df['Languages']}")
+                # st.text(f"Task Categories: {tab2_selected_df['Task Categories']}")
+                # st.text(f"Task Categories: {tab2_selected_df['Task Categories']}")
+                # st.text(f"Task Categories: {tab2_selected_df['Task Categories']}")
+                # st.text(f"Task Categories: {tab2_selected_df['Task Categories']}")
+            
+
+            
 
 
 
