@@ -248,11 +248,14 @@ def streamlit_app():
                 data_provenance_info_keys = ["Creators", "Text Sources", "Licenses"]
 
                 def extract_infos(df, key):
-                    st.text(type(df[key]))
-                    if isinstance(df[key].iloc[0], list):
-                        return set([x for xs in tab2_selected_df[key].tolist() for x in xs])
+                    entries = df[key].tolist()
+                    if not entries:
+                        return []
                     else:
-                        return set(tab2_selected_df[key].tolist())
+                        if isinstance(entries[0], list):
+                            return set([x for xs in entries for x in xs])
+                        else:
+                            return set(entries)
 
                 # st.caption("Collection Information")
                 # for info_key in collection_info_keys:
