@@ -77,6 +77,7 @@ def compute_metrics(df):
     collections_count = dict(Counter(df["Collection"].tolist()).most_common())
     language_counts = dict(Counter([lang for row in df["Languages"] for lang in row]).most_common())
     taskcat_counts = dict(Counter([tc for row in df["Task Categories"] for tc in row]).most_common())
+    format_counts = dict(Counter([fmt for row in df["Formats"] for fmt in row]).most_common())
     license_counts = dict(Counter([license_info["License"] for licenses in df["Licenses"].tolist() for license_info in licenses if license_info["License"]]).most_common())
     
     return {
@@ -85,6 +86,7 @@ def compute_metrics(df):
         "languages": language_counts,
         "task_categories": taskcat_counts,
         "licenses": license_counts,
+        "formats": format_counts,
     }
 
 
@@ -211,43 +213,3 @@ def plot_altair_barchart(counts):
     df['text'] = df['count'].astype(str) + ' (' + df['percentage'].round(1).astype(str) + '%)'
 
     return (chart + text).properties(height=500, width=800)
-
-
-
-
-
-
-    # df = pd.DataFrame({
-    #     "category": list(counts.keys()),
-    #     "count": list(counts.values()),
-    # })
-    # # calculate total count
-    # total = df['count'].sum()
-
-    # # create a new column for percentage
-    # df['percentage'] = 100 * df['count'] / total
-
-    # # sort the DataFrame and only select the top 20 categories
-    # df = df.sort_values('count', ascending=False)[:20][::-1]
-
-    # # for having a different color for each bar
-    # palette = alt.Scale(scheme='category20')
-
-    # # create the chart
-    # chart = alt.Chart(df).mark_bar().encode(
-    #     x='count:Q',
-    #     y=alt.Y('category:N', sort='-x'),
-    #     color=alt.Color('category:N', scale=palette),
-    #     tooltip=['category', 'count', 'percentage']
-    # )
-
-    # # text label for percentage
-    # text = chart.mark_text(
-    #     align='left',
-    #     baseline='middle',
-    #     dx=3  # Nudges text to right so it doesn't appear on top of the bar
-    # ).encode(
-    #     text=alt.Text('percentage:Q', format='.1f')
-    # )
-
-    # return (chart + text).properties(height=500, width=800)

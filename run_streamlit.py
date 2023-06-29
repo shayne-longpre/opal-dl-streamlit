@@ -85,8 +85,6 @@ def display_metrics(metrics, df_metadata):
 def insert_metric_container(title, key, metrics):
     with st.container():
         st.caption(title)
-        # stats = f"{len(metrics['collections'])} / {len(df_metadata['collections'])}"
-        # st.caption(stats)
         fig = util.plot_altair_barchart(metrics[key])
         # fig = util.plot_altair_piechart(metrics[key], title)
         st.altair_chart(fig, use_container_width=True, theme="streamlit")
