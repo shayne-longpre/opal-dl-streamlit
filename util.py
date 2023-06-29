@@ -36,7 +36,7 @@ def apply_filters(
         all_tcats >= option_tcats
     ), f"Missing Task Categories: {option_tcats - all_tcats}"
 
-    if selected_licenses and "All" in selected_licenses:
+    if selected_licenses and "All" not in selected_licenses:
         license_strs = set(
             [
                 license_str
@@ -48,7 +48,7 @@ def apply_filters(
             filtered_df["Licenses"].apply(lambda xs: license_strs >= set([x["License"] for x in xs]))
         ]
 
-    if selected_languages and "All" in selected_languages:
+    if selected_languages and "All" not in selected_languages:
         lang_strs = set(
             [
                 lang_str
@@ -60,7 +60,7 @@ def apply_filters(
             filtered_df["Languages"].apply(lambda x: lang_strs >= set(x))
         ]
 
-    if selected_task_categories and "All" in selected_task_categories:
+    if selected_task_categories and "All" not in selected_task_categories:
         taskcat_strs = set(
             [
                 taskcat_str
