@@ -1,0 +1,46 @@
+{
+    "anthropic_hhrlhf": {
+        "Unique Dataset Identifier": "anthropic_hhrlhf",
+        "Dataset Name": "hh_rlhf",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/anthropics/hh-rlhf",
+        "Hugging Face URL": "https://huggingface.co/datasets/Anthropic/hh-rlhf",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Anthropic HH-RLHF",
+        "Collection URL": "https://github.com/anthropics/hh-rlhf",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "RLHF"
+        ],
+        "Text Domains": [
+            "Miscellaneous"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "Anthropic internal models",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "MIT",
+                "License URL": "https://github.com/anthropics/hh-rlhf/blob/master/LICENSE"
+            }
+        ],
+        "License Notes": "Model outputs and human preferences + human red-teaming data",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "hh_rlhf"
+        ]
+    }
+}

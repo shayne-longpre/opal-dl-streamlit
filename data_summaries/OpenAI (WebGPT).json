@@ -1,0 +1,238 @@
+{
+    "openai-webgpt-eli5": {
+        "Unique Dataset Identifier": "openai-webgpt-eli5",
+        "Dataset Name": "openai_webgpt_comparisons_eli5",
+        "Paper Title": null,
+        "Dataset URL": "https://openai.com/research/webgpt",
+        "Hugging Face URL": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OpenAI (WebGPT)",
+        "Collection URL": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "'GPT3'",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2112.09332"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne ",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "eli5"
+        ]
+    },
+    "openai-webgpt-triviaqa": {
+        "Unique Dataset Identifier": "openai-webgpt-triviaqa",
+        "Dataset Name": "openai_webgpt_comparisons_triviaqa",
+        "Paper Title": null,
+        "Dataset URL": "https://openai.com/research/webgpt",
+        "Hugging Face URL": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OpenAI (WebGPT)",
+        "Collection URL": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "Trivia"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "'GPT3'",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2112.09332"
+            },
+            {
+                "License": "No Copyright",
+                "License URL": "http://nlp.cs.washington.edu/triviaqa/#:~:text=copyright"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne ",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "triviaqa"
+        ]
+    },
+    "openai-webgpt-critique_eli5": {
+        "Unique Dataset Identifier": "openai-webgpt-critique_eli5",
+        "Dataset Name": "openai_webgpt_comparisons_critique_eli5",
+        "Paper Title": null,
+        "Dataset URL": "https://openai.com/research/webgpt",
+        "Hugging Face URL": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OpenAI (WebGPT)",
+        "Collection URL": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "'GPT3'",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2112.09332"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne ",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "critique_eli5"
+        ]
+    },
+    "openai-webgpt-arc_challenge": {
+        "Unique Dataset Identifier": "openai-webgpt-arc_challenge",
+        "Dataset Name": "openai_webgpt_comparisons_arc_challenge",
+        "Paper Title": null,
+        "Dataset URL": "https://openai.com/research/webgpt",
+        "Hugging Face URL": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OpenAI (WebGPT)",
+        "Collection URL": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "School Exam"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "'GPT3'",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2112.09332"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://creativecommons.org/licenses/by-sa/4.0/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne ",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "arc-challenge"
+        ]
+    },
+    "openai-webgpt-arc_easy": {
+        "Unique Dataset Identifier": "openai-webgpt-arc_easy",
+        "Dataset Name": "openai_webgpt_comparisons_arc_easy",
+        "Paper Title": null,
+        "Dataset URL": "https://openai.com/research/webgpt",
+        "Hugging Face URL": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OpenAI (WebGPT)",
+        "Collection URL": "https://huggingface.co/datasets/openai/webgpt_comparisons",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "School Exam"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "'GPT3'",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2112.09332"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://creativecommons.org/licenses/by-sa/4.0/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "arc-easy"
+        ]
+    }
+}

@@ -1,0 +1,402 @@
+{
+    "fc-cot-cot_gsm8k": {
+        "Unique Dataset Identifier": "fc-cot-cot_gsm8k",
+        "Dataset Name": "cot_gsm8k",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/openai/grade-school-math",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (Chain-of-Thought)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt",
+            "Chain-of-Thought Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "MIT",
+                "License URL": "https://github.com/openai/grade-school-math/blob/master/LICENSE"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "cot_gsm8k",
+            "cot_gsm8k_ii"
+        ]
+    },
+    "fc-cot-cot_strategyqa": {
+        "Unique Dataset Identifier": "fc-cot-cot_strategyqa",
+        "Dataset Name": "cot_strategyqa",
+        "Paper Title": null,
+        "Dataset URL": "https://allenai.org/data/strategyqa",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (Chain-of-Thought)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt",
+            "Chain-of-Thought Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "cot_strategyqa",
+            "cot_strategyqa_ii"
+        ]
+    },
+    "fc-cot-stream_aqua": {
+        "Unique Dataset Identifier": "fc-cot-stream_aqua",
+        "Dataset Name": "stream_aqua",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/deepmind/AQuA",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (Chain-of-Thought)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt",
+            "Chain-of-Thought Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Apache 2.0",
+                "License URL": "https://github.com/deepmind/AQuA"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "stream_aqua",
+            "stream_aqua_ii"
+        ]
+    },
+    "fc-cot-stream_creak": {
+        "Unique Dataset Identifier": "fc-cot-stream_creak",
+        "Dataset Name": "stream_creak",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/yasumasaonoe/creak",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (Chain-of-Thought)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt",
+            "Chain-of-Thought Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://paperswithcode.com/dataset/creak"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "cot_creak",
+            "cot_creak_ii"
+        ]
+    },
+    "fc-cot-stream_ecqa": {
+        "Unique Dataset Identifier": "fc-cot-stream_ecqa",
+        "Dataset Name": "stream_ecqa",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/dair-iitd/ECQA-Dataset",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (Chain-of-Thought)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt",
+            "Chain-of-Thought Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CDLA Sharing 1.0",
+                "License URL": "https://github.com/Community-Data-License-Agreements/Releases/blob/main/CDLA-Sharing-1.0.md"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "cot_ecqa",
+            "cot_ecqa_ii"
+        ]
+    },
+    "fc-cot-stream_esnli": {
+        "Unique Dataset Identifier": "fc-cot-stream_esnli",
+        "Dataset Name": "stream_esnli",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/OanaMariaCamburu/e-SNLI",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (Chain-of-Thought)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt",
+            "Chain-of-Thought Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://github.com/OanaMariaCamburu/e-SNLI"
+            }
+        ],
+        "License Notes": "An extension of SNLI with human annotated labels",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "cot_esnli",
+            "cot_esnli_ii"
+        ]
+    },
+    "fc-cot-stream_qasc": {
+        "Unique Dataset Identifier": "fc-cot-stream_qasc",
+        "Dataset Name": "stream_qasc",
+        "Paper Title": null,
+        "Dataset URL": "https://allenai.org/data/qasc",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (Chain-of-Thought)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt",
+            "Chain-of-Thought Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://github.com/allenai/qasc/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "cot_qasc",
+            "cot_qasc_ii"
+        ]
+    },
+    "fc-cot-stream_qed": {
+        "Unique Dataset Identifier": "fc-cot-stream_qed",
+        "Dataset Name": "stream_qed",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/google-research-datasets/QED",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (Chain-of-Thought)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt",
+            "Chain-of-Thought Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://github.com/google-research-datasets/QED"
+            },
+            {
+                "License": "GFDL",
+                "License URL": "https://github.com/google-research-datasets/QED"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "stream_qed",
+            "stream_qed_ii"
+        ]
+    },
+    "fc-cot-stream_sensemaking": {
+        "Unique Dataset Identifier": "fc-cot-stream_sensemaking",
+        "Dataset Name": "stream_sensemaking",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/allenai/feb",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (Chain-of-Thought)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt",
+            "Chain-of-Thought Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Apache 2.0",
+                "License URL": "https://www.apache.org/licenses/LICENSE-2.0.txt"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "cot_sensemaking",
+            "cot_sensemaking_ii"
+        ]
+    }
+}

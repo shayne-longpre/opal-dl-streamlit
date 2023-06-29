@@ -1,0 +1,170 @@
+{
+    "gpteacher-instruct": {
+        "Unique Dataset Identifier": "gpteacher-instruct",
+        "Dataset Name": "gpteacher_instruct",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/teknium1/GPTeacher",
+        "Hugging Face URL": "https://huggingface.co/datasets/teknium/GPTeacher-General-Instruct",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "GPTeacher",
+        "Collection URL": "https://github.com/teknium1/GPTeacher",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Miscellaneous"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            ""
+        ],
+        "Time of Collection": null,
+        "Model Generated": "'GPT-4'",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://github.com/teknium1/GPTeacher"
+            }
+        ],
+        "License Notes": "GPT-4 generated responses.",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "gpteacher_instruct"
+        ]
+    },
+    "gpteacher-codegen": {
+        "Unique Dataset Identifier": "gpteacher-codegen",
+        "Dataset Name": "gpteacher_codegen",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/teknium1/GPTeacher",
+        "Hugging Face URL": "https://huggingface.co/datasets/teknium/GPTeacher-General-Instruct",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "GPTeacher",
+        "Collection URL": "https://github.com/teknium1/GPTeacher",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Miscellaneous"
+        ],
+        "Text Domains": [
+            "Code"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            ""
+        ],
+        "Time of Collection": null,
+        "Model Generated": "'GPT-4'",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://github.com/teknium1/GPTeacher"
+            }
+        ],
+        "License Notes": "GPT-4 generated responses.",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "gpteacher_codegen"
+        ]
+    },
+    "gpteacher-toolformer": {
+        "Unique Dataset Identifier": "gpteacher-toolformer",
+        "Dataset Name": "gpteacher_toolformer",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/teknium1/GPTeacher",
+        "Hugging Face URL": "https://huggingface.co/datasets/teknium/GPTeacher-General-Instruct",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "GPTeacher",
+        "Collection URL": "https://github.com/teknium1/GPTeacher",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Miscellaneous"
+        ],
+        "Text Domains": [
+            "Code"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            ""
+        ],
+        "Time of Collection": null,
+        "Model Generated": "'GPT-4'",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://github.com/teknium1/GPTeacher"
+            }
+        ],
+        "License Notes": "GPT-4 generated responses.",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "gpteacher_toolformer"
+        ]
+    },
+    "gpteacher-roleplay": {
+        "Unique Dataset Identifier": "gpteacher-roleplay",
+        "Dataset Name": "gpteacher_roleplay",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/teknium1/GPTeacher",
+        "Hugging Face URL": "https://huggingface.co/datasets/teknium/GPTeacher-General-Instruct",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "GPTeacher",
+        "Collection URL": "https://github.com/teknium1/GPTeacher",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Roleplay"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            ""
+        ],
+        "Time of Collection": null,
+        "Model Generated": "'GPT-4'",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://github.com/teknium1/GPTeacher"
+            }
+        ],
+        "License Notes": "GPT-4 generated responses.",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "gpteacher_roleplay"
+        ]
+    }
+}

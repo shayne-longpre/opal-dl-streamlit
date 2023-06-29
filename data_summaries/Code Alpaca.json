@@ -1,0 +1,48 @@
+{
+    "code_alpaca": {
+        "Unique Dataset Identifier": "code_alpaca",
+        "Dataset Name": "code_alpaca",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/sahil2801/CodeAlpaca-20k",
+        "Hugging Face URL": "https://huggingface.co/datasets/sahil2801/CodeAlpaca-20k",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Code Alpaca",
+        "Collection URL": "https://huggingface.co/datasets/sahil2801/CodeAlpaca-20k",
+        "Languages": [
+            "English",
+            "Python"
+        ],
+        "Task Categories": [
+            "Program Synthesis"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-shot"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "GPT-4",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "None"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://huggingface.co/datasets/sahil2801/CodeAlpaca-20k"
+            }
+        ],
+        "License Notes": "Not clearly documented, but authors says it is GPT-4 outputs",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "code_alpaca"
+        ]
+    }
+}

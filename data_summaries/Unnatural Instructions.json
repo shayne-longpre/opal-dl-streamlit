@@ -1,0 +1,45 @@
+{
+    "unnatural_instructions": {
+        "Unique Dataset Identifier": "unnatural_instructions",
+        "Dataset Name": "unnatural_instructions",
+        "Paper Title": "Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor",
+        "Dataset URL": "https://github.com/orhonovich/unnatural-instructions",
+        "Hugging Face URL": "https://huggingface.co/datasets/mrm8488/unnatural-instructions",
+        "Papers with Code URL": null,
+        "ArXiv URL": "https://arxiv.org/abs/2212.09689",
+        "Semantic Scholar Corpus ID": "254853659",
+        "Collection": "Unnatural Instructions",
+        "Collection URL": "https://github.com/orhonovich/unnatural-instructions",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Miscellaneous"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "text-davinci002",
+        "Text Sources": [],
+        "Creators": ["Tel Aviv University", "Meta AI"],
+        "Licenses": [
+            {
+                "License": "MIT",
+                "License URL": "https://github.com/orhonovich/unnatural-instructions"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/pdf/2212.09689.pdf"
+            }
+        ],
+        "License Notes": "Code for generating the data and compiling under MIT. The data generator itself licensed under OpenAI",
+        "License Verified By": "Nathan",
+        "Dataset Description": null,
+        "Dataset Filter IDs": ["unnatural_instructions"]
+    }
+}

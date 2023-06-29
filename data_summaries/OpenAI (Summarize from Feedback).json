@@ -1,0 +1,49 @@
+{
+    "openai-summarize": {
+        "Unique Dataset Identifier": "openai-summarize",
+        "Dataset Name": "openai_summarize_from_feedback",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/openai/summarize-from-feedback",
+        "Hugging Face URL": "https://huggingface.co/datasets/openai/summarize_from_feedback",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OpenAI (Summarize from Feedback)",
+        "Collection URL": "https://github.com/openai/summarize-from-feedback#human-feedback-data",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Summarization"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit",
+            "News"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "'GPT-3'",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2009.01325"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "comparisons-tldr"
+        ]
+    }
+}

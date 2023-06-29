@@ -1,0 +1,1048 @@
+{
+    "oig-unified_soda_dialog": {
+        "Unique Dataset Identifier": "oig-unified_soda_dialog",
+        "Dataset Name": "soda_dialog",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/skywalker023/sodaverse",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialogue Generation"
+        ],
+        "Text Domains": [
+            "Miscellaneous"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "GPT-3",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "Data from GPT-3 Outputs",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_soda_dialog"
+        ]
+    },
+    "oig-unified_abstract_infill": {
+        "Unique Dataset Identifier": "oig-unified_abstract_infill",
+        "Dataset Name": "abstract_infill",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/google-research/dialog-inpainting",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_abstract_infill"
+        ]
+    },
+    "oig-unified_unnatural_instructions": {
+        "Unique Dataset Identifier": "oig-unified_unnatural_instructions",
+        "Dataset Name": "unnatural_instructions",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/orhonovich/unnatural-instructions",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "GPT-3",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "Data from GPT-3 Outputs",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_unnatural_instructions"
+        ]
+    },
+    "oig-unified_mathqa_flanv2_kojma_cot": {
+        "Unique Dataset Identifier": "oig-unified_mathqa_flanv2_kojma_cot",
+        "Dataset Name": "mathqa_flanv2_kojma_cot",
+        "Paper Title": null,
+        "Dataset URL": "https://math-qa.github.io/math-QA/",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Apache 2.0",
+                "License URL": "https://www.apache.org/licenses/LICENSE-2.0.html"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_mathqa_flanv2_kojma_cot"
+        ]
+    },
+    "oig-unified_poetry_instructions": {
+        "Unique Dataset Identifier": "oig-unified_poetry_instructions",
+        "Dataset Name": "poetry_instructions",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/merve/poetry",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_poetry_instructions"
+        ]
+    },
+    "oig-unified_poetry_2_song": {
+        "Unique Dataset Identifier": "oig-unified_poetry_2_song",
+        "Dataset Name": "poetry_2_song",
+        "Paper Title": null,
+        "Dataset URL": "Unknown",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_poetry_2_song"
+        ]
+    },
+    "oig-unified_ul2_plus_oscar_en_sample_dialog": {
+        "Unique Dataset Identifier": "oig-unified_ul2_plus_oscar_en_sample_dialog",
+        "Dataset Name": "ul2_plus_oscar_en_sample_dialog",
+        "Paper Title": null,
+        "Dataset URL": "https://oscar-project.org/",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "The OSCAR project (Open Super-large Crawled Aggregated coRpus) is an Open Source project aiming to provide web-based multilingual resources and datasets for Machine Learning (ML) and Artificial Intelligence (AI) applications.",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_ul2_plus_oscar_en_sample_dialog"
+        ]
+    },
+    "oig-unified_multi_news": {
+        "Unique Dataset Identifier": "oig-unified_multi_news",
+        "Dataset Name": "multi_news",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/Alex-Fabbri/Multi-News",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://github.com/Alex-Fabbri/Multi-News/blob/master/LICENSE.txt"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_multi_news"
+        ]
+    },
+    "oig-unified_rallio_safety_and_prosocial": {
+        "Unique Dataset Identifier": "oig-unified_rallio_safety_and_prosocial",
+        "Dataset Name": "rallio_safety_and_prosocial",
+        "Paper Title": null,
+        "Dataset URL": "Not clear where this is coming from",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_rallio_safety_and_prosocial"
+        ]
+    },
+    "oig-unified_oscar_en_sample_dialog": {
+        "Unique Dataset Identifier": "oig-unified_oscar_en_sample_dialog",
+        "Dataset Name": "oscar_en_sample_dialog",
+        "Paper Title": null,
+        "Dataset URL": "https://oscar-project.org/",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "The OSCAR project (Open Super-large Crawled Aggregated coRpus) is an Open Source project aiming to provide web-based multilingual resources and datasets for Machine Learning (ML) and Artificial Intelligence (AI) applications.",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_oscar_en_sample_dialog"
+        ]
+    },
+    "oig-unified_grade_school_math_instructions": {
+        "Unique Dataset Identifier": "oig-unified_grade_school_math_instructions",
+        "Dataset Name": "grade_school_math_instructions",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/openai/grade-school-math",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "Created by OAI but no license specified",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_grade_school_math_instructions"
+        ]
+    },
+    "oig-unified_sqlv2": {
+        "Unique Dataset Identifier": "oig-unified_sqlv2",
+        "Dataset Name": "sqlv2",
+        "Paper Title": null,
+        "Dataset URL": "??",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_sqlv2"
+        ]
+    },
+    "oig-unified_chip2": {
+        "Unique Dataset Identifier": "oig-unified_chip2",
+        "Dataset Name": "chip2",
+        "Paper Title": null,
+        "Dataset URL": "??",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_chip2"
+        ]
+    },
+    "oig-unified_nq": {
+        "Unique Dataset Identifier": "oig-unified_nq",
+        "Dataset Name": "nq",
+        "Paper Title": null,
+        "Dataset URL": "https://ai.google.com/research/NaturalQuestions/download",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://creativecommons.org/licenses/by-sa/3.0/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_nq"
+        ]
+    },
+    "oig-unified_joke_explanations": {
+        "Unique Dataset Identifier": "oig-unified_joke_explanations",
+        "Dataset Name": "joke_explanations",
+        "Paper Title": null,
+        "Dataset URL": "Unknown",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "crawled from the web",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_joke_explanations"
+        ]
+    },
+    "oig-unified_openai_summarize_tldr": {
+        "Unique Dataset Identifier": "oig-unified_openai_summarize_tldr",
+        "Dataset Name": "openai_summarize_tldr",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/openai/summarize-from-feedback",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://creativecommons.org/licenses/by/4.0/legalcode"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_openai_summarize_tldr"
+        ]
+    },
+    "oig-unified_unifiedskg_instructions": {
+        "Unique Dataset Identifier": "oig-unified_unifiedskg_instructions",
+        "Dataset Name": "unifiedskg_instructions",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/HKUNLP/UnifiedSKG",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": "See subsets"
+            }
+        ],
+        "License Notes": "They unify 21 knowledge-intensive datasets (e.g., semantic parsing) into a unified format",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_unifiedskg_instructions"
+        ]
+    },
+    "oig-unified_merged_code_xp3": {
+        "Unique Dataset Identifier": "oig-unified_merged_code_xp3",
+        "Dataset Name": "merged_code_xp3",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/bigscience/xP3",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": "See subsets"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_merged_code_xp3"
+        ]
+    },
+    "oig-unified_sqlv1": {
+        "Unique Dataset Identifier": "oig-unified_sqlv1",
+        "Dataset Name": "sqlv1",
+        "Paper Title": null,
+        "Dataset URL": "Unknown",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "public text 2 sql datasets.",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_sqlv1"
+        ]
+    },
+    "oig-unified_canadian_parliament": {
+        "Unique Dataset Identifier": "oig-unified_canadian_parliament",
+        "Dataset Name": "canadian_parliament",
+        "Paper Title": null,
+        "Dataset URL": "https://openparliament.ca/data-download/",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "No license specified",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_canadian_parliament"
+        ]
+    },
+    "oig-unified_plot_screenplay_books_dialog": {
+        "Unique Dataset Identifier": "oig-unified_plot_screenplay_books_dialog",
+        "Dataset Name": "plot_screenplay_books_dialog",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/markriedl/WikiPlots",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "partly from Wiki and partly from Web",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_plot_screenplay_books_dialog"
+        ]
+    },
+    "oig-unified_essays": {
+        "Unique Dataset Identifier": "oig-unified_essays",
+        "Dataset Name": "essays",
+        "Paper Title": null,
+        "Dataset URL": "Unknown",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_essays"
+        ]
+    },
+    "oig-unified_conv_finqa": {
+        "Unique Dataset Identifier": "oig-unified_conv_finqa",
+        "Dataset Name": "conv_finqa",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/czyssrs/ConvFinQA",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "Dataset based on FinQA which is \"based on the publicly available earnings reports of S&P 500 companies from 1999 to 2019, collected in the FinTabNet dataset (Zheng et al., 2021)\"",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_conv_finqa"
+        ]
+    },
+    "oig-unified_hc3_human": {
+        "Unique Dataset Identifier": "oig-unified_hc3_human",
+        "Dataset Name": "hc3_human",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [],
+        "Text Domains": [
+            "Dialogue"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection#dataset-copyright"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_hc3_human"
+        ]
+    },
+    "oig-unified_cuad": {
+        "Unique Dataset Identifier": "oig-unified_cuad",
+        "Dataset Name": "cuad",
+        "Paper Title": null,
+        "Dataset URL": "https://www.atticusprojectai.org/cuad",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [
+            "Text Simplification"
+        ],
+        "Text Domains": [
+            "Law"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://creativecommons.org/licenses/by/4.0/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_cuad"
+        ]
+    },
+    "oig-unified_squad_v2_more_neg": {
+        "Unique Dataset Identifier": "oig-unified_squad_v2_more_neg",
+        "Dataset Name": "squad_v2_more_neg",
+        "Paper Title": null,
+        "Dataset URL": "https://rajpurkar.github.io/SQuAD-explorer/",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "Wikipedia"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_squad_v2_more_neg"
+        ]
+    },
+    "oig-unified_squad_v2": {
+        "Unique Dataset Identifier": "oig-unified_squad_v2",
+        "Dataset Name": "squad_v2",
+        "Paper Title": null,
+        "Dataset URL": "https://rajpurkar.github.io/SQuAD-explorer/",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "OIG",
+        "Collection URL": "https://huggingface.co/datasets/laion/OIG",
+        "Languages": [],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "Wikipedia"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "unified_squad_v2"
+        ]
+    }
+}

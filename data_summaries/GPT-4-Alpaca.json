@@ -1,0 +1,49 @@
+{
+    "gpt4alpaca": {
+        "Unique Dataset Identifier": "gpt4alpaca",
+        "Dataset Name": "gpt4alpaca",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM",
+        "Hugging Face URL": "https://huggingface.co/datasets/teknium/GPT4-LLM-Cleaned",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "GPT-4-Alpaca",
+        "Collection URL": "https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Misc."
+        ],
+        "Text Domains": [
+            "Miscellaneous"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-shot"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "GPT-4",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY NC 4.0",
+                "License URL": "https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.08485"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "gpt-4-llm"
+        ]
+    }
+}

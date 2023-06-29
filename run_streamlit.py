@@ -13,7 +13,8 @@ import pandas as pd
 import math
 
 import util
-import constants
+from src.helpers import io
+from src import constants
 
 import streamlit as st
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode, JsCode
@@ -27,7 +28,7 @@ INFO = {}
 
 @st.cache_data
 def load_data():
-    data = util.read_dataset_table("data/fc-v0.csv")
+    data = io.read_dataset_table("data_summaries/")
     # data["all"] = ...
     return data
 
@@ -121,19 +122,19 @@ def streamlit_app():
                 # st.write("Select the acceptable license values for constituent datasets")
                 license_multiselect = st.multiselect(
                     'Select the acceptable license values for constituent datasets',
-                    ["All"] + list(constants._LICENSE_GROUPINGS.keys()),
+                    ["All"] + list(constants.LICENSE_GROUPS.keys()),
                     ["All"])
 
             with data_select_cols[1]:
                 language_multiselect = st.multiselect(
                     'Select the languages to cover in your datasets',
-                    ["All"] + list(constants._LANGUAGE_GROUPS.keys()),
+                    ["All"] + list(constants.LANGUAGE_GROUPS.keys()),
                     ["All"])
 
             with data_select_cols[2]:
                 taskcats_multiselect = st.multiselect(
                     'Select the task categories to cover in your datasets',
-                    ["All"] + list(constants._TASK_CATEGORY_GROUPS.keys()),
+                    ["All"] + list(constants.TASK_CATEGORY_GROUPS.keys()),
                     ["All"])
 
             # Every form must have a submit button.

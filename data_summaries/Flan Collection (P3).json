@@ -1,0 +1,1041 @@
+{
+    "fc-p3-adversarial_qa": {
+        "Unique Dataset Identifier": "fc-p3-adversarial_qa",
+        "Dataset Name": "adversarial_qa",
+        "Paper Title": null,
+        "Dataset URL": "https://paperswithcode.com/dataset/adversarialqa",
+        "Hugging Face URL": "https://huggingface.co/datasets/adversarial_qa",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Adversarial QA",
+            "Question Generation",
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "Wikipedia"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://creativecommons.org/licenses/by-sa/3.0/"
+            }
+        ],
+        "License Notes": "Approved for training/fine-tuning only",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "adversarial_qa"
+        ]
+    },
+    "fc-p3-amazon_polarity": {
+        "Unique Dataset Identifier": "fc-p3-amazon_polarity",
+        "Dataset Name": "amazon_polarity",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/amazon_polarity",
+        "Hugging Face URL": "https://huggingface.co/datasets/amazon_polarity",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Sentiment Analysis",
+            "Sentiment Analysis"
+        ],
+        "Text Domains": [
+            "Reviews -> Electronics and Grocery"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "https://huggingface.co/datasets/amazon_polarity"
+            }
+        ],
+        "License Notes": "Competitor dataset",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "amazon_polarity"
+        ]
+    },
+    "fc-p3-app_reviews": {
+        "Unique Dataset Identifier": "fc-p3-app_reviews",
+        "Dataset Name": "app_reviews",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/app_reviews",
+        "Hugging Face URL": "https://huggingface.co/datasets/app_reviews",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Context Generation",
+            "Sentiment Analysis",
+            "Sentiment Analysis"
+        ],
+        "Text Domains": [
+            "Reviews"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "app_reviews"
+        ]
+    },
+    "fc-p3-cos_e": {
+        "Unique Dataset Identifier": "fc-p3-cos_e",
+        "Dataset Name": "cos_e",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/salesforce/cos-e",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Explanation Generation",
+            "Multiple-Choice QA (no trivia knowledge required)"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "BSD-3 Clause",
+                "License URL": "https://github.com/salesforce/cos-e/blob/master/LICENSE"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "cos_e"
+        ]
+    },
+    "fc-p3-dbpedia_14": {
+        "Unique Dataset Identifier": "fc-p3-dbpedia_14",
+        "Dataset Name": "dbpedia_14",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/dbpedia_14",
+        "Hugging Face URL": "https://huggingface.co/datasets/dbpedia_14",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Topic Classification",
+            "Text Categorization"
+        ],
+        "Text Domains": [
+            "Wikipedia"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "dbpedia_14"
+        ]
+    },
+    "fc-p3-dream": {
+        "Unique Dataset Identifier": "fc-p3-dream",
+        "Dataset Name": "dream",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/nlpdata/dream",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialog Turn Prediction",
+            "Multiple-Choice QA (no trivia knowledge required)",
+            "Wrong Candidate Generation"
+        ],
+        "Text Domains": [
+            "Dialogue",
+            "Natural Science -> School Science Textbooks"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Academic Research Purposes Only",
+                "License URL": "https://github.com/nlpdata/dream/blob/master/license.txt"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "dream"
+        ]
+    },
+    "fc-p3-duorc_paraphraserc": {
+        "Unique Dataset Identifier": "fc-p3-duorc_paraphraserc",
+        "Dataset Name": "duorc_paraphraserc",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/duorc/duorc",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Extractive QA",
+            "Title Generation",
+            "Question Generation"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Non Commercial",
+                "License URL": "https://www.imdb.com/interfaces/"
+            }
+        ],
+        "License Notes": "Derived from Wikipedia and IMDB.",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "duorc_paraphraserc"
+        ]
+    },
+    "fc-p3-duorc_selfrc": {
+        "Unique Dataset Identifier": "fc-p3-duorc_selfrc",
+        "Dataset Name": "duorc_selfrc",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/duorc/duorc",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Extractive QA",
+            "Title Generation",
+            "Question Generation"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Non Commercial",
+                "License URL": "https://www.imdb.com/interfaces/"
+            }
+        ],
+        "License Notes": "Derived from Wikipedia and IMDB.",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "duorc_selfrc"
+        ]
+    },
+    "fc-p3-hotpotqa": {
+        "Unique Dataset Identifier": "fc-p3-hotpotqa",
+        "Dataset Name": "hotpotqa",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/hotpotqa/hotpot",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Closed-Book QA",
+            "Explanation"
+        ],
+        "Text Domains": [
+            "Wikipedia"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+            }
+        ],
+        "License Notes": "Approved for training/fine-tuning only",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "hotpotqa"
+        ]
+    },
+    "fc-p3-qasc": {
+        "Unique Dataset Identifier": "fc-p3-qasc",
+        "Dataset Name": "qasc",
+        "Paper Title": null,
+        "Dataset URL": "https://allenai.org/data/qasc",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Multiple-Choice QA (no trivia knowledge required)",
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "Natural Science -> School Science Textbooks"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://creativecommons.org/licenses/by/4.0/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "qasc"
+        ]
+    },
+    "fc-p3-quail": {
+        "Unique Dataset Identifier": "fc-p3-quail",
+        "Dataset Name": "quail",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/quail",
+        "Hugging Face URL": "https://huggingface.co/datasets/quail",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Multiple-Choice QA (no trivia knowledge required)",
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "Narrative",
+            "Fiction",
+            "News"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "https://huggingface.co/datasets?license=license:cc-by-nc-sa-4.0"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "quail"
+        ]
+    },
+    "fc-p3-quarel": {
+        "Unique Dataset Identifier": "fc-p3-quarel",
+        "Dataset Name": "quarel",
+        "Paper Title": null,
+        "Dataset URL": "https://allenai.org/data/quarel",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Multiple-Choice QA (no trivia knowledge required)",
+            "Wrong Candidate Generation"
+        ],
+        "Text Domains": [
+            "Story",
+            "Commonsense -> Concepts and Relations"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://creativecommons.org/licenses/by/4.0"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "quarel"
+        ]
+    },
+    "fc-p3-quartz": {
+        "Unique Dataset Identifier": "fc-p3-quartz",
+        "Dataset Name": "quartz",
+        "Paper Title": null,
+        "Dataset URL": "https://allenai.org/data/quartz",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Multiple-Choice QA (no trivia knowledge required)",
+            "Explanation"
+        ],
+        "Text Domains": [
+            "Natural Science"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://creativecommons.org/licenses/by/4.0"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "quartz"
+        ]
+    },
+    "fc-p3-quoref": {
+        "Unique Dataset Identifier": "fc-p3-quoref",
+        "Dataset Name": "quoref",
+        "Paper Title": null,
+        "Dataset URL": "https://paperswithcode.com/dataset/quoref",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Extractive QA",
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "Wikipedia"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://creativecommons.org/licenses/by/4.0/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "quoref"
+        ]
+    },
+    "fc-p3-race": {
+        "Unique Dataset Identifier": "fc-p3-race",
+        "Dataset Name": "race",
+        "Paper Title": null,
+        "Dataset URL": "https://www.cs.cmu.edu/~glai1/data/race/#:~:text=notes",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Multiple-Choice QA (no trivia knowledge required)",
+            "Span Generation",
+            "Question Generation"
+        ],
+        "Text Domains": [
+            "English Exams"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Custom",
+                "License URL": "https://www.cs.cmu.edu/~glai1/data/race/#:~:text=notes"
+            }
+        ],
+        "License Notes": "Non-commercial",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "race"
+        ]
+    },
+    "fc-p3-ropes": {
+        "Unique Dataset Identifier": "fc-p3-ropes",
+        "Dataset Name": "ropes",
+        "Paper Title": null,
+        "Dataset URL": "https://paperswithcode.com/dataset/ropes",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Extractive QA",
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "Wikipedia",
+            "Natural Science",
+            "School Science Textbooks"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://creativecommons.org/licenses/by/4.0/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "ropes"
+        ]
+    },
+    "fc-p3-sciq": {
+        "Unique Dataset Identifier": "fc-p3-sciq",
+        "Dataset Name": "sciq",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/sciq",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Multiple-Choice QA (no trivia knowledge required)",
+            "Question Generation"
+        ],
+        "Text Domains": [
+            "Natural Science -> School Science Textbooks"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY-NC 3.0",
+                "License URL": "http://creativecommons.org/licenses/by-nc/3.0/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "sciq"
+        ]
+    },
+    "fc-p3-social_iqa": {
+        "Unique Dataset Identifier": "fc-p3-social_iqa",
+        "Dataset Name": "social_iqa",
+        "Paper Title": null,
+        "Dataset URL": "https://leaderboard.allenai.org/socialiqa/submissions/get-started",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Multiple-Choice QA (no trivia knowledge required)",
+            "Question Generation"
+        ],
+        "Text Domains": [
+            "Commonsense -> Concepts and Relations -> Social Commonsense"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "Unspecified"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "social_iqa"
+        ]
+    },
+    "fc-p3-web_questions": {
+        "Unique Dataset Identifier": "fc-p3-web_questions",
+        "Dataset Name": "web_questions",
+        "Paper Title": null,
+        "Dataset URL": "https://nlp.stanford.edu/software/sempre/",
+        "Hugging Face URL": "https://huggingface.co/datasets/web_questions",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Closed-Book QA",
+            "Question Generation"
+        ],
+        "Text Domains": [
+            "Knowledge Base -> Freebase"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY 4.0",
+                "License URL": "http://creativecommons.org/licenses/by/4.0/"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "web_questions"
+        ]
+    },
+    "fc-p3-wiki_bio": {
+        "Unique Dataset Identifier": "fc-p3-wiki_bio",
+        "Dataset Name": "wiki_bio",
+        "Paper Title": null,
+        "Dataset URL": "https://paperswithcode.com/dataset/wikibio",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Structured Data to Text"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://github.com/rlebret/wikipedia-biography-dataset/blob/master/LICENSE.txt"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "wiki_bio"
+        ]
+    },
+    "fc-p3-wiki_hop": {
+        "Unique Dataset Identifier": "fc-p3-wiki_hop",
+        "Dataset Name": "wiki_hop",
+        "Paper Title": null,
+        "Dataset URL": "https://paperswithcode.com/dataset/wikihop",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Multiple-Choice QA (no trivia knowledge required)",
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "Wikipedia"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "http://qangaroo.cs.ucl.ac.uk/"
+            }
+        ],
+        "License Notes": "Approved for training/fine-tuning only",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "wiki_hop"
+        ]
+    },
+    "fc-p3-wiki_qa": {
+        "Unique Dataset Identifier": "fc-p3-wiki_qa",
+        "Dataset Name": "wiki_qa",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/wiki_qa",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Closed-Book QA",
+            "Question Generation",
+            "Answer Verification"
+        ],
+        "Text Domains": [
+            "Wikipedia"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Microsoft Data Licensing Agreement",
+                "License URL": "https://huggingface.co/datasets/wiki_qa"
+            }
+        ],
+        "License Notes": "Denied - no commercial use",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "wiki_qa"
+        ]
+    },
+    "fc-p3-wiqa": {
+        "Unique Dataset Identifier": "fc-p3-wiqa",
+        "Dataset Name": "wiqa",
+        "Paper Title": null,
+        "Dataset URL": "https://allenai.org/data/wiqa",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (P3)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Multiple-Choice QA (no trivia knowledge required)",
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "Natural Science"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Apache 2.0",
+                "License URL": "https://github.com/allenai/wiqa-dataset/blob/master/LICENSE"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "wiqa"
+        ]
+    }
+}

@@ -1,0 +1,143 @@
+{
+    "camelai-physics": {
+        "Unique Dataset Identifier": "camelai-physics",
+        "Dataset Name": "camelai_physics",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/camel-ai/camel",
+        "Hugging Face URL": "https://huggingface.co/datasets/camel-ai/physics",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Camel-AI Science",
+        "Collection URL": "https://github.com/camel-ai/camel",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "Physics"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            ""
+        ],
+        "Time of Collection": null,
+        "Model Generated": "GPT-4",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/camel-ai/camel#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2303.17760"
+            }
+        ],
+        "License Notes": "Uses GPT-4 to generate responses",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "physics"
+        ]
+    },
+    "camelai-chemistry": {
+        "Unique Dataset Identifier": "camelai-chemistry",
+        "Dataset Name": "camelai_chemistry",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/camel-ai/camel",
+        "Hugging Face URL": "https://huggingface.co/datasets/camel-ai/physics",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Camel-AI Science",
+        "Collection URL": "https://github.com/camel-ai/camel",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "Chemistry"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            ""
+        ],
+        "Time of Collection": null,
+        "Model Generated": "GPT-4",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/camel-ai/camel#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2303.17760"
+            }
+        ],
+        "License Notes": "Uses GPT-4 to generate responses",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "chemistry"
+        ]
+    },
+    "camelai-biology": {
+        "Unique Dataset Identifier": "camelai-biology",
+        "Dataset Name": "camelai_biology",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/camel-ai/camel",
+        "Hugging Face URL": "https://huggingface.co/datasets/camel-ai/physics",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Camel-AI Science",
+        "Collection URL": "https://github.com/camel-ai/camel",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "Biology"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            ""
+        ],
+        "Time of Collection": null,
+        "Model Generated": "GPT-4",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/camel-ai/camel#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2303.17760"
+            }
+        ],
+        "License Notes": "Uses GPT-4 to generate responses",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "biology"
+        ]
+    }
+}

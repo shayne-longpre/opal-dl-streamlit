@@ -1,0 +1,90 @@
+{
+    "fc-dialog-qrecc": {
+        "Unique Dataset Identifier": "fc-dialog-qrecc",
+        "Dataset Name": "qrecc",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/apple/ml-qrecc",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (Dialog)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialog Context Generation",
+            "Conversational Question Answering"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://github.com/apple/ml-qrecc"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "qrecc",
+            "qrecc_ii"
+        ]
+    },
+    "fc-dialog-wiki_dialog": {
+        "Unique Dataset Identifier": "fc-dialog-wiki_dialog",
+        "Dataset Name": "wiki_dialog",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/google-research/dialog-inpainting#wikidialog-oq",
+        "Hugging Face URL": "",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Flan Collection (Dialog)",
+        "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialog Context Generation",
+            "Conversational Question Answering"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://github.com/google-research/dialog-inpainting/blob/main/WikiDialog-OQ_Data_Card.pdf"
+            }
+        ],
+        "License Notes": "Derived from QReCC, QuAC and Wikipedia",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "wiki_dialog",
+            "wiki_dialog_ii"
+        ]
+    }
+}

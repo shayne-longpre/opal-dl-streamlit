@@ -1,0 +1,48 @@
+{
+    "sharegpt_vicuna": {
+        "Unique Dataset Identifier": "sharegpt_vicuna",
+        "Dataset Name": "sharegpt",
+        "Paper Title": null,
+        "Dataset URL": "https://sharegpt.com/",
+        "Hugging Face URL": "https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "ShareGPT Vicuna",
+        "Collection URL": "https://lmsys.org/blog/2023-03-30-vicuna/",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Miscellaneous"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Multi-turn Dialog"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "Mixed OpenAI GPT Playgrounds",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": "None"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://sharegpt.com/"
+            }
+        ],
+        "License Notes": "Crowdsourced from users who download the sharegpt.com browser extension to volunteer interactions with OpenAI agents",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "sharegpt_vicuna"
+        ]
+    }
+}

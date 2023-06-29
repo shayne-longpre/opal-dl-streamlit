@@ -1,0 +1,284 @@
+{
+    "cotcollection-en": {
+        "Unique Dataset Identifier": "cotcollection-en",
+        "Dataset Name": "cotcollection_en",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/kaistAI/CoT-Collection",
+        "Hugging Face URL": "https://huggingface.co/datasets/kaist-ai/CoT-Collection",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "CoT Collection",
+        "Collection URL": "https://github.com/kaistAI/CoT-Collection",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt",
+            "Chain-of-Thought Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "OpenAI Codex",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Non Commercial",
+                "License URL": "https://github.com/kaistAI/CoT-Collection#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2305.14045"
+            }
+        ],
+        "License Notes": "Uses OpenAI Codex model to generate rationales and ChatGPT to translate to other languages",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "en"
+        ]
+    },
+    "cotcollection-fr": {
+        "Unique Dataset Identifier": "cotcollection-fr",
+        "Dataset Name": "cotcollection_fr",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/kaistAI/CoT-Collection",
+        "Hugging Face URL": "https://huggingface.co/datasets/kaist-ai/CoT-Collection_multilingual",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "CoT Collection",
+        "Collection URL": "https://huggingface.co/datasets/kaist-ai/CoT-Collection_multilingual",
+        "Languages": [
+            "French"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt",
+            "Chain-of-Thought Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "OpenAI Codex and ChatGPT",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Non Commercial",
+                "License URL": "https://github.com/kaistAI/CoT-Collection#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2305.14045"
+            }
+        ],
+        "License Notes": "Uses OpenAI Codex model to generate rationales and ChatGPT to translate to other languages",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "fr"
+        ]
+    },
+    "cotcollection-ja": {
+        "Unique Dataset Identifier": "cotcollection-ja",
+        "Dataset Name": "cotcollection_ja",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/kaistAI/CoT-Collection",
+        "Hugging Face URL": "https://huggingface.co/datasets/kaist-ai/CoT-Collection_multilingual",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "CoT Collection",
+        "Collection URL": "https://huggingface.co/datasets/kaist-ai/CoT-Collection_multilingual",
+        "Languages": [
+            "Japanese"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt",
+            "Chain-of-Thought Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "OpenAI Codex and ChatGPT",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Non Commercial",
+                "License URL": "https://github.com/kaistAI/CoT-Collection#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2305.14045"
+            }
+        ],
+        "License Notes": "Uses OpenAI Codex model to generate rationales and ChatGPT to translate to other languages",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "ja"
+        ]
+    },
+    "cotcollection-ko": {
+        "Unique Dataset Identifier": "cotcollection-ko",
+        "Dataset Name": "cotcollection_ko",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/kaistAI/CoT-Collection",
+        "Hugging Face URL": "https://huggingface.co/datasets/kaist-ai/CoT-Collection_multilingual",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "CoT Collection",
+        "Collection URL": "https://huggingface.co/datasets/kaist-ai/CoT-Collection_multilingual",
+        "Languages": [
+            "Korean"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt",
+            "Chain-of-Thought Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "OpenAI Codex and ChatGPT",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Non Commercial",
+                "License URL": "https://github.com/kaistAI/CoT-Collection#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2305.14045"
+            }
+        ],
+        "License Notes": "Uses OpenAI Codex model to generate rationales and ChatGPT to translate to other languages",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "ko"
+        ]
+    },
+    "cotcollection-ru": {
+        "Unique Dataset Identifier": "cotcollection-ru",
+        "Dataset Name": "cotcollection_ru",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/kaistAI/CoT-Collection",
+        "Hugging Face URL": "https://huggingface.co/datasets/kaist-ai/CoT-Collection_multilingual",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "CoT Collection",
+        "Collection URL": "https://huggingface.co/datasets/kaist-ai/CoT-Collection_multilingual",
+        "Languages": [
+            "Russian"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt",
+            "Chain-of-Thought Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "OpenAI Codex and ChatGPT",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Non Commercial",
+                "License URL": "https://github.com/kaistAI/CoT-Collection#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2305.14045"
+            }
+        ],
+        "License Notes": "Uses OpenAI Codex model to generate rationales and ChatGPT to translate to other languages",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "ru"
+        ]
+    },
+    "cotcollection-zh": {
+        "Unique Dataset Identifier": "cotcollection-zh",
+        "Dataset Name": "cotcollection_zh",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/kaistAI/CoT-Collection",
+        "Hugging Face URL": "https://huggingface.co/datasets/kaist-ai/CoT-Collection_multilingual",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "CoT Collection",
+        "Collection URL": "https://huggingface.co/datasets/kaist-ai/CoT-Collection_multilingual",
+        "Languages": [
+            "Chinese"
+        ],
+        "Task Categories": [
+            "Chain-of-Thought"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Few-Shot Prompt",
+            "Chain-of-Thought Prompt"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "OpenAI Codex and ChatGPT",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "Non Commercial",
+                "License URL": "https://github.com/kaistAI/CoT-Collection#license"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2305.14045"
+            }
+        ],
+        "License Notes": "Uses OpenAI Codex model to generate rationales and ChatGPT to translate to other languages",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "zh"
+        ]
+    }
+}

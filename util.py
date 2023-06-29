@@ -14,55 +14,100 @@ import streamlit as st
 import constants
 
 
-def read_dataset_table(fp):
-    list_cols = {k: literal_eval for k in ["Collection URL", "Languages", "Task Domains", "Task Categories", "Task Reasoning"]}
-    df = pd.read_csv(fp, converters=list_cols).fillna("")
-
-    # Annotate license categories (TODO: do this offline)
-    # for license_name, license_strs in constant._LICENSE_GROUPINGS.items():
-    #     if license_strs is None:
-    #         other_strs = set([lic for license_s in constant._LICENSE_GROUPINGS.values() for lic in licenses])
-    #         df[f"License Category: {license_name}"] = ~df['License'].isin(other_strs)
-    #     else:
-    #         df[f"License Category: {license_name}"] = df['License'].isin(license_strs)
-
-    # Annotate language categories (TODO: do this offline)
-    # for language_group, language_strs in constant._LANGUAGE_GROUPS.items():
-    #     df[f"Language: {language_group}"] = df['Languages'].apply(lambda x: len(x.intersection(language_strs)) > 0)
-
-    # # Annotate language categories (TODO: do this offline)
-    # for language_group, language_strs in constant._LANGUAGE_GROUPS.items():
-    #     df[f"Language: {language_group}"] = df['Languages'].apply(lambda x: len(x.intersection(language_strs)) > 0)
-
-    return df
-
 def apply_filters(
     df,
     selected_licenses,
     selected_languages,
     selected_task_categories,
 ):
-    filtered_df = copy.deepcopy(df)
-    if "All" not in selected_licenses:
-        # st.write(selected_licenses)
-        license_strs = [license_str for k in selected_licenses for license_str in constants._LICENSE_GROUPINGS[k]]
-        filtered_df = filtered_df[filtered_df["License"].isin(license_strs)]
-    if "All" not in selected_languages:
-        # st.write("Lang Filter")
-        lang_strs = set([lang_str for k in selected_languages for lang_str in constants._LANGUAGE_GROUPS[k]])
-        filtered_df = filtered_df[filtered_df["Languages"].apply(lambda x: len(set(x).intersection(lang_strs)) > 0)]
-    if "All" not in selected_task_categories:
-        taskcat_strs = set([taskcat_str for k in selected_task_categories for taskcat_str in constants._TASK_CATEGORY_GROUPS[k]])
-        filtered_df = filtered_df[filtered_df["Task Categories"].apply(lambda x: len(set(x).intersection(taskcat_strs)) > 0)]
+    filtered_df = df
+
+    # Some sanity checks:
+    all_langs = set([v for vs in constants.LANGUAGE_GROUPS.values() for v in vs])
+    option_langs = set(
+        [lang for langs in filtered_df["Languages"].tolist() for lang in langs]
+    )
+    assert all_langs >= option_langs, f"Missing Languages: {option_langs - all_langs}"
+    all_tcats = set([v for vs in constants.TASK_CATEGORY_GROUPS.values() for v in vs])
+    option_tcats = set(
+        [tc for tcs in filtered_df["Task Categories"].tolist() for tc in tcs]
+    )
+    assert (
+        all_tcats >= option_tcats
+    ), f"Missing Task Categories: {option_tcats - all_tcats}"
+
+    if selected_licenses:
+        license_strs = set(
+            [
+                license_str
+                for k in selected_licenses
+                for license_str in constants.LICENSE_GROUPS[k]
+            ]
+        )
+        filtered_df = filtered_df[
+            filtered_df["Licenses"].apply(lambda xs: license_strs >= set([x["License"] for x in xs]))
+        ]
+
+    if selected_languages:
+        lang_strs = set(
+            [
+                lang_str
+                for k in selected_languages
+                for lang_str in constants.LANGUAGE_GROUPS[k]
+            ]
+        )
+        filtered_df = filtered_df[
+            filtered_df["Languages"].apply(lambda x: lang_strs >= set(x))
+        ]
+
+    if selected_task_categories:
+        taskcat_strs = set(
+            [
+                taskcat_str
+                for k in selected_task_categories
+                for taskcat_str in constants.TASK_CATEGORY_GROUPS[k]
+            ]
+        )
+        filtered_df = filtered_df[
+            filtered_df["Task Categories"].apply(lambda x: taskcat_strs >= set(x))
+        ]
 
     return filtered_df
+
+
+
+# def read_dataset_table(fp):
+#     list_cols = {k: literal_eval for k in ["Collection URL", "Languages", "Task Domains", "Task Categories", "Task Reasoning"]}
+#     df = pd.read_csv(fp, converters=list_cols).fillna("")
+    # return df
+
+# def apply_filters(
+#     df,
+#     selected_licenses,
+#     selected_languages,
+#     selected_task_categories,
+# ):
+#     filtered_df = copy.deepcopy(df)
+#     if "All" not in selected_licenses:
+#         # st.write(selected_licenses)
+#         license_strs = [license_str for k in selected_licenses for license_str in constants._LICENSE_GROUPINGS[k]]
+#         filtered_df = filtered_df[filtered_df["License"].isin(license_strs)]
+#     if "All" not in selected_languages:
+#         # st.write("Lang Filter")
+#         lang_strs = set([lang_str for k in selected_languages for lang_str in constants._LANGUAGE_GROUPS[k]])
+#         filtered_df = filtered_df[filtered_df["Languages"].apply(lambda x: len(set(x).intersection(lang_strs)) > 0)]
+#     if "All" not in selected_task_categories:
+#         taskcat_strs = set([taskcat_str for k in selected_task_categories for taskcat_str in constants._TASK_CATEGORY_GROUPS[k]])
+#         filtered_df = filtered_df[filtered_df["Task Categories"].apply(lambda x: len(set(x).intersection(taskcat_strs)) > 0)]
+
+#     return filtered_df
 
 def compute_metrics(df):
     datasets_count = dict(Counter(df["Dataset Name"]))
     collections_count = dict(Counter(df["Collection"].tolist()).most_common())
     language_counts = dict(Counter([lang for row in df["Languages"] for lang in row]).most_common())
     taskcat_counts = dict(Counter([tc for row in df["Task Categories"] for tc in row]).most_common())
-    license_counts = dict(Counter(df["License"].tolist()).most_common())
+    license_counts = dict(Counter([lic["License"] for lic in df["Licenses"].tolist() if lic["License"]]).most_common())
     
     return {
         "collections": collections_count,

@@ -1,0 +1,323 @@
+{
+    "longform-c4": {
+        "Unique Dataset Identifier": "longform-c4",
+        "Dataset Name": "longform",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/akoksal/LongForm",
+        "Hugging Face URL": "https://huggingface.co/datasets/akoksal/LongForm",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Longform",
+        "Collection URL": "https://github.com/akoksal/LongForm",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Miscellaneous"
+        ],
+        "Text Domains": [
+            "Web"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            ""
+        ],
+        "Time of Collection": null,
+        "Model Generated": "'GPT-3'",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.08460"
+            }
+        ],
+        "License Notes": "GPT-3 generates the instructions. The answer paragraphs are taken from various sources.",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "C4"
+        ]
+    },
+    "longform-naturalinstructions": {
+        "Unique Dataset Identifier": "longform-naturalinstructions",
+        "Dataset Name": "longform",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/akoksal/LongForm",
+        "Hugging Face URL": "https://huggingface.co/datasets/akoksal/LongForm",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Longform",
+        "Collection URL": "https://github.com/akoksal/LongForm",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Miscellaneous"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            ""
+        ],
+        "Time of Collection": null,
+        "Model Generated": "'GPT-3'",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.08460"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/allenai/natural-instructions"
+            }
+        ],
+        "License Notes": "GPT-3 generates the instructions. The answer paragraphs are taken from various sources.",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "Natural Instructions"
+        ]
+    },
+    "longform-stackexchange": {
+        "Unique Dataset Identifier": "longform-stackexchange",
+        "Dataset Name": "longform",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/akoksal/LongForm",
+        "Hugging Face URL": "https://huggingface.co/datasets/akoksal/LongForm",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Longform",
+        "Collection URL": "https://github.com/akoksal/LongForm",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Miscellaneous"
+        ],
+        "Text Domains": [
+            "Stack Exchange"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            ""
+        ],
+        "Time of Collection": null,
+        "Model Generated": "'GPT-3'",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.08460"
+            },
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://stackoverflow.com/legal/terms-of-service/public#licensing"
+            }
+        ],
+        "License Notes": "GPT-3 generates the instructions. The answer paragraphs are taken from various sources.",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "StackExchange"
+        ]
+    },
+    "longform-wikipedia": {
+        "Unique Dataset Identifier": "longform-wikipedia",
+        "Dataset Name": "longform",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/akoksal/LongForm",
+        "Hugging Face URL": "https://huggingface.co/datasets/akoksal/LongForm",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Longform",
+        "Collection URL": "https://github.com/akoksal/LongForm",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Miscellaneous"
+        ],
+        "Text Domains": [
+            "Wikipedia"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            ""
+        ],
+        "Time of Collection": null,
+        "Model Generated": "'GPT-3'",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.08460"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://en.wikipedia.org/wiki/Wikipedia:Copyrights"
+            }
+        ],
+        "License Notes": "GPT-3 generates the instructions. The answer paragraphs are taken from various sources.",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "Wikipedia"
+        ]
+    },
+    "longform-wikihow": {
+        "Unique Dataset Identifier": "longform-wikihow",
+        "Dataset Name": "longform",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/akoksal/LongForm",
+        "Hugging Face URL": "https://huggingface.co/datasets/akoksal/LongForm",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Longform",
+        "Collection URL": "https://github.com/akoksal/LongForm",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Miscellaneous"
+        ],
+        "Text Domains": [
+            "Wiki How"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            ""
+        ],
+        "Time of Collection": null,
+        "Model Generated": "'GPT-3'",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.08460"
+            },
+            {
+                "License": "CC BY-SA 3.0",
+                "License URL": "https://www.wikihow.com/wikiHow:Terms-of-Use"
+            }
+        ],
+        "License Notes": "GPT-3 generates the instructions. The answer paragraphs are taken from various sources.",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "WikiHow"
+        ]
+    },
+    "longform-beagec": {
+        "Unique Dataset Identifier": "longform-beagec",
+        "Dataset Name": "longform",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/akoksal/LongForm",
+        "Hugging Face URL": "https://huggingface.co/datasets/akoksal/LongForm",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Longform",
+        "Collection URL": "https://github.com/akoksal/LongForm",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Miscellaneous"
+        ],
+        "Text Domains": [],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            ""
+        ],
+        "Time of Collection": null,
+        "Model Generated": "'GPT-3'",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.08460"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://www.cl.cam.ac.uk/research/nl/bea2019st/#data"
+            }
+        ],
+        "License Notes": "GPT-3 generates the instructions. The answer paragraphs are taken from various sources.",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "BEA-GEC"
+        ]
+    },
+    "longform-enron": {
+        "Unique Dataset Identifier": "longform-enron",
+        "Dataset Name": "longform",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/akoksal/LongForm",
+        "Hugging Face URL": "https://huggingface.co/datasets/akoksal/LongForm",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Longform",
+        "Collection URL": "https://github.com/akoksal/LongForm",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Miscellaneous"
+        ],
+        "Text Domains": [
+            "Email"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            ""
+        ],
+        "Time of Collection": null,
+        "Model Generated": "'GPT-3'",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2304.08460"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://www.cs.cmu.edu/~./enron/"
+            }
+        ],
+        "License Notes": "GPT-3 generates the instructions. The answer paragraphs are taken from various sources.",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "Enron"
+        ]
+    }
+}

@@ -1,0 +1,740 @@
+{
+    "shp-askengineers": {
+        "Unique Dataset Identifier": "shp-askengineers",
+        "Dataset Name": "shp",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Forum QA"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "askengineers"
+        ]
+    },
+    "shp-askculinary": {
+        "Unique Dataset Identifier": "shp-askculinary",
+        "Dataset Name": "shp",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Forum QA"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "askculinary"
+        ]
+    },
+    "shp-askbaking": {
+        "Unique Dataset Identifier": "shp-askbaking",
+        "Dataset Name": "shp",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Forum QA"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "askbaking"
+        ]
+    },
+    "shp-changemyview": {
+        "Unique Dataset Identifier": "shp-changemyview",
+        "Dataset Name": "shp",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Forum QA"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "changemyview"
+        ]
+    },
+    "shp-askacademia": {
+        "Unique Dataset Identifier": "shp-askacademia",
+        "Dataset Name": "shp",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Forum QA"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "askacademia"
+        ]
+    },
+    "shp-asksciencefiction": {
+        "Unique Dataset Identifier": "shp-asksciencefiction",
+        "Dataset Name": "shp",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Forum QA"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "asksciencefiction"
+        ]
+    },
+    "shp-legaladvice": {
+        "Unique Dataset Identifier": "shp-legaladvice",
+        "Dataset Name": "shp",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Forum QA"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "legaladvice"
+        ]
+    },
+    "shp-explainlikeimfive": {
+        "Unique Dataset Identifier": "shp-explainlikeimfive",
+        "Dataset Name": "shp",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Forum QA"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "explainlikeimfive"
+        ]
+    },
+    "shp-askscience": {
+        "Unique Dataset Identifier": "shp-askscience",
+        "Dataset Name": "shp",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Forum QA"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "askscience"
+        ]
+    },
+    "shp-askphilosophy": {
+        "Unique Dataset Identifier": "shp-askphilosophy",
+        "Dataset Name": "shp",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Forum QA"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "askphilosophy"
+        ]
+    },
+    "shp-askhr": {
+        "Unique Dataset Identifier": "shp-askhr",
+        "Dataset Name": "shp",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Forum QA"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "askhr"
+        ]
+    },
+    "shp-askphysics": {
+        "Unique Dataset Identifier": "shp-askphysics",
+        "Dataset Name": "shp",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Forum QA"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "askphysics"
+        ]
+    },
+    "shp-askdocs": {
+        "Unique Dataset Identifier": "shp-askdocs",
+        "Dataset Name": "shp",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Forum QA"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "askdocs"
+        ]
+    },
+    "shp-askanthropology": {
+        "Unique Dataset Identifier": "shp-askanthropology",
+        "Dataset Name": "shp",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Forum QA"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "askanthropology"
+        ]
+    },
+    "shp-askvet": {
+        "Unique Dataset Identifier": "shp-askvet",
+        "Dataset Name": "shp",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Forum QA"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "askvet"
+        ]
+    },
+    "shp-askhistorians": {
+        "Unique Dataset Identifier": "shp-askhistorians",
+        "Dataset Name": "shp",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Forum QA"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "askhistorians"
+        ]
+    },
+    "shp-askcarguys": {
+        "Unique Dataset Identifier": "shp-askcarguys",
+        "Dataset Name": "shp",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Forum QA"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "askcarguys"
+        ]
+    },
+    "shp-asksocialscience": {
+        "Unique Dataset Identifier": "shp-asksocialscience",
+        "Dataset Name": "shp",
+        "Paper Title": null,
+        "Dataset URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Hugging Face URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "Stanford Human Preferences",
+        "Collection URL": "https://huggingface.co/datasets/stanfordnlp/SHP",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Forum QA"
+        ],
+        "Text Domains": [
+            "Social Media -> Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [],
+        "License Notes": "Reddit modified its terms of use in 2023",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "asksocialscience"
+        ]
+    }
+}

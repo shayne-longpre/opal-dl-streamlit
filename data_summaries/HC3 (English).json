@@ -1,0 +1,261 @@
+{
+    "hc3_en-finance": {
+        "Unique Dataset Identifier": "hc3_en-finance",
+        "Dataset Name": "hc3_en_finance",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "HC3 (English)",
+        "Collection URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "Finance"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "ChatGPT",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY SA",
+                "License URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection#dataset-copyright"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://sites.google.com/view/fiqa/"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2301.07597"
+            }
+        ],
+        "License Notes": "Provides human and ChatGPT responses for different domains and languages",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "finance"
+        ]
+    },
+    "hc3_en-medicine": {
+        "Unique Dataset Identifier": "hc3_en-medicine",
+        "Dataset Name": "hc3_en_medicine",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "HC3 (English)",
+        "Collection URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Dialog"
+        ],
+        "Text Domains": [
+            "Medicine"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "ChatGPT",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY SA",
+                "License URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection#dataset-copyright"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/UCSD-AI4H/Medical-Dialogue-System"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2301.07597"
+            }
+        ],
+        "License Notes": "Provides human and ChatGPT responses for different domains and languages",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "medicine"
+        ]
+    },
+    "hc3_en-wikiqa": {
+        "Unique Dataset Identifier": "hc3_en-wikiqa",
+        "Dataset Name": "hc3_en_wikiqa",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "HC3 (English)",
+        "Collection URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "Wikipedia"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "ChatGPT",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY SA",
+                "License URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection#dataset-copyright"
+            },
+            {
+                "License": "Custom",
+                "License URL": "https://huggingface.co/datasets/wiki_qa#licensing-information"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2301.07597"
+            }
+        ],
+        "License Notes": "Provides human and ChatGPT responses for different domains and languages",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "open_qa"
+        ]
+    },
+    "hc3_en-reddit_eli5": {
+        "Unique Dataset Identifier": "hc3_en-reddit_eli5",
+        "Dataset Name": "hc3_en_eli5",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "HC3 (English)",
+        "Collection URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "Reddit"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "ChatGPT",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY SA",
+                "License URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection#dataset-copyright"
+            },
+            {
+                "License": "Unspecified",
+                "License URL": "https://github.com/facebookresearch/ELI5"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2301.07597"
+            }
+        ],
+        "License Notes": "Provides human and ChatGPT responses for different domains and languages",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "reddit_eli5"
+        ]
+    },
+    "hc3_en-wiki_csai": {
+        "Unique Dataset Identifier": "hc3_en-wiki_csai",
+        "Dataset Name": "hc3_en_wiki_csai",
+        "Paper Title": null,
+        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+        "Papers with Code URL": null,
+        "ArXiv URL": null,
+        "Semantic Scholar Corpus ID": null,
+        "Collection": "HC3 (English)",
+        "Collection URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering"
+        ],
+        "Text Domains": [
+            "Wikipedia"
+        ],
+        "Text Topics": null,
+        "Number of Examples": null,
+        "Text Length Metrics": null,
+        "Format": [
+            "Zero-Shot Prompt",
+            "Response Ranking"
+        ],
+        "Time of Collection": null,
+        "Model Generated": "ChatGPT",
+        "Text Sources": [],
+        "Creators": null,
+        "Licenses": [
+            {
+                "License": "CC BY SA",
+                "License URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection#dataset-copyright"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2301.07597"
+            }
+        ],
+        "License Notes": "Provides human and ChatGPT responses for different domains and languages",
+        "License Verified By": "Shayne",
+        "Dataset Description": null,
+        "Dataset Filter IDs": [
+            "wiki_csai"
+        ]
+    }
+}
