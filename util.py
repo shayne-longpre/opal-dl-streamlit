@@ -173,25 +173,18 @@ def plot_altair_piechart(counts, title, threshold_cutoff=16):
 
 def plot_altair_barchart(counts):
 
-    # import pandas as pd
-    # import altair as alt
-    # import numpy as np
-
-    # assuming df has columns `category` and `count`
-    # df = pd.DataFrame(...)
-
     df = pd.DataFrame({
         "category": list(counts.keys()),
         "count": list(counts.values()),
     })
-    # calculate total count
+
     total = df['count'].sum()
 
     # create a new column for percentage
     df['percentage'] = 100 * df['count'] / total
 
     # sort the DataFrame and only select the top 20 categories
-    df = df.sort_values('count', ascending=False)[:20][::-1]
+    df = df.sort_values('count', ascending=False)[:20]
 
     # for having a different color for each bar
     palette = alt.Scale(scheme='category20')
@@ -210,7 +203,50 @@ def plot_altair_barchart(counts):
         baseline='middle',
         dx=3  # Nudges text to right so it doesn't appear on top of the bar
     ).encode(
-        text=alt.Text('percentage:Q', format='.1f')
+        text=alt.Text('text:N')
     )
 
+    # Concatenate count and percentage fields for the text label
+    df['text'] = df['count'].astype(str) + ' (' + df['percentage'].round(1).astype(str) + '%)'
+
     return (chart + text).properties(height=500, width=800)
+
+
+
+
+
+
+    # df = pd.DataFrame({
+    #     "category": list(counts.keys()),
+    #     "count": list(counts.values()),
+    # })
+    # # calculate total count
+    # total = df['count'].sum()
+
+    # # create a new column for percentage
+    # df['percentage'] = 100 * df['count'] / total
+
+    # # sort the DataFrame and only select the top 20 categories
+    # df = df.sort_values('count', ascending=False)[:20][::-1]
+
+    # # for having a different color for each bar
+    # palette = alt.Scale(scheme='category20')
+
+    # # create the chart
+    # chart = alt.Chart(df).mark_bar().encode(
+    #     x='count:Q',
+    #     y=alt.Y('category:N', sort='-x'),
+    #     color=alt.Color('category:N', scale=palette),
+    #     tooltip=['category', 'count', 'percentage']
+    # )
+
+    # # text label for percentage
+    # text = chart.mark_text(
+    #     align='left',
+    #     baseline='middle',
+    #     dx=3  # Nudges text to right so it doesn't appear on top of the bar
+    # ).encode(
+    #     text=alt.Text('percentage:Q', format='.1f')
+    # )
+
+    # return (chart + text).properties(height=500, width=800)
