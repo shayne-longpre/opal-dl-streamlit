@@ -109,40 +109,37 @@ def streamlit_app():
         st.title("Data Provenance Explorer")
 
         # st.header("")
-        st.markdown("""
-        Select the preferred criteria for your datasets.
-        """)
+
 
         with st.sidebar:
-            with st.echo():
-                st.write("This code will be printed to the sidebar.")
+            st.markdown("""Select the preferred criteria for your datasets.""")
 
+            with st.form("data_selection"):
 
-        with st.form("data_selection"):
+                # data_select_cols = st.columns(3)
 
-            data_select_cols = st.columns(3)
-
-            with data_select_cols[0]:
+                # with data_select_cols[0]:
                 # st.write("Select the acceptable license values for constituent datasets")
                 license_multiselect = st.multiselect(
                     'Select the acceptable license values for constituent datasets',
                     ["All"] + list(constants.LICENSE_GROUPS.keys()),
                     ["All"])
 
-            with data_select_cols[1]:
+                # with data_select_cols[1]:
                 language_multiselect = st.multiselect(
                     'Select the languages to cover in your datasets',
                     ["All"] + list(constants.LANGUAGE_GROUPS.keys()),
                     ["All"])
 
-            with data_select_cols[2]:
+                # with data_select_cols[2]:
                 taskcats_multiselect = st.multiselect(
                     'Select the task categories to cover in your datasets',
                     ["All"] + list(constants.TASK_CATEGORY_GROUPS.keys()),
                     ["All"])
 
-            # Every form must have a submit button.
-            submitted = st.form_submit_button("Submit Selection")
+                # Every form must have a submit button.
+                submitted = st.form_submit_button("Submit Selection")
+
         if submitted:
             filtered_df = util.apply_filters(
                 INFO["data"], license_multiselect, language_multiselect, taskcats_multiselect)
@@ -151,11 +148,12 @@ def streamlit_app():
             st.markdown('#')
             st.markdown('#')
             st.header('Properties of your collection')
-            metric_columns = st.columns(4)
-            metric_columns[0].metric("Collections", len(metrics["collections"]), delta=f"/ {len(df_metadata['collections'])}")#, delta_color="off")
-            metric_columns[1].metric("Datasets", len(metrics["datasets"]), delta=f"/ {len(df_metadata['datasets'])}")
-            metric_columns[2].metric("Languages", len(metrics["languages"]), delta=f"/ {len(df_metadata['languages'])}")
-            metric_columns[3].metric("Task Categories", len(metrics["task_categories"]), delta=f"/ {len(df_metadata['task_categories'])}")
+            metric_columns1 = st.columns(2)
+            metric_columns1[0].metric("Collections", len(metrics["collections"]), delta=f"/ {len(df_metadata['collections'])}")#, delta_color="off")
+            metric_columns1[1].metric("Datasets", len(metrics["datasets"]), delta=f"/ {len(df_metadata['datasets'])}")
+            metric_columns2 = st.columns(2)
+            metric_columns2[0].metric("Languages", len(metrics["languages"]), delta=f"/ {len(df_metadata['languages'])}")
+            metric_columns2[1].metric("Task Categories", len(metrics["task_categories"]), delta=f"/ {len(df_metadata['task_categories'])}")
 
             # st.divider()
             st.markdown('#')
