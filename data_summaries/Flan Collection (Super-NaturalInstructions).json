@@ -205,7 +205,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "createdebate.com,4forums.com,convinceme.net",
+        "Text Sources": [
+            "createdebate.com,4forums.com,convinceme.net"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -249,7 +251,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "ComeToMyHead ",
+        "Text Sources": [
+            "ComeToMyHead "
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -293,7 +297,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "AI2",
+        "Text Sources": [
+            "AI2"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -382,7 +388,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Twitter",
+        "Text Sources": [
+            "Twitter"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -427,7 +435,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Allegro.pl",
+        "Text Sources": [
+            "Allegro.pl"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -472,7 +482,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "https://www.allocine.fr/",
+        "Text Sources": [
+            "https://www.allocine.fr/"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -560,7 +572,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Amazon",
+        "Text Sources": [
+            "Amazon"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -648,7 +662,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Amazon",
+        "Text Sources": [
+            "Amazon"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -869,7 +885,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Google Play store, ",
+        "Text Sources": [
+            "Google Play store, "
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -1050,7 +1068,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "IBM",
+        "Text Sources": [
+            "IBM"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -1813,7 +1833,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Twitter",
+        "Text Sources": [
+            "Twitter"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -1948,7 +1970,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Chinese Judgment Online",
+        "Text Sources": [
+            "Chinese Judgment Online"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -1992,7 +2016,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "casetext.com,Harvard Law Library case law corpus, Terms of Service copied from websites",
+        "Text Sources": [
+            "casetext.com,Harvard Law Library case law corpus, Terms of Service copied from websites"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -2083,7 +2109,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Twitter",
+        "Text Sources": [
+            "Twitter"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -2127,7 +2155,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Wall Street Journal, British National Corpus, Switchboard",
+        "Text Sources": [
+            "Wall Street Journal, British National Corpus, Switchboard"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -2706,7 +2736,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "CNN, Daily Mail",
+        "Text Sources": [
+            "CNN, Daily Mail"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -3015,7 +3047,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "WikiAnswers",
+        "Text Sources": [
+            "WikiAnswers"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -3549,7 +3583,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Alternate Source: https://data.world/samayo/country-abbreviation/workspace/",
+        "Text Sources": [
+            "Alternate Source: https://data.world/samayo/country-abbreviation/workspace/"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -3593,7 +3629,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "https://github.com/samayo/country-json",
+        "Text Sources": [
+            "https://github.com/samayo/country-json"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -3637,7 +3675,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Alternate Source: https://data.world/samayo/country-abbreviation/workspace/",
+        "Text Sources": [
+            "Alternate Source: https://data.world/samayo/country-abbreviation/workspace/"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -3681,7 +3721,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Alternate Source: https://data.world/samayo/country-abbreviation/workspace/",
+        "Text Sources": [
+            "Alternate Source: https://data.world/samayo/country-abbreviation/workspace/"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -3725,7 +3767,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "https://github.com/samayo/country-json",
+        "Text Sources": [
+            "https://github.com/samayo/country-json"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -3769,7 +3813,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Alternate Source: https://data.world/samayo/country-abbreviation/workspace/",
+        "Text Sources": [
+            "Alternate Source: https://data.world/samayo/country-abbreviation/workspace/"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -3813,7 +3859,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Alternate Source: https://data.world/samayo/country-abbreviation/workspace/",
+        "Text Sources": [
+            "Alternate Source: https://data.world/samayo/country-abbreviation/workspace/"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -3857,7 +3905,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "https://github.com/samayo/country-json",
+        "Text Sources": [
+            "https://github.com/samayo/country-json"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -3901,7 +3951,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "https://github.com/samayo/country-json",
+        "Text Sources": [
+            "https://github.com/samayo/country-json"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -3945,7 +3997,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "https://github.com/samayo/country-json",
+        "Text Sources": [
+            "https://github.com/samayo/country-json"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -3989,7 +4043,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "https://github.com/samayo/country-json",
+        "Text Sources": [
+            "https://github.com/samayo/country-json"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -4033,7 +4089,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "https://github.com/samayo/country-json",
+        "Text Sources": [
+            "https://github.com/samayo/country-json"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -4254,7 +4312,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "StackExchange",
+        "Text Sources": [
+            "StackExchange"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -4475,7 +4535,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Wikipedia",
+        "Text Sources": [
+            "Wikipedia"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -5100,7 +5162,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Yelp,GYAFC",
+        "Text Sources": [
+            "Yelp,GYAFC"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -5278,7 +5342,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "European Medicines Agency",
+        "Text Sources": [
+            "European Medicines Agency"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -5903,7 +5969,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Wikipedia",
+        "Text Sources": [
+            "Wikipedia"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -6130,7 +6198,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Wikipedia,Google AI Language",
+        "Text Sources": [
+            "Wikipedia,Google AI Language"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -6352,7 +6422,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Reddit",
+        "Text Sources": [
+            "Reddit"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -6705,7 +6777,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Twitter",
+        "Text Sources": [
+            "Twitter"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -6793,7 +6867,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Medical Exams from https://www.sanidad.gob.es/",
+        "Text Sources": [
+            "Medical Exams from https://www.sanidad.gob.es/"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -6925,7 +7001,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Reddit",
+        "Text Sources": [
+            "Reddit"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -7108,7 +7186,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "YouTube",
+        "Text Sources": [
+            "YouTube"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -7417,7 +7497,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Wikipedia, Hebbar's Kitchen, Archana's Kitchen",
+        "Text Sources": [
+            "Wikipedia, Hebbar's Kitchen, Archana's Kitchen"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -7506,7 +7588,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "WSJ,Newsela,AP",
+        "Text Sources": [
+            "WSJ,Newsela,AP"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -7550,7 +7634,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Jeopardy! Show",
+        "Text Sources": [
+            "Jeopardy! Show"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -9179,7 +9265,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Ted Talks",
+        "Text Sources": [
+            "Ted Talks"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -9412,7 +9500,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Wikipedia, http://www.gutenberg.org/, http://www.imsdb.com/, http://www.dailyscript.com/, http://www.awesomefilm.com/",
+        "Text Sources": [
+            "Wikipedia, http://www.gutenberg.org/, http://www.imsdb.com/, http://www.dailyscript.com/, http://www.awesomefilm.com/"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -9644,7 +9734,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "News headlines dataset, the onion, the huffington post, twitter",
+        "Text Sources": [
+            "News headlines dataset, the onion, the huffington post, twitter"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -9998,7 +10090,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "1. The data will not be used in any non-experimental clinical, library, or other setting.\r\n2. Any human users of the data will explicitly be told that the data is incomplete and out-of-date.",
+        "Text Sources": [
+            "1. The data will not be used in any non-experimental clinical, library, or other setting.\r\n2. Any human users of the data will explicitly be told that the data is incomplete and out-of-date."
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -10221,7 +10315,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "OpenSubtitles.com",
+        "Text Sources": [
+            "OpenSubtitles.com"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -10892,7 +10988,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Reddit, Pushshift.io",
+        "Text Sources": [
+            "Reddit, Pushshift.io"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -11070,7 +11168,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Persian wikipedia",
+        "Text Sources": [
+            "Persian wikipedia"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -11158,7 +11258,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "idebate.com, debatewise.org, procon.org",
+        "Text Sources": [
+            "idebate.com, debatewise.org, procon.org"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -11915,7 +12017,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Google",
+        "Text Sources": [
+            "Google"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -12183,7 +12287,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Wikipedia",
+        "Text Sources": [
+            "Wikipedia"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -12403,7 +12509,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Reddit",
+        "Text Sources": [
+            "Reddit"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -12672,7 +12780,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Wikipedia, Science Textbooks",
+        "Text Sources": [
+            "Wikipedia, Science Textbooks"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -12938,7 +13048,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Twitter",
+        "Text Sources": [
+            "Twitter"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -12982,7 +13094,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Twitter",
+        "Text Sources": [
+            "Twitter"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -13424,7 +13538,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Twitter",
+        "Text Sources": [
+            "Twitter"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -14148,7 +14264,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Wikipedia in spanish,wikinews in spanish, AnCora",
+        "Text Sources": [
+            "Wikipedia in spanish,wikinews in spanish, AnCora"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -14558,7 +14676,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Amazon review dataset,the tripadvisor dataset,the yelp dataset",
+        "Text Sources": [
+            "Amazon review dataset,the tripadvisor dataset,the yelp dataset"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -14736,7 +14856,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Catalan news agency",
+        "Text Sources": [
+            "Catalan news agency"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -14780,7 +14902,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "ROCStories Corpus",
+        "Text Sources": [
+            "ROCStories Corpus"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -15223,7 +15347,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Viquipèdia",
+        "Text Sources": [
+            "Viquipèdia"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -16348,7 +16474,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "ag news,amazon,dbpedia,sogou news,yahoo answers,yahoo review",
+        "Text Sources": [
+            "ag news,amazon,dbpedia,sogou news,yahoo answers,yahoo review"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -16436,7 +16564,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Yelp",
+        "Text Sources": [
+            "Yelp"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -16480,7 +16610,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Yelp",
+        "Text Sources": [
+            "Yelp"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -16525,7 +16657,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "BBC Yoruba",
+        "Text Sources": [
+            "BBC Yoruba"
+        ],
         "Creators": null,
         "Licenses": [
             {
@@ -16570,7 +16704,9 @@
         ],
         "Time of Collection": null,
         "Model Generated": "",
-        "Text Sources": "Youtube",
+        "Text Sources": [
+            "Youtube"
+        ],
         "Creators": null,
         "Licenses": [
             {
