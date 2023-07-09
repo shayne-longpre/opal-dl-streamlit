@@ -35,6 +35,23 @@ def load_data():
 #     html_result = response.json()["html"] 
 #     components.html(html_result, height= 360, scrolling=True)
 
+def insert_main_viz():
+    components.html(
+        """
+        <head>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="style.css">
+            <meta charset="utf-8" />
+        </head>
+        <body>
+            <main>
+            </main>
+            <script src="dpi_viz/sketch.js"></script>
+        </body>
+        """,
+        height=600,
+    )
 
 def setup_table(selected_data):
 
@@ -98,6 +115,8 @@ def streamlit_app():
 
     with tab1:
         st.title("Data Provenance Explorer")
+
+        insert_main_viz()
 
         with st.sidebar:
             st.markdown("""Select the preferred criteria for your datasets.""")
