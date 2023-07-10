@@ -29,31 +29,22 @@ def load_data():
     return io.read_data_summary_json("data_summaries/")
 
 
-def render_tweet(tweet_url):
-    api = "https://publish.twitter.com/oembed?url={}".format(tweet_url)
-    response = requests.get(api)
-    html_result = response.json()["html"] 
-    st.text(html_result)
-    components.html(html_result, height= 360, scrolling=True)
+# def render_tweet(tweet_url):
+#     api = "https://publish.twitter.com/oembed?url={}".format(tweet_url)
+#     response = requests.get(api)
+#     html_result = response.json()["html"] 
+#     st.text(html_result)
+#     components.html(html_result, height= 360, scrolling=True)
 
 def insert_main_viz():
     components.html(
         """
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
             <link rel="stylesheet" type="text/css" href="dpi_viz/style.css">
             <meta charset="utf-8" />
 
-        </head>
-        <body>
-            <main>
-            </main>
             <script src="dpi_viz/sketch.js"></script>
-        </body>
-        </html>
         """,
         height=600,
     )
@@ -121,7 +112,7 @@ def streamlit_app():
     with tab1:
         st.title("Data Provenance Explorer")
 
-        render_tweet("https://twitter.com/ShayneRedford/status/1678417430651994118")
+        # render_tweet("https://twitter.com/ShayneRedford/status/1678417430651994118")
         insert_main_viz()
 
         with st.sidebar:
