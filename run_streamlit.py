@@ -37,17 +37,19 @@ def load_data():
 #     components.html(html_result, height= 360, scrolling=True)
 
 def insert_main_viz():
-    components.html(
-        """
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
-            <link rel="stylesheet" type="text/css" href="dpi_viz/style.css">
-            <meta charset="utf-8" />
+    html_content = open("dpi_viz/index.html", 'r', encoding='utf-8')
+    components.html(html_content.read(), height=600)
+    # components.html(
+    #     """
+    #         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+    #         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+    #         <link rel="stylesheet" type="text/css" href="dpi_viz/style.css">
+    #         <meta charset="utf-8" />
 
-            <script src="dpi_viz/sketch.js"></script>
-        """,
-        height=600,
-    )
+    #         <script src="dpi_viz/sketch.js"></script>
+    #     """,
+    #     height=600,
+    # )
 
 def setup_table(selected_data):
 
