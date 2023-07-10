@@ -33,6 +33,7 @@ def render_tweet(tweet_url):
     api = "https://publish.twitter.com/oembed?url={}".format(tweet_url)
     response = requests.get(api)
     html_result = response.json()["html"] 
+    st.text(html_result)
     components.html(html_result, height= 360, scrolling=True)
 
 def insert_main_viz():
