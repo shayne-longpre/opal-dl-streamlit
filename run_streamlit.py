@@ -38,8 +38,8 @@ def load_data():
 
 def insert_main_viz():
     html_content = open("static/index.html", 'r', encoding='utf-8').read()
-    js_content = open("dpi_viz/sketch.js", 'r', encoding='utf-8').read()
-    js_script = f"<script>{js_content}</script>"
+    # js_content = open("dpi_viz/sketch.js", 'r', encoding='utf-8').read()
+    # js_script = f"<script>{js_content}</script>"
 
 
     components.html(html_content, height=600)
