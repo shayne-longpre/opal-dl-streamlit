@@ -38,6 +38,7 @@ def load_data():
 
 def insert_main_viz():
 
+    # p5.js embed
     sketch = '<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>'
     sketch += '<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>'
     sketch += '<script>'
@@ -46,23 +47,6 @@ def insert_main_viz():
     sketch += '</script>'
     components.html(sketch, height=600)
 
-    # html_content = open("static/index.html", 'r', encoding='utf-8').read()
-    # js_content = open("dpi_viz/sketch.js", 'r', encoding='utf-8').read()
-    # js_script = f"<script>{js_content}</script>"
-
-
-    # components.html(html_content, height=600)
-    # components.html(
-    #     """
-    #         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
-    #         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
-    #         <link rel="stylesheet" type="text/css" href="dpi_viz/style.css">
-    #         <meta charset="utf-8" />
-
-    #         <script src="dpi_viz/sketch.js"></script>
-    #     """,
-    #     height=600,
-    # )
 
 def setup_table(selected_data):
 
