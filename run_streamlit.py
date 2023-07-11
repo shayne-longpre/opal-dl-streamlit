@@ -37,7 +37,7 @@ def load_data():
 #     components.html(html_result, height= 360, scrolling=True)
 
 def insert_main_viz():
-    html_content = open("dpi_viz/index.html", 'r', encoding='utf-8').read()
+    html_content = open("static/index.html", 'r', encoding='utf-8').read()
     js_content = open("dpi_viz/sketch.js", 'r', encoding='utf-8').read()
     js_script = f"<script>{js_content}</script>"
 
