@@ -37,12 +37,19 @@ def load_data():
 #     components.html(html_result, height= 360, scrolling=True)
 
 def insert_main_viz():
-    html_content = open("static/index.html", 'r', encoding='utf-8').read()
+
+    sketch = '<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js"></script>'
+    sketch += '<script>'
+    sketch += open("static/sketch.js", 'r', encoding='utf-8').read()
+    sketch += '</script>'
+    components.html(sketch, height=600)
+
+    # html_content = open("static/index.html", 'r', encoding='utf-8').read()
     # js_content = open("dpi_viz/sketch.js", 'r', encoding='utf-8').read()
     # js_script = f"<script>{js_content}</script>"
 
 
-    components.html(html_content, height=600)
+    # components.html(html_content, height=600)
     # components.html(
     #     """
     #         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
