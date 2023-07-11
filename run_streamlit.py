@@ -40,7 +40,7 @@ def insert_main_viz():
 
     sketch = '<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.min.js"></script>'
     sketch += '<script>'
-    sketch += "const DATAFILE = " + open("static/ds_vis1.json", 'r', encoding='utf-8').read() + "\n"
+    sketch += "const DATAFILE = " + open("static/ds_viz1.json", 'r', encoding='utf-8').read() + "\n"
     sketch += open("static/sketch.js", 'r', encoding='utf-8').read()
     sketch += '</script>'
     components.html(sketch, height=600)
