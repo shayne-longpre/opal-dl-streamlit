@@ -13,7 +13,7 @@ let collectionTable;
 
 function preload() {
   // load collections
-  dataSummary = loadJSON("ds_viz1.json");
+  dataSummary = loadJSON(DATAFILE);
 }
 
 function setup() {
