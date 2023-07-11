@@ -42,7 +42,7 @@ def insert_main_viz():
     js_script = f"<script>{js_content}</script>"
 
 
-    components.html(js_script + html_content, height=600)
+    components.html(html_content, height=600)
     # components.html(
     #     """
     #         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
