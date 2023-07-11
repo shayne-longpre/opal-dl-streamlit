@@ -13,7 +13,7 @@ let collectionTable;
 
 function preload() {
   // load collections
-  dataSummary = loadJSON(DATAFILE);
+  dataSummary = JSONDATA;
 }
 
 function setup() {
