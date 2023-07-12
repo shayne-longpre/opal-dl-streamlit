@@ -257,27 +257,26 @@ def streamlit_app():
                 # for info_key in collection_info_keys:
                 #     st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
 
+                def format_markdown_entry(df, info_key):
+                    dset_info = extract_infos(df, info_key)
+                    if dset_info:
+                        markdown_txt = dset_info
+                        if isinstance(dset_info, list) or isinstance(dset_info, set):
+                            markdown_txt = '\n*'.join(dset_info)
+                        st.markdown(f"{info_key}: {markdown_txt}")
+
                 if dataset_select != "All":
                     st.caption("Dataset Information")
                     for info_key in dataset_info_keys:
-                        dset_info = extract_infos(tab2_selected_df, info_key)
-                        if dset_info:
-                            markdown_txt = '\n*'.join(dset_info) if isinstance(dset_info, list) else dset_info
-                            st.markdown(f"{info_key}: {markdown_txt}")
+                        format_markdown_entry(tab2_selected_df, info_key)
 
                 st.caption("Data Characteristics")
                 for info_key in data_characteristics_info_keys:
-                    dset_info = extract_infos(tab2_selected_df, info_key)
-                    if dset_info:
-                        markdown_txt = '\n*'.join(dset_info) if isinstance(dset_info, list) else dset_info
-                        st.markdown(f"{info_key}: {markdown_txt}")
+                    format_markdown_entry(tab2_selected_df, info_key)
 
                 st.caption("Data Provenance")
                 for info_key in data_provenance_info_keys:
-                    dset_info = extract_infos(tab2_selected_df, info_key)
-                    if dset_info:
-                        markdown_txt = '\n*'.join(dset_info) if isinstance(dset_info, list) else dset_info
-                        st.markdown(f"{info_key}: {markdown_txt}")
+                    format_markdown_entry(tab2_selected_df, info_key)
 
         
 
