@@ -45,7 +45,7 @@ def insert_main_viz():
     sketch += "const JSONDATA = " + open("static/ds_viz1.json", 'r', encoding='utf-8').read() + "\n"
     sketch += open("static/sketch.js", 'r', encoding='utf-8').read()
     sketch += '</script>'
-    components.html(sketch, height=600)
+    components.html(sketch, height=800, scrolling=True)
 
 
 def setup_table(selected_data):
