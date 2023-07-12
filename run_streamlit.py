@@ -106,7 +106,7 @@ def streamlit_app():
     INFO["data"] = load_data()
     df_metadata = util.compute_metrics(INFO["data"])
 
-    tab1, tab2 = st.tabs(["Data Selection", "Project Details"])
+    tab1, tab2 = st.tabs(["Data Selection", "Data Explorer"])
 
     with tab1:
         st.title("Data Provenance Explorer")
@@ -260,15 +260,24 @@ def streamlit_app():
                 if dataset_select != "All":
                     st.caption("Dataset Information")
                     for info_key in dataset_info_keys:
-                        st.text(f"{info_key}: {extract_infos(tab2_selected_df, info_key)}")
+                        dset_info = extract_infos(tab2_selected_df, info_key)
+                        if dset_info:
+                            markdown_txt = '\n*'.join(dset_info) if isinstance(dset_info, list) else dset_info
+                            st.markdown(f"{info_key}: {markdown_txt}")
 
                 st.caption("Data Characteristics")
                 for info_key in data_characteristics_info_keys:
-                    st.text(f"{info_key}: {extract_infos(tab2_selected_df, info_key)}")
+                    dset_info = extract_infos(tab2_selected_df, info_key)
+                    if dset_info:
+                        markdown_txt = '\n*'.join(dset_info) if isinstance(dset_info, list) else dset_info
+                        st.markdown(f"{info_key}: {markdown_txt}")
 
                 st.caption("Data Provenance")
                 for info_key in data_provenance_info_keys:
-                    st.text(f"{info_key}: {extract_infos(tab2_selected_df, info_key)}")
+                    dset_info = extract_infos(tab2_selected_df, info_key)
+                    if dset_info:
+                        markdown_txt = '\n*'.join(dset_info) if isinstance(dset_info, list) else dset_info
+                        st.markdown(f"{info_key}: {markdown_txt}")
 
         
 
