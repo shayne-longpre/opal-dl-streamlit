@@ -262,7 +262,7 @@ def streamlit_app():
                     if dset_info:
                         markdown_txt = dset_info
                         if isinstance(dset_info, list) or isinstance(dset_info, set):
-                            markdown_txt = '\n* '.join(dset_info)
+                            markdown_txt = "\n* " + '\n* '.join(dset_info)
                         st.markdown(f"{info_key}: {markdown_txt}")
 
                 if dataset_select != "All":
