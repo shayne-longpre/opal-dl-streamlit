@@ -72,22 +72,22 @@ from src import constants
 #     return filtered_df
 
 
-# def compute_metrics(df):
-#     datasets_count = dict(Counter(df["Unique Dataset Identifier"]))
-#     collections_count = dict(Counter(df["Collection"].tolist()).most_common())
-#     language_counts = dict(Counter([lang for row in df["Languages"] for lang in row]).most_common())
-#     taskcat_counts = dict(Counter([tc for row in df["Task Categories"] for tc in row]).most_common())
-#     format_counts = dict(Counter([fmt for row in df["Format"] for fmt in row]).most_common())
-#     license_counts = dict(Counter([license_info["License"] for licenses in df["Licenses"].tolist() for license_info in licenses if license_info["License"]]).most_common())
+def compute_metrics(df):
+    datasets_count = dict(Counter(df["Unique Dataset Identifier"]))
+    collections_count = dict(Counter(df["Collection"].tolist()).most_common())
+    language_counts = dict(Counter([lang for row in df["Languages"] for lang in row]).most_common())
+    taskcat_counts = dict(Counter([tc for row in df["Task Categories"] for tc in row]).most_common())
+    format_counts = dict(Counter([fmt for row in df["Format"] for fmt in row]).most_common())
+    license_counts = dict(Counter([license_info["License"] for licenses in df["Licenses"].tolist() for license_info in licenses if license_info["License"]]).most_common())
     
-#     return {
-#         "collections": collections_count,
-#         "datasets": datasets_count,
-#         "languages": language_counts,
-#         "task_categories": taskcat_counts,
-#         "licenses": license_counts,
-#         "formats": format_counts,
-#     }
+    return {
+        "collections": collections_count,
+        "datasets": datasets_count,
+        "languages": language_counts,
+        "task_categories": taskcat_counts,
+        "licenses": license_counts,
+        "formats": format_counts,
+    }
 
 
 def prep_collection_table(df, original_df, metrics):
