@@ -111,10 +111,8 @@ def insert_metric_container(title, key, metrics):
 
 def streamlit_app():
     st.set_page_config(page_title="Data Provenance Explorer", layout="wide")#, initial_sidebar_state='collapsed')
-    INFO = {
-        "data": load_data(),
-        "constants": load_constants()
-    }
+    INFO["constants"] = load_constants()
+    INFO["data"] = load_data()
 
     df_metadata = util.compute_metrics(INFO["data"])
 
