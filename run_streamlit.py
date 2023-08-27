@@ -134,9 +134,9 @@ def streamlit_app():
                 # st.write("Select the acceptable license values for constituent datasets")
 
                 license_multiselect = st.select_slider(
-                    'Select a color of the rainbow',
-                    options=reversed(constants.LICENSE_USE_TYPES),
-                    value="Academic-Only")
+                    'Select the datasets licensed for these use cases',
+                    options=constants.LICENSE_USE_CLASSES,
+                    value="Commercial")
                 # st.write('My favorite color is', color)
                 # license_multiselect = st.multiselect(
                 #     'Select the acceptable license values for constituent datasets',
@@ -146,25 +146,25 @@ def streamlit_app():
                 # with data_select_cols[1]:
                 language_multiselect = st.multiselect(
                     'Select the languages to cover in your datasets',
-                    ["All"] + list(constants.LANGUAGE_GROUPS.keys()),
+                    ["All"] + list(INFO["constants"]["LANGUAGE_GROUPS"].keys()),
                     ["All"])
 
                 # with data_select_cols[2]:
                 taskcats_multiselect = st.multiselect(
                     'Select the task categories to cover in your datasets',
-                    ["All"] + list(constants.TASK_CATEGORY_GROUPS.keys()),
+                    ["All"] + list(INFO["constants"]["TASK_GROUPS"].keys()),
                     ["All"])
 
                 with st.expander("More advanced criteria"):
 
                     format_multiselect = st.multiselect(
                         'Select the format types to cover in your datasets',
-                        ["All"] + list(constants.FORMAT_GROUPS.keys()),
+                        ["All"] + list(INFO["constants"]["FORMAT_GROUPS"].keys()),
                         ["All"])
 
                     domain_multiselect = st.multiselect(
                         'Select the domain types to cover in your datasets',
-                        ["All"] + list(constants.DOMAIN_GROUPS.keys()),
+                        ["All"] + list(INFO["constants"]["DOMAIN_GROUPS"].keys()),
                         ["All"])
 
                     time_range_selection = st.slider(
