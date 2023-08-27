@@ -98,6 +98,7 @@ def read_data_summary_json(summary_dir: str):
     for collection_fp in listdir_nohidden(summary_dir):
         if "_template.json" in collection_fp or "_template_spec.yaml" in collection_fp:
             continue
+        print(collection_fp)
         collection_summaries.extend(list(read_json(collection_fp).values()))
     return collection_summaries
     # return pd.DataFrame(collection_summaries).fillna("")
