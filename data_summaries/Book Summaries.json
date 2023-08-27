@@ -1,0 +1,50 @@
+{
+    "book-summaries": {
+        "Unique Dataset Identifier": "book-summaries",
+        "Dataset Name": "book-summaries",
+        "Collection": "Book Summaries",
+        "Collection URL": "https://huggingface.co/datasets/emozilla/booksum-summary-analysis_gptneox-8192",
+        "Dataset URL": "https://github.com/salesforce/booksum",
+        "GitHub URL": "https://github.com/salesforce/booksum",
+        "Hugging Face URL": "https://huggingface.co/datasets/emozilla/booksum-summary-analysis_gptneox-8192",
+        "Paper Title": "",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/booksum",
+        "ArXiv URL": "https://arxiv.org/abs/2105.08209v2",
+        "Semantic Scholar Corpus ID": 234762900,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Summarization"
+        ],
+        "Text Domains": [
+            "Books",
+            "Web"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": "",
+        "Text Sources": [
+            "The Project Gutenberg License",
+            "Internet Archive"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Salesforce Research",
+            "Huggingface",
+            "Yale University"
+        ],
+        "Licenses": [
+            {
+                "License": "Unspecified",
+                "License URL": ""
+            }
+        ],
+        "License Notes": "Derived from Project Gutenberg(https://www.gutenberg.org) and Internet Archive(https://archive.org)",
+        "License Verified By": "Kartik Perisetla",
+        "Dataset Filter IDs": [
+            "summary"
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "stack-exchange-instruction": {
+        "Unique Dataset Identifier": "stack-exchange-instruction",
+        "Dataset Name": "Stack Exchange Instruction",
+        "Collection": "Stack Exchange Instruction",
+        "Collection URL": "https://huggingface.co/datasets/ArmelR/stack-exchange-instruction",
+        "Dataset URL": "https://huggingface.co/datasets/ArmelR/stack-exchange-instruction",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/ArmelR/stack-exchange-instruction",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Misc."
+        ],
+        "Text Domains": [
+            "Miscellaneous"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Sources": [
+            "https://stackexchange.com/"
+        ],
+        "Model Generated": [],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-SA 4.0",
+                "License URL": "https://stackoverflow.com/legal/terms-of-service/public#licensing"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Damien",
+        "Dataset Filter IDs": [
+            "stack-exchange-instruction"
+        ]
+    }
+}

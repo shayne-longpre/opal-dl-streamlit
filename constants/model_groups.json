@@ -1,0 +1,15 @@
+{
+    "OpenAI": [
+        "OpenAI GPT-3",
+        "OpenAI ChatGPT",
+        "OpenAI GPT-4",
+        "OpenAI Codex",
+        "OpenAI Playground"
+    ],
+    "Other": [
+        "Anthropic Internal Models",
+        "CTRL",
+        "T5-XXL",
+        "StarCoder"
+    ]
+}

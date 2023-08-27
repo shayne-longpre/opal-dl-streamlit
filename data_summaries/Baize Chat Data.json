@@ -1,0 +1,196 @@
+{
+    "baize-alpaca-chat": {
+        "Unique Dataset Identifier": "baize-alpaca-chat",
+        "Dataset Name": "baize-alpaca_chat",
+        "Collection": "Baize Chat Data",
+        "Collection URL": "https://github.com/project-baize/baize-chatbot",
+        "Dataset URL": "https://github.com/project-baize/baize-chatbot",
+        "GitHub URL": "https://github.com/project-baize/baize-chatbot",
+        "Hugging Face URL": "https://huggingface.co/project-baize",
+        "Paper Title": "Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.01196",
+        "Semantic Scholar Corpus ID": 257912848,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialog"
+        ],
+        "Text Domains": [
+            "Miscellaneous"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": "",
+        "Text Sources": [
+            "Alpaca"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3"
+        ],
+        "Creators": [
+            "UC San Diego",
+            "Sun Yat-Sen University",
+            "Microsoft Research"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+            }
+        ],
+        "License Notes": "Alpaca generated responses.",
+        "License Verified By": "Kartik Perisetla",
+        "Dataset Filter IDs": [
+            "alpaca_chat_data"
+        ]
+    },
+    "baize-medical-chat": {
+        "Unique Dataset Identifier": "baize-medical-chat",
+        "Dataset Name": "baize-medical_chat",
+        "Collection": "Baize Chat Data",
+        "Collection URL": "https://github.com/project-baize/baize-chatbot",
+        "Dataset URL": "https://github.com/project-baize/baize-chatbot",
+        "GitHub URL": "https://github.com/project-baize/baize-chatbot",
+        "Hugging Face URL": "https://huggingface.co/project-baize",
+        "Paper Title": "Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.01196",
+        "Semantic Scholar Corpus ID": 257912848,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialog"
+        ],
+        "Text Domains": [
+            "Medicine",
+            "Healthcare"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": "",
+        "Text Sources": [
+            "MedQuAD"
+        ],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "UC San Diego",
+            "Sun Yat-Sen University",
+            "Microsoft Research"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+            }
+        ],
+        "License Notes": "Includes rows from MedQuAD and GPT-3.5-turbo generated responses.",
+        "License Verified By": "Kartik Perisetla",
+        "Dataset Filter IDs": [
+            "medical_chat_data"
+        ]
+    },
+    "baize-quora-chat": {
+        "Unique Dataset Identifier": "baize-quora-chat",
+        "Dataset Name": "baize-quora_chat",
+        "Collection": "Baize Chat Data",
+        "Collection URL": "https://github.com/project-baize/baize-chatbot",
+        "Dataset URL": "https://github.com/project-baize/baize-chatbot",
+        "GitHub URL": "https://github.com/project-baize/baize-chatbot",
+        "Hugging Face URL": "https://huggingface.co/project-baize",
+        "Paper Title": "Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.01196",
+        "Semantic Scholar Corpus ID": 257912848,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Dialog"
+        ],
+        "Text Domains": [
+            "Quora"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": "",
+        "Text Sources": [
+            "Quora"
+        ],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "UC San Diego",
+            "Sun Yat-Sen University",
+            "Microsoft Research"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+            }
+        ],
+        "License Notes": "Includes rows from Quora and GPT-3.5-turbo generated responses.",
+        "License Verified By": "Kartik Perisetla",
+        "Dataset Filter IDs": [
+            "quora_chat_data"
+        ]
+    },
+    "baize-stackoverflow-chat": {
+        "Unique Dataset Identifier": "baize-stackoverflow-chat",
+        "Dataset Name": "baize-stackoverflow_chat",
+        "Collection": "Baize Chat Data",
+        "Collection URL": "https://github.com/project-baize/baize-chatbot",
+        "Dataset URL": "https://github.com/project-baize/baize-chatbot",
+        "GitHub URL": "https://github.com/project-baize/baize-chatbot",
+        "Hugging Face URL": "https://huggingface.co/project-baize",
+        "Paper Title": "Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.01196",
+        "Semantic Scholar Corpus ID": 257912848,
+        "Languages": [
+            "English",
+            "Code"
+        ],
+        "Task Categories": [
+            "Dialog"
+        ],
+        "Text Domains": [
+            "StackOverflow"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": "",
+        "Text Sources": [
+            "StackOverflow"
+        ],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "UC San Diego",
+            "Sun Yat-Sen University",
+            "Microsoft Research"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://creativecommons.org/licenses/by-nc/4.0/"
+            }
+        ],
+        "License Notes": "Includes rows from StackOverflow and GPT-3.5-turbo generated responses.",
+        "License Verified By": "Kartik Perisetla",
+        "Dataset Filter IDs": [
+            "stackoverflow_chat_data"
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "airoboros": {
+        "Unique Dataset Identifier": "airoboros",
+        "Dataset Name": "airoboros-gpt4-1.2",
+        "Collection": "Airoboros",
+        "Collection URL": "https://github.com/jondurbin/airoboros",
+        "Dataset URL": "https://github.com/jondurbin/airoboros",
+        "GitHub URL": "https://github.com/jondurbin/airoboros",
+        "Hugging Face URL": "https://huggingface.co/datasets/jondurbin/airoboros-gpt4-1.2",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Question Understanding",
+            "Code Generation",
+            "Miscellaneous",
+            "Code Generation",
+            "Brainstorming",
+            "Creative Writing"
+        ],
+        "Text Domains": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": "",
+        "Text Sources": [
+            "GPT-4",
+            "GPT-3.5 Turbo"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-4",
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://huggingface.co/datasets/jondurbin/airoboros-gpt4-1.2"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://github.com/facebookresearch/llama/blob/main/LICENSE"
+            }
+        ],
+        "License Notes": "A variarion of implementing method on https://arxiv.org/abs/2212.10560 ",
+        "License Verified By": "Alexis Wu",
+        "Dataset Filter IDs": [
+            "airoboros"
+        ]
+    }
+}

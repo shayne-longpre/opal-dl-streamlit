@@ -1,0 +1,47 @@
+{
+    "ultrachat": {
+        "Unique Dataset Identifier": "ultrachat",
+        "Dataset Name": "ultrachat",
+        "Collection": "UltraChat",
+        "Collection URL": "https://github.com/thunlp/UltraChat",
+        "Dataset URL": "https://github.com/thunlp/UltraChat",
+        "GitHub URL": "https://github.com/thunlp/UltraChat",
+        "Hugging Face URL": "https://huggingface.co/datasets/stingning/ultrachat",
+        "Paper Title": "Enhancing Chat Language Models by Scaling High-quality Instructional Conversations",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2305.14233",
+        "Semantic Scholar Corpus ID": 258840897,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Question Answering",
+            "Dialog",
+            "Creative Writing"
+        ],
+        "Text Domains": [],
+        "Format": [
+            "Zero-shot",
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": "",
+        "Text Sources": [],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "Tsinghua University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC 4.0",
+                "License URL": "https://github.com/thunlp/UltraChat#data"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Alexis Wu",
+        "Dataset Filter IDs": [
+            "ultrachat"
+        ]
+    }
+}

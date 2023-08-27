@@ -1,0 +1,53 @@
+{
+    "gorilla-apibench": {
+        "Unique Dataset Identifier": "gorilla-apibench",
+        "Dataset Name": "gorilla-apibench",
+        "Collection": "Gorilla",
+        "Collection URL": "https://gorilla.cs.berkeley.edu/",
+        "Dataset URL": "https://gorilla.cs.berkeley.edu/",
+        "GitHub URL": "https://github.com/ShishirPatil/gorilla",
+        "Hugging Face URL": "https://huggingface.co/datasets/gorilla-llm/APIBench",
+        "Paper Title": "Gorilla: Large Language Model Connected with Massive APIs",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2305.15334",
+        "Semantic Scholar Corpus ID": "258865184",
+        "Languages": [
+            "English",
+            "Python"
+        ],
+        "Task Categories": [
+            "Code",
+            "Text to Code"
+        ],
+        "Text Domains": [
+            "Code"
+        ],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": {},
+        "Text Sources": [],
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
+        "Creators": [
+            "UC Berkeley",
+            "Microsoft Research"
+        ],
+        "Licenses": [
+            {
+                "License": "Apache License 2.0",
+                "License URL": "https://huggingface.co/datasets/gorilla-llm/APIBench"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2305.15334"
+            }
+        ],
+        "License Notes": "HF page says Apache 2.0; paper says GPT-4 used",
+        "License Verified By": "Will",
+        "Dataset Filter IDs": [
+            "gorilla-apibench"
+        ]
+    }
+}

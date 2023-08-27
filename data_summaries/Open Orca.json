@@ -1,0 +1,226 @@
+{
+    "open-orca-niv": {
+        "Unique Dataset Identifier": "open-orca-niv",
+        "Dataset Name": "Open Orca niv",
+        "Collection": "Open Orca",
+        "Collection URL": "https://huggingface.co/datasets/Open-Orca/OpenOrca",
+        "Dataset URL": "https://atlas.nomic.ai/map/c1b88b47-2d9b-47e0-9002-b80766792582/2560fd25-52fe-42f1-a58f-ff5eccc890d2",
+        "GitHub URL": "https://github.com/Agora-X/Orca",
+        "Hugging Face URL": "https://huggingface.co/datasets/Open-Orca/OpenOrca",
+        "Paper Title": "Orca: Progressive Learning from Complex Explanation Traces of GPT-4",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/big-bench",
+        "ArXiv URL": "https://arxiv.org/abs/2306.02707",
+        "Semantic Scholar Corpus ID": "256415991",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Classification",
+            "Question Answering",
+            "Information Extraction",
+            "Question Understanding"
+        ],
+        "Text Domains": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": "",
+        "Text Sources": [
+            "The Flan Collection"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3",
+            "OpenAI GPT-4"
+        ],
+        "Creators": [
+            "Microsoft Research"
+        ],
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": "https://github.com/google-research/FLAN/tree/main/flan/v2"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/Open-Orca/OpenOrca"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://github.com/Agora-X/Orca"
+            }
+        ],
+        "License Notes": "A data instance in this dataset represents entries from the FLAN collection which have been augmented by submitting the listed question to either GPT-4 or GPT-3.5. The response is then entered into the response field.",
+        "License Verified By": "Alexis Wu",
+        "Dataset Filter IDs": [
+            "niv"
+        ]
+    },
+    "open-orca-t0": {
+        "Unique Dataset Identifier": "open-orca-t0",
+        "Dataset Name": "Open Orca t0",
+        "Collection": "Open Orca",
+        "Collection URL": "https://huggingface.co/datasets/Open-Orca/OpenOrca",
+        "Dataset URL": "https://atlas.nomic.ai/map/c1b88b47-2d9b-47e0-9002-b80766792582/2560fd25-52fe-42f1-a58f-ff5eccc890d2",
+        "GitHub URL": "https://github.com/Agora-X/Orca",
+        "Hugging Face URL": "https://huggingface.co/datasets/Open-Orca/OpenOrca",
+        "Paper Title": "Orca: Progressive Learning from Complex Explanation Traces of GPT-4",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/big-bench",
+        "ArXiv URL": "https://arxiv.org/abs/2306.02707",
+        "Semantic Scholar Corpus ID": "256415991",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Classification",
+            "Question Answering",
+            "Information Extraction",
+            "Question Understanding"
+        ],
+        "Text Domains": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": "",
+        "Text Sources": [
+            "The Flan Collection"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3",
+            "OpenAI GPT-4"
+        ],
+        "Creators": [
+            "Microsoft Research"
+        ],
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": "https://github.com/google-research/FLAN/tree/main/flan/v2"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/Open-Orca/OpenOrca"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://github.com/Agora-X/Orca"
+            }
+        ],
+        "License Notes": "A data instance in this dataset represents entries from the FLAN collection which have been augmented by submitting the listed question to either GPT-4 or GPT-3.5. The response is then entered into the response field.",
+        "License Verified By": "Alexis Wu",
+        "Dataset Filter IDs": [
+            "t0"
+        ]
+    },
+    "open-orca-cot": {
+        "Unique Dataset Identifier": "open-orca-cot",
+        "Dataset Name": "Open Orca cot",
+        "Collection": "Open Orca",
+        "Collection URL": "https://huggingface.co/datasets/Open-Orca/OpenOrca",
+        "Dataset URL": "https://atlas.nomic.ai/map/c1b88b47-2d9b-47e0-9002-b80766792582/2560fd25-52fe-42f1-a58f-ff5eccc890d2",
+        "GitHub URL": "https://github.com/Agora-X/Orca",
+        "Hugging Face URL": "https://huggingface.co/datasets/Open-Orca/OpenOrca",
+        "Paper Title": "Orca: Progressive Learning from Complex Explanation Traces of GPT-4",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/big-bench",
+        "ArXiv URL": "https://arxiv.org/abs/2306.02707",
+        "Semantic Scholar Corpus ID": "256415991",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Classification",
+            "Question Answering",
+            "Information Extraction",
+            "Question Understanding"
+        ],
+        "Text Domains": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": "",
+        "Text Sources": [
+            "The Flan Collection"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3",
+            "OpenAI GPT-4"
+        ],
+        "Creators": [
+            "Microsoft Research"
+        ],
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": "https://github.com/google-research/FLAN/tree/main/flan/v2"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/Open-Orca/OpenOrca"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://github.com/Agora-X/Orca"
+            }
+        ],
+        "License Notes": "A data instance in this dataset represents entries from the FLAN collection which have been augmented by submitting the listed question to either GPT-4 or GPT-3.5. The response is then entered into the response field.",
+        "License Verified By": "Alexis Wu",
+        "Dataset Filter IDs": [
+            "cot"
+        ]
+    },
+    "open-orca-flan": {
+        "Unique Dataset Identifier": "open-orca-flan",
+        "Dataset Name": "Open Orca flan",
+        "Collection": "Open Orca",
+        "Collection URL": "https://huggingface.co/datasets/Open-Orca/OpenOrca",
+        "Dataset URL": "https://atlas.nomic.ai/map/c1b88b47-2d9b-47e0-9002-b80766792582/2560fd25-52fe-42f1-a58f-ff5eccc890d2",
+        "GitHub URL": "https://github.com/Agora-X/Orca",
+        "Hugging Face URL": "https://huggingface.co/datasets/Open-Orca/OpenOrca",
+        "Paper Title": "Orca: Progressive Learning from Complex Explanation Traces of GPT-4",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/big-bench",
+        "ArXiv URL": "https://arxiv.org/abs/2306.02707",
+        "Semantic Scholar Corpus ID": "256415991",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Text Classification",
+            "Question Answering",
+            "Information Extraction",
+            "Question Understanding"
+        ],
+        "Text Domains": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": "",
+        "Text Sources": [
+            "The Flan Collection"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3",
+            "OpenAI GPT-4"
+        ],
+        "Creators": [
+            "Microsoft Research"
+        ],
+        "Licenses": [
+            {
+                "License": "Various",
+                "License URL": "https://github.com/google-research/FLAN/tree/main/flan/v2"
+            },
+            {
+                "License": "MIT License",
+                "License URL": "https://huggingface.co/datasets/Open-Orca/OpenOrca"
+            },
+            {
+                "License": "OpenAI",
+                "License URL": "https://github.com/Agora-X/Orca"
+            }
+        ],
+        "License Notes": "A data instance in this dataset represents entries from the FLAN collection which have been augmented by submitting the listed question to either GPT-4 or GPT-3.5. The response is then entered into the response field.",
+        "License Verified By": "Alexis Wu",
+        "Dataset Filter IDs": [
+            "flan"
+        ]
+    }
+}

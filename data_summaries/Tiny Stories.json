@@ -1,0 +1,51 @@
+{
+    "tiny-stories": {
+        "Unique Dataset Identifier": "tiny-stories",
+        "Dataset Name": "tiny-stories",
+        "Collection": "Tiny Stories",
+        "Collection URL": "https://huggingface.co/datasets/roneneldan/TinyStories",
+        "Dataset URL": "https://huggingface.co/datasets/roneneldan/TinyStoriesInstruct",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/roneneldan/TinyStories",
+        "Paper Title": "TinyStories: How Small Can Language Models Be and Still Speak Coherent English?",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2305.07759",
+        "Semantic Scholar Corpus ID": "",
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Creative Writing",
+            "Story Composition",
+            "Dialog"
+        ],
+        "Text Domains": [],
+        "Format": [
+            "Zero-shot"
+        ],
+        "Text Metrics": "",
+        "Text Sources": [
+            "Microsoft Research"
+        ],
+        "Model Generated": [
+            "OpenAI GPT-3",
+            "OpenAI GPT-4"
+        ],
+        "Creators": [],
+        "Licenses": [
+            {
+                "License": "OpenAI",
+                "License URL": "https://arxiv.org/abs/2305.07759"
+            },
+            {
+                "License": "CDLA Sharing 1.0",
+                "License URL": "https://huggingface.co/datasets/roneneldan/TinyStories"
+            }
+        ],
+        "License Notes": "",
+        "License Verified By": "Will",
+        "Dataset Filter IDs": [
+            "tiny-stories"
+        ]
+    }
+}

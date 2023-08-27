@@ -1,0 +1,240 @@
+{
+    "lima-stackexchange": {
+        "Unique Dataset Identifier": "lima-stackexchange",
+        "Dataset Name": "LIMA stackexchange",
+        "Collection": "LIMA",
+        "Collection URL": "https://huggingface.co/datasets/GAIR/lima",
+        "Dataset URL": "https://huggingface.co/datasets/GAIR/lima",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/GAIR/lima",
+        "Paper Title": "LIMA: Less Is More for Alignment",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2305.11206",
+        "Semantic Scholar Corpus ID": 258822910,
+        "Languages": [
+            "English",
+            "Code"
+        ],
+        "Task Categories": [
+            "Misc."
+        ],
+        "Text Domains": [
+            "Web",
+            "Code"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": "",
+        "Text Sources": [
+            "Stack Exchange"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Meta",
+            "Carnegie Mellon University",
+            "University of Southern California",
+            "Tel Aviv University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/GAIR/lima"
+            }
+        ],
+        "License Notes": "If the source data of LIMA has a stricter license than CC BY-NC-SA, the LIMA dataset follows the same. Otherwise, it follows the CC BY-NC-SA license.",
+        "License Verified By": "Alexis (Xinyi) Wu",
+        "Dataset Filter IDs": [
+            "stackexchange"
+        ]
+    },
+    "lima-authors": {
+        "Unique Dataset Identifier": "lima-authors",
+        "Dataset Name": "LIMA authors",
+        "Collection": "LIMA",
+        "Collection URL": "https://huggingface.co/datasets/GAIR/lima",
+        "Dataset URL": "https://huggingface.co/datasets/GAIR/lima",
+        "GitHub URL": "https://huggingface.co/datasets/GAIR/lima",
+        "Hugging Face URL": "https://huggingface.co/datasets/GAIR/lima",
+        "Paper Title": "LIMA: Less Is More for Alignment",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2305.11206",
+        "Semantic Scholar Corpus ID": 258822910,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Misc."
+        ],
+        "Text Domains": [],
+        "Format": [
+            "Zero-shot",
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": "",
+        "Text Sources": [],
+        "Model Generated": [],
+        "Creators": [
+            "Meta",
+            "Carnegie Mellon University",
+            "University of Southern California",
+            "Tel Aviv University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/GAIR/lima"
+            }
+        ],
+        "License Notes": "If the source data of LIMA has a stricter license than CC BY-NC-SA, the LIMA dataset follows the same. Otherwise, it follows the CC BY-NC-SA license.",
+        "License Verified By": "Alexis (Xinyi) Wu",
+        "Dataset Filter IDs": [
+            "authors"
+        ]
+    },
+    "lima-writingprompts": {
+        "Unique Dataset Identifier": "lima-writingprompts",
+        "Dataset Name": "LIMA writingprompts",
+        "Collection": "LIMA",
+        "Collection URL": "https://huggingface.co/datasets/GAIR/lima",
+        "Dataset URL": "https://huggingface.co/datasets/GAIR/lima",
+        "GitHub URL": "https://huggingface.co/datasets/GAIR/lima",
+        "Hugging Face URL": "https://huggingface.co/datasets/GAIR/lima",
+        "Paper Title": "LIMA: Less Is More for Alignment",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2305.11206",
+        "Semantic Scholar Corpus ID": 258822910,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Misc."
+        ],
+        "Text Domains": [
+            "Social Media"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": "",
+        "Text Sources": [
+            "Reddit"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Meta",
+            "Carnegie Mellon University",
+            "University of Southern California",
+            "Tel Aviv University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/GAIR/lima"
+            }
+        ],
+        "License Notes": "If the source data of LIMA has a stricter license than CC BY-NC-SA, the LIMA dataset follows the same. Otherwise, it follows the CC BY-NC-SA license.",
+        "License Verified By": "Alexis (Xinyi) Wu",
+        "Dataset Filter IDs": [
+            "writingprompts"
+        ]
+    },
+    "lima-wikihow": {
+        "Unique Dataset Identifier": "lima-wikihow",
+        "Dataset Name": "LIMA wikihow",
+        "Collection": "LIMA",
+        "Collection URL": "https://huggingface.co/datasets/GAIR/lima",
+        "Dataset URL": "https://huggingface.co/datasets/GAIR/lima",
+        "GitHub URL": "https://huggingface.co/datasets/GAIR/lima",
+        "Hugging Face URL": "https://huggingface.co/datasets/GAIR/lima",
+        "Paper Title": "LIMA: Less Is More for Alignment",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2305.11206",
+        "Semantic Scholar Corpus ID": 258822910,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Misc."
+        ],
+        "Text Domains": [
+            "Wiki"
+        ],
+        "Format": [
+            "Multi-turn Dialog",
+            "Few-shot"
+        ],
+        "Text Metrics": "",
+        "Text Sources": [
+            "wikiHow"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Meta",
+            "Carnegie Mellon University",
+            "University of Southern California",
+            "Tel Aviv University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/GAIR/lima"
+            }
+        ],
+        "License Notes": "If the source data of LIMA has a stricter license than CC BY-NC-SA, the LIMA dataset follows the same. Otherwise, it follows the CC BY-NC-SA license.",
+        "License Verified By": "Alexis (Xinyi)  Wu",
+        "Dataset Filter IDs": [
+            "wikihow"
+        ]
+    },
+    "lima-nlp": {
+        "Unique Dataset Identifier": "lima-nlp",
+        "Dataset Name": "LIMA nlp",
+        "Collection": "LIMA",
+        "Collection URL": "https://huggingface.co/datasets/GAIR/lima",
+        "Dataset URL": "https://huggingface.co/datasets/GAIR/lima",
+        "GitHub URL": "https://huggingface.co/datasets/GAIR/lima",
+        "Hugging Face URL": "https://huggingface.co/datasets/GAIR/lima",
+        "Paper Title": "LIMA: Less Is More for Alignment",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2305.11206",
+        "Semantic Scholar Corpus ID": 258822910,
+        "Languages": [
+            "English"
+        ],
+        "Task Categories": [
+            "Misc."
+        ],
+        "Text Domains": [
+            "Web"
+        ],
+        "Format": [
+            "Zero-shot",
+            "Multi-turn Dialog"
+        ],
+        "Text Metrics": "",
+        "Text Sources": [
+            "Natural Instructions (Google searches)"
+        ],
+        "Model Generated": [],
+        "Creators": [
+            "Meta",
+            "Carnegie Mellon University",
+            "University of Southern California",
+            "Tel Aviv University"
+        ],
+        "Licenses": [
+            {
+                "License": "CC BY-NC-SA 4.0",
+                "License URL": "https://huggingface.co/datasets/GAIR/lima"
+            }
+        ],
+        "License Notes": "If the source data of LIMA has a stricter license than CC BY-NC-SA, the LIMA dataset follows the same. Otherwise, it follows the CC BY-NC-SA license.",
+        "License Verified By": "Alexis (Xinyi)  Wu",
+        "Dataset Filter IDs": [
+            "nlp"
+        ]
+    }
+}
