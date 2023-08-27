@@ -138,6 +138,9 @@ def streamlit_app():
                     options=constants.LICENSE_USE_CLASSES,
                     value="Commercial")
 
+                license_attribution = st.toggle('Attribution? Allow Datasets licensed to require attribution.')
+                license_sharealike = st.toggle('Share Alike? Allow Datasets licensed to require share alike.')
+
                 # with data_select_cols[1]:
                 language_multiselect = st.multiselect(
                     'Select the languages to cover in your datasets',
@@ -175,8 +178,8 @@ def streamlit_app():
                 INFO["constants"],
                 license_multiselect, 
                 "commercial",
-                "1",
-                "1",
+                str(int(license_attribution)),
+                str(int(license_sharealike)),
                 language_multiselect, 
                 taskcats_multiselect,
                 # format_multiselect,
