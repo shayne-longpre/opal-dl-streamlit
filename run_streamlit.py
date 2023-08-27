@@ -135,7 +135,7 @@ def streamlit_app():
 
                 license_multiselect = st.select_slider(
                     'Select a color of the rainbow',
-                    options=reversed(LICENSE_USE_TYPES),
+                    options=reversed(constants.LICENSE_USE_TYPES),
                     value="Academic-Only")
                 # st.write('My favorite color is', color)
                 # license_multiselect = st.multiselect(
