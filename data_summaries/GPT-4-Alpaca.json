@@ -2,36 +2,56 @@
     "gpt4alpaca": {
         "Unique Dataset Identifier": "gpt4alpaca",
         "Dataset Name": "gpt4alpaca",
-        "Paper Title": null,
-        "Dataset URL": "https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM",
-        "Hugging Face URL": "https://huggingface.co/datasets/teknium/GPT4-LLM-Cleaned",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "GPT-4-Alpaca",
         "Collection URL": "https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM",
+        "Dataset URL": "https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM",
+        "GitHub URL": "https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM",
+        "Hugging Face URL": "https://huggingface.co/datasets/teknium/GPT4-LLM-Cleaned",
+        "Paper Title": "Visual Instruction Tuning",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/llava",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": 258179774,
         "Languages": [
             "English"
         ],
         "Task Categories": [
-            "Misc."
+            "Binary Classification Question Answering.",
+            "Goal Setting Question Answering",
+            "Shopping List Generation",
+            "Instruction Following",
+            "Story Generation",
+            "Summarization",
+            "Multiple Choice Necessity Classification",
+            "Interpretive Art Analysis",
+            "Open-Domain Question Answering",
+            "Hyponym Identification"
         ],
         "Text Domains": [
             "Miscellaneous"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
             "Zero-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "GPT-4",
+        "Text Metrics": {
+            "Num Dialogs": 54568,
+            "Mean Inputs Length": 130.1438,
+            "Mean Targets Length": 543.0334,
+            "Max Inputs Length": 3502,
+            "Max Targets Length": 4574,
+            "Min Inputs Length": 9,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [
+            "OpenAI GPT-4"
+        ],
+        "Creators": [],
         "Licenses": [
             {
-                "License": "CC BY NC 4.0",
+                "License": "CC BY-NC 4.0",
                 "License URL": "https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM"
             },
             {
@@ -41,9 +61,34 @@
         ],
         "License Notes": "",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
-            "gpt-4-llm"
-        ]
+            "gpt4alpaca"
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "teknium/GPT4-LLM-Cleaned",
+            "HF Config": "teknium--GPT4-LLM-Cleaned",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "HF Downloads (June 2023)": 2330,
+            "HF Likes (June 2023)": 72,
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "2023-04-17",
+            "S2 Citation Count (June 2023)": 77,
+            "S2 Date": "2023-04-17",
+            "GitHub License": "Apache License 2.0",
+            "Text Topics": [
+                "Mathematics",
+                "Geography",
+                "Technology",
+                "General knowledge",
+                "Grammar",
+                "Biology",
+                "Daily routine",
+                "Animal behavior",
+                "Language",
+                "Vocabulary"
+            ]
+        }
     }
 }

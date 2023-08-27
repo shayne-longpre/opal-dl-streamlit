@@ -2,14 +2,15 @@
     "sharegpt_vicuna": {
         "Unique Dataset Identifier": "sharegpt_vicuna",
         "Dataset Name": "sharegpt",
-        "Paper Title": null,
-        "Dataset URL": "https://sharegpt.com/",
-        "Hugging Face URL": "https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "ShareGPT Vicuna",
         "Collection URL": "https://lmsys.org/blog/2023-03-30-vicuna/",
+        "Dataset URL": "https://sharegpt.com/",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
         "Languages": [
             "English"
         ],
@@ -17,16 +18,29 @@
             "Miscellaneous"
         ],
         "Text Domains": [],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
             "Multi-turn Dialog"
         ],
-        "Time of Collection": null,
-        "Model Generated": "Mixed OpenAI GPT Playgrounds",
+        "Text Metrics": {
+            "Num Dialogs": 76964,
+            "Mean Inputs Length": 303.397,
+            "Mean Targets Length": 1147.873,
+            "Max Inputs Length": 394465,
+            "Max Targets Length": 82687,
+            "Min Inputs Length": 0,
+            "Min Targets Length": 0,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 844,
+            "Mean Dialog Turns": 14.6277
+        },
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [
+            "OpenAI Playground"
+        ],
+        "Creators": [
+            "OpenAI",
+            "ShareGPT"
+        ],
         "Licenses": [
             {
                 "License": "Unspecified",
@@ -39,9 +53,22 @@
         ],
         "License Notes": "Crowdsourced from users who download the sharegpt.com browser extension to volunteer interactions with OpenAI agents",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "sharegpt_vicuna"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "HF Downloads (June 2023)": 3737,
+            "HF Likes (June 2023)": 487,
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Citation Count (June 2023)": null,
+            "S2 Date": "",
+            "GitHub License": ""
+        }
     }
 }

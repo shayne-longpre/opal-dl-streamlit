@@ -2,14 +2,15 @@
     "hc3_zh-baike": {
         "Unique Dataset Identifier": "hc3_zh-baike",
         "Dataset Name": "hc3_zh_web_baike",
-        "Paper Title": null,
-        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
-        "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "HC3 (Chinese)",
         "Collection URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
+        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "GitHub URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
+        "Paper Title": "How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/hc3",
+        "ArXiv URL": "https://arxiv.org/pdf/2301.07597",
+        "Semantic Scholar Corpus ID": 255998637,
         "Languages": [
             "Mandarin Chinese"
         ],
@@ -20,19 +21,36 @@
             "Wikipedia",
             "Web"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
             "Response Ranking"
         ],
-        "Time of Collection": null,
-        "Model Generated": "ChatGPT",
+        "Text Metrics": {
+            "Num Dialogs": 4617,
+            "Mean Inputs Length": 29.7795,
+            "Mean Targets Length": 175.8234,
+            "Max Inputs Length": 53,
+            "Max Targets Length": 2605,
+            "Min Inputs Length": 25,
+            "Min Targets Length": 17,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 2.9998
+        },
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "Shanghai University of Finance and Economics",
+            "Harbin Institute of Technology",
+            "Beijing Language and Culture University",
+            "Xidian University",
+            "Queen’s University",
+            "Wind Information Co."
+        ],
         "Licenses": [
             {
-                "License": "CC BY SA",
+                "License": "CC BY-SA 4.0",
                 "License URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection#dataset-copyright"
             },
             {
@@ -42,22 +60,48 @@
         ],
         "License Notes": "Provides human and ChatGPT responses for different domains and languages",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "baike"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "Hello-SimpleAI/HC3-Chinese",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "HF Downloads (June 2023)": 534,
+            "HF Likes (June 2023)": 70,
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Citation Count (June 2023)": 86,
+            "S2 Date": "2023-01-18",
+            "GitHub License": "",
+            "Text Topics": [
+                "Telecommunications",
+                "Computer Science",
+                "Information Science",
+                "Computer hardware",
+                "Information technology",
+                "Information Technology",
+                "Programming",
+                "Wireless communication",
+                "Networking",
+                "Mathematics"
+            ]
+        }
     },
     "hc3_zh-open_qa": {
         "Unique Dataset Identifier": "hc3_zh-open_qa",
         "Dataset Name": "hc3_zh_open_qa",
-        "Paper Title": null,
-        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
-        "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "HC3 (Chinese)",
         "Collection URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
+        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "GitHub URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
+        "Paper Title": "How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/hc3",
+        "ArXiv URL": "https://arxiv.org/pdf/2301.07597",
+        "Semantic Scholar Corpus ID": 255998637,
         "Languages": [
             "Mandarin Chinese"
         ],
@@ -67,16 +111,33 @@
         "Text Domains": [
             "Web"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
             "Response Ranking"
         ],
-        "Time of Collection": null,
-        "Model Generated": "ChatGPT",
+        "Text Metrics": {
+            "Num Dialogs": 3293,
+            "Mean Inputs Length": 38.7145,
+            "Mean Targets Length": 202.4499,
+            "Max Inputs Length": 965,
+            "Max Targets Length": 2003,
+            "Min Inputs Length": 6,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 2.9991
+        },
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "Shanghai University of Finance and Economics",
+            "Harbin Institute of Technology",
+            "Beijing Language and Culture University",
+            "Xidian University",
+            "Queen’s University",
+            "Wind Information Co."
+        ],
         "Licenses": [
             {
                 "License": "Unspecified",
@@ -89,22 +150,48 @@
         ],
         "License Notes": "Provides human and ChatGPT responses for different domains and languages",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "open_qa"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "Hello-SimpleAI/HC3-Chinese",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "HF Downloads (June 2023)": 534,
+            "HF Likes (June 2023)": 70,
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Citation Count (June 2023)": 86,
+            "S2 Date": "2023-01-18",
+            "GitHub License": "",
+            "Text Topics": [
+                "Translation",
+                "Gaming",
+                "Daily routine",
+                "Gaming skills and strategies",
+                "Geography",
+                "Film analysis",
+                "Sports",
+                "Celebrity endorsements",
+                "Popular trends",
+                "Board games and competitive gaming"
+            ]
+        }
     },
     "hc3_zh-finance": {
         "Unique Dataset Identifier": "hc3_zh-finance",
         "Dataset Name": "hc3_zh_finance",
-        "Paper Title": null,
-        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
-        "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "HC3 (Chinese)",
         "Collection URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
+        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "GitHub URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
+        "Paper Title": "How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/hc3",
+        "ArXiv URL": "https://arxiv.org/pdf/2301.07597",
+        "Semantic Scholar Corpus ID": 255998637,
         "Languages": [
             "Mandarin Chinese"
         ],
@@ -114,16 +201,33 @@
         "Text Domains": [
             "Finance"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
             "Response Ranking"
         ],
-        "Time of Collection": null,
-        "Model Generated": "ChatGPT",
+        "Text Metrics": {
+            "Num Dialogs": 689,
+            "Mean Inputs Length": 18.1176,
+            "Mean Targets Length": 153.7972,
+            "Max Inputs Length": 133,
+            "Max Targets Length": 1085,
+            "Min Inputs Length": 2,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 2.9826
+        },
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "Shanghai University of Finance and Economics",
+            "Harbin Institute of Technology",
+            "Beijing Language and Culture University",
+            "Xidian University",
+            "Queen’s University",
+            "Wind Information Co."
+        ],
         "Licenses": [
             {
                 "License": "CC BY 4.0",
@@ -136,22 +240,48 @@
         ],
         "License Notes": "Provides human and ChatGPT responses for different domains and languages",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "finance"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "Hello-SimpleAI/HC3-Chinese",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "HF Downloads (June 2023)": 534,
+            "HF Likes (June 2023)": 70,
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Citation Count (June 2023)": 86,
+            "S2 Date": "2023-01-18",
+            "GitHub License": "",
+            "Text Topics": [
+                "Personal finance",
+                "Banking services",
+                "Loan application process",
+                "Personal finance and loans",
+                "Loan application process and requirements",
+                "Customer support",
+                "Credit card management",
+                "Mobile banking",
+                "Customer service",
+                "Online banking"
+            ]
+        }
     },
     "hc3_zh-legalqa": {
         "Unique Dataset Identifier": "hc3_zh-legalqa",
         "Dataset Name": "hc3_zh_legalqa",
-        "Paper Title": null,
-        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
-        "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "HC3 (Chinese)",
         "Collection URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
+        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "GitHub URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
+        "Paper Title": "How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/hc3",
+        "ArXiv URL": "https://arxiv.org/pdf/2301.07597",
+        "Semantic Scholar Corpus ID": 255998637,
         "Languages": [
             "Mandarin Chinese"
         ],
@@ -161,16 +291,33 @@
         "Text Domains": [
             "Law"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
             "Response Ranking"
         ],
-        "Time of Collection": null,
-        "Model Generated": "ChatGPT",
+        "Text Metrics": {
+            "Num Dialogs": 372,
+            "Mean Inputs Length": 59.078,
+            "Mean Targets Length": 144.3239,
+            "Max Inputs Length": 100,
+            "Max Targets Length": 1605,
+            "Min Inputs Length": 11,
+            "Min Targets Length": 5,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "Shanghai University of Finance and Economics",
+            "Harbin Institute of Technology",
+            "Beijing Language and Culture University",
+            "Xidian University",
+            "Queen’s University",
+            "Wind Information Co."
+        ],
         "Licenses": [
             {
                 "License": "Unspecified",
@@ -183,22 +330,48 @@
         ],
         "License Notes": "Provides human and ChatGPT responses for different domains and languages",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "law"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "Hello-SimpleAI/HC3-Chinese",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "HF Downloads (June 2023)": 534,
+            "HF Likes (June 2023)": 70,
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Citation Count (June 2023)": 86,
+            "S2 Date": "2023-01-18",
+            "GitHub License": "",
+            "Text Topics": [
+                "Legal advice",
+                "Intellectual property rights",
+                "Legal procedures and debt collection",
+                "Property ownership and transfer",
+                "Property law",
+                "Family law",
+                "Consumer rights and protection",
+                "Family dynamics and responsibilities",
+                "Real estate law and contracts",
+                "Legal procedures and documentation"
+            ]
+        }
     },
     "hc3_zh-medicine": {
         "Unique Dataset Identifier": "hc3_zh-medicine",
         "Dataset Name": "hc3_zh_medicine",
-        "Paper Title": null,
-        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
-        "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "HC3 (Chinese)",
         "Collection URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
+        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "GitHub URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
+        "Paper Title": "How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/hc3",
+        "ArXiv URL": "https://arxiv.org/pdf/2301.07597",
+        "Semantic Scholar Corpus ID": 255998637,
         "Languages": [
             "Mandarin Chinese"
         ],
@@ -208,19 +381,36 @@
         "Text Domains": [
             "Medicine"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
             "Response Ranking"
         ],
-        "Time of Collection": null,
-        "Model Generated": "ChatGPT",
+        "Text Metrics": {
+            "Num Dialogs": 1074,
+            "Mean Inputs Length": 65.1061,
+            "Mean Targets Length": 215.7756,
+            "Max Inputs Length": 273,
+            "Max Targets Length": 3341,
+            "Min Inputs Length": 8,
+            "Min Targets Length": 12,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "Shanghai University of Finance and Economics",
+            "Harbin Institute of Technology",
+            "Beijing Language and Culture University",
+            "Xidian University",
+            "Queen’s University",
+            "Wind Information Co."
+        ],
         "Licenses": [
             {
-                "License": "CC-BY-NC 4.0",
+                "License": "CC BY-NC 4.0",
                 "License URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection#dataset-copyright"
             },
             {
@@ -230,22 +420,48 @@
         ],
         "License Notes": "Provides human and ChatGPT responses for different domains and languages",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "medicine"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "Hello-SimpleAI/HC3-Chinese",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "HF Downloads (June 2023)": 534,
+            "HF Likes (June 2023)": 70,
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Citation Count (June 2023)": 86,
+            "S2 Date": "2023-01-18",
+            "GitHub License": "",
+            "Text Topics": [
+                "Health",
+                "Women's health",
+                "Medical conditions",
+                "Health and wellness",
+                "Gynecological conditions",
+                "Pain management",
+                "Sexual health",
+                "Medical treatment",
+                "Women's health and menstrual cycle",
+                "Women's health and gynecological conditions"
+            ]
+        }
     },
     "hc3_zh-nlpcc_dbqa": {
         "Unique Dataset Identifier": "hc3_zh-nlpcc_dbqa",
         "Dataset Name": "hc3_zh_nlpcc_dbqa",
-        "Paper Title": null,
-        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
-        "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "HC3 (Chinese)",
         "Collection URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
+        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "GitHub URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
+        "Paper Title": "How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/hc3",
+        "ArXiv URL": "https://arxiv.org/pdf/2301.07597",
+        "Semantic Scholar Corpus ID": 255998637,
         "Languages": [
             "Mandarin Chinese"
         ],
@@ -255,16 +471,33 @@
         "Text Domains": [
             "Miscellaneous"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
             "Response Ranking"
         ],
-        "Time of Collection": null,
-        "Model Generated": "ChatGPT",
+        "Text Metrics": {
+            "Num Dialogs": 1709,
+            "Mean Inputs Length": 16.7174,
+            "Mean Targets Length": 99.8568,
+            "Max Inputs Length": 62,
+            "Max Targets Length": 1303,
+            "Min Inputs Length": 6,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 2.9865
+        },
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "Shanghai University of Finance and Economics",
+            "Harbin Institute of Technology",
+            "Beijing Language and Culture University",
+            "Xidian University",
+            "Queen’s University",
+            "Wind Information Co."
+        ],
         "Licenses": [
             {
                 "License": "Unspecified",
@@ -277,22 +510,48 @@
         ],
         "License Notes": "Provides human and ChatGPT responses for different domains and languages",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "nlpcc_dbqa"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "Hello-SimpleAI/HC3-Chinese",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "HF Downloads (June 2023)": 534,
+            "HF Likes (June 2023)": 70,
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Citation Count (June 2023)": 86,
+            "S2 Date": "2023-01-18",
+            "GitHub License": "",
+            "Text Topics": [
+                "Education",
+                "History",
+                "Geography",
+                "School administration",
+                "Education history",
+                "Technology",
+                "School name changes",
+                "Education system in China",
+                "Private universities in Japan",
+                "Gaming"
+            ]
+        }
     },
     "hc3_zh-psychology": {
         "Unique Dataset Identifier": "hc3_zh-psychology",
         "Dataset Name": "hc3_zh_psychology",
-        "Paper Title": null,
-        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
-        "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "HC3 (Chinese)",
         "Collection URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
+        "Dataset URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "GitHub URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection",
+        "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese",
+        "Paper Title": "How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/hc3",
+        "ArXiv URL": "https://arxiv.org/pdf/2301.07597",
+        "Semantic Scholar Corpus ID": 255998637,
         "Languages": [
             "Mandarin Chinese"
         ],
@@ -302,19 +561,36 @@
         "Text Domains": [
             "Psychology"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
             "Response Ranking"
         ],
-        "Time of Collection": null,
-        "Model Generated": "ChatGPT",
+        "Text Metrics": {
+            "Num Dialogs": 1099,
+            "Mean Inputs Length": 20.2375,
+            "Mean Targets Length": 266.0828,
+            "Max Inputs Length": 29,
+            "Max Targets Length": 7062,
+            "Min Inputs Length": 11,
+            "Min Targets Length": 23,
+            "Min Dialog Turns": 3,
+            "Max Dialog Turns": 3,
+            "Mean Dialog Turns": 3.0
+        },
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
+        "Creators": [
+            "Shanghai University of Finance and Economics",
+            "Harbin Institute of Technology",
+            "Beijing Language and Culture University",
+            "Xidian University",
+            "Queen’s University",
+            "Wind Information Co."
+        ],
         "Licenses": [
             {
-                "License": "CC0",
+                "License": "CC0 1.0",
                 "License URL": "https://github.com/Hello-SimpleAI/chatgpt-comparison-detection#dataset-copyright"
             },
             {
@@ -324,9 +600,34 @@
         ],
         "License Notes": "Provides human and ChatGPT responses for different domains and languages",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "psychology"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "Hello-SimpleAI/HC3-Chinese",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "HF Downloads (June 2023)": 534,
+            "HF Likes (June 2023)": 70,
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Citation Count (June 2023)": 86,
+            "S2 Date": "2023-01-18",
+            "GitHub License": "",
+            "Text Topics": [
+                "Relationships and emotions",
+                "Personal growth and self-improvement",
+                "Emotional well-being",
+                "Relationship advice",
+                "Relationships and Marriage",
+                "Mental health and depression",
+                "Self-reflection and personal growth",
+                "Psychology",
+                "Domestic violence",
+                "Love and relationships"
+            ]
+        }
     }
 }

@@ -2,14 +2,15 @@
     "fc-dialog-qrecc": {
         "Unique Dataset Identifier": "fc-dialog-qrecc",
         "Dataset Name": "qrecc",
-        "Paper Title": null,
-        "Dataset URL": "https://github.com/apple/ml-qrecc",
-        "Hugging Face URL": "",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (Dialog)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/apple/ml-qrecc",
+        "GitHub URL": "https://github.com/apple/ml-qrecc",
+        "Hugging Face URL": "https://huggingface.co/datasets/svakulenk0/qrecc",
+        "Paper Title": "Open-Domain Question Answering Goes Conversational via Question Rewriting",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/qrecc",
+        "ArXiv URL": "https://arxiv.org/abs/2010.04898",
+        "Semantic Scholar Corpus ID": 222290679,
         "Languages": [
             "English"
         ],
@@ -18,17 +19,28 @@
             "Conversational Question Answering"
         ],
         "Text Domains": [],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": {
+            "Num Dialogs": 27247,
+            "Mean Inputs Length": 1822.1266,
+            "Mean Targets Length": 211.2173,
+            "Max Inputs Length": 7423,
+            "Max Targets Length": 2593,
+            "Min Inputs Length": 22,
+            "Min Targets Length": 2,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "Apple Inc",
+            "University of Amsterdam"
+        ],
         "Licenses": [
             {
                 "License": "CC BY-SA 3.0",
@@ -37,23 +49,49 @@
         ],
         "License Notes": "",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "qrecc",
             "qrecc_ii"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "svakulenk0/qrecc",
+            "HF Config": "svakulenk0--qrecc",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "HF Downloads (June 2023)": 38,
+            "HF Likes (June 2023)": 3,
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "2020-10-10",
+            "S2 Citation Count (June 2023)": 74,
+            "S2 Date": "2020-10-10",
+            "GitHub License": "",
+            "Text Topics": [
+                "Music history",
+                "Music",
+                "Biography",
+                "Literature",
+                "Entertainment industry",
+                "History",
+                "Education",
+                "Sports",
+                "Pop culture",
+                "Politics"
+            ]
+        }
     },
     "fc-dialog-wiki_dialog": {
         "Unique Dataset Identifier": "fc-dialog-wiki_dialog",
         "Dataset Name": "wiki_dialog",
-        "Paper Title": null,
-        "Dataset URL": "https://github.com/google-research/dialog-inpainting#wikidialog-oq",
-        "Hugging Face URL": "",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (Dialog)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/google-research/dialog-inpainting#wikidialog-oq",
+        "GitHub URL": "https://github.com/google-research/dialog-inpainting#wikidialog-oq",
+        "Hugging Face URL": "https://huggingface.co/datasets/djaym7/wiki_dialog",
+        "Paper Title": "Dialog Inpainting: Turning Documents to Dialogs",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2205.09073",
+        "Semantic Scholar Corpus ID": 248863311,
         "Languages": [
             "English"
         ],
@@ -62,17 +100,27 @@
             "Conversational Question Answering"
         ],
         "Text Domains": [],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": {
+            "Num Dialogs": 526622,
+            "Mean Inputs Length": 1583.3658,
+            "Mean Targets Length": 206.038,
+            "Max Inputs Length": 7768,
+            "Max Targets Length": 2351,
+            "Min Inputs Length": 20,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "Google"
+        ],
         "Licenses": [
             {
                 "License": "CC BY-SA 4.0",
@@ -81,10 +129,35 @@
         ],
         "License Notes": "Derived from QReCC, QuAC and Wikipedia",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "wiki_dialog",
             "wiki_dialog_ii"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "",
+            "HF Config": "",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "HF Downloads (June 2023)": 31,
+            "HF Likes (June 2023)": 0,
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Citation Count (June 2023)": 27,
+            "S2 Date": "2022-05-18",
+            "GitHub License": "",
+            "Text Topics": [
+                "Geography",
+                "History",
+                "Travel",
+                "Sports",
+                "Literature",
+                "Education",
+                "General knowledge",
+                "Religion",
+                "Music",
+                "Politics"
+            ]
+        }
     }
 }

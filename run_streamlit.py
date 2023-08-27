@@ -13,6 +13,7 @@ import pandas as pd
 import math
 
 import util
+import filter_utils
 from src.helpers import io
 from src import constants
 
@@ -26,7 +27,12 @@ INFO = {}
 
 @st.cache_data
 def load_data():
-    return io.read_data_summary_json("data_summaries/")
+    data_summary = io.read_data_summary_json("data_summaries/")
+    return map_license_criteria(data_summary, ALL_CONSTANTS)
+
+@st.cache_data
+def load_constants():
+    return io.read_all_constants()
 
 
 # def render_tweet(tweet_url):
@@ -101,9 +107,14 @@ def insert_metric_container(title, key, metrics):
         # fig = util.plot_altair_piechart(metrics[key], title)
         st.altair_chart(fig, use_container_width=True, theme="streamlit")
 
+
 def streamlit_app():
     st.set_page_config(page_title="Data Provenance Explorer", layout="wide")#, initial_sidebar_state='collapsed')
-    INFO["data"] = load_data()
+    INFO = {
+        "data": load_data(),
+        "constants": load_constants()
+    }
+
     df_metadata = util.compute_metrics(INFO["data"])
 
     tab1, tab2 = st.tabs(["Data Selection", "Data Explorer"])
@@ -111,8 +122,7 @@ def streamlit_app():
     with tab1:
         st.title("Data Provenance Explorer")
 
-        # render_tweet("https://twitter.com/ShayneRedford/status/1678417430651994118")
-        insert_main_viz()
+        # insert_main_viz()
 
         with st.sidebar:
             st.markdown("""Select the preferred criteria for your datasets.""")

@@ -3,8 +3,10 @@ import sys
 import gzip
 import shlex
 import subprocess
+import yaml
 import json
 import jsonlines
+import constants
 from ast import literal_eval
 import pandas as pd
 import typing
@@ -81,23 +83,40 @@ def read_jsonl(inpath: str) -> typing.List[typing.Dict]:
             j_reader = jsonlines.Reader(fp)
             return [l for l in j_reader]
 
+def read_yaml(inpath: str):
+    with open(inpath, 'r') as inf:
+        return yaml.safe_load(inf)
+
+
+#############################################################################
+############### Data Provenance I/O Helpers
+#############################################################################
+
+
 def read_data_summary_json(summary_dir: str):
     collection_summaries = []
     for collection_fp in listdir_nohidden(summary_dir):
+        if "_template.json" in collection_fp or "_template_spec.yaml" in collection_fp:
+            continue
         collection_summaries.extend(list(read_json(collection_fp).values()))
-    return pd.DataFrame(collection_summaries)
+    return collection_summaries
+    # return pd.DataFrame(collection_summaries).fillna("")
 
-def read_data_summary_csv(summary_fp: str):
-    list_cols = [
-        "Collection URL",
-        "Languages",
-        "Text Domains",
-        "Task Categories",
-        "Text Sources",
-        "Format",
-        "Dataset Filter IDs",
-        "Licenses",
-    ]
+def read_all_constants():
+    license_classes = read_json(constants.LICENSE_CONSTANTS_FP)
+    custom_license_classes = read_json(constants.CUSTOM_LICENSE_CONSTANTS_FP)
+    language_groups = read_json(constants.LANGUAGE_CONSTANTS_FP)
+    task_groups = read_json(constants.TASK_CONSTANTS_FP)
+    model_groups = read_json(constants.MODEL_CONSTANTS_FP)
+    creator_groups = read_json(constants.CREATOR_CONSTANTS_FP)
+    all_formats = read_json(constants.FORMATS_CONSTANTS_FP)
 
-    df = pd.read_csv(summary_fp, converters={k: literal_eval for k in list_cols}).fillna("")
-    return df
+    return {
+        "LICENSE_CLASSES": license_classes,
+        "CUSTOM_LICENSE_CLASSES": custom_license_classes,
+        "LANGUAGE_GROUPS": language_groups,
+        "TASK_GROUPS": task_groups,
+        "MODEL_GROUPS": model_groups,
+        "CREATOR_GROUPS": creator_groups,
+        "FORMATS": all_formats,
+    }

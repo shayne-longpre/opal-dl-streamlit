@@ -2,14 +2,15 @@
     "fc-p3-adversarial_qa": {
         "Unique Dataset Identifier": "fc-p3-adversarial_qa",
         "Dataset Name": "adversarial_qa",
-        "Paper Title": null,
-        "Dataset URL": "https://paperswithcode.com/dataset/adversarialqa",
-        "Hugging Face URL": "https://huggingface.co/datasets/adversarial_qa",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://paperswithcode.com/dataset/adversarialqa",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/adversarial_qa",
+        "Paper Title": "Beat the AI: Investigating Adversarial Human Annotation for Reading Comprehension",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/adversarialqa",
+        "ArXiv URL": "https://arxiv.org/abs/2002.00293",
+        "Semantic Scholar Corpus ID": 211010520,
         "Languages": [
             "English"
         ],
@@ -21,17 +22,16 @@
         "Text Domains": [
             "Wikipedia"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "University College London"
+        ],
         "Licenses": [
             {
                 "License": "CC BY-SA 3.0",
@@ -40,22 +40,36 @@
         ],
         "License Notes": "Approved for training/fine-tuning only",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "adversarial_qa"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "adversarial_qa",
+            "HF Config": "adversarialQA",
+            "HF Config License": "",
+            "HF Yaml License": "CC BY-SA 4.0",
+            "HF Downloads (June 2023)": 35613,
+            "HF Likes (June 2023)": 28,
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/3.0/",
+            "PwC Date": "2020-02-02",
+            "S2 Citation Count (June 2023)": 102,
+            "S2 Date": "2020-02-02",
+            "GitHub License": ""
+        }
     },
     "fc-p3-amazon_polarity": {
         "Unique Dataset Identifier": "fc-p3-amazon_polarity",
         "Dataset Name": "amazon_polarity",
-        "Paper Title": null,
-        "Dataset URL": "https://huggingface.co/datasets/amazon_polarity",
-        "Hugging Face URL": "https://huggingface.co/datasets/amazon_polarity",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://huggingface.co/datasets/amazon_polarity",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/amazon_polarity",
+        "Paper Title": "Character-level Convolutional Networks for Text Classification",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/yahoo-answers",
+        "ArXiv URL": "https://arxiv.org/abs/1509.01626",
+        "Semantic Scholar Corpus ID": 368182,
         "Languages": [
             "English"
         ],
@@ -66,17 +80,16 @@
         "Text Domains": [
             "Reviews -> Electronics and Grocery"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "New York University"
+        ],
         "Licenses": [
             {
                 "License": "Unspecified",
@@ -85,22 +98,36 @@
         ],
         "License Notes": "Competitor dataset",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "amazon_polarity"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "amazon_polarity",
+            "HF Config": "amazon_polarity",
+            "HF Config License": "Apache License 2.0",
+            "HF Yaml License": "Apache License 2.0",
+            "HF Downloads (June 2023)": 25570,
+            "HF Likes (June 2023)": 25,
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "2015-09-04",
+            "S2 Citation Count (June 2023)": 4505,
+            "S2 Date": "2015-09-04",
+            "GitHub License": ""
+        }
     },
     "fc-p3-app_reviews": {
         "Unique Dataset Identifier": "fc-p3-app_reviews",
         "Dataset Name": "app_reviews",
-        "Paper Title": null,
-        "Dataset URL": "https://huggingface.co/datasets/app_reviews",
-        "Hugging Face URL": "https://huggingface.co/datasets/app_reviews",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://huggingface.co/datasets/app_reviews",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/app_reviews",
+        "Paper Title": "",
+        "Papers with Code URL": "",
+        "ArXiv URL": "",
+        "Semantic Scholar Corpus ID": "",
         "Languages": [
             "English"
         ],
@@ -112,17 +139,14 @@
         "Text Domains": [
             "Reviews"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [],
         "Licenses": [
             {
                 "License": "Unspecified",
@@ -131,22 +155,36 @@
         ],
         "License Notes": "",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "app_reviews"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "app_reviews",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "Unspecified",
+            "HF Downloads (June 2023)": 11978,
+            "HF Likes (June 2023)": 7,
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Citation Count (June 2023)": null,
+            "S2 Date": "",
+            "GitHub License": ""
+        }
     },
     "fc-p3-cos_e": {
         "Unique Dataset Identifier": "fc-p3-cos_e",
         "Dataset Name": "cos_e",
-        "Paper Title": null,
-        "Dataset URL": "https://github.com/salesforce/cos-e",
-        "Hugging Face URL": "",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/salesforce/cos-e",
+        "GitHub URL": "https://github.com/salesforce/cos-e",
+        "Hugging Face URL": "https://huggingface.co/datasets/cos_e",
+        "Paper Title": "Explain Yourself! Leveraging Language Models for Commonsense Reasoning",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/cos-e",
+        "ArXiv URL": "https://arxiv.org/abs/1906.02361",
+        "Semantic Scholar Corpus ID": 174803111,
         "Languages": [
             "English"
         ],
@@ -155,41 +193,54 @@
             "Multiple-Choice QA (no trivia knowledge required)"
         ],
         "Text Domains": [],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "Salesforce Research"
+        ],
         "Licenses": [
             {
-                "License": "BSD-3 Clause",
+                "License": "BSD 3-Clause License",
                 "License URL": "https://github.com/salesforce/cos-e/blob/master/LICENSE"
             }
         ],
         "License Notes": "",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "cos_e"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "cos_e",
+            "HF Config": "v1.0",
+            "HF Config License": "",
+            "HF Yaml License": "Unspecified",
+            "HF Downloads (June 2023)": 27104,
+            "HF Likes (June 2023)": 4,
+            "PwC License Name": "Unspecified",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Citation Count (June 2023)": 345,
+            "S2 Date": "2019-06-06",
+            "GitHub License": "BSD 3-Clause License"
+        }
     },
     "fc-p3-dbpedia_14": {
         "Unique Dataset Identifier": "fc-p3-dbpedia_14",
         "Dataset Name": "dbpedia_14",
-        "Paper Title": null,
-        "Dataset URL": "https://huggingface.co/datasets/dbpedia_14",
-        "Hugging Face URL": "https://huggingface.co/datasets/dbpedia_14",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://huggingface.co/datasets/dbpedia_14",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/dbpedia_14",
+        "Paper Title": "DBpedia – A large-scale, multilingual knowledge base extracted from Wikipedia ",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/dbpedia",
+        "ArXiv URL": "https://content.iospress.com/articles/semantic-web/sw134",
+        "Semantic Scholar Corpus ID": 1181640,
         "Languages": [
             "English"
         ],
@@ -200,17 +251,22 @@
         "Text Domains": [
             "Wikipedia"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "University of Leipzig",
+            "University of Mannheim",
+            "OpenLink Software",
+            "Hasso-Plattner-Institute for IT-Systems Engineering",
+            "Neofonie GmbH",
+            "Kno.e.sis",
+            "Brox IT-Solutions GmbH"
+        ],
         "Licenses": [
             {
                 "License": "CC BY-SA 3.0",
@@ -219,22 +275,36 @@
         ],
         "License Notes": "",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "dbpedia_14"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "dbpedia_14",
+            "HF Config": "dbpedia_14",
+            "HF Config License": "CC BY-SA 3.0",
+            "HF Yaml License": "CC BY-SA 3.0",
+            "HF Downloads (June 2023)": 17476,
+            "HF Likes (June 2023)": 7,
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License",
+            "PwC Date": "2007-01-01",
+            "S2 Citation Count (June 2023)": 2766,
+            "S2 Date": "",
+            "GitHub License": ""
+        }
     },
     "fc-p3-dream": {
         "Unique Dataset Identifier": "fc-p3-dream",
         "Dataset Name": "dream",
-        "Paper Title": null,
-        "Dataset URL": "https://github.com/nlpdata/dream",
-        "Hugging Face URL": "",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/nlpdata/dream",
+        "GitHub URL": "https://github.com/nlpdata/dream",
+        "Hugging Face URL": "https://huggingface.co/datasets/dream",
+        "Paper Title": "DREAM: A Challenge Data Set and Models for Dialogue-Based Reading Comprehension",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/1902.00164",
+        "Semantic Scholar Corpus ID": 59553499,
         "Languages": [
             "English"
         ],
@@ -247,17 +317,19 @@
             "Dialogue",
             "Natural Science -> School Science Textbooks"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "Cornell University",
+            "Tencent AI Lab",
+            "University of Washington",
+            "AI2"
+        ],
         "Licenses": [
             {
                 "License": "Academic Research Purposes Only",
@@ -266,22 +338,36 @@
         ],
         "License Notes": "",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "dream"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "dream",
+            "HF Config": "plain_text",
+            "HF Config License": "",
+            "HF Yaml License": "Unspecified",
+            "HF Downloads (June 2023)": 12622,
+            "HF Likes (June 2023)": 3,
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Citation Count (June 2023)": 212,
+            "S2 Date": "2019-02-01",
+            "GitHub License": "Academic Research Purposes Only"
+        }
     },
     "fc-p3-duorc_paraphraserc": {
         "Unique Dataset Identifier": "fc-p3-duorc_paraphraserc",
         "Dataset Name": "duorc_paraphraserc",
-        "Paper Title": null,
-        "Dataset URL": "https://github.com/duorc/duorc",
-        "Hugging Face URL": "",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/duorc/duorc",
+        "GitHub URL": "https://github.com/duorc/duorc",
+        "Hugging Face URL": "https://huggingface.co/datasets/duorc",
+        "Paper Title": "DuoRC: Towards Complex Language Understanding with Paraphrased Reading Comprehension",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/duorc",
+        "ArXiv URL": "https://arxiv.org/abs/1804.07927",
+        "Semantic Scholar Corpus ID": 5071138,
         "Languages": [
             "English"
         ],
@@ -291,17 +377,17 @@
             "Question Generation"
         ],
         "Text Domains": [],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "IBM",
+            "Indian Institute of Technology"
+        ],
         "Licenses": [
             {
                 "License": "Non Commercial",
@@ -310,22 +396,36 @@
         ],
         "License Notes": "Derived from Wikipedia and IMDB.",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "duorc_paraphraserc"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "duorc",
+            "HF Config": "SelfRC",
+            "HF Config License": "Custom",
+            "HF Yaml License": "",
+            "HF Downloads (June 2023)": 40067,
+            "HF Likes (June 2023)": 21,
+            "PwC License Name": "Unspecified",
+            "PwC License URL": "",
+            "PwC Date": "2018-04-21",
+            "S2 Citation Count (June 2023)": 156,
+            "S2 Date": "2018-04-01",
+            "GitHub License": "MIT License"
+        }
     },
     "fc-p3-duorc_selfrc": {
         "Unique Dataset Identifier": "fc-p3-duorc_selfrc",
         "Dataset Name": "duorc_selfrc",
-        "Paper Title": null,
-        "Dataset URL": "https://github.com/duorc/duorc",
-        "Hugging Face URL": "",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/duorc/duorc",
+        "GitHub URL": "https://github.com/duorc/duorc",
+        "Hugging Face URL": "https://huggingface.co/datasets/duorc",
+        "Paper Title": "DuoRC: Towards Complex Language Understanding with Paraphrased Reading Comprehension",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/duorc",
+        "ArXiv URL": "https://arxiv.org/abs/1804.07927",
+        "Semantic Scholar Corpus ID": 5071138,
         "Languages": [
             "English"
         ],
@@ -335,17 +435,17 @@
             "Question Generation"
         ],
         "Text Domains": [],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "IBM",
+            "Indian Institute of Technology"
+        ],
         "Licenses": [
             {
                 "License": "Non Commercial",
@@ -354,22 +454,36 @@
         ],
         "License Notes": "Derived from Wikipedia and IMDB.",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "duorc_selfrc"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "duorc",
+            "HF Config": "SelfRC",
+            "HF Config License": "Custom",
+            "HF Yaml License": "",
+            "HF Downloads (June 2023)": 40067,
+            "HF Likes (June 2023)": 21,
+            "PwC License Name": "Unspecified",
+            "PwC License URL": "",
+            "PwC Date": "2018-04-21",
+            "S2 Citation Count (June 2023)": 156,
+            "S2 Date": "2018-04-01",
+            "GitHub License": "MIT License"
+        }
     },
     "fc-p3-hotpotqa": {
         "Unique Dataset Identifier": "fc-p3-hotpotqa",
         "Dataset Name": "hotpotqa",
-        "Paper Title": null,
-        "Dataset URL": "https://github.com/hotpotqa/hotpot",
-        "Hugging Face URL": "",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://github.com/hotpotqa/hotpot",
+        "GitHub URL": "https://github.com/hotpotqa/hotpot",
+        "Hugging Face URL": "https://huggingface.co/datasets/hotpot_qa",
+        "Paper Title": "HotpotQA: A Dataset for Diverse, Explainable Multi-hop Question Answering",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/hotpotqa",
+        "ArXiv URL": "https://arxiv.org/abs/1809.09600",
+        "Semantic Scholar Corpus ID": 52822214,
         "Languages": [
             "English"
         ],
@@ -380,17 +494,21 @@
         "Text Domains": [
             "Wikipedia"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "Carnegie Mellon University",
+            "Stanford University",
+            "Montreal Institute of Learning Algorithms (Mila)",
+            "Universite de Montreal",
+            "CIFAR Senior Fellow",
+            "Google"
+        ],
         "Licenses": [
             {
                 "License": "CC BY-SA 4.0",
@@ -399,22 +517,36 @@
         ],
         "License Notes": "Approved for training/fine-tuning only",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "hotpotqa"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "hotpot_qa",
+            "HF Config": "distractor",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "HF Downloads (June 2023)": 3593,
+            "HF Likes (June 2023)": 11,
+            "PwC License Name": "CC BY-SA 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by-sa/4.0/",
+            "PwC Date": "2018-01-01",
+            "S2 Citation Count (June 2023)": 1100,
+            "S2 Date": "2018-09-25",
+            "GitHub License": "Apache License 2.0"
+        }
     },
     "fc-p3-qasc": {
         "Unique Dataset Identifier": "fc-p3-qasc",
         "Dataset Name": "qasc",
-        "Paper Title": null,
-        "Dataset URL": "https://allenai.org/data/qasc",
-        "Hugging Face URL": "",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://allenai.org/data/qasc",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/qasc",
+        "Paper Title": "QASC: A Dataset for Question Answering via Sentence Composition",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/qasc",
+        "ArXiv URL": "https://arxiv.org/abs/1910.11473",
+        "Semantic Scholar Corpus ID": 204915921,
         "Languages": [
             "English"
         ],
@@ -425,17 +557,17 @@
         "Text Domains": [
             "Natural Science -> School Science Textbooks"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "AI2",
+            "University of Arizona"
+        ],
         "Licenses": [
             {
                 "License": "CC BY 4.0",
@@ -444,22 +576,36 @@
         ],
         "License Notes": "",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "qasc"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "qasc",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "CC BY 4.0",
+            "HF Downloads (June 2023)": 20740,
+            "HF Likes (June 2023)": 2,
+            "PwC License Name": "Unspecified",
+            "PwC License URL": "",
+            "PwC Date": "2019-10-25",
+            "S2 Citation Count (June 2023)": 191,
+            "S2 Date": "2019-10-25",
+            "GitHub License": ""
+        }
     },
     "fc-p3-quail": {
         "Unique Dataset Identifier": "fc-p3-quail",
         "Dataset Name": "quail",
-        "Paper Title": null,
-        "Dataset URL": "https://huggingface.co/datasets/quail",
-        "Hugging Face URL": "https://huggingface.co/datasets/quail",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://huggingface.co/datasets/quail",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/quail",
+        "Paper Title": "Getting Closer to AI Complete Question Answering: A Set of Prerequisite Real Tasks",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/quail",
+        "ArXiv URL": "https://ojs.aaai.org/index.php/AAAI/article/view/6398",
+        "Semantic Scholar Corpus ID": 213474484,
         "Languages": [
             "English"
         ],
@@ -472,17 +618,16 @@
             "Fiction",
             "News"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "University of Massachusetts Lowell"
+        ],
         "Licenses": [
             {
                 "License": "CC BY-NC-SA 4.0",
@@ -491,22 +636,36 @@
         ],
         "License Notes": "",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "quail"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "quail",
+            "HF Config": "quail",
+            "HF Config License": "",
+            "HF Yaml License": "CC BY-NC-SA 4.0",
+            "HF Downloads (June 2023)": 29852,
+            "HF Likes (June 2023)": 1,
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "",
+            "S2 Citation Count (June 2023)": 68,
+            "S2 Date": "2020-04-03",
+            "GitHub License": ""
+        }
     },
     "fc-p3-quarel": {
         "Unique Dataset Identifier": "fc-p3-quarel",
         "Dataset Name": "quarel",
-        "Paper Title": null,
-        "Dataset URL": "https://allenai.org/data/quarel",
-        "Hugging Face URL": "",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://allenai.org/data/quarel",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/quarel",
+        "Paper Title": "Getting Closer to AI Complete Question Answering: A Set of Prerequisite Real Tasks",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/quarel",
+        "ArXiv URL": "https://ojs.aaai.org/index.php/AAAI/article/view/6398",
+        "Semantic Scholar Corpus ID": 213474484,
         "Languages": [
             "English"
         ],
@@ -518,17 +677,16 @@
             "Story",
             "Commonsense -> Concepts and Relations"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "University of Massachusetts Lowell"
+        ],
         "Licenses": [
             {
                 "License": "CC BY 4.0",
@@ -537,22 +695,36 @@
         ],
         "License Notes": "",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "quarel"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "quarel",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "HF Downloads (June 2023)": 12529,
+            "HF Likes (June 2023)": 1,
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "2018-11-20",
+            "S2 Citation Count (June 2023)": 68,
+            "S2 Date": "2020-04-03",
+            "GitHub License": ""
+        }
     },
     "fc-p3-quartz": {
         "Unique Dataset Identifier": "fc-p3-quartz",
         "Dataset Name": "quartz",
-        "Paper Title": null,
-        "Dataset URL": "https://allenai.org/data/quartz",
-        "Hugging Face URL": "",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://allenai.org/data/quartz",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/quartz",
+        "Paper Title": "QUARTZ: An Open-Domain Dataset of Qualitative Relationship Questions",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/quartz",
+        "ArXiv URL": "https://arxiv.org/abs/1909.03553",
+        "Semantic Scholar Corpus ID": 202539540,
         "Languages": [
             "English"
         ],
@@ -563,17 +735,16 @@
         "Text Domains": [
             "Natural Science"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "AI2"
+        ],
         "Licenses": [
             {
                 "License": "CC BY 4.0",
@@ -582,22 +753,36 @@
         ],
         "License Notes": "",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "quartz"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "quartz",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "CC BY 4.0",
+            "HF Downloads (June 2023)": 20127,
+            "HF Likes (June 2023)": 2,
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "2019-09-08",
+            "S2 Citation Count (June 2023)": 68,
+            "S2 Date": "2019-09-08",
+            "GitHub License": ""
+        }
     },
     "fc-p3-quoref": {
         "Unique Dataset Identifier": "fc-p3-quoref",
         "Dataset Name": "quoref",
-        "Paper Title": null,
-        "Dataset URL": "https://paperswithcode.com/dataset/quoref",
-        "Hugging Face URL": "",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://paperswithcode.com/dataset/quoref",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/quoref",
+        "Paper Title": "Quoref: A Reading Comprehension Dataset with Questions Requiring Coreferential Reasoning",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/quoref",
+        "ArXiv URL": "https://arxiv.org/abs/1908.05803",
+        "Semantic Scholar Corpus ID": 201058596,
         "Languages": [
             "English"
         ],
@@ -608,17 +793,17 @@
         "Text Domains": [
             "Wikipedia"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "AI2",
+            "University of Washington"
+        ],
         "Licenses": [
             {
                 "License": "CC BY 4.0",
@@ -627,22 +812,36 @@
         ],
         "License Notes": "",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "quoref"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "quoref",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "CC BY 4.0",
+            "HF Downloads (June 2023)": 24618,
+            "HF Likes (June 2023)": 1,
+            "PwC License Name": "CC BY 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
+            "PwC Date": "2019-08-16",
+            "S2 Citation Count (June 2023)": 132,
+            "S2 Date": "",
+            "GitHub License": ""
+        }
     },
     "fc-p3-race": {
         "Unique Dataset Identifier": "fc-p3-race",
         "Dataset Name": "race",
-        "Paper Title": null,
-        "Dataset URL": "https://www.cs.cmu.edu/~glai1/data/race/#:~:text=notes",
-        "Hugging Face URL": "",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://www.cs.cmu.edu/~glai1/data/race/#:~:text=notes",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/race",
+        "Paper Title": "RACE: Large-scale ReAding Comprehension Dataset From Examinations",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/race",
+        "ArXiv URL": "https://arxiv.org/abs/1704.04683",
+        "Semantic Scholar Corpus ID": 6826032,
         "Languages": [
             "English"
         ],
@@ -654,17 +853,16 @@
         "Text Domains": [
             "English Exams"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "Carnegie Mellon University"
+        ],
         "Licenses": [
             {
                 "License": "Custom",
@@ -673,22 +871,36 @@
         ],
         "License Notes": "Non-commercial",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "race"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "race",
+            "HF Config": "all",
+            "HF Config License": "",
+            "HF Yaml License": "Unspecified",
+            "HF Downloads (June 2023)": 28310,
+            "HF Likes (June 2023)": 14,
+            "PwC License Name": "Academic Research Purposes Only",
+            "PwC License URL": "https://www.cs.cmu.edu/~glai1/data/race/#:~:text=notes",
+            "PwC Date": "2017-01-01",
+            "S2 Citation Count (June 2023)": 907,
+            "S2 Date": "2017-04-15",
+            "GitHub License": ""
+        }
     },
     "fc-p3-ropes": {
         "Unique Dataset Identifier": "fc-p3-ropes",
         "Dataset Name": "ropes",
-        "Paper Title": null,
-        "Dataset URL": "https://paperswithcode.com/dataset/ropes",
-        "Hugging Face URL": "",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://paperswithcode.com/dataset/ropes",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/ropes",
+        "Paper Title": "Reasoning Over Paragraph Effects in Situations",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/ropes",
+        "ArXiv URL": "https://arxiv.org/abs/1908.05852",
+        "Semantic Scholar Corpus ID": 201058633,
         "Languages": [
             "English"
         ],
@@ -701,17 +913,16 @@
             "Natural Science",
             "School Science Textbooks"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "AI2"
+        ],
         "Licenses": [
             {
                 "License": "CC BY 4.0",
@@ -720,22 +931,36 @@
         ],
         "License Notes": "",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "ropes"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "ropes",
+            "HF Config": "plain_text",
+            "HF Config License": "CC BY 4.0",
+            "HF Yaml License": "CC BY 4.0",
+            "HF Downloads (June 2023)": 27310,
+            "HF Likes (June 2023)": 8,
+            "PwC License Name": "CC BY 4.0",
+            "PwC License URL": "https://creativecommons.org/licenses/by/4.0/",
+            "PwC Date": "2019-08-16",
+            "S2 Citation Count (June 2023)": 84,
+            "S2 Date": "2019-08-16",
+            "GitHub License": ""
+        }
     },
     "fc-p3-sciq": {
         "Unique Dataset Identifier": "fc-p3-sciq",
         "Dataset Name": "sciq",
-        "Paper Title": null,
-        "Dataset URL": "https://huggingface.co/datasets/sciq",
-        "Hugging Face URL": "",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://huggingface.co/datasets/sciq",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/sciq",
+        "Paper Title": "Crowdsourcing Multiple Choice Science Questions",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/sciq",
+        "ArXiv URL": "https://arxiv.org/abs/1707.06209",
+        "Semantic Scholar Corpus ID": 1553193,
         "Languages": [
             "English"
         ],
@@ -746,17 +971,18 @@
         "Text Domains": [
             "Natural Science -> School Science Textbooks"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "University College London",
+            "University of Washington",
+            "AI2"
+        ],
         "Licenses": [
             {
                 "License": "CC BY-NC 3.0",
@@ -765,22 +991,36 @@
         ],
         "License Notes": "",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "sciq"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "sciq",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "CC BY-NC 3.0",
+            "HF Downloads (June 2023)": 251088,
+            "HF Likes (June 2023)": 40,
+            "PwC License Name": "Unspecified",
+            "PwC License URL": "",
+            "PwC Date": "2017-07-19",
+            "S2 Citation Count (June 2023)": 131,
+            "S2 Date": "2017-07-19",
+            "GitHub License": ""
+        }
     },
     "fc-p3-social_iqa": {
         "Unique Dataset Identifier": "fc-p3-social_iqa",
         "Dataset Name": "social_iqa",
-        "Paper Title": null,
-        "Dataset URL": "https://leaderboard.allenai.org/socialiqa/submissions/get-started",
-        "Hugging Face URL": "",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://leaderboard.allenai.org/socialiqa/submissions/get-started",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/social_i_qa",
+        "Paper Title": " Social IQa: Commonsense Reasoning about Social Interactions ",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/social-iqa",
+        "ArXiv URL": "https://arxiv.org/abs/1904.09728",
+        "Semantic Scholar Corpus ID": 128296356,
         "Languages": [
             "English"
         ],
@@ -791,17 +1031,17 @@
         "Text Domains": [
             "Commonsense -> Concepts and Relations -> Social Commonsense"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "AI2",
+            "Paul G. Allen School of Computer Science & Engineering"
+        ],
         "Licenses": [
             {
                 "License": "Unspecified",
@@ -810,22 +1050,36 @@
         ],
         "License Notes": "",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "social_iqa"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "social_i_qa",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "HF Downloads (June 2023)": 22294,
+            "HF Likes (June 2023)": 3,
+            "PwC License Name": "Unspecified",
+            "PwC License URL": "",
+            "PwC Date": "2019-04-22",
+            "S2 Citation Count (June 2023)": 347,
+            "S2 Date": "",
+            "GitHub License": ""
+        }
     },
     "fc-p3-web_questions": {
         "Unique Dataset Identifier": "fc-p3-web_questions",
         "Dataset Name": "web_questions",
-        "Paper Title": null,
-        "Dataset URL": "https://nlp.stanford.edu/software/sempre/",
-        "Hugging Face URL": "https://huggingface.co/datasets/web_questions",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://nlp.stanford.edu/software/sempre/",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/web_questions",
+        "Paper Title": "Semantic Parsing on Freebase from Question-Answer Pairs",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/webquestions",
+        "ArXiv URL": "https://aclanthology.org/D13-1160/",
+        "Semantic Scholar Corpus ID": 6401679,
         "Languages": [
             "English"
         ],
@@ -836,17 +1090,16 @@
         "Text Domains": [
             "Knowledge Base -> Freebase"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "Stanford University"
+        ],
         "Licenses": [
             {
                 "License": "CC BY 4.0",
@@ -855,22 +1108,36 @@
         ],
         "License Notes": "",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "web_questions"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "web_questions",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "Unspecified",
+            "HF Downloads (June 2023)": 7612,
+            "HF Likes (June 2023)": 8,
+            "PwC License Name": "Unspecified",
+            "PwC License URL": "",
+            "PwC Date": "2013-01-01",
+            "S2 Citation Count (June 2023)": 1574,
+            "S2 Date": "2013-10-01",
+            "GitHub License": ""
+        }
     },
     "fc-p3-wiki_bio": {
         "Unique Dataset Identifier": "fc-p3-wiki_bio",
         "Dataset Name": "wiki_bio",
-        "Paper Title": null,
-        "Dataset URL": "https://paperswithcode.com/dataset/wikibio",
-        "Hugging Face URL": "",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://paperswithcode.com/dataset/wikibio",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/wiki_bio",
+        "Paper Title": "Neural Text Generation from Structured Data with Application to the Biography Domain",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/wikibio",
+        "ArXiv URL": "https://arxiv.org/abs/1603.07771",
+        "Semantic Scholar Corpus ID": 1238927,
         "Languages": [
             "English"
         ],
@@ -878,17 +1145,17 @@
             "Structured Data to Text"
         ],
         "Text Domains": [],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "EPFL",
+            "Facebook AI Research"
+        ],
         "Licenses": [
             {
                 "License": "CC BY-SA 3.0",
@@ -897,22 +1164,36 @@
         ],
         "License Notes": "",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "wiki_bio"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "wiki_bio",
+            "HF Config": "default",
+            "HF Config License": "CC BY-SA 3.0",
+            "HF Yaml License": "CC BY-SA 3.0",
+            "HF Downloads (June 2023)": 12083,
+            "HF Likes (June 2023)": 7,
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "https://github.com/rlebret/wikipedia-biography-dataset/blob/master/LICENSE.txt",
+            "PwC Date": "2016-01-01",
+            "S2 Citation Count (June 2023)": 423,
+            "S2 Date": "2016-03-24",
+            "GitHub License": ""
+        }
     },
     "fc-p3-wiki_hop": {
         "Unique Dataset Identifier": "fc-p3-wiki_hop",
         "Dataset Name": "wiki_hop",
-        "Paper Title": null,
-        "Dataset URL": "https://paperswithcode.com/dataset/wikihop",
-        "Hugging Face URL": "",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://paperswithcode.com/dataset/wikihop",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/wiki_hop",
+        "Paper Title": "Neural Text Generation from Structured Data with Application to the Biography Domain",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/wikihop",
+        "ArXiv URL": "https://arxiv.org/abs/1603.07771",
+        "Semantic Scholar Corpus ID": 1238927,
         "Languages": [
             "English"
         ],
@@ -923,17 +1204,17 @@
         "Text Domains": [
             "Wikipedia"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "EPFL",
+            "Facebook AI Research"
+        ],
         "Licenses": [
             {
                 "License": "CC BY-SA 3.0",
@@ -942,22 +1223,36 @@
         ],
         "License Notes": "Approved for training/fine-tuning only",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "wiki_hop"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "wiki_hop",
+            "HF Config": "original",
+            "HF Config License": "",
+            "HF Yaml License": "CC BY-SA 3.0",
+            "HF Downloads (June 2023)": 20334,
+            "HF Likes (June 2023)": 1,
+            "PwC License Name": "CC BY-SA 3.0",
+            "PwC License URL": "http://qangaroo.cs.ucl.ac.uk/",
+            "PwC Date": "2017-01-01",
+            "S2 Citation Count (June 2023)": 423,
+            "S2 Date": "2016-03-24",
+            "GitHub License": ""
+        }
     },
     "fc-p3-wiki_qa": {
         "Unique Dataset Identifier": "fc-p3-wiki_qa",
         "Dataset Name": "wiki_qa",
-        "Paper Title": null,
-        "Dataset URL": "https://huggingface.co/datasets/wiki_qa",
-        "Hugging Face URL": "",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://huggingface.co/datasets/wiki_qa",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/wiki_qa",
+        "Paper Title": "WikiQA: A Challenge Dataset for Open-Domain Question Answering",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/wikiqa",
+        "ArXiv URL": "https://aclanthology.org/D15-1237/",
+        "Semantic Scholar Corpus ID": 1373518,
         "Languages": [
             "English"
         ],
@@ -969,41 +1264,55 @@
         "Text Domains": [
             "Wikipedia"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "Georgia Institute of Technology",
+            "Microsoft Research"
+        ],
         "Licenses": [
             {
                 "License": "Microsoft Data Licensing Agreement",
-                "License URL": "https://huggingface.co/datasets/wiki_qa"
+                "License URL": ""
             }
         ],
         "License Notes": "Denied - no commercial use",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "wiki_qa"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "wiki_qa",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "Unspecified",
+            "HF Downloads (June 2023)": 39704,
+            "HF Likes (June 2023)": 12,
+            "PwC License Name": "Custom",
+            "PwC License URL": "https://www.microsoft.com/en-us/download/details.aspx?id=52419",
+            "PwC Date": "2015-01-01",
+            "S2 Citation Count (June 2023)": 750,
+            "S2 Date": "2015-09-21",
+            "GitHub License": ""
+        }
     },
     "fc-p3-wiqa": {
         "Unique Dataset Identifier": "fc-p3-wiqa",
         "Dataset Name": "wiqa",
-        "Paper Title": null,
-        "Dataset URL": "https://allenai.org/data/wiqa",
-        "Hugging Face URL": "",
-        "Papers with Code URL": null,
-        "ArXiv URL": null,
-        "Semantic Scholar Corpus ID": null,
         "Collection": "Flan Collection (P3)",
         "Collection URL": "https://github.com/google-research/FLAN/tree/main/flan/v2",
+        "Dataset URL": "https://allenai.org/data/wiqa",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/wiqa",
+        "Paper Title": "WIQA: A dataset for “What if...” reasoning over procedural text",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/wiqa",
+        "ArXiv URL": "https://arxiv.org/abs/1909.04739",
+        "Semantic Scholar Corpus ID": 202558452,
         "Languages": [
             "English"
         ],
@@ -1014,28 +1323,40 @@
         "Text Domains": [
             "Natural Science"
         ],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt",
-            "Few-Shot Prompt"
+            "Zero-shot",
+            "Few-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "",
+        "Text Metrics": "",
         "Text Sources": [],
-        "Creators": null,
+        "Model Generated": [],
+        "Creators": [
+            "AI2"
+        ],
         "Licenses": [
             {
-                "License": "Apache 2.0",
+                "License": "Apache License 2.0",
                 "License URL": "https://github.com/allenai/wiqa-dataset/blob/master/LICENSE"
             }
         ],
         "License Notes": "",
         "License Verified By": "Shayne",
-        "Dataset Description": null,
         "Dataset Filter IDs": [
             "wiqa"
-        ]
+        ],
+        "Inferred Metadata": {
+            "HF Dataset": "wiqa",
+            "HF Config": "default",
+            "HF Config License": "",
+            "HF Yaml License": "",
+            "HF Downloads (June 2023)": 18589,
+            "HF Likes (June 2023)": 1,
+            "PwC License Name": "",
+            "PwC License URL": "",
+            "PwC Date": "2019-09-10",
+            "S2 Citation Count (June 2023)": 64,
+            "S2 Date": "2019-09-01",
+            "GitHub License": ""
+        }
     }
 }

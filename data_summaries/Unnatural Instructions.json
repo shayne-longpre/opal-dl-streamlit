@@ -2,34 +2,57 @@
     "unnatural_instructions": {
         "Unique Dataset Identifier": "unnatural_instructions",
         "Dataset Name": "unnatural_instructions",
-        "Paper Title": "Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor",
-        "Dataset URL": "https://github.com/orhonovich/unnatural-instructions",
-        "Hugging Face URL": "https://huggingface.co/datasets/mrm8488/unnatural-instructions",
-        "Papers with Code URL": null,
-        "ArXiv URL": "https://arxiv.org/abs/2212.09689",
-        "Semantic Scholar Corpus ID": "254853659",
         "Collection": "Unnatural Instructions",
         "Collection URL": "https://github.com/orhonovich/unnatural-instructions",
+        "Dataset URL": "https://github.com/orhonovich/unnatural-instructions",
+        "GitHub URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/mrm8488/unnatural-instructions",
+        "Paper Title": "Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2212.09689",
+        "Semantic Scholar Corpus ID": "254853659",
         "Languages": [
             "English"
         ],
         "Task Categories": [
-            "Miscellaneous"
+            "Sentiment Analysis",
+            "Multiple Choice Ingredient Necessity Question Answering",
+            "Binary Classification",
+            "Binary Classification Question Answering",
+            "Numerical Data Aggregation and Analysis",
+            "Paraphrase Identification",
+            "True/False Question Answering",
+            "Binary Classification (Spam/Not Spam)",
+            "Sentence Ordering",
+            "Sentence Completion"
         ],
         "Text Domains": [],
-        "Text Topics": null,
-        "Number of Examples": null,
-        "Text Length Metrics": null,
         "Format": [
-            "Zero-Shot Prompt"
+            "Zero-shot"
         ],
-        "Time of Collection": null,
-        "Model Generated": "text-davinci002",
+        "Text Metrics": {
+            "Num Dialogs": 66010,
+            "Mean Inputs Length": 331.7012,
+            "Mean Targets Length": 68.1963,
+            "Max Inputs Length": 3780,
+            "Max Targets Length": 3532,
+            "Min Inputs Length": 25,
+            "Min Targets Length": 1,
+            "Min Dialog Turns": 2,
+            "Max Dialog Turns": 2,
+            "Mean Dialog Turns": 2.0
+        },
         "Text Sources": [],
-        "Creators": ["Tel Aviv University", "Meta AI"],
+        "Model Generated": [
+            "OpenAI GPT-3"
+        ],
+        "Creators": [
+            "Tel Aviv University",
+            "Meta"
+        ],
         "Licenses": [
             {
-                "License": "MIT",
+                "License": "MIT License",
                 "License URL": "https://github.com/orhonovich/unnatural-instructions"
             },
             {
@@ -39,7 +62,26 @@
         ],
         "License Notes": "Code for generating the data and compiling under MIT. The data generator itself licensed under OpenAI",
         "License Verified By": "Nathan",
-        "Dataset Description": null,
-        "Dataset Filter IDs": ["unnatural_instructions"]
+        "Dataset Filter IDs": [
+            "unnatural_instructions"
+        ],
+        "Inferred Metadata": {
+            "Text Topics": [
+                "Mathematics",
+                "Logic",
+                "Linguistics",
+                "Cooking",
+                "General knowledge",
+                "Grammar",
+                "Daily routine",
+                "Food",
+                "Critical thinking",
+                "Language"
+            ],
+            "GitHub License": "",
+            "HF Yaml License": "",
+            "HF Config License": "",
+            "PwC License Name": ""
+        }
     }
 }
