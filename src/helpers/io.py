@@ -5,7 +5,7 @@ import shlex
 import subprocess
 import json
 import jsonlines
-import src.constants
+from src import constants
 from ast import literal_eval
 import pandas as pd
 import typing
