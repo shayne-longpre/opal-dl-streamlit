@@ -159,7 +159,7 @@ def streamlit_app():
 
                     format_multiselect = st.multiselect(
                         'Select the format types to cover in your datasets',
-                        ["All"] + list(INFO["constants"]["FORMATS"].keys()),
+                        ["All"] + INFO["constants"]["FORMATS"],
                         ["All"])
 
                     domain_multiselect = st.multiselect(
