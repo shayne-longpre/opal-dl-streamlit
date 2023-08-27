@@ -137,11 +137,6 @@ def streamlit_app():
                     'Select the datasets licensed for these use cases',
                     options=constants.LICENSE_USE_CLASSES,
                     value="Commercial")
-                # st.write('My favorite color is', color)
-                # license_multiselect = st.multiselect(
-                #     'Select the acceptable license values for constituent datasets',
-                #     ["All"] + list(INFO["constants"]["LICENSE_CLASSES"].keys()),
-                #     ["All"])
 
                 # with data_select_cols[1]:
                 language_multiselect = st.multiselect(
@@ -164,7 +159,7 @@ def streamlit_app():
 
                     domain_multiselect = st.multiselect(
                         'Select the domain types to cover in your datasets',
-                        ["All"] + list(INFO["constants"]["DOMAIN_GROUPS"].keys()),
+                        ["All", "Books", "Code", "Wiki", "News", "Biomedical", "Legal", "Web", "Math+Science"],
                         ["All"])
 
                     time_range_selection = st.slider(
