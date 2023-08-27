@@ -132,10 +132,16 @@ def streamlit_app():
 
                 # with data_select_cols[0]:
                 # st.write("Select the acceptable license values for constituent datasets")
-                license_multiselect = st.multiselect(
-                    'Select the acceptable license values for constituent datasets',
-                    ["All"] + list(constants.LICENSE_GROUPS.keys()),
-                    ["All"])
+
+                license_multiselect = st.select_slider(
+                    'Select a color of the rainbow',
+                    options=reversed(LICENSE_USE_TYPES),
+                    value="Academic-Only")
+                # st.write('My favorite color is', color)
+                # license_multiselect = st.multiselect(
+                #     'Select the acceptable license values for constituent datasets',
+                #     ["All"] + list(INFO["constants"]["LICENSE_CLASSES"].keys()),
+                #     ["All"])
 
                 # with data_select_cols[1]:
                 language_multiselect = st.multiselect(
