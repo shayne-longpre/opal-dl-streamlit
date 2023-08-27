@@ -1,5 +1,5 @@
 # Most constants are in the constants folder.
-from helpers import io
+from src.helpers import io
 
 LICENSE_CONSTANTS_FP = "constants/license_classes.json"
 CUSTOM_LICENSE_CONSTANTS_FP = "constants/custom_license_classes.json"

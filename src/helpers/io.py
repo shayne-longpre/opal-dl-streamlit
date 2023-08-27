@@ -6,7 +6,7 @@ import subprocess
 import yaml
 import json
 import jsonlines
-import constants
+import src.constants
 from ast import literal_eval
 import pandas as pd
 import typing
