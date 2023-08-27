@@ -3,7 +3,6 @@ import sys
 import gzip
 import shlex
 import subprocess
-import yaml
 import json
 import jsonlines
 import src.constants
@@ -82,10 +81,6 @@ def read_jsonl(inpath: str) -> typing.List[typing.Dict]:
         with open(inpath, "rb") as fp:
             j_reader = jsonlines.Reader(fp)
             return [l for l in j_reader]
-
-def read_yaml(inpath: str):
-    with open(inpath, 'r') as inf:
-        return yaml.safe_load(inf)
 
 
 #############################################################################
