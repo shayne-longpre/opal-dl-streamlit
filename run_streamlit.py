@@ -158,7 +158,7 @@ def streamlit_app():
 
     df_metadata = util.compute_metrics(INFO["data"])
 
-    insert_plot_viz1()
+    insert_plot_viz2()
 
     with st.sidebar:
         st.markdown("""Select the preferred criteria for your datasets.""")
