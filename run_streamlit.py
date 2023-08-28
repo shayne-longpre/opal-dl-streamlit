@@ -168,8 +168,8 @@ def streamlit_app():
         filtered_df = filter_utils.apply_filters(
             INFO["data"], 
             INFO["constants"],
-            license_multiselect, 
-            "commercial",
+            "All", 
+            license_multiselect,
             str(1 - int(license_attribution)),
             str(1 - int(license_sharealike)),
             language_multiselect, 
