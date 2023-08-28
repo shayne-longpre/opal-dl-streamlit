@@ -163,6 +163,7 @@ def streamlit_app():
             # Every form must have a submit button.
             submitted = st.form_submit_button("Submit Selection")
 
+    st.write(len(INFO["data"]))
     if submitted:
         filtered_df = filter_utils.apply_filters(
             INFO["data"], 
