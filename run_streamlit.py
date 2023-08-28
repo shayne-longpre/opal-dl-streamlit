@@ -186,28 +186,29 @@ def streamlit_app():
 
         # insert_main_viz()
 
-        metrics = util.compute_metrics(filtered_df)
+        if submitted:
+            metrics = util.compute_metrics(filtered_df)
 
-        st.subheader('Properties of your collection')
-        # st.text("See what data fits your criteria.")
+            st.subheader('Properties of your collection')
+            # st.text("See what data fits your criteria.")
 
-        st.markdown('#')
-        st.markdown('#')
-        
-        display_metrics(metrics, df_metadata)
+            st.markdown('#')
+            st.markdown('#')
+            
+            display_metrics(metrics, df_metadata)
 
-        # st.divider()
-        st.markdown('#')
-        # st.markdown('#')
+            # st.divider()
+            st.markdown('#')
+            # st.markdown('#')
 
-        insert_metric_container("License Distribution", "licenses", metrics)
-        insert_metric_container("Language Distribution", "languages", metrics)
-        insert_metric_container("Task Category Distribution", "task_categories", metrics)
+            insert_metric_container("License Distribution", "licenses", metrics)
+            insert_metric_container("Language Distribution", "languages", metrics)
+            insert_metric_container("Task Category Distribution", "task_categories", metrics)
 
-        with st.container(): 
-            st.header('Collections Data')
-            table = util.prep_collection_table(filtered_df, INFO["data"], metrics)
-            setup_table(table)
+            with st.container(): 
+                st.header('Collections Data')
+                table = util.prep_collection_table(filtered_df, INFO["data"], metrics)
+                setup_table(table)
 
     with tab2:
         st.header("Collection Explorer")
