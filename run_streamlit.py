@@ -54,6 +54,15 @@ def insert_main_viz():
     sketch += '</script>'
     components.html(sketch, height=800, scrolling=True)
 
+def insert_plot_viz1():
+    sketch = '<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>'
+    sketch += '<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>'
+    sketch += '<script>'
+    sketch += "const JSONDATA = " + open("static2/data_summary.json", 'r', encoding='utf-8').read() + "\n"
+    sketch += open("static/plot.js", 'r', encoding='utf-8').read()
+    sketch += '</script>'
+    components.html(sketch, height=800, scrolling=True)
+
 
 def setup_table(selected_data):
 
@@ -116,7 +125,7 @@ def streamlit_app():
 
     df_metadata = util.compute_metrics(INFO["data"])
 
-
+    insert_plot_viz1()
 
     with st.sidebar:
         st.markdown("""Select the preferred criteria for your datasets.""")
