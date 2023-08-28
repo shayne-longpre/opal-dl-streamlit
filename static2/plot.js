@@ -8,7 +8,7 @@ function preload() {
 }
 
 
-export async function readJsonData(filePath) {
+async function readJsonData(filePath) {
   try {
     let response = await fetch(filePath);
 
@@ -35,7 +35,7 @@ function roundToOneDecimalPlace(number) {
   return Math.round(number * 10) / 10;
 }
 
-export function prepareDataSummary(data) {
+function prepareDataSummary(data) {
   // CLEAN/FORMAT THE DATA
   const ddata = Object.values(data);
 
@@ -112,7 +112,7 @@ export function prepareDataSummary(data) {
 }
 
 
-export function convertToSunburstFormat(data, groups, field) {
+function convertToSunburstFormat(data, groups, field) {
   let categoryGroups = {
     name: `${field}_groups`,
     children: []
@@ -154,7 +154,7 @@ export function convertToSunburstFormat(data, groups, field) {
 }
 
 
-export function transformToNestedFormat(clean, parentField, childField) {
+function transformToNestedFormat(clean, parentField, childField) {
   // Expects `parentField` as strings, `childField` as lists
   let parentToChildMapping = {};
 
@@ -209,7 +209,7 @@ export function transformToNestedFormat(clean, parentField, childField) {
 // console.log(nestedData);
 
 
-export function setupLangWorldMap(countryCodes, langCodes, countryCodeToLangCodes) {
+function setupLangWorldMap(countryCodes, langCodes, countryCodeToLangCodes) {
 
   const langMap = {};
   for (const code in langCodes) {
@@ -254,7 +254,7 @@ export function setupLangWorldMap(countryCodes, langCodes, countryCodeToLangCode
   return languageToCountryMapping;
 }
 
-export function createWorldMap(counts, countries, countrymesh, title) {
+function createWorldMap(counts, countries, countrymesh, title) {
   // Create a map with country names as keys and their respective values
   const countryValueMap = new Map(counts.map(d => [d.name, d.value]));
 
@@ -277,7 +277,7 @@ export function createWorldMap(counts, countries, countrymesh, title) {
   });
 }
 
-export function createWorldMap1(counts, countries, countrymesh, title, countryToLanguageMapping) {
+function createWorldMap1(counts, countries, countrymesh, title, countryToLanguageMapping) {
   // Create a map with country names as keys and their respective values
   const countryValueMap = new Map(counts.map(d => [d.name, d.value]));
 
@@ -316,7 +316,7 @@ export function createWorldMap1(counts, countries, countrymesh, title, countryTo
 
 
 
-// export function createWorldMap(counts, countries, countrymesh, title) {
+// function createWorldMap(counts, countries, countrymesh, title) {
 
 //   return Plot.plot({
 //     projection: "equal-earth",
@@ -338,7 +338,7 @@ export function createWorldMap1(counts, countries, countrymesh, title, countryTo
 // Copyright 2021, Observable Inc.
 // Released under the ISC license.
 // https://observablehq.com/@d3/color-legend
-export function Swatches(color, {
+function Swatches(color, {
   columns = null,
   format,
   unknown: formatUnknown,
@@ -412,7 +412,7 @@ export function Swatches(color, {
   <div>${domain.map(value => `<span class="${id}" style="--color: ${color(value)}">${format(value)}</span>`)}</div>`;
 }
 
-export function swatches({color, ...options}) {
+function swatches({color, ...options}) {
   return Swatches(color, options);
 }
 
