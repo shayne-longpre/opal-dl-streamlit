@@ -151,9 +151,8 @@ def apply_filters(
     st.write(len(filtered_df))
 
     if selected_license_use:
-        lowercase_license_types = [x.lower() for x in constants.LICENSE_USE_TYPES]
-        valid_license_use_idx = lowercase_license_types.index(selected_license_use)
-        valid_license_uses = lowercase_license_types[:valid_license_use_idx+1]
+        valid_license_use_idx = constants.LICENSE_USE_TYPES.index(selected_license_use)
+        valid_license_uses = [x.lower() for x in constants.LICENSE_USE_TYPES[:valid_license_use_idx+1]]
         filtered_df = filtered_df[
             filtered_df["License Use (DataProvenance)"].apply(lambda x: x in valid_license_uses)
         ]
