@@ -71,15 +71,27 @@ from src import constants
 #     filtered_df = filter_on_key(filtered_df, selected_text_domains, "Text Domains", constants.DOMAIN_GROUPS)
 #     return filtered_df
 
+    # datasets_count = dict(Counter(df["Unique Dataset Identifier"]))
+    # collections_count = dict(Counter(df["Collection"].tolist()).most_common())
+    # language_counts = dict(Counter([lang for row in df["Languages"] for lang in row]).most_common())
+    # taskcat_counts = dict(Counter([tc for row in df["Task Categories"] for tc in row]).most_common())
+    # format_counts = dict(Counter([fmt for row in df["Format"] for fmt in row]).most_common())
+    # license_counts = dict(Counter([license_info["License"] for licenses in df["Licenses"].tolist() for license_info in licenses if license_info["License"]]).most_common())
+    
 
 def compute_metrics(df):
+    # Datasets with the same Dataset Name may have different languages
+    # but not different tasks, topics, or licenses. Let's not double count these.
+    # Drop duplicate rows based on 'Dataset Name' column
+    df_unique = df.drop_duplicates(subset='Dataset Name')
+
     datasets_count = dict(Counter(df["Unique Dataset Identifier"]))
-    collections_count = dict(Counter(df["Collection"].tolist()).most_common())
-    language_counts = dict(Counter([lang for row in df["Languages"] for lang in row]).most_common())
-    taskcat_counts = dict(Counter([tc for row in df["Task Categories"] for tc in row]).most_common())
-    format_counts = dict(Counter([fmt for row in df["Format"] for fmt in row]).most_common())
-    license_counts = dict(Counter([license_info["License"] for licenses in df["Licenses"].tolist() for license_info in licenses if license_info["License"]]).most_common())
-    
+    collections_count = dict(Counter(df["Collection"]))
+    language_counts = dict(Counter([lang for row in df["Languages"] for lang in row]))
+    taskcat_counts = dict(Counter([tc for row in df_unique["Task Categories"] for tc in row]))
+    format_counts = dict(Counter([fmt for row in df_unique["Format"] for fmt in row]))
+    license_counts = dict(Counter([license_info["License"] for licenses in df_unique["Licenses"] for license_info in licenses if license_info["License"]]))
+
     return {
         "collections": collections_count,
         "datasets": datasets_count,

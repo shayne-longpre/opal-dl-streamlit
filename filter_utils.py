@@ -126,7 +126,7 @@ def apply_filters(
     selected_task_categories,
 ):
     filtered_df = df
-    st.write(len(filtered_df))
+    # st.write(len(filtered_df))
 
     # Some sanity checks:
     all_langs = set([v for vs in all_constants["LANGUAGE_GROUPS"].values() for v in vs])
@@ -147,8 +147,7 @@ def apply_filters(
         filtered_df = filtered_df[
             filtered_df["Licenses"].apply(lambda xs: license_strs >= set([x["License"] for x in xs]))
         ]
-    st.write("TEStttttt")
-    st.write(len(filtered_df))
+    # st.write(len(filtered_df))
 
     if selected_license_use:
         valid_license_use_idx = constants.LICENSE_USE_TYPES.index(selected_license_use)
@@ -157,17 +156,17 @@ def apply_filters(
             filtered_df["License Use (DataProvenance)"].apply(lambda x: x in valid_license_uses)
         ]
 
-    st.write(len(filtered_df))
+    # st.write(len(filtered_df))
     if selected_license_attribtution:
         filtered_df = filtered_df[
             filtered_df["License Attribution (DataProvenance)"].apply(lambda x: x <= int(selected_license_attribtution))
         ]
-    st.write(len(filtered_df))
+    # st.write(len(filtered_df))
     if selected_license_sharealike:
         filtered_df = filtered_df[
             filtered_df["License Share Alike (DataProvenance)"].apply(lambda x: x <= int(selected_license_sharealike))
         ]
-    st.write(len(filtered_df))
+    # st.write(len(filtered_df))
     if selected_languages and "All" not in selected_languages:
         lang_strs = set(
             [
@@ -179,7 +178,7 @@ def apply_filters(
         filtered_df = filtered_df[
             filtered_df["Languages"].apply(lambda x: lang_strs >= set(x))
         ]
-    st.write(len(filtered_df))
+    # st.write(len(filtered_df))
     if selected_task_categories and "All" not in selected_task_categories:
         taskcat_strs = set(
             [
@@ -191,5 +190,5 @@ def apply_filters(
         filtered_df = filtered_df[
             filtered_df["Task Categories"].apply(lambda x: taskcat_strs >= set(x))
         ]
-    st.write(len(filtered_df))
+    # st.write(len(filtered_df))
     return filtered_df

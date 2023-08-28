@@ -163,7 +163,7 @@ def streamlit_app():
             # Every form must have a submit button.
             submitted = st.form_submit_button("Submit Selection")
 
-    st.write(len(INFO["data"]))
+    # st.write(len(INFO["data"]))
     if submitted:
         filtered_df = filter_utils.apply_filters(
             INFO["data"], 
@@ -178,8 +178,6 @@ def streamlit_app():
             # ["All"], #domain_multiselect,
             # time_range_selection,
         )
-        # st.write(len(filtered_df))
-        # st.write(filtered_df)
 
 
     tab1, tab2 = st.tabs(["Data Selection", "Data Explorer"])
