@@ -126,6 +126,7 @@ def apply_filters(
     selected_task_categories,
 ):
     filtered_df = df
+    st.write(len(filtered_df))
 
     # Some sanity checks:
     all_langs = set([v for vs in all_constants["LANGUAGE_GROUPS"].values() for v in vs])
@@ -146,6 +147,7 @@ def apply_filters(
         filtered_df = filtered_df[
             filtered_df["Licenses"].apply(lambda xs: license_strs >= set([x["License"] for x in xs]))
         ]
+    st.write(len(filtered_df))
 
     if selected_license_use:
         lowercase_license_types = [x.lower() for x in constants.LICENSE_USE_TYPES]
