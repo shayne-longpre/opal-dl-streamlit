@@ -177,8 +177,8 @@ def streamlit_app():
             # ["All"], #domain_multiselect,
             # time_range_selection,
         )
-        st.write(len(filtered_df))
-        st.write(filtered_df)
+        # st.write(len(filtered_df))
+        # st.write(filtered_df)
 
 
     tab1, tab2 = st.tabs(["Data Selection", "Data Explorer"])

@@ -153,16 +153,17 @@ def apply_filters(
             filtered_df["License Use (DataProvenance)"].apply(lambda x: x in valid_license_uses)
         ]
 
+    st.write(len(filtered_df))
     if selected_license_attribtution:
         filtered_df = filtered_df[
             filtered_df["License Attribution (DataProvenance)"].apply(lambda x: x <= int(selected_license_attribtution))
         ]
-
+    st.write(len(filtered_df))
     if selected_license_sharealike:
         filtered_df = filtered_df[
             filtered_df["License Share Alike (DataProvenance)"].apply(lambda x: x <= int(selected_license_sharealike))
         ]
-
+    st.write(len(filtered_df))
     if selected_languages and "All" not in selected_languages:
         lang_strs = set(
             [
@@ -174,7 +175,7 @@ def apply_filters(
         filtered_df = filtered_df[
             filtered_df["Languages"].apply(lambda x: lang_strs >= set(x))
         ]
-
+    st.write(len(filtered_df))
     if selected_task_categories and "All" not in selected_task_categories:
         taskcat_strs = set(
             [
@@ -186,5 +187,5 @@ def apply_filters(
         filtered_df = filtered_df[
             filtered_df["Task Categories"].apply(lambda x: taskcat_strs >= set(x))
         ]
-
+    st.write(len(filtered_df))
     return filtered_df
