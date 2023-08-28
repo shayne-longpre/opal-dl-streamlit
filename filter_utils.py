@@ -3,6 +3,8 @@ import numpy as np
 import pandas as pd
 from collections import Counter, defaultdict
 
+import streamlit as st
+
 from src import constants
 
 def classify_license(license_name, license_url, all_constants):
