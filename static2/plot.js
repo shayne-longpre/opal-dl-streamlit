@@ -259,21 +259,21 @@ function createWorldMap(counts, countries, countrymesh, title) {
   // Create a map with country names as keys and their respective values
   const countryValueMap = new Map(counts.map(d => [d.name, d.value]));
 
-  return Plot.plot({
+  return plot({
     projection: "equal-earth",
     width: 928,
     height: 928 / 2,
     color: { scheme: "YlGnBu", unknown: "#ccc", label: title, legend: true },
     marks: [
-      Plot.sphere({ fill: "white", stroke: "currentColor" }),
-      Plot.geo(countries, {
+      sphere({ fill: "white", stroke: "currentColor" }),
+      geo(countries, {
         fill: d => countryValueMap.get(d.properties.name),
         title: (d) => {
           const value = countryValueMap.get(d.properties.name);
           return `Country: ${d.properties.name}, Value: ${value}`;
         }
       }),
-      Plot.geo(countrymesh, { stroke: "white" }),
+      geo(countrymesh, { stroke: "white" }),
     ]
   });
 }
@@ -282,14 +282,14 @@ function createWorldMap1(counts, countries, countrymesh, title, countryToLanguag
   // Create a map with country names as keys and their respective values
   const countryValueMap = new Map(counts.map(d => [d.name, d.value]));
 
-  return Plot.plot({
+  return plot({
     projection: "equal-earth",
     width: 928,
     height: 928 / 2,
     color: { scheme: "YlGnBu", unknown: "#ccc", label: title, legend: true },
     marks: [
-      Plot.sphere({ fill: "white", stroke: "currentColor" }),
-      Plot.geo(countries, {
+      sphere({ fill: "white", stroke: "currentColor" }),
+      geo(countries, {
         fill: d => countryValueMap.get(d.properties.name),
         title: (d) => {
           const countryName = d.properties.name;
@@ -310,7 +310,7 @@ function createWorldMap1(counts, countries, countrymesh, title, countryToLanguag
           return `Country: ${countryName}\n${languageStr ? `Spoken Languages: ${languageStr}` : ''}`;
         }
       }),
-      Plot.geo(countrymesh, { stroke: "white" }),
+      geo(countrymesh, { stroke: "white" }),
     ]
   });
 }
@@ -319,18 +319,18 @@ function createWorldMap1(counts, countries, countrymesh, title, countryToLanguag
 
 // function createWorldMap(counts, countries, countrymesh, title) {
 
-//   return Plot.plot({
+//   return plot({
 //     projection: "equal-earth",
 //     width: 928,
 //     height: 928 / 2,
 //     color: { scheme: "YlGnBu", unknown: "#ccc", label: title, legend: true },
 //     marks: [
-//       Plot.sphere({ fill: "white", stroke: "currentColor" }),
-//       Plot.geo(countries, {
+//       sphere({ fill: "white", stroke: "currentColor" }),
+//       geo(countries, {
 //         fill: (map => d => map.get(d.properties.name))(new Map(counts.map(d => [d.name, d.value]))),
 //         title: d => `${d.properties.name}: ${counts.find(c => c.name === d.properties.name)?.value || 'Unknown'}`
 //       }),
-//       Plot.geo(countrymesh, { stroke: "white" }),
+//       geo(countrymesh, { stroke: "white" }),
 //     ]
 //   });
 // }
@@ -463,17 +463,17 @@ function getLicenseColor(licenseClass) {
 }
 
 const marks = [
-    // Plot.density(clean, { x: "inputTextLen", y: "targetTextLen", stroke: "density" }),
+    // density(clean, { x: "inputTextLen", y: "targetTextLen", stroke: "density" }),
     ...uniqueLicenseClasses.map(licenseClass => {
-        return Plot.density(
+        return density(
             clean.filter(d => d.licenseUseCategory === licenseClass),
             { x: "inputTextLen", y: "targetTextLen", stroke: "licenseUseCategory", strokeOpacity: 0.35, }
         )
     }),
     ...uniqueLicenseClasses.map(licenseClass => {
-        return Plot.dot(
+        return dot(
             clean.filter(d => d.licenseUseCategory === licenseClass),
-            // Plot.bin({ r: "count" }, { x: "inputTextLen", y: "targetTextLen", symbol: getShapeForLicense(licenseClass), stroke: getLicenseColor(licenseClass), thresholds: 100 })
+            // bin({ r: "count" }, { x: "inputTextLen", y: "targetTextLen", symbol: getShapeForLicense(licenseClass), stroke: getLicenseColor(licenseClass), thresholds: 100 })
             {
                 x: "inputTextLen",
                 y: "targetTextLen",
@@ -491,9 +491,9 @@ const marks = [
             }
         )
     }),
-    Plot.tip(clean, Plot.pointer({ x: "inputTextLen", y: "targetTextLen", title: (d) => ["Collection Name: " + d.collection, "Dataset Name: " + d.datasetName, "Input Length: " + d.inputTextLen, "Target Length: " + d.targetTextLen].join("\n") })),
-    Plot.axisY({ label: null, labelArrow: "none" }),
-    Plot.axisX({ label: null, labelArrow: "none" })
+    tip(clean, pointer({ x: "inputTextLen", y: "targetTextLen", title: (d) => ["Collection Name: " + d.collection, "Dataset Name: " + d.datasetName, "Input Length: " + d.inputTextLen, "Target Length: " + d.targetTextLen].join("\n") })),
+    axisY({ label: null, labelArrow: "none" }),
+    axisX({ label: null, labelArrow: "none" })
 ];
 
 const plotDiv = document.createElement("div")
@@ -535,7 +535,7 @@ document.querySelector(`#${plotId}`).append(title)
 document.querySelector(`#${plotId}`).append(ydiv)
 document.querySelector(`#y${plotCount}div`).append(yaxis)
 document.querySelector(`#${plotId}`).append(
-    Plot.plot({
+    plot({
         inset: 10,
         grid: true,
         x: { type: "log" },
