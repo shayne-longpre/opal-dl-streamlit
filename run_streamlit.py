@@ -74,8 +74,8 @@ def insert_plot_viz2():
     sketch = '<div id="container"></div>'
     sketch += '<script type="module" src="https://d3js.org/d3.v5.min.js"></script>'
     sketch += '<script type="module" src="https://cdn.jsdelivr.net/npm/d3@7/+esm"></script>'
-    # sketch += '<script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>'
-    # sketch += '<script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>'
+    sketch += '<script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>'
+    sketch += '<script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>'
     sketch += '<script type="module" src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm"></script>'
 
     sketch += '<script src="https://unpkg.com/topojson@3"></script>'
@@ -93,6 +93,10 @@ def insert_plot_viz2():
     sketch += "const countryCodeToLangCodes = " + open("static2/country-code-to-language-codes.json", 'r', encoding='utf-8').read() + "\n"
 
     sketch += open("static2/worldmap.js", 'r', encoding='utf-8').read()
+    sketch += '</script>'
+    sketch += '<script>'
+    sketch += "const JSONDATA = " + open("static2/data_summary.json", 'r', encoding='utf-8').read() + "\n"
+    sketch += open("static2/plot.js", 'r', encoding='utf-8').read()
     sketch += '</script>'
     components.html(sketch, height=800, scrolling=True)
 
