@@ -60,6 +60,7 @@ def insert_plot_viz1():
     sketch += '<script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>'
     sketch += '<script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>'
     sketch += '<script type="module" src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm"></script>'
+    sketch += '<link rel="stylesheet" type="text/css" href="style.css">'
     # sketch += '<script type="module"> import * as Plot from "https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm";</script>'
     
     sketch += '<script>'
