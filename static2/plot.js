@@ -1,12 +1,13 @@
 // import * as Plot from "https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm";
 
-let data;
+let dataSummary;
 
 function preload() {
     // load collections
-    data = JSONDATA;
+    dataSummary = JSONDATA;
 }
 
+dataSummary = JSONDATA;
 
 async function readJsonData(filePath) {
   try {
@@ -417,7 +418,8 @@ function swatches({color, ...options}) {
 }
 
 
-let clean = prepareDataSummary(data)
+
+let clean = prepareDataSummary(dataSummary)
 
 
 // 1. Extract unique licenseUseClass values
