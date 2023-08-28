@@ -3,6 +3,8 @@ import numpy as np
 import pandas as pd
 from collections import Counter, defaultdict
 
+from src import constants
+
 def classify_license(license_name, license_url, all_constants):
     if license_name == "Custom":
         use_case, attribution, share_alike = all_constants["CUSTOM_LICENSE_CLASSES"].get(license_url, ("?", "?", "?"))
