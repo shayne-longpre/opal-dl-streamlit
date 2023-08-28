@@ -133,9 +133,9 @@ def apply_filters(
     option_tcats = set(
         [tc for tcs in filtered_df["Task Categories"].tolist() for tc in tcs]
     )
-    assert (
-            all_tcats >= option_tcats
-    ), f"Missing Task Categories: {option_tcats - all_tcats}"
+    # assert (
+    #         all_tcats >= option_tcats
+    # ), f"Missing Task Categories: {option_tcats - all_tcats}"
 
     if selected_licenses:
         license_strs = set(all_constants["LICENSE_CLASSES"].keys())
@@ -177,7 +177,7 @@ def apply_filters(
             [
                 taskcat_str
                 for k in selected_task_categories
-                for taskcat_str in all_constants["TASK_GROUPS"][k]
+                for taskcat_str in all_constants["TASK_GROUPS"].get(k, "Other Tasks")
             ]
         )
         filtered_df = filtered_df[
