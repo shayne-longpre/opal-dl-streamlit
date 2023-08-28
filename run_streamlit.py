@@ -116,6 +116,69 @@ def streamlit_app():
 
     df_metadata = util.compute_metrics(INFO["data"])
 
+
+
+    with st.sidebar:
+        st.markdown("""Select the preferred criteria for your datasets.""")
+
+        with st.form("data_selection"):
+
+            # st.write("Select the acceptable license values for constituent datasets")
+            license_multiselect = st.select_slider(
+                'Select the datasets licensed for these use cases',
+                options=constants.LICENSE_USE_CLASSES,
+                value="Commercial")
+
+            license_attribution = st.toggle('Exclude Datasets w/ Attribution Requirements', value=False)
+            license_sharealike = st.toggle('Exclude Datasets w/ Share Alike Requirements', value=False)
+
+            # with data_select_cols[1]:
+            language_multiselect = st.multiselect(
+                'Select the languages to cover in your datasets',
+                ["All"] + list(INFO["constants"]["LANGUAGE_GROUPS"].keys()),
+                ["All"])
+
+            # with data_select_cols[2]:
+            taskcats_multiselect = st.multiselect(
+                'Select the task categories to cover in your datasets',
+                ["All"] + list(INFO["constants"]["TASK_GROUPS"].keys()),
+                ["All"])
+
+            with st.expander("More advanced criteria"):
+
+                format_multiselect = st.multiselect(
+                    'Select the format types to cover in your datasets',
+                    ["All"] + INFO["constants"]["FORMATS"],
+                    ["All"])
+
+                domain_multiselect = st.multiselect(
+                    'Select the domain types to cover in your datasets',
+                    ["All", "Books", "Code", "Wiki", "News", "Biomedical", "Legal", "Web", "Math+Science"],
+                    ["All"])
+
+                time_range_selection = st.slider(
+                    "Select data release time constraints",
+                    value=(datetime(2000, 1, 1), datetime(2023, 7, 1)))
+
+            # Every form must have a submit button.
+            submitted = st.form_submit_button("Submit Selection")
+
+    if submitted:
+        filtered_df = filter_utils.apply_filters(
+            INFO["data"], 
+            INFO["constants"],
+            license_multiselect, 
+            "commercial",
+            str(int(license_attribution) - 1),
+            str(int(license_sharealike) - 1),
+            language_multiselect, 
+            taskcats_multiselect,
+            # format_multiselect,
+            # ["All"], #domain_multiselect,
+            # time_range_selection,
+        )
+
+
     tab1, tab2 = st.tabs(["Data Selection", "Data Explorer"])
 
     with tab1:
@@ -123,94 +186,32 @@ def streamlit_app():
 
         # insert_main_viz()
 
-        with st.sidebar:
-            st.markdown("""Select the preferred criteria for your datasets.""")
+        metrics = util.compute_metrics(filtered_df)
 
-            with st.form("data_selection"):
+        st.subheader('Properties of your collection')
+        # st.text("See what data fits your criteria.")
 
-                # data_select_cols = st.columns(3)
+        st.markdown('#')
+        st.markdown('#')
+        
+        display_metrics(metrics, df_metadata)
 
-                # with data_select_cols[0]:
-                # st.write("Select the acceptable license values for constituent datasets")
+        # st.divider()
+        st.markdown('#')
+        # st.markdown('#')
 
-                license_multiselect = st.select_slider(
-                    'Select the datasets licensed for these use cases',
-                    options=constants.LICENSE_USE_CLASSES,
-                    value="Commercial")
+        insert_metric_container("License Distribution", "licenses", metrics)
+        insert_metric_container("Language Distribution", "languages", metrics)
+        insert_metric_container("Task Category Distribution", "task_categories", metrics)
 
-                license_attribution = st.toggle('Attribution? Allow Datasets licensed to require attribution.')
-                license_sharealike = st.toggle('Share Alike? Allow Datasets licensed to require share alike.')
+        with st.container(): 
+            st.header('Collections Data')
+            table = util.prep_collection_table(filtered_df, INFO["data"], metrics)
+            setup_table(table)
 
-                # with data_select_cols[1]:
-                language_multiselect = st.multiselect(
-                    'Select the languages to cover in your datasets',
-                    ["All"] + list(INFO["constants"]["LANGUAGE_GROUPS"].keys()),
-                    ["All"])
-
-                # with data_select_cols[2]:
-                taskcats_multiselect = st.multiselect(
-                    'Select the task categories to cover in your datasets',
-                    ["All"] + list(INFO["constants"]["TASK_GROUPS"].keys()),
-                    ["All"])
-
-                with st.expander("More advanced criteria"):
-
-                    format_multiselect = st.multiselect(
-                        'Select the format types to cover in your datasets',
-                        ["All"] + INFO["constants"]["FORMATS"],
-                        ["All"])
-
-                    domain_multiselect = st.multiselect(
-                        'Select the domain types to cover in your datasets',
-                        ["All", "Books", "Code", "Wiki", "News", "Biomedical", "Legal", "Web", "Math+Science"],
-                        ["All"])
-
-                    time_range_selection = st.slider(
-                        "Select data release time constraints",
-                        value=(datetime(2000, 1, 1), datetime(2023, 7, 1)))
-
-                # Every form must have a submit button.
-                submitted = st.form_submit_button("Submit Selection")
-
-        if submitted:
-            filtered_df = filter_utils.apply_filters(
-                INFO["data"], 
-                INFO["constants"],
-                license_multiselect, 
-                "commercial",
-                str(int(license_attribution)),
-                str(int(license_sharealike)),
-                language_multiselect, 
-                taskcats_multiselect,
-                # format_multiselect,
-                # ["All"], #domain_multiselect,
-                # time_range_selection,
-            )
-            metrics = util.compute_metrics(filtered_df)
-
-            st.subheader('Properties of your collection')
-            # st.text("See what data fits your criteria.")
-
-            st.markdown('#')
-            st.markdown('#')
-            
-            display_metrics(metrics, df_metadata)
-
-            # st.divider()
-            st.markdown('#')
-            # st.markdown('#')
-
-            insert_metric_container("License Distribution", "licenses", metrics)
-            insert_metric_container("Language Distribution", "languages", metrics)
-            insert_metric_container("Task Category Distribution", "task_categories", metrics)
-
-            with st.container(): 
-                st.header('Collections Data')
-                table = util.prep_collection_table(filtered_df, INFO["data"], metrics)
-                setup_table(table)
-
-    # with tab2:
-    #     st.header("Collection Explorer")
+    with tab2:
+        st.header("Collection Explorer")
+        st.write("Hello World")
 
     #     with st.form("data_explorer"):
     #         collection_select = st.selectbox(
