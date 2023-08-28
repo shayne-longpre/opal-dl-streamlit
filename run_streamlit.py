@@ -56,9 +56,9 @@ def insert_main_viz():
 
 def insert_plot_viz1():
     sketch = '<script src="https://d3js.org/d3-hexbin.v0.2.min.js"></script>'
-    sketch = '<script src="https://d3js.org/d3.v5.min.js"></script>'
+    sketch += '<script src="https://d3js.org/d3.v5.min.js"></script>'
 
-    sketch = '<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>'
+    sketch += '<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>'
     sketch += '<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>'
     sketch += '<script src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm"></script>'
     
