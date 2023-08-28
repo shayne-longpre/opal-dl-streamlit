@@ -147,6 +147,7 @@ def apply_filters(
         filtered_df = filtered_df[
             filtered_df["Licenses"].apply(lambda xs: license_strs >= set([x["License"] for x in xs]))
         ]
+    st.write("TEStttttt")
     st.write(len(filtered_df))
 
     if selected_license_use:
