@@ -13,10 +13,10 @@ import pandas as pd
 import math
 
 import util
-import filter_utils
+import filter_util
 from src.helpers import io
 from src import constants
-from html_util import compose_html_component, setup_table
+import html_util
 
 import streamlit as st
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode, JsCode
@@ -81,8 +81,8 @@ def streamlit_app():
 
     df_metadata = util.compute_metrics(INFO["data"])
 
-    compose_html_component("plot.js", {})
-    compose_html_component(
+    html_util._html_component("plot.js", {})
+    html_util.compose_html_component(
         "worldmap.js", {
             "world": "countries-50m.json",
             "countryCodes": "country-codes.json",
@@ -181,7 +181,7 @@ def streamlit_app():
             with st.container(): 
                 st.header('Collections Data')
                 table = util.prep_collection_table(filtered_df, INFO["data"], metrics)
-                setup_table(table)
+                html_util.setup_table(table)
 
     with tab2:
         st.header("Collection Explorer")
