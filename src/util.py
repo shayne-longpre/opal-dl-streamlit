@@ -199,7 +199,7 @@ def plot_altair_barchart(counts):
     df['percentage'] = 100 * df['count'] / total
 
     # sort the DataFrame and only select the top 20 categories
-    df = df.sort_values('count', ascending=False)[:20]
+    df = df.sort_values('count', ascending=False)[:30]
 
     # for having a different color for each bar
     palette = alt.Scale(scheme='category20')
