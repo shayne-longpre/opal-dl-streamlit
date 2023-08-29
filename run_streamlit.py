@@ -146,12 +146,16 @@ def streamlit_app():
 
     st.title("Data Provenance Explorer")
 
+    st.text("The Data Provenance Initiative gives researchers the opportunity to explore thousands of teh most popular Datasets for training large language models.")
+    st.text("When you're ready, fill out your data filtering criteria on the left, and click Submit!")
+
     tab1, tab2, tab3, tab4 = st.tabs([
-        "Data Summary", ":rainbow[Global Representation] :earth_africa:", "Licenses :vertical_traffic_light:", "Text Characteristics :test_tube: 📈"])
+        "Data Summary", 
+        ":rainbow[Global Representation] :earth_africa:", 
+        "Data Licenses :vertical_traffic_light:", 
+        "Text Characteristics :test_tube:"])
 
     with tab1:
-        
-
         # insert_main_viz()
 
         if submitted:
@@ -169,23 +173,8 @@ def streamlit_app():
             st.markdown('#')
             # st.markdown('#')
 
-            insert_metric_container("License Distribution", "licenses", metrics)
-            insert_metric_container("Language Distribution", "languages", metrics)
-            insert_metric_container("Task Category Distribution", "task_categories", metrics)
-
-            html_util.compose_html_component(
-                filtered_data_summary, "text-metrics-licenses.js", {})
-
-            html_util.compose_html_component(
-                filtered_data_summary,
-                "tasks-sunburst.js", {
-                    "TASK_GROUPS": "html/constants/task_groups.json",
-                })
-            html_util.compose_html_component(
-                filtered_data_summary,
-                "creator-sunburst.js", {
-                    "CREATOR_GROUPS": "html/constants/creator_groups.json",
-                })
+            # insert_metric_container("Language Distribution", "languages", metrics)
+            # insert_metric_container("Task Category Distribution", "task_categories", metrics)
 
             with st.container(): 
                 st.header('Collections Data')
@@ -193,10 +182,17 @@ def streamlit_app():
                 html_util.setup_table(table)
 
     with tab2:
-        st.header("Collection Explorer")
-        st.write("Hello World")
+        st.header(":rainbow[Global Representation] :earth_africa:")
+
+        tab2_intro = """This section explores the representation of text datasets internationally.
+        These datasets contain a wide distribution of languages, and are created by many organizations and insitutions.
+        We measure both the representation across countries in which these languages are spoken, as well as "who creates these datasets"?
+        """
+        st.write(tab2_intro)
+        xxx = "First we visualize the language representation across countries by measuring **how well a country's population is covered by languages in these datasets**."
 
         if submitted:
+
             html_util.compose_html_component(
                 filtered_data_summary,
                 "language-map.js", {
@@ -213,11 +209,30 @@ def streamlit_app():
                     "countryToCreator": "html/constants/creator_groups_by_country.json",
                 })
 
+            html_util.compose_html_component(
+                filtered_data_summary,
+                "creator-sunburst.js", {
+                    "CREATOR_GROUPS": "html/constants/creator_groups.json",
+                })
+
     with tab3:
-        st.header("Test")
+        st.header("Data Licenses :vertical_traffic_light:")
+
+        if submitted:
+            insert_metric_container("License Distribution", "licenses", metrics)
 
     with tab4:
-        st.header("Test")
+        st.header("Text Characteristics :test_tube:)
+
+        if submitted:
+            html_util.compose_html_component(
+                filtered_data_summary, "text-metrics-licenses.js", {})
+
+            html_util.compose_html_component(
+                filtered_data_summary,
+                "tasks-sunburst.js", {
+                    "TASK_GROUPS": "html/constants/task_groups.json",
+                })
                 
 
     #     with st.form("data_explorer"):
