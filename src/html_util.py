@@ -29,6 +29,8 @@ def compose_html_component(data_summary, target_file, vars_to_files):
     if vars_to_files:
         for varname, fname in vars_to_files.items():
             sketch += f"const {varname} = " + open(f"{html_dir}/{fname}", 'r', encoding='utf-8').read() + "\n"
+
+    sketch += open(f"{html_dir}/helpers.js", 'r', encoding='utf-8').read() + "\n"
     sketch += open(f"{html_dir}/{target_file}", 'r', encoding='utf-8').read()
     sketch += '</script>'
     components.html(sketch, height=800, scrolling=True)
