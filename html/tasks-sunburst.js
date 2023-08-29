@@ -11,7 +11,8 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm").then(module =
         const radius = width / 6;
     
         // Create the color scale.
-        const color = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1));
+        // const color = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1));
+        const color = d3.scaleOrdinal(d3.quantize(d3.interpolateHclLong("blue", "orange"), data.children.length + 1))
     
         // Compute the layout.
         const hierarchy = d3.hierarchy(data)
