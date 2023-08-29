@@ -16,7 +16,7 @@ import util
 import filter_utils
 from src.helpers import io
 from src import constants
-from html_utils import compose_html_component, setup_table
+from html_util import compose_html_component, setup_table
 
 import streamlit as st
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode, JsCode
