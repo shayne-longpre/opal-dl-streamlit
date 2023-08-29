@@ -33,7 +33,7 @@ def load_constants():
 @st.cache_data
 def load_data():
     data_summary = io.read_data_summary_json("data_summaries/")
-    data_summary = filter_utils.map_license_criteria(data_summary, INFO["constants"])
+    data_summary = filter_util.map_license_criteria(data_summary, INFO["constants"])
     return pd.DataFrame(data_summary).fillna("")
 
 
@@ -80,15 +80,6 @@ def streamlit_app():
     INFO["data"] = load_data()
 
     df_metadata = util.compute_metrics(INFO["data"])
-
-    html_util.compose_html_component("plot.js", {})
-    html_util.compose_html_component(
-        "worldmap.js", {
-            "world": "countries-50m.json",
-            "countryCodes": "country-codes.json",
-            "langCodes": "language-codes.json",
-            "countryCodeToLangCodes": "country-code-to-language-codes.json",
-        })
 
     with st.sidebar:
         st.markdown("""Select the preferred criteria for your datasets.""")
@@ -137,7 +128,7 @@ def streamlit_app():
 
     # st.write(len(INFO["data"]))
     if submitted:
-        filtered_df = filter_utils.apply_filters(
+        filtered_df = filter_util.apply_filters(
             INFO["data"], 
             INFO["constants"],
             "All", 
@@ -178,6 +169,8 @@ def streamlit_app():
             insert_metric_container("Language Distribution", "languages", metrics)
             insert_metric_container("Task Category Distribution", "task_categories", metrics)
 
+            html_util.compose_html_component(filtered_df, "plot.js", {})
+
             with st.container(): 
                 st.header('Collections Data')
                 table = util.prep_collection_table(filtered_df, INFO["data"], metrics)
@@ -186,6 +179,16 @@ def streamlit_app():
     with tab2:
         st.header("Collection Explorer")
         st.write("Hello World")
+
+        if submitted:
+            html_util.compose_html_component(
+                filtered_df,
+                "worldmap.js", {
+                    "world": "countries-50m.json",
+                    "countryCodes": "country-codes.json",
+                    "langCodes": "language-codes.json",
+                    "countryCodeToLangCodes": "country-code-to-language-codes.json",
+                })
 
     #     with st.form("data_explorer"):
     #         collection_select = st.selectbox(

@@ -7,7 +7,7 @@ from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 import streamlit.components.v1 as components
 
 
-def compose_html_component(target_file, vars_to_files):
+def compose_html_component(data_summary, target_file, vars_to_files):
     html_dir = "html"
 
     sketch = '<div id="container"></div>'
@@ -24,7 +24,8 @@ def compose_html_component(target_file, vars_to_files):
 
 
     sketch += '<script>'
-    sketch += "const dataSummary = " + open(f"{html_dir}/data_summary.json", 'r', encoding='utf-8').read() + "\n"
+    sketch += "const dataSummary = " + json.dumps(data_summary) + "\n"
+    # sketch += "const dataSummary = " + open(f"{html_dir}/data_summary.json", 'r', encoding='utf-8').read() + "\n"
     if vars_to_files:
         for varname, fname in vars_to_files.items():
             sketch += f"const {varname} = " + open(f"{html_dir}/{fname}", 'r', encoding='utf-8').read() + "\n"
