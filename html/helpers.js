@@ -261,7 +261,7 @@ function createWorldMap(counts, countries, countrymesh, title) {
       Plot.geo(countries, {
         fill: d => countryValueMap.get(d.properties.name),
         title: (d) => {
-          const value = (100 * countryValueMap.get(d.properties.name)).toFixed(2) / 100;
+          const value = 10; //(100 * countryValueMap.get(d.properties.name)).toFixed(2) / 100;
           return `Country: ${d.properties.name}\nValue: ${value}`;
         }
       }),
