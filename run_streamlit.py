@@ -142,6 +142,7 @@ def streamlit_app():
             # time_range_selection,
         )
         filtered_data_summary = {row["Unique Dataset Identifier"]: row for row in filtered_df.to_records('list')}
+        st.write(filtered_data_summary)
 
 
     tab1, tab2 = st.tabs(["Data Selection", "Data Explorer"])
