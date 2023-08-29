@@ -271,28 +271,29 @@ def streamlit_app():
         st.header("Inspect Individual Datasets :mag:")
 
         with st.form("data_explorer"):
-            collection_select = st.selectbox(
-                'Select the collection to inspect',
-                ["All"] + list(set(INFO["data"]["Collection"])))
+            # collection_select = st.selectbox(
+            #     'Select the collection to inspect',
+            #     ["All"] + list(set(INFO["data"]["Collection"])))
 
-            if collection_select == ["All"]:
-                dataset_select = st.selectbox(
-                    'Select the dataset in this collection to inspect',
-                    ["All"] + list(set(INFO["data"]["Unique Dataset Identifier"])))
-            else:
-                collection_subset = INFO["data"][INFO["data"]["Collection"] == collection_select]
-                dataset_select = st.selectbox(
-                    'Select the dataset in this collection to inspect',
-                    ["All"] + list(set(collection_subset["Unique Dataset Identifier"])))
+            # if collection_select == ["All"]:
+            dataset_select = st.selectbox(
+                'Select the dataset in this collection to inspect',
+                list(set(INFO["data"]["Unique Dataset Identifier"])))
+                # ["All"] + list(set(INFO["data"]["Unique Dataset Identifier"])))
+            # else:
+            #     collection_subset = INFO["data"][INFO["data"]["Collection"] == collection_select]
+            #     dataset_select = st.selectbox(
+            #         'Select the dataset in this collection to inspect',
+            #         ["All"] + list(set(collection_subset["Unique Dataset Identifier"])))
 
             submitted2 = st.form_submit_button("Submit Selection")
 
         if submitted2:
         
-            if dataset_select == "All":
-                tab2_selected_df = INFO["data"][INFO["data"]["Collection"] == collection_select]
-            else:
-                tab2_selected_df = INFO["data"][INFO["data"]["Unique Dataset Identifier"] == dataset_select]
+            # if dataset_select == "All":
+            #     tab2_selected_df = INFO["data"][INFO["data"]["Collection"] == collection_select]
+            # else:
+            tab2_selected_df = INFO["data"][INFO["data"]["Unique Dataset Identifier"] == dataset_select]
 
             tab2_metrics = util.compute_metrics(tab2_selected_df)
             display_metrics(tab2_metrics, df_metadata)
