@@ -144,10 +144,12 @@ def streamlit_app():
         filtered_data_summary = {row["Unique Dataset Identifier"]: row for row in filtered_df.to_dict(orient='records')}
 
 
-    tab1, tab2 = st.tabs(["Data Selection", "Data Explorer"])
+    st.title("Data Provenance Explorer")
+    tab1, tab2, tab3, tab4 = st.tabs([
+        "Data Summary", "Global Representation", "Licenses", "Text Characteristics"])
 
     with tab1:
-        st.title("Data Provenance Explorer")
+        
 
         # insert_main_viz()
 
