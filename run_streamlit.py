@@ -146,8 +146,7 @@ def streamlit_app():
 
     st.title("Data Provenance Explorer")
 
-    st.text("The Data Provenance Initiative gives researchers the opportunity to explore thousands of teh most popular Datasets for training large language models.")
-    st.text("When you're ready, fill out your data filtering criteria on the left, and click Submit!")
+    st.write("The Data Provenance Initiative gives researchers the opportunity to explore thousands of teh most popular Datasets for training large language models.")
 
     tab1, tab2, tab3, tab4 = st.tabs([
         "Data Summary", 
@@ -158,7 +157,9 @@ def streamlit_app():
     with tab1:
         # insert_main_viz()
 
-        if submitted:
+        if not submitted:
+            st.write("When you're ready, fill out your data filtering criteria on the left, and click Submit!")
+        elif submitted:
             metrics = util.compute_metrics(filtered_df)
 
             st.subheader('Properties of your collection')
