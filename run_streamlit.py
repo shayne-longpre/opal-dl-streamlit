@@ -147,7 +147,7 @@ def streamlit_app():
     st.title("Data Provenance Explorer")
 
     tab1, tab2, tab3, tab4 = st.tabs([
-        "Data Summary", ":rainbow[Global Representation] :earth-globe:", "Licenses :vertical_traffic_light:", "Text Characteristics 📈"])
+        "Data Summary", ":rainbow[Global Representation] :earth:", "Licenses :vertical_traffic_light:", "Text Characteristics 📈"])
 
     with tab1:
         
