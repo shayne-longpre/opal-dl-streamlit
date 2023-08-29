@@ -173,11 +173,11 @@ def streamlit_app():
             html_util.compose_html_component(
                 filtered_data_summary, "text-metrics-licenses.js", {})
 
-            # html_util.compose_html_component(
-            #     filtered_data_summary,
-            #     "tasks-sunburst.js", {
-            #         "TASK_GROUPS": "html/constants/task_groups.json",
-            #     })
+            html_util.compose_html_component(
+                filtered_data_summary,
+                "tasks-sunburst.js", {
+                    "TASK_GROUPS": "html/constants/task_groups.json",
+                })
             html_util.compose_html_component(
                 filtered_data_summary,
                 "creator-sunburst.js", {

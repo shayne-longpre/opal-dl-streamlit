@@ -265,7 +265,7 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm").then(module =
         return svg.node();
     }
 
-    const clean = prepareDataSummary(data)
+    const clean = prepareDataSummary(dataSummary)
     // console.log(clean)
     // const nestedData = transformToNestedFormat(clean, 'licenseUseCategory', 'textTopics');
 
