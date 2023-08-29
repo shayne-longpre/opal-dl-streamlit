@@ -176,12 +176,12 @@ def streamlit_app():
             html_util.compose_html_component(
                 filtered_data_summary,
                 "tasks-sunburst.js", {
-                    "TASK_GROUPS": "html/constants/task_groups.json'",
+                    "TASK_GROUPS": "html/constants/task_groups.json",
                 })
             html_util.compose_html_component(
                 filtered_data_summary,
                 "creator-sunburst.js", {
-                    "CREATOR_GROUPS": "html/constants/creator_groups.json'",
+                    "CREATOR_GROUPS": "html/constants/creator_groups.json",
                 })
 
             with st.container(): 
