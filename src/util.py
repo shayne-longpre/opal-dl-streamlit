@@ -225,4 +225,4 @@ def plot_altair_barchart(counts):
     # Concatenate count and percentage fields for the text label
     df['text'] = df['count'].astype(str) + ' (' + df['percentage'].round(1).astype(str) + '%)'
 
-    return (chart + text).properties(height=500, width=800)
+    return (chart + text).properties(height=700, width=800)
