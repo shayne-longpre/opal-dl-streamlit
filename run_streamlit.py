@@ -222,7 +222,7 @@ def streamlit_app():
             insert_metric_container("License Distribution", "licenses", metrics)
 
     with tab4:
-        st.header("Text Characteristics :test_tube:)
+        st.header("Text Characteristics :test_tube:")
 
         if submitted:
             html_util.compose_html_component(
