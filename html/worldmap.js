@@ -4,14 +4,14 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm").then(module =
   // Your code that uses Plot here
 
 
-  let dataSummary;
+  // let dataSummary;
 
-  function preload() {
-    // load collections
-    dataSummary = JSONDATA;
-  }
+  // function preload() {
+  //   // load collections
+  //   dataSummary = JSONDATA;
+  // }
 
-  dataSummary = JSONDATA;
+  // dataSummary = JSONDATA;
 
   async function readJsonData(filePath) {
     try {
