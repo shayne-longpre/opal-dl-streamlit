@@ -208,7 +208,7 @@ def plot_altair_barchart(counts):
         x='count:Q',
         # y=alt.Y('category:N', sort='-x'),
         y=alt.Y('category:N', sort=alt.EncodingSortField(field="count", op="sum", order='descending')),
-        color=alt.Color('category:N', scale=palette),
+        color=alt.Color('category:N', scale=palette, legend=None),
         tooltip=['category', 'count', 'percentage']
     )
 

@@ -200,7 +200,7 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm").then(module =
                 .attrTween("d", d => () => arc(d.current));
 
             label.filter(function (d) {
-                if (d.data.name === "Miscellaneous") console.log(d.current, d.target);
+                // if (d.data.name === "Miscellaneous") console.log(d.current, d.target);
                 return +this.getAttribute("fill-opacity") || labelVisible(d.target);
             }).transition(t)
                 .attr("fill-opacity", d => +labelVisible(d.target))
