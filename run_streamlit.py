@@ -141,6 +141,7 @@ def streamlit_app():
             # ["All"], #domain_multiselect,
             # time_range_selection,
         )
+        filtered_data_summary = {row["Unique Dataset Identifier"]: row for row in filtered_df.to_records('list')}
 
 
     tab1, tab2 = st.tabs(["Data Selection", "Data Explorer"])
@@ -169,7 +170,7 @@ def streamlit_app():
             insert_metric_container("Language Distribution", "languages", metrics)
             insert_metric_container("Task Category Distribution", "task_categories", metrics)
 
-            html_util.compose_html_component(filtered_df, "plot.js", {})
+            html_util.compose_html_component(filtered_data_summary, "plot.js", {})
 
             with st.container(): 
                 st.header('Collections Data')
@@ -182,7 +183,7 @@ def streamlit_app():
 
         if submitted:
             html_util.compose_html_component(
-                filtered_df,
+                filtered_data_summary,
                 "worldmap.js", {
                     "world": "countries-50m.json",
                     "countryCodes": "country-codes.json",
