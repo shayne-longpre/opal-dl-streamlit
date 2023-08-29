@@ -145,8 +145,9 @@ def streamlit_app():
 
 
     st.title("Data Provenance Explorer")
+
     tab1, tab2, tab3, tab4 = st.tabs([
-        "Data Summary", "Global Representation", "Licenses", "Text Characteristics"])
+        "Data Summary", ":rainbow[Global Representation]", "Licenses", "Text Characteristics 📈"])
 
     with tab1:
         
@@ -211,6 +212,12 @@ def streamlit_app():
                     "world": "html/countries-50m.json",
                     "countryToCreator": "html/constants/creator_groups_by_country.json",
                 })
+
+    with tab3:
+        st.header("Test")
+
+    with tab4:
+        st.header("Test")
                 
 
     #     with st.form("data_explorer"):
