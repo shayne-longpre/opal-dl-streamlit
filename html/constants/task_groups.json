@@ -1,0 +1,176 @@
+{
+    "Alignment": [
+        "RLHF",
+        "Alignment"
+    ],
+    "Brainstorming": [
+        "Brainstorming"
+    ],
+    "Chain-of-Thought": [
+        "Chain-of-Thought"
+    ],
+    "Code": [
+        "Code",
+        "Code Synthesis",
+        "Code Generation",
+        "Code Completion",
+        "Code Summarization",
+        "Code Repair",
+        "Code Search",
+        "Code Complexity Prediction"
+    ],
+    "Code Generation": [
+        "Text to Code",
+        "Program Synthesis",
+        "Coding"
+    ],
+    "Commonsense Reasoning": [
+        "Commonsense Reasoning"
+    ],
+    "Creative Writing": [
+        "Creative Writing",
+        "Poem Generation",
+        "Song Generation",
+        "Roleplay",
+        "Story Composition"
+    ],
+    "Dialog Generation": [
+        "Dialogue Generation",
+        "Dialog"
+    ],
+    "Miscellaneous": [
+        "Miscellaneous",
+        "Misc."
+    ],
+    "Natural Language Inference": [
+        "Natural Language Inference",
+        "Textual Entailment"
+    ],
+    "Open-form Text Generation": [
+        "Inverted Natural Language Inference",
+        "Inverted Summarization",
+        "Inverted Sentiment Analysis",
+        "Structured Data to Text"
+    ],
+    "Other Tasks": [
+        "Academic Tasks",
+        "Paraphrase Identification",
+        "Simplification",
+        "Speaker Identification",
+        "Inverted Structured Data to Text",
+        "Wrong Candidate Generation",
+        "Inverted Coreference Resolution",
+        "Pos Tagging",
+        "Data to Text",
+        "Topic Classification",
+        "Inverted Closed-Book QA",
+        "Inverted Next Sentence Prediction",
+        "Next Sentence Prediction",
+        "Paraphrasing Identification",
+        "Inverted Paraphrasing Identification",
+        "Answer Verification",
+        "Text Simplification",
+        "Commonsense Classification",
+        "Program Execution",
+        "Word Relation Classification",
+        "Question Rewriting",
+        "Fact Verification",
+        "Dialogue Act Recognition",
+        "Sentence Perturbation",
+        "Word Semantics",
+        "Dialog Context Generation",
+        "Conversational Question Answering",
+        "Inverted Topic Classification",
+        "Text Quality Evaluation",
+        "Mathematical QA",
+        "Inverted Mathematical QA",
+        "Coherence Classification",
+        "Explanation",
+        "Answerability Classification",
+        "Linguistic Probing",
+        "Stance Detection",
+        "Dialogue State Tracking",
+        "Gender Classification",
+        "Grammar Error Correction",
+        "Language Identification",
+        "Fill in The Blank",
+        "Keyword Tagging",
+        "Inverted Grammatical Acceptability",
+        "Grammatical Acceptability",
+        "Inverted Punctuation Fixing",
+        "Punctuation Fixing",
+        "Inverted Language Modeling",
+        "Language Modeling",
+        "Casing Selection",
+        "Inverted Casing Selection",
+        "Inverted Question Answering",
+        "Word Sense Disambiguation",
+        "Inverted Word Sense Disambiguation",
+        "Word Segmentation",
+        "Inverted Word Segmentation",
+        "Adversarial QA",
+        "Context Generation",
+        "Explanation Generation",
+        "Dialog Turn Prediction",
+        "Span Generation",
+        "Intent Identification",
+        "Word Analogy",
+        "Question Decomposition",
+        "Negotiation Strategy Detection",
+        "Grammar Error Detection",
+        "Stereotype Detection",
+        "Style Transfer",
+        "Entity Generation",
+        "Number Conversion",
+        "Sentence Compression",
+        "Paper Review",
+        "Overlap Extraction",
+        "Preposition Prediction",
+        "Ethics Classification",
+        "Irony Detection",
+        "Spam Classification",
+        "Sentence Ordering"
+    ],
+    "Question Answering": [
+        "Question Answering",
+        "Multiple-Choice QA (no trivia knowledge required)",
+        "Extractive QA",
+        "Closed-Book QA",
+        "Information Extraction",
+        "Question Understanding",
+        "Forum QA"
+    ],
+    "Question Generation": [
+        "Question Generation",
+        "Inverted Multiple-Choice QA (no trivia knowledge required)",
+        "Inverted Extractive QA"
+    ],
+    "Sentiment Analysis": [
+        "Sentiment Analysis"
+    ],
+    "Short Text Generation": [
+        "Text Completion",
+        "Paraphrasing",
+        "Sentence Composition",
+        "Sentence Completion"
+    ],
+    "Summarization": [
+        "Summarization"
+    ],
+    "Text Classification": [
+        "Text Classification",
+        "Text Categorization",
+        "Title Generation",
+        "Named Entity Recognition",
+        "Coreference Resolution",
+        "Cause Effect Classification",
+        "Text Matching"
+    ],
+    "Toxic Language Detection": [
+        "Toxic Language Detection"
+    ],
+    "Translation": [
+        "Translation",
+        "Inverted Translation"
+    ]
+}
