@@ -142,7 +142,6 @@ def streamlit_app():
             # time_range_selection,
         )
         filtered_data_summary = {row["Unique Dataset Identifier"]: row for row in filtered_df.to_dict(orient='records')}
-        # st.write(filtered_data_summary)
 
 
     tab1, tab2 = st.tabs(["Data Selection", "Data Explorer"])
@@ -174,6 +173,17 @@ def streamlit_app():
             html_util.compose_html_component(
                 filtered_data_summary, "text-metrics-licenses.js", {})
 
+            html_util.compose_html_component(
+                filtered_data_summary,
+                "tasks-sunburst.js", {
+                    "TASK_GROUPS": "html/constants/task_groups.json'",
+                })
+            html_util.compose_html_component(
+                filtered_data_summary,
+                "creator-sunburst.js", {
+                    "CREATOR_GROUPS": "html/constants/creator_groups.json'",
+                })
+
             with st.container(): 
                 st.header('Collections Data')
                 table = util.prep_collection_table(filtered_df, INFO["data"], metrics)
@@ -197,7 +207,7 @@ def streamlit_app():
                 filtered_data_summary,
                 "creator-map.js", {
                     "world": "html/countries-50m.json",
-                    "countryToCreator": "html/creator_groups_by_country.json",
+                    "countryToCreator": "html/constants/creator_groups_by_country.json",
                 })
                 
 
