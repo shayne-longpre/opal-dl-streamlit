@@ -313,21 +313,22 @@ def streamlit_app():
                     "Hugging Face URL",
                 ]
                 data_characteristics_info_keys = [
-                    "Format", "Languages", "Task Categories", "Text Topics", 
-                    "Text Domains", "Number of Examples", "Text Length Metrics",
+                    "Format", "Languages", "Task Categories", 
+                    # "Text Topics", 
+                    # "Text Domains", "Number of Examples", "Text Length Metrics",
                 ]
                 data_provenance_info_keys = ["Creators", "Text Sources", "Licenses"]
 
                 def extract_infos(df, key):
-                    entries = df[key]
+                    entries = df[key].tolist()
                     if not entries:
                         return []
                     elif key == "Licenses":
-                            return set([x["License"] for xs in entries.tolist() for x in xs if x and x["License"]])
-                    elif isinstance(entries.tolist()[0], list):
-                        return set([x for xs in entries.tolist() if xs for x in xs if x])
+                            return set([x["License"] for xs in entries for x in xs if x and x["License"]])
+                    elif isinstance(entries[0], list):
+                        return set([x for xs in entries if xs for x in xs if x])
                     else:
-                        return set([x for x in entries.tolist() if x])
+                        return set([x for x in entries if x])
 
                 # st.caption("Collection Information")
                 # for info_key in collection_info_keys:
