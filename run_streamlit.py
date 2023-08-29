@@ -81,7 +81,7 @@ def streamlit_app():
 
     df_metadata = util.compute_metrics(INFO["data"])
 
-    html_util._html_component("plot.js", {})
+    html_util.html_component("plot.js", {})
     html_util.compose_html_component(
         "worldmap.js", {
             "world": "countries-50m.json",
