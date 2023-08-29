@@ -112,11 +112,12 @@ def prep_collection_table(df, original_df, metrics):
         subset_datasets = set(subset_df["Unique Dataset Identifier"])
         subset_langs = set([lang for row in subset_df["Languages"] for lang in row])
         subset_taskcats = set([tc for row in subset_df["Task Categories"] for tc in row])
+        total_dialogs = subset_df['Text Metrics'].apply(lambda x: x.get('Num Dialogs') if isinstance(x, dict) else 0).fillna(0).sum()
         table["Num Datasets"].append(len(subset_datasets))
         table["Num Languages"].append(len(subset_langs)) 
         table["Num Tasks"].append(len(subset_taskcats))
-        table["Num Exs"].append("Coming soon.")
-        table["% Dataset Used"].append(f"{round(100* len(subset_datasets) / len(original_datasets), 1)} %")
+        table["Num Exs"].append(total_dialogs)
+        table["% Datasets Used"].append(f"{round(100* len(subset_datasets) / len(original_datasets), 1)} %")
     return pd.DataFrame(table)
 
 

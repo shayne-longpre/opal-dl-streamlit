@@ -148,11 +148,12 @@ def streamlit_app():
 
     st.write("The Data Provenance Initiative gives researchers the opportunity to explore thousands of teh most popular Datasets for training large language models.")
 
-    tab1, tab2, tab3, tab4 = st.tabs([
+    tab1, tab2, tab3, tab4, tab5 = st.tabs([
         "Data Summary", 
         ":rainbow[Global Representation] :earth_africa:", 
         "Data Licenses :vertical_traffic_light:", 
-        "Text Characteristics :test_tube:"])
+        "Text Characteristics :test_tube:",
+        "Inspect Individual Datasets :mag:"])
 
     with tab1:
         # insert_main_viz()
@@ -235,6 +236,10 @@ def streamlit_app():
                     "TASK_GROUPS": "html/constants/task_groups.json",
                 })
                 
+
+    with tab5:
+        st.header("Inspect Individual Datasets :mag:")
+
 
     #     with st.form("data_explorer"):
     #         collection_select = st.selectbox(
