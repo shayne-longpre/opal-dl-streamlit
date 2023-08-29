@@ -318,15 +318,15 @@ def streamlit_app():
                 data_provenance_info_keys = ["Creators", "Text Sources", "Licenses"]
 
                 def extract_infos(df, key):
-                    entries = df[key].tolist()
+                    entries = df[key]
                     if not entries:
                         return []
                     elif key == "Licenses":
-                            return set([x["License"] for xs in entries for x in xs if x and x["License"]])
-                    elif isinstance(entries[0], list):
-                        return set([x for xs in entries if xs for x in xs if x])
+                            return set([x["License"] for xs in entries.tolist() for x in xs if x and x["License"]])
+                    elif isinstance(entries.tolist()[0], list):
+                        return set([x for xs in entries.tolist() if xs for x in xs if x])
                     else:
-                        return set([x for x in entries if x])
+                        return set([x for x in entries.tolist() if x])
 
                 # st.caption("Collection Information")
                 # for info_key in collection_info_keys:
