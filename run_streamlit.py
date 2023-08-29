@@ -197,7 +197,7 @@ def streamlit_app():
                 filtered_data_summary,
                 "creator-map.js", {
                     "world": "html/countries-50m.json",
-                    "countryToCreator": "../constants/creator_groups_by_country.json",
+                    "countryToCreator": "html/creator_groups_by_country.json",
                 })
                 
 
