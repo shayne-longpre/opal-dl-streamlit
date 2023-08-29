@@ -256,6 +256,18 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm").then(module =
             const x_const = (d.y0 >= 2) ? 0 : 0;
             const x = (d.x0 + d.x1 + x_const) / 2 * 180 / Math.PI;
             const y = (d.y0 + d.y1 + y_const) / 2 * radius;
+            if (isNaN(x)) {
+                console.log("x: ", x);
+                console.log("x0: ", d.x0);
+                console.log("x1: ", d.x1);
+                console.log("--------------");
+            }
+            if (isNaN(y)) {
+                console.log("y: ", y);
+                console.log("y0: ", d.y0);
+                console.log("y1: ", d.y1);
+                console.log("--------------");
+            }
             return `rotate(${x - 90}) translate(${y},0) rotate(${x < 180 ? 0 : 180})`;
         }
     
