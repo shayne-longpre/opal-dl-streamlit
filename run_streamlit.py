@@ -196,6 +196,7 @@ def streamlit_app():
             html_util.compose_html_component(
                 filtered_data_summary,
                 "creator-map.js", {
+                    "world": "html/countries-50m.json",
                     "countryToCreator": "../constants/creator_groups_by_country.json",
                 })
                 
