@@ -171,7 +171,8 @@ def streamlit_app():
             insert_metric_container("Language Distribution", "languages", metrics)
             insert_metric_container("Task Category Distribution", "task_categories", metrics)
 
-            html_util.compose_html_component(filtered_data_summary, "plot.js", {})
+            html_util.compose_html_component(
+                filtered_data_summary, "text-metrics-licenses.js", {})
 
             with st.container(): 
                 st.header('Collections Data')
@@ -185,12 +186,19 @@ def streamlit_app():
         if submitted:
             html_util.compose_html_component(
                 filtered_data_summary,
-                "worldmap.js", {
-                    "world": "countries-50m.json",
-                    "countryCodes": "country-codes.json",
-                    "langCodes": "language-codes.json",
-                    "countryCodeToLangCodes": "country-code-to-language-codes.json",
+                "language-map.js", {
+                    "world": "html/countries-50m.json",
+                    "countryCodes": "html/country-codes.json",
+                    "langCodes": "html/language-codes.json",
+                    "countryCodeToLangCodes": "html/country-code-to-language-codes.json",
                 })
+
+            html_util.compose_html_component(
+                filtered_data_summary,
+                "creator-map.js", {
+                    "countryToCreator": "../constants/creator_groups_by_country.json",
+                })
+                
 
     #     with st.form("data_explorer"):
     #         collection_select = st.selectbox(

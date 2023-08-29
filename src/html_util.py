@@ -27,8 +27,8 @@ def compose_html_component(data_summary, target_file, vars_to_files):
     sketch += "const dataSummary = " + json.dumps(data_summary) + "\n"
     # sketch += "const dataSummary = " + open(f"{html_dir}/data_summary.json", 'r', encoding='utf-8').read() + "\n"
     if vars_to_files:
-        for varname, fname in vars_to_files.items():
-            sketch += f"const {varname} = " + open(f"{html_dir}/{fname}", 'r', encoding='utf-8').read() + "\n"
+        for varname, fpath in vars_to_files.items():
+            sketch += f"const {varname} = " + open(fpath, 'r', encoding='utf-8').read() + "\n"
 
     sketch += open(f"{html_dir}/helpers.js", 'r', encoding='utf-8').read() + "\n"
     sketch += open(f"{html_dir}/{target_file}", 'r', encoding='utf-8').read()

@@ -270,7 +270,7 @@ function createWorldMap(counts, countries, countrymesh, title) {
   });
 }
 
-function createWorldMap1(counts, countries, countrymesh, title, countryToLanguageMapping) {
+function createLanguageWorldMap(counts, countries, countrymesh, title, countryToLanguageMapping) {
   // Create a map with country names as keys and their respective values
   const countryValueMap = new Map(counts.map(d => [d.name, d.value]));
 
