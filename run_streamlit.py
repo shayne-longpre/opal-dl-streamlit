@@ -163,16 +163,15 @@ def streamlit_app():
         if not submitted:
             st.write("When you're ready, fill out your data filtering criteria on the left, and click Submit!\n\n")
 
+            st.subheader("Instructions")
             form_instructions = """
-            Instructions:
-
             1. **Select from the licensed data use cases**. The options range from least to most strict:
-            Commercial, Unspecified, Non-Commercial, Academic-Only.
+            `Commercial`, `Unspecified`, `Non-Commercial`, `Academic-Only`.
             
-            `Commercial` will select only the data with licenses explicitly permitting commercial use.
-            `Unspecified` includes Commercial plus datasets with no license found attached, which may suggest the curator does not prohibit commercial use.
-            `Non-Commercial` includes Commercial and Unspecified datasets plus those licensed for non-commercial use.
-            `Academic-Only` will select all available datasets, including those that restrict to only academic uses.
+            * `Commercial` will select only the data with licenses explicitly permitting commercial use. 
+            * `Unspecified` includes Commercial plus datasets with no license found attached, which may suggest the curator does not prohibit commercial use.
+            * `Non-Commercial` includes Commercial and Unspecified datasets plus those licensed for non-commercial use.
+            * `Academic-Only` will select all available datasets, including those that restrict to only academic uses.
 
             Note that these categories reflect the *self-reported* licenses attached to datasets, and assume fair use of any data they are derived from (e.g. scraped from the web).
 
@@ -230,7 +229,11 @@ def streamlit_app():
             We compute a score $S_k$ for each country $k$, parametrized by \( p_{kl} \), the percentage of people in country \( k \) that speak language \( l \), and \( w_{li} \) which is a binary indicator that is 1 if dataset \( i \in D \) contains language \( l \) and 0 otherwise."""
             )
 
-            st.latex(r"$$S_k = \sum_{l \in L} \left( p_{kl} \times \sum_{i \in D} w_{li} \right)$$")
+            st.latex(r'''
+            $$
+            S_k = \sum_{l \in L} \left( p_{kl} \times \sum_{i \in D} w_{li} \right)
+            $$
+            ''')
 
             html_util.compose_html_component(
                 filtered_data_summary,
