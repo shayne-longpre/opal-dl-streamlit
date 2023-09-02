@@ -161,7 +161,7 @@ def streamlit_app():
         # insert_main_viz()
 
         if not submitted:
-            st.write("When you're ready, fill out your data filtering criteria on the left, and click Submit!")
+            st.write("When you're ready, fill out your data filtering criteria on the left, and click Submit!\n\n")
 
             form_instructions = """
             Instructions:
@@ -189,6 +189,7 @@ def streamlit_app():
 
             Finally, Submit Selection when ready!
             """
+            st.write(form_instructions)
         elif submitted:
             metrics = util.compute_metrics(filtered_df)
 
