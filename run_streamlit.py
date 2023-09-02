@@ -162,6 +162,33 @@ def streamlit_app():
 
         if not submitted:
             st.write("When you're ready, fill out your data filtering criteria on the left, and click Submit!")
+
+            form_instructions = """
+            Instructions:
+
+            1. **Select from the licensed data use cases**. The options range from least to most strict:
+            Commercial, Unspecified, Non-Commercial, Academic-Only.
+            
+            `Commercial` will select only the data with licenses explicitly permitting commercial use.
+            `Unspecified` includes Commercial plus datasets with no license found attached, which may suggest the curator does not prohibit commercial use.
+            `Non-Commercial` includes Commercial and Unspecified datasets plus those licensed for non-commercial use.
+            `Academic-Only` will select all available datasets, including those that restrict to only academic uses.
+
+            Note that these categories reflect the *self-reported* licenses attached to datasets, and assume fair use of any data they are derived from (e.g. scraped from the web).
+
+            2. Select whether to exclude datasets with **Attribution requirements in their licenses**.
+
+            3. Select whether to exclude datasets with **`Share-Alike` requirements in their licenses**. 
+            Share-Alike means a copyright left license, that allows other to re-use, re-mix, and modify works, but requires that derivative work is distributed under the same terms and conditions.
+
+            4. **Select Language Families** to include.
+
+            5. **Select Task Categories** to include.
+
+            6. More advanced selection criteria are also available in the drop down box.
+
+            Finally, Submit Selection when ready!
+            """
         elif submitted:
             metrics = util.compute_metrics(filtered_df)
 
