@@ -198,6 +198,11 @@ def streamlit_app():
 
             st.subheader("Language Representation by Country")
             st.write("First we visualize the language representation across countries by measuring **how well a country's population is covered by languages in these datasets**.")
+            st.latex("""This illustrates the coverage per country according to the spoken languages and their representation in the Data Provenance Collection. 
+            We compute a score $S_k$ for each country $k$, parametrized by \( p_{kl} \), the percentage of people in country \( k \) that speak language \( l \), and \( w_{li} \) which is a binary indicator that is 1 if dataset \( i \in D \) contains language \( l \) and 0 otherwise."""
+            )
+            st.latex("$$S_k = \sum_{l \in L} \left( p_{kl} \times \sum_{i \in D} w_{li} \right)$$")
+
             st.write("NB: While many global south countries have large English speaking populations, it may still not mean they are well represented by English text from Western/European origins.")
             html_util.compose_html_component(
                 filtered_data_summary,
