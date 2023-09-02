@@ -230,9 +230,7 @@ def streamlit_app():
             )
 
             st.latex(r'''
-            $$
             S_k = \sum_{l \in L} \left( p_{kl} \times \sum_{i \in D} w_{li} \right)
-            $$
             ''')
 
             html_util.compose_html_component(
