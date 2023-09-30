@@ -46,8 +46,8 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm").then(module =
         value: countryToCreatorMapping[country] / maxVal
     }));
 
-    console.log("testtttt")
-    console.log(formattedCountryCreatorCount)
+    // console.log("testtttt")
+    // console.log(formattedCountryCreatorCount)
     const mapPlot = createWorldMap(formattedCountryCreatorCount, countries, countrymesh, "Creator Distribution")
     mapPlot.setAttribute("id", "creator distribution worldmap")
 
@@ -55,6 +55,6 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm").then(module =
     document.querySelector('#container').append(mapPlot)
 
     // Print the unmatched languages
-    console.log("Unmatched creators:", [...unmatchedCreators]);
+    // console.log("Unmatched creators:", [...unmatchedCreators]);
 
 });
