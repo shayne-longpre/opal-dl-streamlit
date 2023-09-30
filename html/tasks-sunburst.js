@@ -171,7 +171,8 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm").then(module =
         }
     
         // Handle zoom on click.
-        function clicked(event, p) {
+        function clicked(event) {
+            p = event;
             parent.datum(p.parent || root);
     
             root.each(d => d.target = {
