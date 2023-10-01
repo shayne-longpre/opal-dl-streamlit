@@ -6,8 +6,9 @@ import streamlit as st
 from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode, JsCode
 import streamlit.components.v1 as components
 
-
-def compose_html_component(data_summary, target_file, vars_to_files):
+def compose_html_component(data_summary, target_file, vars_to_files, height = None):
+    #two options to control height: either set height argument in function declaration or set const vh below and un-comment vh use in sunburst diagram
+    h = height if height != None else 600
     html_dir = "html"
 
     sketch = '<div id="container"></div>'
@@ -29,11 +30,12 @@ def compose_html_component(data_summary, target_file, vars_to_files):
     if vars_to_files:
         for varname, fpath in vars_to_files.items():
             sketch += f"const {varname} = " + open(fpath, 'r', encoding='utf-8').read() + "\n"
+        sketch += f"const vh = {h} " + "\n" # set height of viewport
 
     sketch += open(f"{html_dir}/helpers.js", 'r', encoding='utf-8').read() + "\n"
     sketch += open(f"{html_dir}/{target_file}", 'r', encoding='utf-8').read()
     sketch += '</script>'
-    components.html(sketch, height=800, scrolling=True)
+    components.html(sketch, height=h)
 
 
 

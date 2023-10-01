@@ -9,6 +9,7 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm").then(module =
         const width = 928;
         const height = width;
         const radius = width / 6;
+        const pctWidth = 40; //padding for percentages outside the circle
     
         // Create the color scale.
         // const color = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1));
@@ -34,8 +35,8 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm").then(module =
     
         // Create the SVG container.
         const svg = d3.create("svg")
-            // .attr("viewBox", [-width / 2, -height / 2, width, width])
-            .attr("viewBox", [-width / 1.35, -height / 1.35, width * 1.5, width * 1.5])
+            .attr("viewBox", [-width / 2 - pctWidth, -height / 2 - pctWidth, width+2*pctWidth, width+2*pctWidth])
+            //.attr("height", vh) //restrict viewport height, height of SVG remains fixed, no responsive sizing
             .style("font", "10px sans-serif");
     
         // Append the arcs.
