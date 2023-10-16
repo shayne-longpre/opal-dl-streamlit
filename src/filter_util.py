@@ -124,7 +124,6 @@ def apply_filters(
     selected_end_time,
 ):
     filtered_df = df
-    st.write(len(filtered_df))
 
     # Some sanity checks:
     all_langs = set([v for vs in all_constants["LANGUAGE_GROUPS"].values() for v in vs])
@@ -145,34 +144,27 @@ def apply_filters(
     )
     assert all_sources >= option_sources, f"Missing Text Sources: {option_sources - all_sources}"
 
-    st.write(len(filtered_df))
     if selected_collection:
         filtered_df = filtered_df[filtered_df["Collection"] == selected_collection]
 
-    st.write(len(filtered_df))
     if selected_licenses:
         license_strs = set(all_constants["LICENSE_CLASSES"].keys())
         filtered_df = filtered_df[
             filtered_df["Licenses"].apply(lambda xs: license_strs >= set([x["License"] for x in xs]))
         ]
 
-    st.write(len(filtered_df))
     if selected_license_use:
         valid_license_use_idx = constants.LICENSE_USE_TYPES.index(selected_license_use)
         valid_license_uses = [x.lower() for x in constants.LICENSE_USE_TYPES[:valid_license_use_idx+1]]
-        st.write(valid_license_uses)
-        st.write(filtered_df["License Use (DataProvenance)"])
         filtered_df = filtered_df[
             filtered_df["License Use (DataProvenance)"].apply(lambda x: x in valid_license_uses)
         ]
 
-    st.write(len(filtered_df))
     if selected_license_attribution:
         filtered_df = filtered_df[
             filtered_df["License Attribution (DataProvenance)"].apply(lambda x: x <= int(selected_license_attribution))
         ]
 
-    st.write(len(filtered_df))
     if selected_license_sharealike:
         filtered_df = filtered_df[
             filtered_df["License Share Alike (DataProvenance)"].apply(lambda x: x <= int(selected_license_sharealike))
@@ -212,6 +204,8 @@ def apply_filters(
         filtered_df = filtered_df[
             filtered_df["Text Sources"].apply(lambda x: text_source_strs >= set(x))
         ]
+
+    st.write(len(filtered_df))
     if selected_start_time or selected_end_time:
 
         def get_min_date(metadata):
@@ -228,4 +222,5 @@ def apply_filters(
         if selected_end_time:
             filtered_df = filtered_df[filtered_df['Estimated Creation Date'] <= pd.to_datetime(selected_end_time)]
 
+    st.write(len(filtered_df))
     return filtered_df
