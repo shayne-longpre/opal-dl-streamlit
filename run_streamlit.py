@@ -193,7 +193,7 @@ def streamlit_app():
 
     Finally, Submit Selection when ready!
     """
-    with st.expander("Instructions"):
+    with st.expander("Expand for Instructions!"):
         st.write(form_instructions)
 
     tab1, tab2, tab3, tab4, tab5 = st.tabs([
