@@ -125,7 +125,7 @@ def streamlit_app():
 
                 time_range_selection = st.slider(
                     "Select data release time constraints",
-                    value=(datetime(1990, 1, 1), datetime(2023, 7, 1)))
+                    value=(datetime(1000, 1, 1), datetime(2023, 12, 1)))
 
             # Every form must have a submit button.
             submitted = st.form_submit_button("Submit Selection")
