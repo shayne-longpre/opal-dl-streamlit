@@ -124,6 +124,7 @@ def apply_filters(
     selected_end_time,
 ):
     filtered_df = df
+    st.write(len(filtered_df))
 
     # Some sanity checks:
     all_langs = set([v for vs in all_constants["LANGUAGE_GROUPS"].values() for v in vs])
@@ -144,9 +145,11 @@ def apply_filters(
     )
     assert all_sources >= option_sources, f"Missing Text Sources: {option_sources - all_sources}"
 
+    st.write(len(filtered_df))
     if selected_collection:
         filtered_df = filtered_df[filtered_df["Collection"] == selected_collection]
 
+    st.write(len(filtered_df))
     if selected_licenses:
         license_strs = set(all_constants["LICENSE_CLASSES"].keys())
         filtered_df = filtered_df[
