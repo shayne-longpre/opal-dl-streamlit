@@ -62,7 +62,7 @@ function prepareDataSummary(data) {
     obj['languages'] = accumulatedLanguages[datasetName];
     obj['tasks'] = Array.from(dataset["Task Categories"]);
     obj['textSources'] = Array.from(dataset["Text Sources"]);
-    obj['textDomains'] = Array.from(dataset["Text Domains"]);
+    // obj['textDomains'] = Array.from(dataset["Text Domains"]);
     obj['creators'] = Array.from(dataset["Creators"]);
 
     obj['licenseUseClass'] = dataset["License Use (DataProvenance)"];

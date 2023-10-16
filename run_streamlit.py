@@ -228,7 +228,7 @@ def streamlit_app():
             # insert_metric_container("Task Category Distribution", "task_categories", metrics)
 
             with st.container(): 
-                st.header('Collections Data')
+                st.header('Summary of Data Collections')
                 table = util.prep_collection_table(filtered_df, INFO["data"], metrics)
                 html_util.setup_table(table)
 
@@ -322,13 +322,13 @@ def streamlit_app():
                     "TASK_GROUPS": "html/constants/task_groups.json",
                 },1600)
                 
-            st.subheader("Text Source Domains")
-            st.write("...")
-            html_util.compose_html_component(
-                filtered_data_summary,
-                "source-tree.js", {
-                    "DOMAIN_GROUPS": "html/constants/domain_groups.json",
-                },2400)
+            # st.subheader("Text Source Domains")
+            # st.write("...")
+            # html_util.compose_html_component(
+            #     filtered_data_summary,
+            #     "source-tree.js", {
+            #         "DOMAIN_GROUPS": "html/constants/domain_groups.json",
+            #     },2400)
 
     with tab5:
         st.header("Inspect Individual Datasets :mag:")
