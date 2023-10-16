@@ -125,7 +125,7 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm").then(module =
       color: { //*NEW* COLOR MAPPING
         type: "categorical",
         domain: uniqueLicenseClasses,
-        range: ["#1f77b4", "#d62728", '#2ca02c'] //category10 red, blue, green
+        range: ["#d62728", '#2ca02c', "#1f77b4"] //category10 red, blue, green
       },
       symbol: {
         legend: true,
