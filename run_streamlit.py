@@ -168,6 +168,34 @@ def streamlit_app():
     st.write("The Data Provenance Initiative gives researchers the opportunity to explore thousands of the most popular Datasets for training large language models.")
     st.write("NB: This data is compiled voluntarily by the best efforts of academic & independent researchers, and is :red[**NOT** to be taken as legal advice].")
 
+    st.subheader("Instructions")
+    form_instructions = """
+    1. **Select from the licensed data use cases**. The options range from least to most strict:
+    `Commercial`, `Unspecified`, `Non-Commercial`, `Academic-Only`.
+    
+    * `Commercial` will select only the data with licenses explicitly permitting commercial use. 
+    * `Unspecified` includes Commercial plus datasets with no license found attached, which may suggest the curator does not prohibit commercial use.
+    * `Non-Commercial` includes Commercial and Unspecified datasets plus those licensed for non-commercial use.
+    * `Academic-Only` will select all available datasets, including those that restrict to only academic uses.
+
+    Note that these categories reflect the *self-reported* licenses attached to datasets, and assume fair use of any data they are derived from (e.g. scraped from the web).
+
+    2. Select whether to exclude datasets with **Attribution requirements in their licenses**.
+
+    3. Select whether to exclude datasets with **`Share-Alike` requirements in their licenses**. 
+    Share-Alike means a copyright left license, that allows other to re-use, re-mix, and modify works, but requires that derivative work is distributed under the same terms and conditions.
+
+    4. **Select Language Families** to include.
+
+    5. **Select Task Categories** to include.
+
+    6. More advanced selection criteria are also available in the drop down box.
+
+    Finally, Submit Selection when ready!
+    """
+    with st.expander("Instructions"):
+        st.write(form_instructions)
+
     tab1, tab2, tab3, tab4, tab5 = st.tabs([
         "Data Summary", 
         ":rainbow[Global Representation] :earth_africa:", 
@@ -181,32 +209,6 @@ def streamlit_app():
         if not submitted:
             st.write("When you're ready, fill out your data filtering criteria on the left, and click Submit!\n\n")
 
-            st.subheader("Instructions")
-            form_instructions = """
-            1. **Select from the licensed data use cases**. The options range from least to most strict:
-            `Commercial`, `Unspecified`, `Non-Commercial`, `Academic-Only`.
-            
-            * `Commercial` will select only the data with licenses explicitly permitting commercial use. 
-            * `Unspecified` includes Commercial plus datasets with no license found attached, which may suggest the curator does not prohibit commercial use.
-            * `Non-Commercial` includes Commercial and Unspecified datasets plus those licensed for non-commercial use.
-            * `Academic-Only` will select all available datasets, including those that restrict to only academic uses.
-
-            Note that these categories reflect the *self-reported* licenses attached to datasets, and assume fair use of any data they are derived from (e.g. scraped from the web).
-
-            2. Select whether to exclude datasets with **Attribution requirements in their licenses**.
-
-            3. Select whether to exclude datasets with **`Share-Alike` requirements in their licenses**. 
-            Share-Alike means a copyright left license, that allows other to re-use, re-mix, and modify works, but requires that derivative work is distributed under the same terms and conditions.
-
-            4. **Select Language Families** to include.
-
-            5. **Select Task Categories** to include.
-
-            6. More advanced selection criteria are also available in the drop down box.
-
-            Finally, Submit Selection when ready!
-            """
-            st.write(form_instructions)
         elif submitted:
             metrics = util.compute_metrics(filtered_df)
 
