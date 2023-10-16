@@ -77,7 +77,7 @@ def insert_metric_container(title, key, metrics):
 def streamlit_app():
     st.set_page_config(page_title="Data Provenance Explorer", layout="wide")#, initial_sidebar_state='collapsed')
     INFO["constants"] = load_constants()
-    st.write(INFO["constants"].keys())
+    # st.write(INFO["constants"].keys())
     INFO["data"] = load_data()
 
     df_metadata = util.compute_metrics(INFO["data"])
@@ -131,7 +131,7 @@ def streamlit_app():
 
     # st.write(len(INFO["data"]))
     if submitted:
-        st.write(time_range_selection)
+        # st.write(time_range_selection)
         filtered_df = filter_util.apply_filters(
             INFO["data"], 
             INFO["constants"],
