@@ -320,6 +320,13 @@ def streamlit_app():
                     "TASK_GROUPS": "html/constants/task_groups.json",
                 },1600)
                 
+            st.subheader("Text Source Domains")
+            st.write("...")
+            html_util.compose_html_component(
+                filtered_data_summary,
+                "source-tree.js", {
+                    "DOMAIN_GROUPS": "html/constants/domain_groups.json",
+                },2400)
 
     with tab5:
         st.header("Inspect Individual Datasets :mag:")
