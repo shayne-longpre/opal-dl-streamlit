@@ -318,7 +318,7 @@ def streamlit_app():
                 filtered_data_summary,
                 "tasks-sunburst.js", {
                     "TASK_GROUPS": "html/constants/task_groups.json",
-                },2000)
+                },1600)
                 
 
     with tab5:
