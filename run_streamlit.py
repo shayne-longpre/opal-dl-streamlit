@@ -165,8 +165,8 @@ def streamlit_app():
 
     st.title("Data Provenance Explorer")
 
-    st.write("The Data Provenance Initiative is a large-scale audit of AI datasets used to train large language models. As the first step, we've cataloged 1800+ text-to-text finetuning datasets from origin to creation, tracing their data sources, licenses, creators, and other metadata.")
-    st.write("This tool gives researchers the opportunity to explore these popular datasets and their characteristics. Coming soon: you will be able to download the data according to your chosen filters.")
+    st.write("The Data Provenance Initiative is a large-scale audit of AI datasets used to train large language models. As the first step, we've cataloged 1800+ popular, text-to-text finetuning datasets from origin to creation, tracing their data sources, licenses, creators, and other metadata, for researchers to explore using this tool.")
+    st.write("Coming soon: you will be able to download the data according to your chosen filters.")
     st.write("NB: This data is compiled voluntarily by the best efforts of academic & independent researchers, and is :red[**NOT** to be taken as legal advice].")
 
     st.subheader("Instructions")
