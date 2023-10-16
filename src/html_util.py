@@ -16,7 +16,9 @@ def compose_html_component(data_summary, target_file, vars_to_files, height = No
     sketch += '<script type="module" src="https://cdn.jsdelivr.net/npm/d3@7/+esm"></script>'
     # sketch += '<script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>'
     # sketch += '<script type="module" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>'
-    sketch += '<script type="module" src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm"></script>'
+    # sketch += '<script type="module" src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm"></script>'
+    sketch += '<script type="module" src="https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6.11/+esm"></script>'
+    
     # For worldmap
     sketch += '<script src="https://unpkg.com/topojson@3"></script>'
     sketch += '<script src="https://unpkg.com/topojson-client@3"></script>'
