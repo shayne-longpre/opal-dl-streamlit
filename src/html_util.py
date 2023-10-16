@@ -111,7 +111,7 @@ def setup_table(selected_data):
         # update_mode='SELECTION_CHANGED',
         fit_columns_on_grid_load=False,
         theme='material', # streamlit, material
-        height=2000, 
+        height=2400, 
         width='100%',
         # reload_data=True
     )
