@@ -159,7 +159,10 @@ def apply_filters(
     st.write(len(filtered_df))
     if selected_license_use:
         valid_license_use_idx = constants.LICENSE_USE_TYPES.index(selected_license_use)
+        st.write(valid_license_use_idx)
         valid_license_uses = constants.LICENSE_USE_TYPES[:valid_license_use_idx+1]
+        st.write(valid_license_uses)
+        st.write(filtered_df["License Use (DataProvenance)"])
         filtered_df = filtered_df[
             filtered_df["License Use (DataProvenance)"].apply(lambda x: x in valid_license_uses)
         ]
