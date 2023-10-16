@@ -16,15 +16,14 @@
         ],
         "Task Categories": [
             "Summarization",
-            "Multiple Choice Math Problem Solving",
-            "Logical Fallacy Identification and Explanation.",
+            "Multiple Choice Question Answering",
+            "Logical Reasoning",
             "Sentence Rewriting",
-            "Image Classification.",
-            "Paraphrasing",
+            "Paraphrase Generation",
             "Natural Language Generation (NLG)",
             "Vegetarian Recipe Modification Question Answering",
-            "Calculate Tip Amount and Total Amount Question Answering",
-            "Natural Language Understanding (NLU) with Intent Classification and Slot Filling."
+            "Algebraic Expression Evaluation",
+            "Text Classification"
         ],
         "Text Domains": [],
         "Format": [
@@ -63,12 +62,9 @@
             "HF Config": "teknium--GPTeacher-General-Instruct",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 464,
-            "HF Likes (June 2023)": 21,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": null,
             "S2 Date": "",
             "GitHub License": "MIT License",
             "Text Topics": [
@@ -82,8 +78,18 @@
                 "Mathematics",
                 "Economics",
                 "Travel"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-04-29",
+            "HF Downloads (September 2023)": 223,
+            "HF Likes (September 2023)": 25,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": 1388,
+            "GitHub Topics": []
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
     },
     "gpteacher-codegen": {
         "Unique Dataset Identifier": "gpteacher-codegen",
@@ -98,7 +104,8 @@
         "ArXiv URL": "",
         "Semantic Scholar Corpus ID": "",
         "Languages": [
-            "English"
+            "English",
+            "Code"
         ],
         "Task Categories": [
             "File Line Counting",
@@ -107,8 +114,7 @@
             "API Endpoint Creation Question Answering",
             "C++ Program Synthesis",
             "Recursive Function Generation",
-            "Arithmetic Expression Evaluation Question Answering.",
-            "Calculate Average of Integers Input by User.",
+            "Algebraic Expression Evaluation",
             "Multiple Choice Question Answering",
             "File Search and Replace Generation"
         ],
@@ -151,12 +157,9 @@
             "HF Config": "teknium--GPTeacher-General-Instruct",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 464,
-            "HF Likes (June 2023)": 21,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": null,
             "S2 Date": "",
             "GitHub License": "MIT License",
             "Text Topics": [
@@ -170,8 +173,18 @@
                 "Recursion",
                 "Python programming",
                 "Java programming"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-04-29",
+            "HF Downloads (September 2023)": 223,
+            "HF Likes (September 2023)": 25,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": 1388,
+            "GitHub Topics": []
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
     },
     "gpteacher-toolformer": {
         "Unique Dataset Identifier": "gpteacher-toolformer",
@@ -186,17 +199,16 @@
         "ArXiv URL": "",
         "Semantic Scholar Corpus ID": "",
         "Languages": [
-            "English"
+            "English",
+            "Code"
         ],
         "Task Categories": [
-            "Natural Language Question Answering (NLQA)",
-            "Command Line Execution Question Answering.",
-            "Multiple Choice Question Answering",
-            "Mathematical Computation Question Answering.",
-            "Natural Language Processing (NLP) Question Answering",
             "Natural Language Processing Question Answering",
+            "Command Line Execution Question Answering",
+            "Multiple Choice Question Answering",
+            "Algebraic Expression Evaluation",
             "News Headline Retrieval",
-            "Web Scraping using Python Requests.",
+            "Web Scraping using Python Requests",
             "Information Retrieval",
             "Webpage Content Retrieval"
         ],
@@ -239,12 +251,9 @@
             "HF Config": "teknium--GPTeacher-General-Instruct",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 464,
-            "HF Likes (June 2023)": 21,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": null,
             "S2 Date": "",
             "GitHub License": "MIT License",
             "Text Topics": [
@@ -258,8 +267,18 @@
                 "History",
                 "Python",
                 "Mathematics"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-04-29",
+            "HF Downloads (September 2023)": 223,
+            "HF Likes (September 2023)": 25,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": 1388,
+            "GitHub Topics": []
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
     },
     "gpteacher-roleplay": {
         "Unique Dataset Identifier": "gpteacher-roleplay",
@@ -316,12 +335,9 @@
             "HF Config": "teknium--GPTeacher-General-Instruct",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 464,
-            "HF Likes (June 2023)": 21,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": null,
             "S2 Date": "",
             "GitHub License": "MIT License",
             "Text Topics": [
@@ -335,7 +351,17 @@
                 "Physics",
                 "Geography",
                 "Adventure and exploration"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-04-29",
+            "HF Downloads (September 2023)": 223,
+            "HF Likes (September 2023)": 25,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": 1388,
+            "GitHub Topics": []
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
     }
 }

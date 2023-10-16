@@ -12,19 +12,22 @@
         "ArXiv URL": "https://arxiv.org/abs/2304.12244",
         "Semantic Scholar Corpus ID": 258298159,
         "Languages": [
-            "English"
+            "English",
+            "Code"
         ],
         "Task Categories": [
+            "Brainstorming",
+            "Creative Writing",
+            "Creativity",
             "Content-Based News Recommendation",
-            "Sentence Generation with Constraints",
-            "Comparative Analysis of Cultural Features.",
+            "Sentence Composition",
+            "Comparative Analysis of Cultural Features",
             "Comparative Question Answering",
-            "Multiple Choice Question Answering with XML and JSON Data Analysis and R Code Visualization.",
-            "Natural Language Generation (NLG) using Randomly Selected Adjectives and Nouns from Predefined Arrays.",
-            "Geographical Coordinate Identification and Mapping.",
+            "Multiple Choice Question Answering",
+            "Natural Language Generation (NLG) using Randomly Selected Adjectives and Nouns from Predefined Arrays",
+            "Geographical Coordinate Identification and Mapping",
             "Introduction Generation",
-            "Comparative Analysis Question Answering",
-            "Comparative Analysis Question Answering with Diagrams and Code Samples."
+            "Comparative Analysis Question Answering"
         ],
         "Text Domains": [
             "Miscellaneous"
@@ -44,8 +47,12 @@
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "OpenAI GPT-3",
+            "OpenAI ChatGPT"
+        ],
         "Model Generated": [
+            "OpenAI GPT-3",
             "OpenAI ChatGPT"
         ],
         "Creators": [
@@ -72,12 +79,9 @@
             "HF Config": "WizardLM--evol_instruct_70k",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 395,
-            "HF Likes (June 2023)": 82,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 12,
             "S2 Date": "2023-04-24",
             "GitHub License": "",
             "Text Topics": [
@@ -91,7 +95,19 @@
                 "Sorting algorithms",
                 "Computer programming",
                 "Sentiment analysis"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-04-25",
+            "HF Downloads (September 2023)": 470,
+            "HF Likes (September 2023)": 98,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 55,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "Alpaca instructions dataset"
+        ],
+        "Human Annotation": "Yes"
     }
 }

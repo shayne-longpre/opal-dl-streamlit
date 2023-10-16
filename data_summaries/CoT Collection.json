@@ -12,10 +12,24 @@
         "ArXiv URL": "https://arxiv.org/abs/2305.14045",
         "Semantic Scholar Corpus ID": 258841149,
         "Languages": [
-            "English"
+            "English",
+            "Code"
         ],
         "Task Categories": [
-            "Chain-of-Thought"
+            "Chain-of-Thought",
+            "Natural Language Inference",
+            "Question Answering",
+            "Commonsense Classification",
+            "Commonsense Reasoning",
+            "Explanation",
+            "Dialog Generation",
+            "Code",
+            "Natural Language Generation (NLG)",
+            "Summarization",
+            "Cause Effect Classification",
+            "Toxicity Detection",
+            "Logical Reasoning",
+            "Ethics Classification"
         ],
         "Text Domains": [],
         "Format": [
@@ -33,8 +47,11 @@
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "flan-t5"
+        ],
         "Model Generated": [
+            "flan-t5",
             "OpenAI Codex"
         ],
         "Creators": [
@@ -62,12 +79,9 @@
             "HF Config": "en",
             "HF Config License": "CC BY 4.0",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 209,
-            "HF Likes (June 2023)": 5,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 1,
             "S2 Date": "2023-05-23",
             "GitHub License": "",
             "Text Topics": [
@@ -80,9 +94,20 @@
                 "Sports",
                 "Logic",
                 "Climate change",
-                "Travel"
-            ]
-        }
+                "Travel",
+                "Ethics"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-06-05",
+            "HF Downloads (September 2023)": 680,
+            "HF Likes (September 2023)": 12,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 2,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "cotcollection-fr": {
         "Unique Dataset Identifier": "cotcollection-fr",
@@ -97,10 +122,24 @@
         "ArXiv URL": "https://arxiv.org/abs/2305.14045",
         "Semantic Scholar Corpus ID": 258841149,
         "Languages": [
-            "French"
+            "French",
+            "Code"
         ],
         "Task Categories": [
-            "Chain-of-Thought"
+            "Chain-of-Thought",
+            "Natural Language Inference",
+            "Question Answering",
+            "Commonsense Classification",
+            "Commonsense Reasoning",
+            "Explanation",
+            "Dialog Generation",
+            "Code",
+            "Natural Language Generation (NLG)",
+            "Summarization",
+            "Cause Effect Classification",
+            "Toxicity Detection",
+            "Logical Reasoning",
+            "Ethics Classification"
         ],
         "Text Domains": [],
         "Format": [
@@ -118,8 +157,11 @@
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "flan-t5"
+        ],
         "Model Generated": [
+            "flan-t5",
             "OpenAI Codex",
             "OpenAI ChatGPT"
         ],
@@ -148,12 +190,9 @@
             "HF Config": "en",
             "HF Config License": "CC BY 4.0",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 209,
-            "HF Likes (June 2023)": 5,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 1,
             "S2 Date": "2023-05-23",
             "GitHub License": "",
             "Text Topics": [
@@ -167,8 +206,18 @@
                 "Logic",
                 "Politics",
                 "Grammar"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-06-05",
+            "HF Downloads (September 2023)": 103,
+            "HF Likes (September 2023)": 3,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 2,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "cotcollection-ja": {
         "Unique Dataset Identifier": "cotcollection-ja",
@@ -183,10 +232,24 @@
         "ArXiv URL": "https://arxiv.org/abs/2305.14045",
         "Semantic Scholar Corpus ID": 258841149,
         "Languages": [
-            "Japanese"
+            "Japanese",
+            "Code"
         ],
         "Task Categories": [
-            "Chain-of-Thought"
+            "Chain-of-Thought",
+            "Natural Language Inference",
+            "Question Answering",
+            "Commonsense Classification",
+            "Commonsense Reasoning",
+            "Explanation",
+            "Dialog Generation",
+            "Code",
+            "Natural Language Generation (NLG)",
+            "Summarization",
+            "Cause Effect Classification",
+            "Toxicity Detection",
+            "Logical Reasoning",
+            "Ethics Classification"
         ],
         "Text Domains": [],
         "Format": [
@@ -204,8 +267,11 @@
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "flan-t5"
+        ],
         "Model Generated": [
+            "flan-t5",
             "OpenAI Codex",
             "OpenAI ChatGPT"
         ],
@@ -234,12 +300,9 @@
             "HF Config": "en",
             "HF Config License": "CC BY 4.0",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 209,
-            "HF Likes (June 2023)": 5,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 1,
             "S2 Date": "2023-05-23",
             "GitHub License": "",
             "Text Topics": [
@@ -253,8 +316,18 @@
                 "Sports",
                 "Linguistics",
                 "Data analysis"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-06-05",
+            "HF Downloads (September 2023)": 103,
+            "HF Likes (September 2023)": 3,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 2,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "cotcollection-ko": {
         "Unique Dataset Identifier": "cotcollection-ko",
@@ -269,10 +342,24 @@
         "ArXiv URL": "https://arxiv.org/abs/2305.14045",
         "Semantic Scholar Corpus ID": 258841149,
         "Languages": [
-            "Korean"
+            "Korean",
+            "Code"
         ],
         "Task Categories": [
-            "Chain-of-Thought"
+            "Chain-of-Thought",
+            "Natural Language Inference",
+            "Question Answering",
+            "Commonsense Classification",
+            "Commonsense Reasoning",
+            "Explanation",
+            "Dialog Generation",
+            "Code",
+            "Natural Language Generation (NLG)",
+            "Summarization",
+            "Cause Effect Classification",
+            "Toxicity Detection",
+            "Logical Reasoning",
+            "Ethics Classification"
         ],
         "Text Domains": [],
         "Format": [
@@ -290,8 +377,11 @@
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "flan-t5"
+        ],
         "Model Generated": [
+            "flan-t5",
             "OpenAI Codex",
             "OpenAI ChatGPT"
         ],
@@ -320,12 +410,9 @@
             "HF Config": "en",
             "HF Config License": "CC BY 4.0",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 209,
-            "HF Likes (June 2023)": 5,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 1,
             "S2 Date": "2023-05-23",
             "GitHub License": "",
             "Text Topics": [
@@ -339,8 +426,18 @@
                 "Translation",
                 "Chemistry",
                 "Physics"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-06-05",
+            "HF Downloads (September 2023)": 103,
+            "HF Likes (September 2023)": 3,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 2,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "cotcollection-ru": {
         "Unique Dataset Identifier": "cotcollection-ru",
@@ -355,10 +452,24 @@
         "ArXiv URL": "https://arxiv.org/abs/2305.14045",
         "Semantic Scholar Corpus ID": 258841149,
         "Languages": [
-            "Russian"
+            "Russian",
+            "Code"
         ],
         "Task Categories": [
-            "Chain-of-Thought"
+            "Chain-of-Thought",
+            "Natural Language Inference",
+            "Question Answering",
+            "Commonsense Classification",
+            "Commonsense Reasoning",
+            "Explanation",
+            "Dialog Generation",
+            "Code",
+            "Natural Language Generation (NLG)",
+            "Summarization",
+            "Cause Effect Classification",
+            "Toxicity Detection",
+            "Logical Reasoning",
+            "Ethics Classification"
         ],
         "Text Domains": [],
         "Format": [
@@ -376,8 +487,11 @@
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "flan-t5"
+        ],
         "Model Generated": [
+            "flan-t5",
             "OpenAI Codex",
             "OpenAI ChatGPT"
         ],
@@ -406,12 +520,9 @@
             "HF Config": "en",
             "HF Config License": "CC BY 4.0",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 209,
-            "HF Likes (June 2023)": 5,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 1,
             "S2 Date": "2023-05-23",
             "GitHub License": "",
             "Text Topics": [
@@ -425,8 +536,18 @@
                 "Language learning",
                 "Math",
                 "Arithmetic"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-06-05",
+            "HF Downloads (September 2023)": 103,
+            "HF Likes (September 2023)": 3,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 2,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "cotcollection-zh": {
         "Unique Dataset Identifier": "cotcollection-zh",
@@ -441,10 +562,24 @@
         "ArXiv URL": "https://arxiv.org/abs/2305.14045",
         "Semantic Scholar Corpus ID": 258841149,
         "Languages": [
-            "Chinese"
+            "Chinese",
+            "Code"
         ],
         "Task Categories": [
-            "Chain-of-Thought"
+            "Chain-of-Thought",
+            "Natural Language Inference",
+            "Question Answering",
+            "Commonsense Classification",
+            "Commonsense Reasoning",
+            "Explanation",
+            "Dialog Generation",
+            "Code",
+            "Natural Language Generation (NLG)",
+            "Summarization",
+            "Cause Effect Classification",
+            "Toxicity Detection",
+            "Logical Reasoning",
+            "Ethics Classification"
         ],
         "Text Domains": [],
         "Format": [
@@ -462,8 +597,11 @@
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "flan-t5"
+        ],
         "Model Generated": [
+            "flan-t5",
             "OpenAI Codex",
             "OpenAI ChatGPT"
         ],
@@ -492,12 +630,9 @@
             "HF Config": "en",
             "HF Config License": "CC BY 4.0",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 209,
-            "HF Likes (June 2023)": 5,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 1,
             "S2 Date": "2023-05-23",
             "GitHub License": "",
             "Text Topics": [
@@ -511,7 +646,17 @@
                 "History",
                 "Biology",
                 "Translation"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-06-05",
+            "HF Downloads (September 2023)": 103,
+            "HF Likes (September 2023)": 3,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 2,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     }
 }

@@ -16,13 +16,11 @@
         ],
         "Task Categories": [
             "Sentiment Analysis",
-            "Multiple Choice Ingredient Necessity Question Answering",
+            "Multiple Choice Necessity Classification",
             "Binary Classification",
             "Binary Classification Question Answering",
             "Numerical Data Aggregation and Analysis",
-            "Paraphrase Identification",
-            "True/False Question Answering",
-            "Binary Classification (Spam/Not Spam)",
+            "Paraphrase Detection",
             "Sentence Ordering",
             "Sentence Completion"
         ],
@@ -42,7 +40,9 @@
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "prompts"
+        ],
         "Model Generated": [
             "OpenAI GPT-3"
         ],
@@ -81,7 +81,20 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2022-12-21",
+            "HF Downloads (September 2023)": 43,
+            "HF Likes (September 2023)": 3,
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     }
 }

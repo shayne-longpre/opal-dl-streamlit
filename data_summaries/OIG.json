@@ -8,17 +8,17 @@
         "GitHub URL": "https://github.com/skywalker023/sodaverse",
         "Hugging Face URL": "https://huggingface.co/datasets/allenai/soda",
         "Paper Title": "SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization",
-        "Papers with Code URL": "https://paperswithcode.com/paper/soda-million-scale-dialogue-distillation-with",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/soda",
         "ArXiv URL": "https://arxiv.org/abs/2212.10465",
         "Semantic Scholar Corpus ID": "254877312",
         "Languages": [
             "English"
         ],
         "Task Categories": [
-            "Dialog",
-            "Story Composition",
+            "Dialogue Generation",
+            "Narrative Generation",
             "Creative Writing",
-            "Commonsense Reasoning"
+            "Commonsense Classification"
         ],
         "Text Domains": [],
         "Format": [
@@ -36,9 +36,12 @@
             "Max Dialog Turns": 16,
             "Mean Dialog Turns": 5.4028
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "OpenAI ChatGPT"
+        ],
         "Model Generated": [
-            "OpenAI GPT-3"
+            "OpenAI GPT-3",
+            "OpenAI ChatGPT"
         ],
         "Creators": [
             "AI2",
@@ -72,11 +75,31 @@
                 "Relationships",
                 "Sports"
             ],
-            "GitHub License": "",
+            "GitHub License": "MIT License",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2023-01-04",
+            "HF Downloads (September 2023)": 375,
+            "HF Likes (September 2023)": 93,
+            "PwC Date": "",
+            "PwC Description": "Implemented in one code library.",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": 136,
+            "GitHub Topics": [
+                "dataset",
+                "dataset-creation",
+                "dialogue",
+                "dialogue-generation",
+                "dialogue-system",
+                "gpt-3"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "oig-unified_abstract_infill": {
         "Unique Dataset Identifier": "oig-unified_abstract_infill",
@@ -87,14 +110,14 @@
         "GitHub URL": "https://github.com/google-research/dialog-inpainting",
         "Hugging Face URL": "",
         "Paper Title": "Dialog Inpainting: Turning Documents into Dialogs",
-        "Papers with Code URL": "https://paperswithcode.com/paper/dialog-inpainting-turning-documents-into",
+        "Papers with Code URL": "",
         "ArXiv URL": "https://arxiv.org/abs/2205.09073",
         "Semantic Scholar Corpus ID": "248863311",
         "Languages": [
             "English"
         ],
         "Task Categories": [
-            "Dialog"
+            "Dialogue Generation"
         ],
         "Text Domains": [
             "Wikipedia"
@@ -115,9 +138,11 @@
             "Mean Dialog Turns": 12.3124
         },
         "Text Sources": [
-            "Wikipedia"
+            "wikipedia.org",
+            "undisclosed web"
         ],
         "Model Generated": [
+            "T5",
             "T5-XXL"
         ],
         "Creators": [
@@ -147,11 +172,26 @@
                 "Songwriting",
                 "Culture"
             ],
-            "GitHub License": "",
+            "GitHub License": "Apache License 2.0",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "Implemented in one code library.",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": 93,
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "MS Marco retrieval corpus"
+        ],
+        "Human Annotation": "Yes"
     },
     "oig-unified_unnatural_instructions": {
         "Unique Dataset Identifier": "oig-unified_unnatural_instructions",
@@ -162,7 +202,7 @@
         "GitHub URL": "https://github.com/orhonovich/unnatural-instructions",
         "Hugging Face URL": "https://huggingface.co/datasets/mrm8488/unnatural-instructions-full",
         "Paper Title": "Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor",
-        "Papers with Code URL": "https://paperswithcode.com/paper/unnatural-instructions-tuning-language-models",
+        "Papers with Code URL": "",
         "ArXiv URL": "https://arxiv.org/abs/2212.09689",
         "Semantic Scholar Corpus ID": "254853659",
         "Languages": [
@@ -188,7 +228,9 @@
             "Max Dialog Turns": 4,
             "Mean Dialog Turns": 2.0001
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "prompts"
+        ],
         "Model Generated": [
             "OpenAI GPT-3"
         ],
@@ -221,11 +263,24 @@
                 "Problem-solving",
                 "Food"
             ],
-            "GitHub License": "",
+            "GitHub License": "MIT License",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2022-12-21",
+            "HF Downloads (September 2023)": 175,
+            "HF Likes (September 2023)": 6,
+            "PwC Date": "",
+            "PwC Description": "Implemented in 3 code libraries.",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": 148,
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oig-unified_mathqa_flanv2_kojma_cot": {
         "Unique Dataset Identifier": "oig-unified_mathqa_flanv2_kojma_cot",
@@ -236,7 +291,7 @@
         "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/math_qa",
         "Paper Title": "MathQA: Towards Interpretable Math Word Problem Solving with Operation-Based Formalisms",
-        "Papers with Code URL": "https://paperswithcode.com/paper/mathqa-towards-interpretable-math-word",
+        "Papers with Code URL": "",
         "ArXiv URL": "https://arxiv.org/abs/1905.13319",
         "Semantic Scholar Corpus ID": "173188048",
         "Languages": [
@@ -245,7 +300,7 @@
         "Task Categories": [
             "Question Answering",
             "Chain-of-Thought",
-            "Mathematical QA"
+            "Algebraic Expression Evaluation"
         ],
         "Text Domains": [],
         "Format": [
@@ -263,7 +318,11 @@
             "Max Dialog Turns": 6,
             "Mean Dialog Turns": 2.2631
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced",
+            "gmat",
+            "gre exams"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -293,8 +352,23 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 6948,
+            "HF Likes (September 2023)": 34,
+            "PwC Date": "",
+            "PwC Description": "No code available yet.",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "AQuA dataset"
+        ],
+        "Human Annotation": "Yes"
     },
     "oig-unified_poetry_instructions": {
         "Unique Dataset Identifier": "oig-unified_poetry_instructions",
@@ -330,7 +404,10 @@
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
         },
-        "Text Sources": ["Gutenberg Poetry Corpus", "poetryfoundation.com"],
+        "Text Sources": [
+            "Gutenberg Poetry Corpus",
+            "poetryfoundation.com"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -360,8 +437,21 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2021-09-24",
+            "HF Downloads (September 2023)": 54,
+            "HF Likes (September 2023)": 13,
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "oig-unified_poetry_2_song": {
         "Unique Dataset Identifier": "oig-unified_poetry_2_song",
@@ -397,7 +487,10 @@
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
         },
-        "Text Sources": ["Gutenberg Poetry Corpus", "poetryfoundation.com"],
+        "Text Sources": [
+            "Gutenberg Poetry Corpus",
+            "poetryfoundation.com"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -427,8 +520,21 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2021-09-24",
+            "HF Downloads (September 2023)": 54,
+            "HF Likes (September 2023)": 13,
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "oig-unified_ul2_plus_oscar_en_sample_dialog": {
         "Unique Dataset Identifier": "oig-unified_ul2_plus_oscar_en_sample_dialog",
@@ -446,9 +552,9 @@
             "English"
         ],
         "Task Categories": [
-            "Dialog",
+            "Dialogue Generation",
             "Span Generation",
-            "Text Completion"
+            "Fill in The Blank"
         ],
         "Text Domains": [],
         "Format": [
@@ -496,8 +602,21 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "oig-unified_multi_news": {
         "Unique Dataset Identifier": "oig-unified_multi_news",
@@ -508,7 +627,7 @@
         "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/multi_news",
         "Paper Title": "Multi-News: a Large-Scale Multi-Document Summarization Dataset and Abstractive Hierarchical Model",
-        "Papers with Code URL": "https://paperswithcode.com/paper/multi-news-a-large-scale-multi-document",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/multi-news",
         "ArXiv URL": "https://arxiv.org/abs/1906.01749",
         "Semantic Scholar Corpus ID": "174799390",
         "Languages": [
@@ -533,7 +652,9 @@
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "news"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -563,17 +684,30 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 6214,
+            "HF Likes (September 2023)": 24,
+            "PwC Date": "",
+            "PwC Description": "#5 best model for Multi-Document Summarization on Multi-News (ROUGE-1 metric)",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oig-unified_rallio_safety_and_prosocial": {
         "Unique Dataset Identifier": "oig-unified_rallio_safety_and_prosocial",
         "Dataset Name": "rallio_safety_and_prosocial",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
-        "Dataset URL": "",
+        "Dataset URL": "https://huggingface.co/datasets/laion/OIG",
         "GitHub URL": "",
-        "Hugging Face URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/laion/OIG",
         "Paper Title": "",
         "Papers with Code URL": "",
         "ArXiv URL": "",
@@ -582,7 +716,7 @@
             "English"
         ],
         "Task Categories": [
-            "Text Completion",
+            "Fill in The Blank",
             "Creative Writing"
         ],
         "Text Domains": [],
@@ -631,8 +765,21 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "oig-unified_oscar_en_sample_dialog": {
         "Unique Dataset Identifier": "oig-unified_oscar_en_sample_dialog",
@@ -650,7 +797,7 @@
             "English"
         ],
         "Task Categories": [
-            "Dialog",
+            "Dialogue Generation",
             "Creative Writing",
             "Miscellaneous"
         ],
@@ -700,8 +847,21 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "oig-unified_grade_school_math_instructions": {
         "Unique Dataset Identifier": "oig-unified_grade_school_math_instructions",
@@ -712,7 +872,7 @@
         "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/gsm8k",
         "Paper Title": "Training Verifiers to Solve Math Word Problems",
-        "Papers with Code URL": "https://paperswithcode.com/paper/training-verifiers-to-solve-math-word",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/gsm8k",
         "ArXiv URL": "https://arxiv.org/abs/2110.14168",
         "Semantic Scholar Corpus ID": "239998651",
         "Languages": [
@@ -721,7 +881,7 @@
         "Task Categories": [
             "Question Answering",
             "Chain-of-Thought",
-            "Mathematical QA"
+            "Algebraic Expression Evaluation"
         ],
         "Text Domains": [],
         "Format": [
@@ -739,7 +899,9 @@
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -769,8 +931,21 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2022-04-12",
+            "HF Downloads (September 2023)": 136536,
+            "HF Likes (September 2023)": 64,
+            "PwC Date": "",
+            "PwC Description": "Implemented in 2 code libraries.",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oig-unified_sqlv2": {
         "Unique Dataset Identifier": "oig-unified_sqlv2",
@@ -788,7 +963,7 @@
             "English"
         ],
         "Task Categories": [
-            "Dialog",
+            "Dialogue Generation",
             "Code Generation",
             "Program Execution"
         ],
@@ -838,8 +1013,21 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "oig-unified_chip2": {
         "Unique Dataset Identifier": "oig-unified_chip2",
@@ -905,8 +1093,21 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "oig-unified_nq": {
         "Unique Dataset Identifier": "oig-unified_nq",
@@ -917,7 +1118,7 @@
         "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/natural_questions",
         "Paper Title": "Natural Questions: A Benchmark for Question Answering Research",
-        "Papers with Code URL": "https://paperswithcode.com/paper/natural-questions-a-benchmark-for-question",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/natural-questions",
         "ArXiv URL": "",
         "Semantic Scholar Corpus ID": "86611921",
         "Languages": [
@@ -972,8 +1173,21 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 1225,
+            "HF Likes (September 2023)": 18,
+            "PwC Date": "",
+            "PwC Description": "#7 best model for Question Answering on Natural Questions (long) (F1 metric)",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "oig-unified_joke_explanations": {
         "Unique Dataset Identifier": "oig-unified_joke_explanations",
@@ -1039,8 +1253,21 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "oig-unified_openai_summarize_tldr": {
         "Unique Dataset Identifier": "oig-unified_openai_summarize_tldr",
@@ -1051,7 +1278,7 @@
         "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/openai/summarize_from_feedback",
         "Paper Title": "Learning to summarize from human feedback",
-        "Papers with Code URL": "https://paperswithcode.com/paper/learning-to-summarize-from-human-feedback",
+        "Papers with Code URL": "",
         "ArXiv URL": "https://arxiv.org/abs/2009.01325",
         "Semantic Scholar Corpus ID": "221665105",
         "Languages": [
@@ -1076,7 +1303,9 @@
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "reddit"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -1106,8 +1335,21 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2022-12-28",
+            "HF Downloads (September 2023)": 2591,
+            "HF Likes (September 2023)": 108,
+            "PwC Date": "",
+            "PwC Description": "Implemented in one code library.",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "oig-unified_unifiedskg_instructions": {
         "Unique Dataset Identifier": "oig-unified_unifiedskg_instructions",
@@ -1118,14 +1360,14 @@
         "GitHub URL": "",
         "Hugging Face URL": "",
         "Paper Title": "UnifiedSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models",
-        "Papers with Code URL": "https://paperswithcode.com/paper/unifiedskg-unifying-and-multi-tasking",
+        "Papers with Code URL": "",
         "ArXiv URL": "https://arxiv.org/abs/2201.05966",
         "Semantic Scholar Corpus ID": "246016124",
         "Languages": [
             "English"
         ],
         "Task Categories": [
-            "Dialog",
+            "Dialogue Generation",
             "Question Answering"
         ],
         "Text Domains": [],
@@ -1144,7 +1386,11 @@
             "Max Dialog Turns": 156,
             "Mean Dialog Turns": 4.3807
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "wikipedia.org",
+            "undisclosed web",
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -1174,17 +1420,51 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "🏆 SOTA for Task-Oriented Dialogue Systems on KVRET (Entity F1 metric)",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "Spider",
+            "GrailQA",
+            "WebQSP",
+            "MTOP",
+            "WikiSQL",
+            "WikiTQ",
+            "CompWebQ",
+            "HybridQA",
+            "MultiModalQA",
+            "FeTaQA",
+            "DART",
+            "ToTTo",
+            "MultiWoZ",
+            "KVRET",
+            "SParC",
+            "CoSQL",
+            "SQA",
+            "TabFact",
+            "SQL2Text",
+            "Logic2Text"
+        ],
+        "Human Annotation": "Yes"
     },
     "oig-unified_sqlv1": {
         "Unique Dataset Identifier": "oig-unified_sqlv1",
         "Dataset Name": "sqlv1",
         "Collection": "OIG",
         "Collection URL": "https://huggingface.co/datasets/laion/OIG",
-        "Dataset URL": "",
+        "Dataset URL": "https://huggingface.co/datasets/laion/OIG",
         "GitHub URL": "",
-        "Hugging Face URL": "",
+        "Hugging Face URL": "https://huggingface.co/datasets/laion/OIG",
         "Paper Title": "",
         "Papers with Code URL": "",
         "ArXiv URL": "",
@@ -1193,7 +1473,7 @@
             "English"
         ],
         "Task Categories": [
-            "Dialog",
+            "Dialogue Generation",
             "Code Generation",
             "Program Execution"
         ],
@@ -1243,8 +1523,21 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "oig-unified_canadian_parliament": {
         "Unique Dataset Identifier": "oig-unified_canadian_parliament",
@@ -1310,8 +1603,21 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "oig-unified_plot_screenplay_books_dialog": {
         "Unique Dataset Identifier": "oig-unified_plot_screenplay_books_dialog",
@@ -1329,8 +1635,8 @@
             "English"
         ],
         "Task Categories": [
-            "Dialog",
-            "Story Composition",
+            "Dialogue Generation",
+            "Narrative Generation",
             "Creative Writing"
         ],
         "Text Domains": [],
@@ -1379,8 +1685,21 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "oig-unified_essays": {
         "Unique Dataset Identifier": "oig-unified_essays",
@@ -1398,7 +1717,7 @@
             "English"
         ],
         "Task Categories": [
-            "Dialog",
+            "Dialogue Generation",
             "Creative Writing"
         ],
         "Text Domains": [],
@@ -1417,7 +1736,9 @@
             "Max Dialog Turns": 110,
             "Mean Dialog Turns": 8.6986
         },
-        "Text Sources": ["IvyPanda"],
+        "Text Sources": [
+            "IvyPanda"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -1447,8 +1768,21 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "oig-unified_conv_finqa": {
         "Unique Dataset Identifier": "oig-unified_conv_finqa",
@@ -1459,18 +1793,18 @@
         "GitHub URL": "",
         "Hugging Face URL": "",
         "Paper Title": "ConvFinQA: Exploring the Chain of Numerical Reasoning in Conversational Finance Question Answering",
-        "Papers with Code URL": "https://paperswithcode.com/paper/convfinqa-exploring-the-chain-of-numerical",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/convfinqa",
         "ArXiv URL": "https://arxiv.org/abs/2210.03849",
         "Semantic Scholar Corpus ID": "252780839",
         "Languages": [
             "English"
         ],
         "Task Categories": [
-            "Dialog",
+            "Dialogue Generation",
             "Code Generation",
             "Program Execution",
             "Question Answering",
-            "Mathematical QA"
+            "Algebraic Expression Evaluation"
         ],
         "Text Domains": [],
         "Format": [
@@ -1488,7 +1822,9 @@
             "Max Dialog Turns": 18,
             "Mean Dialog Turns": 5.5417
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "s&p 500 earnings reports"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -1518,8 +1854,23 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Date": "",
+            "PwC Description": "🏆 SOTA for Question Answering on ConvFinQA (Execution Accuracy metric)",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "FinQA"
+        ],
+        "Human Annotation": "Yes"
     },
     "oig-unified_hc3_human": {
         "Unique Dataset Identifier": "oig-unified_hc3_human",
@@ -1530,7 +1881,7 @@
         "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
         "Paper Title": "How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection",
-        "Papers with Code URL": "https://paperswithcode.com/paper/how-close-is-chatgpt-to-human-experts",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/hc3",
         "ArXiv URL": "https://arxiv.org/abs/2301.07597",
         "Semantic Scholar Corpus ID": "255998637",
         "Languages": [
@@ -1556,8 +1907,18 @@
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
         },
-        "Text Sources": [],
-        "Model Generated": ["OpenAI ChatGPT"],
+        "Text Sources": [
+            "crowdsourced",
+            "web exams",
+            "wikipedia.org",
+            "iclinic.com",
+            "healthcaremagic.com",
+            "financial news",
+            "financial blogs"
+        ],
+        "Model Generated": [
+            "OpenAI ChatGPT"
+        ],
         "Creators": [],
         "Licenses": [
             {
@@ -1594,8 +1955,34 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2023-01-18",
+            "HF Downloads (September 2023)": 3363,
+            "HF Likes (September 2023)": 110,
+            "PwC Date": "",
+            "PwC Description": "Implemented in one code library.",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "ELI5 dataset",
+            "WikiQA dataset",
+            "Wikipedia",
+            "Medical Dialog dataset",
+            "FiQA dataset",
+            "WebTextQA dataset",
+            "BaikeQA dataset",
+            "BaiduBake",
+            "NLPCC-DBQA dataset",
+            "Chinese Psychological Exams",
+            "LegalQA dataset",
+            "FinanceZhidao dataset"
+        ],
+        "Human Annotation": "Yes"
     },
     "oig-unified_cuad": {
         "Unique Dataset Identifier": "oig-unified_cuad",
@@ -1606,15 +1993,15 @@
         "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/cuad",
         "Paper Title": "CUAD: An Expert-Annotated NLP Dataset for Legal Contract Review",
-        "Papers with Code URL": "https://paperswithcode.com/paper/cuad-an-expert-annotated-nlp-dataset-for",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/cuad",
         "ArXiv URL": "https://arxiv.org/abs/2103.06268",
         "Semantic Scholar Corpus ID": "232170369",
         "Languages": [
             "English"
         ],
         "Task Categories": [
-            "Dialog",
-            "Text Completion"
+            "Dialogue Generation",
+            "Fill in The Blank"
         ],
         "Text Domains": [],
         "Format": [
@@ -1632,7 +2019,9 @@
             "Max Dialog Turns": 808,
             "Mean Dialog Turns": 81.1941
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "sec.gov/edgar/about"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -1662,8 +2051,21 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 1632,
+            "HF Likes (September 2023)": 27,
+            "PwC Date": "",
+            "PwC Description": "Implemented in 2 code libraries.",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oig-unified_squad_v2_more_neg": {
         "Unique Dataset Identifier": "oig-unified_squad_v2_more_neg",
@@ -1674,14 +2076,14 @@
         "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/squad_v2",
         "Paper Title": "Know What You Don't Know: Unanswerable Questions for SQuAD",
-        "Papers with Code URL": "https://paperswithcode.com/paper/know-what-you-dont-know-unanswerable",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/squad",
         "ArXiv URL": "https://arxiv.org/abs/1806.03822",
         "Semantic Scholar Corpus ID": "47018994",
         "Languages": [
             "English"
         ],
         "Task Categories": [
-            "Dialog",
+            "Dialogue Generation",
             "Question Answering"
         ],
         "Text Domains": [],
@@ -1700,7 +2102,9 @@
             "Max Dialog Turns": 76,
             "Mean Dialog Turns": 15.9605
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced (daemo)"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -1730,8 +2134,21 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 8690810,
+            "HF Likes (September 2023)": 65,
+            "PwC Date": "",
+            "PwC Description": "Implemented in 13 code libraries.",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oig-unified_squad_v2": {
         "Unique Dataset Identifier": "oig-unified_squad_v2",
@@ -1742,14 +2159,14 @@
         "GitHub URL": "",
         "Hugging Face URL": "https://huggingface.co/datasets/squad_v2",
         "Paper Title": "Know What You Don't Know: Unanswerable Questions for SQuAD",
-        "Papers with Code URL": "https://paperswithcode.com/paper/know-what-you-dont-know-unanswerable",
+        "Papers with Code URL": "https://paperswithcode.com/dataset/squad",
         "ArXiv URL": "https://arxiv.org/abs/1806.03822",
         "Semantic Scholar Corpus ID": "47018994",
         "Languages": [
             "English"
         ],
         "Task Categories": [
-            "Dialog",
+            "Dialogue Generation",
             "Question Answering"
         ],
         "Text Domains": [],
@@ -1768,7 +2185,9 @@
             "Max Dialog Turns": 60,
             "Mean Dialog Turns": 13.3075
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced (daemo)"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -1798,7 +2217,20 @@
             "GitHub License": "",
             "HF Yaml License": "",
             "HF Config License": "",
-            "PwC License Name": ""
-        }
+            "PwC License Name": "",
+            "Github Date": "",
+            "HF Date": "2022-01-25",
+            "HF Downloads (September 2023)": 8690810,
+            "HF Likes (September 2023)": 65,
+            "PwC Date": "",
+            "PwC Description": "Implemented in 13 code libraries.",
+            "PwC License URL": "",
+            "S2 Citation Count (September 2023)": "",
+            "S2 Date": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     }
 }
