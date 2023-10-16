@@ -149,7 +149,12 @@ def streamlit_app():
             time_range_selection[0].strftime('%Y-%m-%d'),
             time_range_selection[1].strftime('%Y-%m-%d'),
         )
-        filtered_data_summary = {row["Unique Dataset Identifier"]: row for row in filtered_df.to_dict(orient='records')}
+        def format_datetime(value):
+            if isinstance(value, pd.Timestamp):
+                return value.strftime('%Y-%m-%d')
+            return value
+        formatted_df = filtered_df.applymap(format_datetime)
+        filtered_data_summary = {row["Unique Dataset Identifier"]: row for row in formatted_df.to_dict(orient='records')}
 
 
     st.title("Data Provenance Explorer")
