@@ -1,5 +1,5 @@
 let Plot;
-import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm").then(module => {
+import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6.11/+esm").then(module => {
     Plot = module;
     // Your code that uses Plot here
 
