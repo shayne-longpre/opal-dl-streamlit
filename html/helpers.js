@@ -255,7 +255,7 @@ function createWorldMap(counts, countries, countrymesh, title) {
     projection: "equal-earth",
     width: 928,
     height: 928 / 2,
-    color: { scheme: "YlGnBu", unknown: "#ccc", label: title, legend: true },
+    color: { scheme: "YlOrRd", unknown: "#ccc", label: title, legend: true },
     marks: [
       Plot.sphere({ fill: "white", stroke: "currentColor" }),
       Plot.geo(countries, {
@@ -278,7 +278,7 @@ function createLanguageWorldMap(counts, countries, countrymesh, title, countryTo
     projection: "equal-earth",
     width: 928,
     height: 928 / 2,
-    color: { scheme: "YlGnBu", unknown: "#ccc", label: title, legend: true },
+    color: { scheme: "YlOrRd", unknown: "#ccc", label: title, legend: true },
     marks: [
       Plot.sphere({ fill: "white", stroke: "currentColor" }),
       Plot.geo(countries, {
