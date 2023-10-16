@@ -15,7 +15,11 @@
             "English"
         ],
         "Task Categories": [
-            "Summarization"
+            "Summarization",
+            "Response Ranking",
+            "Explanation Generation",
+            "Dialog Generation",
+            "Open-form Text Generation"
         ],
         "Text Domains": [
             "Social Media -> Reddit",
@@ -37,7 +41,7 @@
             "Mean Dialog Turns": 3.0
         },
         "Text Sources": [
-            "Reddit"
+            "reddit"
         ],
         "Model Generated": [
             "OpenAI GPT-3"
@@ -49,9 +53,13 @@
             {
                 "License": "OpenAI",
                 "License URL": "https://arxiv.org/abs/2009.01325"
+            },
+            {
+                "License": "CC BY 4.0",
+                "License URL": "https://github.com/openai/summarize-from-feedback#human-feedback-data"
             }
         ],
-        "License Notes": "",
+        "License Notes": "No explicit mention that this dataset also follows TL;DR's CC BY 4.0 license.",
         "License Verified By": "Shayne",
         "Dataset Filter IDs": [
             "openai-summarize"
@@ -61,14 +69,11 @@
             "HF Config": "comparisons",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 2597,
-            "HF Likes (June 2023)": 96,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 397,
             "S2 Date": "2020-09-02",
-            "GitHub License": "MIT License",
+            "GitHub License": "",
             "Text Topics": [
                 "Relationships and dating",
                 "Relationships and communication",
@@ -80,7 +85,17 @@
                 "Relationships",
                 "Communication",
                 "Friendship dynamics"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2022-12-28",
+            "HF Downloads (September 2023)": 2591,
+            "HF Likes (September 2023)": 108,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 478,
+            "GitHub Stars": 837,
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     }
 }

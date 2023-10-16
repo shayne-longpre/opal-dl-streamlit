@@ -9,13 +9,17 @@
         "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
         "Paper Title": "How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection",
         "Papers with Code URL": "https://paperswithcode.com/dataset/hc3",
-        "ArXiv URL": "https://arxiv.org/pdf/2301.07597",
+        "ArXiv URL": "https://arxiv.org/abs/2301.07597",
         "Semantic Scholar Corpus ID": 255998637,
         "Languages": [
             "English"
         ],
         "Task Categories": [
-            "Question Answering"
+            "Question Answering",
+            "Response Ranking",
+            "Data Analysis",
+            "Open-form Text Generation",
+            "Creativity"
         ],
         "Text Domains": [
             "Finance"
@@ -35,7 +39,15 @@
             "Max Dialog Turns": 3,
             "Mean Dialog Turns": 3.0
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced",
+            "web exams",
+            "wikipedia.org",
+            "iclinic.com",
+            "healthcaremagic.com",
+            "financial news",
+            "financial blogs"
+        ],
         "Model Generated": [
             "OpenAI ChatGPT"
         ],
@@ -71,12 +83,9 @@
             "HF Config": "all",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 15937,
-            "HF Likes (June 2023)": 91,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 86,
             "S2 Date": "2023-01-18",
             "GitHub License": "",
             "Text Topics": [
@@ -90,8 +99,31 @@
                 "Investment strategies",
                 "Financial analysis",
                 "Real estate investment"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-01-18",
+            "HF Downloads (September 2023)": 3363,
+            "HF Likes (September 2023)": 110,
+            "PwC Description": "The HC3 (Human ChatGPT Comparison Corpus) dataset consists of nearly 40K questions and their corresponding human/ChatGPT answers. The motivation for this dataset was to study ChatGPT's answers in contrast to human's answers. The questions range from a wide variety of domains, including open-domain, financial, medical, legal, and psychological areas.",
+            "S2 Citation Count (September 2023)": 121,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "ELI5 dataset",
+            "WikiQA dataset",
+            "Wikipedia",
+            "Medical Dialog dataset",
+            "FiQA dataset",
+            "WebTextQA dataset",
+            "BaikeQA dataset",
+            "BaiduBake",
+            "NLPCC-DBQA dataset",
+            "Chinese Psychological Exams",
+            "LegalQA dataset",
+            "FinanceZhidao dataset"
+        ],
+        "Human Annotation": "Yes"
     },
     "hc3_en-medicine": {
         "Unique Dataset Identifier": "hc3_en-medicine",
@@ -103,14 +135,18 @@
         "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
         "Paper Title": "How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection",
         "Papers with Code URL": "https://paperswithcode.com/dataset/hc3",
-        "ArXiv URL": "https://arxiv.org/pdf/2301.07597",
+        "ArXiv URL": "https://arxiv.org/abs/2301.07597",
         "Semantic Scholar Corpus ID": 255998637,
         "Languages": [
             "English"
         ],
         "Task Categories": [
             "Question Answering",
-            "Dialog"
+            "Dialogue Generation",
+            "Response Ranking",
+            "Data Analysis",
+            "Open-form Text Generation",
+            "Creativity"
         ],
         "Text Domains": [
             "Medicine"
@@ -130,7 +166,15 @@
             "Max Dialog Turns": 3,
             "Mean Dialog Turns": 2.9984
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced",
+            "web exams",
+            "wikipedia.org",
+            "iclinic.com",
+            "healthcaremagic.com",
+            "financial news",
+            "financial blogs"
+        ],
         "Model Generated": [
             "OpenAI ChatGPT"
         ],
@@ -166,12 +210,9 @@
             "HF Config": "all",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 15937,
-            "HF Likes (June 2023)": 91,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 86,
             "S2 Date": "2023-01-18",
             "GitHub License": "",
             "Text Topics": [
@@ -185,8 +226,31 @@
                 "Women's health",
                 "Health and medication",
                 "Health and wellness"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-01-18",
+            "HF Downloads (September 2023)": 3363,
+            "HF Likes (September 2023)": 110,
+            "PwC Description": "The HC3 (Human ChatGPT Comparison Corpus) dataset consists of nearly 40K questions and their corresponding human/ChatGPT answers. The motivation for this dataset was to study ChatGPT's answers in contrast to human's answers. The questions range from a wide variety of domains, including open-domain, financial, medical, legal, and psychological areas.",
+            "S2 Citation Count (September 2023)": 121,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "ELI5 dataset",
+            "WikiQA dataset",
+            "Wikipedia",
+            "Medical Dialog dataset",
+            "FiQA dataset",
+            "WebTextQA dataset",
+            "BaikeQA dataset",
+            "BaiduBake",
+            "NLPCC-DBQA dataset",
+            "Chinese Psychological Exams",
+            "LegalQA dataset",
+            "FinanceZhidao dataset"
+        ],
+        "Human Annotation": "Yes"
     },
     "hc3_en-wikiqa": {
         "Unique Dataset Identifier": "hc3_en-wikiqa",
@@ -198,13 +262,17 @@
         "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
         "Paper Title": "How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection",
         "Papers with Code URL": "https://paperswithcode.com/dataset/hc3",
-        "ArXiv URL": "https://arxiv.org/pdf/2301.07597",
+        "ArXiv URL": "https://arxiv.org/abs/2301.07597",
         "Semantic Scholar Corpus ID": 255998637,
         "Languages": [
             "English"
         ],
         "Task Categories": [
-            "Question Answering"
+            "Question Answering",
+            "Response Ranking",
+            "Data Analysis",
+            "Open-form Text Generation",
+            "Creativity"
         ],
         "Text Domains": [
             "Wikipedia"
@@ -224,7 +292,15 @@
             "Max Dialog Turns": 3,
             "Mean Dialog Turns": 3.0
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced",
+            "web exams",
+            "wikipedia.org",
+            "iclinic.com",
+            "healthcaremagic.com",
+            "financial news",
+            "financial blogs"
+        ],
         "Model Generated": [
             "OpenAI ChatGPT"
         ],
@@ -260,12 +336,9 @@
             "HF Config": "all",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 15937,
-            "HF Likes (June 2023)": 91,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 86,
             "S2 Date": "2023-01-18",
             "GitHub License": "",
             "Text Topics": [
@@ -279,8 +352,31 @@
                 "Religion",
                 "Engineering",
                 "General knowledge"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-01-18",
+            "HF Downloads (September 2023)": 3363,
+            "HF Likes (September 2023)": 110,
+            "PwC Description": "The HC3 (Human ChatGPT Comparison Corpus) dataset consists of nearly 40K questions and their corresponding human/ChatGPT answers. The motivation for this dataset was to study ChatGPT's answers in contrast to human's answers. The questions range from a wide variety of domains, including open-domain, financial, medical, legal, and psychological areas.",
+            "S2 Citation Count (September 2023)": 121,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "ELI5 dataset",
+            "WikiQA dataset",
+            "Wikipedia",
+            "Medical Dialog dataset",
+            "FiQA dataset",
+            "WebTextQA dataset",
+            "BaikeQA dataset",
+            "BaiduBake",
+            "NLPCC-DBQA dataset",
+            "Chinese Psychological Exams",
+            "LegalQA dataset",
+            "FinanceZhidao dataset"
+        ],
+        "Human Annotation": "Yes"
     },
     "hc3_en-reddit_eli5": {
         "Unique Dataset Identifier": "hc3_en-reddit_eli5",
@@ -292,13 +388,17 @@
         "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
         "Paper Title": "How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection",
         "Papers with Code URL": "https://paperswithcode.com/dataset/hc3",
-        "ArXiv URL": "https://arxiv.org/pdf/2301.07597",
+        "ArXiv URL": "https://arxiv.org/abs/2301.07597",
         "Semantic Scholar Corpus ID": 255998637,
         "Languages": [
             "English"
         ],
         "Task Categories": [
-            "Question Answering"
+            "Question Answering",
+            "Response Ranking",
+            "Data Analysis",
+            "Open-form Text Generation",
+            "Creativity"
         ],
         "Text Domains": [
             "Reddit"
@@ -319,7 +419,13 @@
             "Mean Dialog Turns": 2.9734
         },
         "Text Sources": [
-            "Reddit"
+            "crowdsourced",
+            "web exams",
+            "wikipedia.org",
+            "iclinic.com",
+            "healthcaremagic.com",
+            "financial news",
+            "financial blogs"
         ],
         "Model Generated": [
             "OpenAI ChatGPT"
@@ -356,12 +462,9 @@
             "HF Config": "all",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 15937,
-            "HF Likes (June 2023)": 91,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 86,
             "S2 Date": "2023-01-18",
             "GitHub License": "",
             "Text Topics": [
@@ -375,8 +478,31 @@
                 "School funding",
                 "Biology - The topic of melanin and its role in protecting our skin from UV light",
                 "Health - The topic of sunburn and the damage it causes to our skin"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-01-18",
+            "HF Downloads (September 2023)": 3363,
+            "HF Likes (September 2023)": 110,
+            "PwC Description": "The HC3 (Human ChatGPT Comparison Corpus) dataset consists of nearly 40K questions and their corresponding human/ChatGPT answers. The motivation for this dataset was to study ChatGPT's answers in contrast to human's answers. The questions range from a wide variety of domains, including open-domain, financial, medical, legal, and psychological areas.",
+            "S2 Citation Count (September 2023)": 121,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "ELI5 dataset",
+            "WikiQA dataset",
+            "Wikipedia",
+            "Medical Dialog dataset",
+            "FiQA dataset",
+            "WebTextQA dataset",
+            "BaikeQA dataset",
+            "BaiduBake",
+            "NLPCC-DBQA dataset",
+            "Chinese Psychological Exams",
+            "LegalQA dataset",
+            "FinanceZhidao dataset"
+        ],
+        "Human Annotation": "Yes"
     },
     "hc3_en-wiki_csai": {
         "Unique Dataset Identifier": "hc3_en-wiki_csai",
@@ -388,13 +514,17 @@
         "Hugging Face URL": "https://huggingface.co/datasets/Hello-SimpleAI/HC3",
         "Paper Title": "How Close is ChatGPT to Human Experts? Comparison Corpus, Evaluation, and Detection",
         "Papers with Code URL": "https://paperswithcode.com/dataset/hc3",
-        "ArXiv URL": "https://arxiv.org/pdf/2301.07597",
+        "ArXiv URL": "https://arxiv.org/abs/2301.07597",
         "Semantic Scholar Corpus ID": 255998637,
         "Languages": [
             "English"
         ],
         "Task Categories": [
-            "Question Answering"
+            "Question Answering",
+            "Response Ranking",
+            "Data Analysis",
+            "Open-form Text Generation",
+            "Creativity"
         ],
         "Text Domains": [
             "Wikipedia"
@@ -414,7 +544,15 @@
             "Max Dialog Turns": 3,
             "Mean Dialog Turns": 3.0
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced",
+            "web exams",
+            "wikipedia.org",
+            "iclinic.com",
+            "healthcaremagic.com",
+            "financial news",
+            "financial blogs"
+        ],
         "Model Generated": [
             "OpenAI ChatGPT"
         ],
@@ -446,12 +584,9 @@
             "HF Config": "all",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 15937,
-            "HF Likes (June 2023)": 91,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 86,
             "S2 Date": "2023-01-18",
             "GitHub License": "",
             "Text Topics": [
@@ -465,7 +600,30 @@
                 "Machine Learning",
                 "Biology",
                 "Neuroscience"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-01-18",
+            "HF Downloads (September 2023)": 3363,
+            "HF Likes (September 2023)": 110,
+            "PwC Description": "The HC3 (Human ChatGPT Comparison Corpus) dataset consists of nearly 40K questions and their corresponding human/ChatGPT answers. The motivation for this dataset was to study ChatGPT's answers in contrast to human's answers. The questions range from a wide variety of domains, including open-domain, financial, medical, legal, and psychological areas.",
+            "S2 Citation Count (September 2023)": 121,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [
+            "ELI5 dataset",
+            "WikiQA dataset",
+            "Wikipedia",
+            "Medical Dialog dataset",
+            "FiQA dataset",
+            "WebTextQA dataset",
+            "BaikeQA dataset",
+            "BaiduBake",
+            "NLPCC-DBQA dataset",
+            "Chinese Psychological Exams",
+            "LegalQA dataset",
+            "FinanceZhidao dataset"
+        ],
+        "Human Annotation": "Yes"
     }
 }

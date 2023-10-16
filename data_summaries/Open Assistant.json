@@ -12,17 +12,17 @@
         "ArXiv URL": "https://arxiv.org/abs/2304.07327",
         "Semantic Scholar Corpus ID": 258179434,
         "Languages": [
-            "English"
+            "English",
+            "Code"
         ],
         "Task Categories": [
-            "Command Line Output Generation.",
+            "Command Line Output Generation",
             "Story Arc Construction",
-            "Story Generation",
+            "Narrative Generation",
             "Multiple Choice Question Answering",
             "Instructional Question Answering",
             "Clarification Question Answering",
-            "Quadratic Equation Solving using MIPS Assembly Programming.",
-            "Multiple Choice Question Answering (MCQA)",
+            "Quadratic Equation Solving using MIPS Assembly Programming",
             "Open-Ended Question Answering",
             "Humor Generation"
         ],
@@ -42,7 +42,9 @@
             "Max Dialog Turns": 56,
             "Mean Dialog Turns": 11.2547
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -61,12 +63,9 @@
             "HF Config": "OpenAssistant--oasst1",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 20491,
-            "HF Likes (June 2023)": 898,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 30,
             "S2 Date": "2023-04-14",
             "GitHub License": "Apache License 2.0",
             "Text Topics": [
@@ -80,8 +79,28 @@
                 "Communication",
                 "Operating systems",
                 "Computer programming"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-04-13",
+            "HF Downloads (September 2023)": 19823,
+            "HF Likes (September 2023)": 998,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 57,
+            "GitHub Stars": 35037,
+            "GitHub Topics": [
+                "ai",
+                "assistant",
+                "chatgpt",
+                "discord-bot",
+                "language-model",
+                "machine-learning",
+                "nextjs",
+                "python",
+                "rlhf"
             ]
-        }
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oasst-es": {
         "Unique Dataset Identifier": "oasst-es",
@@ -117,7 +136,9 @@
             "Max Dialog Turns": 24,
             "Mean Dialog Turns": 6.1375
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -136,15 +157,44 @@
             "HF Config": "OpenAssistant--oasst1",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 20491,
-            "HF Likes (June 2023)": 898,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 30,
             "S2 Date": "2023-04-14",
-            "GitHub License": "Apache License 2.0"
-        }
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "2023-04-13",
+            "HF Downloads (September 2023)": 19823,
+            "HF Likes (September 2023)": 998,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 57,
+            "GitHub Stars": 35037,
+            "GitHub Topics": [
+                "ai",
+                "assistant",
+                "chatgpt",
+                "discord-bot",
+                "language-model",
+                "machine-learning",
+                "nextjs",
+                "python",
+                "rlhf"
+            ],
+            "Text Topics": [
+                "History",
+                "Geography",
+                "Technology",
+                "Philosophy",
+                "Mathematics",
+                "Chemistry",
+                "Genetics",
+                "Literature",
+                "Programming",
+                "Travel planning"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oasst-ru": {
         "Unique Dataset Identifier": "oasst-ru",
@@ -180,7 +230,9 @@
             "Max Dialog Turns": 20,
             "Mean Dialog Turns": 10.0693
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -199,15 +251,44 @@
             "HF Config": "OpenAssistant--oasst1",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 20491,
-            "HF Likes (June 2023)": 898,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 30,
             "S2 Date": "2023-04-14",
-            "GitHub License": "Apache License 2.0"
-        }
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "2023-04-13",
+            "HF Downloads (September 2023)": 19823,
+            "HF Likes (September 2023)": 998,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 57,
+            "GitHub Stars": 35037,
+            "GitHub Topics": [
+                "ai",
+                "assistant",
+                "chatgpt",
+                "discord-bot",
+                "language-model",
+                "machine-learning",
+                "nextjs",
+                "python",
+                "rlhf"
+            ],
+            "Text Topics": [
+                "Science",
+                "Philosophy",
+                "Physics",
+                "Animal behavior",
+                "Geography",
+                "General knowledge",
+                "Travel",
+                "Linguistics",
+                "Artificial Intelligence",
+                "History"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oasst-zh": {
         "Unique Dataset Identifier": "oasst-zh",
@@ -243,7 +324,9 @@
             "Max Dialog Turns": 17,
             "Mean Dialog Turns": 8.914
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -262,15 +345,44 @@
             "HF Config": "OpenAssistant--oasst1",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 20491,
-            "HF Likes (June 2023)": 898,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 30,
             "S2 Date": "2023-04-14",
-            "GitHub License": "Apache License 2.0"
-        }
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "2023-04-13",
+            "HF Downloads (September 2023)": 19823,
+            "HF Likes (September 2023)": 998,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 57,
+            "GitHub Stars": 35037,
+            "GitHub Topics": [
+                "ai",
+                "assistant",
+                "chatgpt",
+                "discord-bot",
+                "language-model",
+                "machine-learning",
+                "nextjs",
+                "python",
+                "rlhf"
+            ],
+            "Text Topics": [
+                "Artificial Intelligence",
+                "Language learning",
+                "Cultural exchange",
+                "General knowledge",
+                "Translation",
+                "Poetry",
+                "Programming languages",
+                "Natural Language Processing (NLP)",
+                "Geography",
+                "Gaming strategies"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oasst-de": {
         "Unique Dataset Identifier": "oasst-de",
@@ -306,7 +418,9 @@
             "Max Dialog Turns": 24,
             "Mean Dialog Turns": 9.2827
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -325,15 +439,44 @@
             "HF Config": "OpenAssistant--oasst1",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 20491,
-            "HF Likes (June 2023)": 898,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 30,
             "S2 Date": "2023-04-14",
-            "GitHub License": "Apache License 2.0"
-        }
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "2023-04-13",
+            "HF Downloads (September 2023)": 19823,
+            "HF Likes (September 2023)": 998,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 57,
+            "GitHub Stars": 35037,
+            "GitHub Topics": [
+                "ai",
+                "assistant",
+                "chatgpt",
+                "discord-bot",
+                "language-model",
+                "machine-learning",
+                "nextjs",
+                "python",
+                "rlhf"
+            ],
+            "Text Topics": [
+                "Geography",
+                "History",
+                "Travel",
+                "Technology",
+                "Artificial Intelligence",
+                "General knowledge",
+                "Artificial intelligence",
+                "Mathematics",
+                "Number theory",
+                "Prime numbers"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oasst-fr": {
         "Unique Dataset Identifier": "oasst-fr",
@@ -369,7 +512,9 @@
             "Max Dialog Turns": 17,
             "Mean Dialog Turns": 10.0688
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -388,15 +533,44 @@
             "HF Config": "OpenAssistant--oasst1",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 20491,
-            "HF Likes (June 2023)": 898,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 30,
             "S2 Date": "2023-04-14",
-            "GitHub License": "Apache License 2.0"
-        }
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "2023-04-13",
+            "HF Downloads (September 2023)": 19823,
+            "HF Likes (September 2023)": 998,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 57,
+            "GitHub Stars": 35037,
+            "GitHub Topics": [
+                "ai",
+                "assistant",
+                "chatgpt",
+                "discord-bot",
+                "language-model",
+                "machine-learning",
+                "nextjs",
+                "python",
+                "rlhf"
+            ],
+            "Text Topics": [
+                "Mathematics",
+                "Science",
+                "Physics",
+                "Humor",
+                "History",
+                "General knowledge",
+                "Astronomy",
+                "Biology",
+                "Math",
+                "Religion"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oasst-th": {
         "Unique Dataset Identifier": "oasst-th",
@@ -432,7 +606,9 @@
             "Max Dialog Turns": 14,
             "Mean Dialog Turns": 9.2994
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -451,15 +627,44 @@
             "HF Config": "OpenAssistant--oasst1",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 20491,
-            "HF Likes (June 2023)": 898,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 30,
             "S2 Date": "2023-04-14",
-            "GitHub License": "Apache License 2.0"
-        }
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "2023-04-13",
+            "HF Downloads (September 2023)": 19823,
+            "HF Likes (September 2023)": 998,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 57,
+            "GitHub Stars": 35037,
+            "GitHub Topics": [
+                "ai",
+                "assistant",
+                "chatgpt",
+                "discord-bot",
+                "language-model",
+                "machine-learning",
+                "nextjs",
+                "python",
+                "rlhf"
+            ],
+            "Text Topics": [
+                "Translation",
+                "Thai cuisine",
+                "Science",
+                "Pet care",
+                "Health",
+                "Communication skills",
+                "Education",
+                "Geography",
+                "Time management",
+                "Automotive technology"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oasst-pt-br": {
         "Unique Dataset Identifier": "oasst-pt-br",
@@ -495,7 +700,9 @@
             "Max Dialog Turns": 14,
             "Mean Dialog Turns": 7.3797
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -514,15 +721,44 @@
             "HF Config": "OpenAssistant--oasst1",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 20491,
-            "HF Likes (June 2023)": 898,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 30,
             "S2 Date": "2023-04-14",
-            "GitHub License": "Apache License 2.0"
-        }
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "2023-04-13",
+            "HF Downloads (September 2023)": 19823,
+            "HF Likes (September 2023)": 998,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 57,
+            "GitHub Stars": 35037,
+            "GitHub Topics": [
+                "ai",
+                "assistant",
+                "chatgpt",
+                "discord-bot",
+                "language-model",
+                "machine-learning",
+                "nextjs",
+                "python",
+                "rlhf"
+            ],
+            "Text Topics": [
+                "General knowledge",
+                "Language learning",
+                "Artificial Intelligence",
+                "Biology",
+                "Cooking",
+                "Philosophy",
+                "Mathematics",
+                "Information retrieval",
+                "Problem-solving",
+                "Decision-making"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oasst-ca": {
         "Unique Dataset Identifier": "oasst-ca",
@@ -558,7 +794,9 @@
             "Max Dialog Turns": 13,
             "Mean Dialog Turns": 4.9785
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -577,15 +815,44 @@
             "HF Config": "OpenAssistant--oasst1",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 20491,
-            "HF Likes (June 2023)": 898,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 30,
             "S2 Date": "2023-04-14",
-            "GitHub License": "Apache License 2.0"
-        }
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "2023-04-13",
+            "HF Downloads (September 2023)": 19823,
+            "HF Likes (September 2023)": 998,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 57,
+            "GitHub Stars": 35037,
+            "GitHub Topics": [
+                "ai",
+                "assistant",
+                "chatgpt",
+                "discord-bot",
+                "language-model",
+                "machine-learning",
+                "nextjs",
+                "python",
+                "rlhf"
+            ],
+            "Text Topics": [
+                "Geography",
+                "Travel",
+                "Astronomy",
+                "General knowledge",
+                "Language learning",
+                "Humor",
+                "Transportation",
+                "Space exploration",
+                "Python programming",
+                "Catalan culture"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oasst-uk-ua": {
         "Unique Dataset Identifier": "oasst-uk-ua",
@@ -621,7 +888,9 @@
             "Max Dialog Turns": 13,
             "Mean Dialog Turns": 8.7761
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -640,15 +909,44 @@
             "HF Config": "OpenAssistant--oasst1",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 20491,
-            "HF Likes (June 2023)": 898,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 30,
             "S2 Date": "2023-04-14",
-            "GitHub License": "Apache License 2.0"
-        }
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "2023-04-13",
+            "HF Downloads (September 2023)": 19823,
+            "HF Likes (September 2023)": 998,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 57,
+            "GitHub Stars": 35037,
+            "GitHub Topics": [
+                "ai",
+                "assistant",
+                "chatgpt",
+                "discord-bot",
+                "language-model",
+                "machine-learning",
+                "nextjs",
+                "python",
+                "rlhf"
+            ],
+            "Text Topics": [
+                "Science",
+                "Geography",
+                "Space exploration",
+                "Cooking",
+                "Baking",
+                "Health",
+                "Literature",
+                "Language learning",
+                "Gardening",
+                "Plant care"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oasst-it": {
         "Unique Dataset Identifier": "oasst-it",
@@ -684,7 +982,9 @@
             "Max Dialog Turns": 13,
             "Mean Dialog Turns": 5.009
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -703,15 +1003,44 @@
             "HF Config": "OpenAssistant--oasst1",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 20491,
-            "HF Likes (June 2023)": 898,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 30,
             "S2 Date": "2023-04-14",
-            "GitHub License": "Apache License 2.0"
-        }
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "2023-04-13",
+            "HF Downloads (September 2023)": 19823,
+            "HF Likes (September 2023)": 998,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 57,
+            "GitHub Stars": 35037,
+            "GitHub Topics": [
+                "ai",
+                "assistant",
+                "chatgpt",
+                "discord-bot",
+                "language-model",
+                "machine-learning",
+                "nextjs",
+                "python",
+                "rlhf"
+            ],
+            "Text Topics": [
+                "Mathematics",
+                "Translation",
+                "Music",
+                "Geography",
+                "Philosophy",
+                "Travel",
+                "General knowledge",
+                "Logic",
+                "Politics",
+                "Emoji interpretation"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oasst-ja": {
         "Unique Dataset Identifier": "oasst-ja",
@@ -747,7 +1076,9 @@
             "Max Dialog Turns": 13,
             "Mean Dialog Turns": 7.5625
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -766,15 +1097,44 @@
             "HF Config": "OpenAssistant--oasst1",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 20491,
-            "HF Likes (June 2023)": 898,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 30,
             "S2 Date": "2023-04-14",
-            "GitHub License": "Apache License 2.0"
-        }
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "2023-04-13",
+            "HF Downloads (September 2023)": 19823,
+            "HF Likes (September 2023)": 998,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 57,
+            "GitHub Stars": 35037,
+            "GitHub Topics": [
+                "ai",
+                "assistant",
+                "chatgpt",
+                "discord-bot",
+                "language-model",
+                "machine-learning",
+                "nextjs",
+                "python",
+                "rlhf"
+            ],
+            "Text Topics": [
+                "Language and communication",
+                "Cultural exchange",
+                "General knowledge",
+                "Culture",
+                "Daily routine",
+                "Artificial Intelligence",
+                "Translation",
+                "Geography",
+                "Animal behavior",
+                "Math"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oasst-pl": {
         "Unique Dataset Identifier": "oasst-pl",
@@ -810,7 +1170,9 @@
             "Max Dialog Turns": 15,
             "Mean Dialog Turns": 6.7556
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -829,15 +1191,44 @@
             "HF Config": "OpenAssistant--oasst1",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 20491,
-            "HF Likes (June 2023)": 898,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 30,
             "S2 Date": "2023-04-14",
-            "GitHub License": "Apache License 2.0"
-        }
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "2023-04-13",
+            "HF Downloads (September 2023)": 19823,
+            "HF Likes (September 2023)": 998,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 57,
+            "GitHub Stars": 35037,
+            "GitHub Topics": [
+                "ai",
+                "assistant",
+                "chatgpt",
+                "discord-bot",
+                "language-model",
+                "machine-learning",
+                "nextjs",
+                "python",
+                "rlhf"
+            ],
+            "Text Topics": [
+                "General knowledge",
+                "Geography",
+                "Trivia",
+                "History",
+                "Internet culture",
+                "Space exploration",
+                "Public transportation",
+                "Computer hardware",
+                "Technology",
+                "Software development"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oasst-eu": {
         "Unique Dataset Identifier": "oasst-eu",
@@ -873,7 +1264,9 @@
             "Max Dialog Turns": 9,
             "Mean Dialog Turns": 4.1
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -892,15 +1285,44 @@
             "HF Config": "OpenAssistant--oasst1",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 20491,
-            "HF Likes (June 2023)": 898,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 30,
             "S2 Date": "2023-04-14",
-            "GitHub License": "Apache License 2.0"
-        }
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "2023-04-13",
+            "HF Downloads (September 2023)": 19823,
+            "HF Likes (September 2023)": 998,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 57,
+            "GitHub Stars": 35037,
+            "GitHub Topics": [
+                "ai",
+                "assistant",
+                "chatgpt",
+                "discord-bot",
+                "language-model",
+                "machine-learning",
+                "nextjs",
+                "python",
+                "rlhf"
+            ],
+            "Text Topics": [
+                "Translation",
+                "Geography",
+                "History",
+                "Basque culture",
+                "Travel",
+                "Literature",
+                "Politics",
+                "Music",
+                "Health",
+                "Linguistics"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oasst-vi": {
         "Unique Dataset Identifier": "oasst-vi",
@@ -936,7 +1358,9 @@
             "Max Dialog Turns": 13,
             "Mean Dialog Turns": 5.1892
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -955,15 +1379,44 @@
             "HF Config": "OpenAssistant--oasst1",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 20491,
-            "HF Likes (June 2023)": 898,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 30,
             "S2 Date": "2023-04-14",
-            "GitHub License": "Apache License 2.0"
-        }
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "2023-04-13",
+            "HF Downloads (September 2023)": 19823,
+            "HF Likes (September 2023)": 998,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 57,
+            "GitHub Stars": 35037,
+            "GitHub Topics": [
+                "ai",
+                "assistant",
+                "chatgpt",
+                "discord-bot",
+                "language-model",
+                "machine-learning",
+                "nextjs",
+                "python",
+                "rlhf"
+            ],
+            "Text Topics": [
+                "Translation",
+                "History",
+                "Cultural exchange",
+                "Geography",
+                "Insurance",
+                "Astronomy",
+                "Math",
+                "Physics",
+                "Language and communication",
+                "Science"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oasst-hu": {
         "Unique Dataset Identifier": "oasst-hu",
@@ -999,7 +1452,9 @@
             "Max Dialog Turns": 13,
             "Mean Dialog Turns": 4.6875
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -1018,15 +1473,44 @@
             "HF Config": "OpenAssistant--oasst1",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 20491,
-            "HF Likes (June 2023)": 898,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 30,
             "S2 Date": "2023-04-14",
-            "GitHub License": "Apache License 2.0"
-        }
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "2023-04-13",
+            "HF Downloads (September 2023)": 19823,
+            "HF Likes (September 2023)": 998,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 57,
+            "GitHub Stars": 35037,
+            "GitHub Topics": [
+                "ai",
+                "assistant",
+                "chatgpt",
+                "discord-bot",
+                "language-model",
+                "machine-learning",
+                "nextjs",
+                "python",
+                "rlhf"
+            ],
+            "Text Topics": [
+                "Communication in relationships",
+                "Health",
+                "Animal behavior and training",
+                "Wildlife conservation",
+                "Pet ownership and responsibility",
+                "Nutrition",
+                "Alcoholic beverages",
+                "Caloric content of drinks",
+                "Cooking and recipes",
+                "Food substitutions"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oasst-ar": {
         "Unique Dataset Identifier": "oasst-ar",
@@ -1062,7 +1546,9 @@
             "Max Dialog Turns": 4,
             "Mean Dialog Turns": 4.0
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -1081,15 +1567,44 @@
             "HF Config": "OpenAssistant--oasst1",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 20491,
-            "HF Likes (June 2023)": 898,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 30,
             "S2 Date": "2023-04-14",
-            "GitHub License": "Apache License 2.0"
-        }
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "2023-04-13",
+            "HF Downloads (September 2023)": 19823,
+            "HF Likes (September 2023)": 998,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 57,
+            "GitHub Stars": 35037,
+            "GitHub Topics": [
+                "ai",
+                "assistant",
+                "chatgpt",
+                "discord-bot",
+                "language-model",
+                "machine-learning",
+                "nextjs",
+                "python",
+                "rlhf"
+            ],
+            "Text Topics": [
+                "Cultural exchange",
+                "Arabic numerals",
+                "Addition",
+                "Linguistics",
+                "General knowledge",
+                "Math",
+                "Physics",
+                "Quantum mechanics",
+                "Scientific concepts",
+                "Political disputes"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oasst-da": {
         "Unique Dataset Identifier": "oasst-da",
@@ -1125,7 +1640,9 @@
             "Max Dialog Turns": 4,
             "Mean Dialog Turns": 4.0
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -1144,15 +1661,44 @@
             "HF Config": "OpenAssistant--oasst1",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 20491,
-            "HF Likes (June 2023)": 898,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 30,
             "S2 Date": "2023-04-14",
-            "GitHub License": "Apache License 2.0"
-        }
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "2023-04-13",
+            "HF Downloads (September 2023)": 19823,
+            "HF Likes (September 2023)": 998,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 57,
+            "GitHub Stars": 35037,
+            "GitHub Topics": [
+                "ai",
+                "assistant",
+                "chatgpt",
+                "discord-bot",
+                "language-model",
+                "machine-learning",
+                "nextjs",
+                "python",
+                "rlhf"
+            ],
+            "Text Topics": [
+                "Religion",
+                "Astronomy",
+                "Earth's rotation and revolution",
+                "Seasonal changes",
+                "Dietary restrictions",
+                "Cultural practices",
+                "Danish language and literature",
+                "Poetry and lyrics",
+                "Religious themes in literature",
+                "Technology"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     },
     "oasst-tr": {
         "Unique Dataset Identifier": "oasst-tr",
@@ -1188,7 +1734,9 @@
             "Max Dialog Turns": 5,
             "Mean Dialog Turns": 4.1111
         },
-        "Text Sources": [],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [],
         "Creators": [],
         "Licenses": [
@@ -1207,14 +1755,43 @@
             "HF Config": "OpenAssistant--oasst1",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 20491,
-            "HF Likes (June 2023)": 898,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 30,
             "S2 Date": "2023-04-14",
-            "GitHub License": "Apache License 2.0"
-        }
+            "GitHub License": "Apache License 2.0",
+            "Github Date": "",
+            "HF Date": "2023-04-13",
+            "HF Downloads (September 2023)": 19823,
+            "HF Likes (September 2023)": 998,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 57,
+            "GitHub Stars": 35037,
+            "GitHub Topics": [
+                "ai",
+                "assistant",
+                "chatgpt",
+                "discord-bot",
+                "language-model",
+                "machine-learning",
+                "nextjs",
+                "python",
+                "rlhf"
+            ],
+            "Text Topics": [
+                "Earthquakes",
+                "Geology",
+                "Natural disasters",
+                "Introduction and personal information",
+                "Artificial intelligence and its capabilities",
+                "How I can assist and help with various tasks",
+                "Personalization options for virtual assistants",
+                "Multilingual capabilities of virtual assistants",
+                "Assistance with general inquiries and information retrieval",
+                "Programming languages"
+            ]
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "Yes"
     }
 }

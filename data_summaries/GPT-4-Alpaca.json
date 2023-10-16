@@ -7,24 +7,24 @@
         "Dataset URL": "https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM",
         "GitHub URL": "https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM",
         "Hugging Face URL": "https://huggingface.co/datasets/teknium/GPT4-LLM-Cleaned",
-        "Paper Title": "Visual Instruction Tuning",
-        "Papers with Code URL": "https://paperswithcode.com/dataset/llava",
-        "ArXiv URL": "",
-        "Semantic Scholar Corpus ID": 258179774,
+        "Paper Title": "Instruction Tuning with GPT-4",
+        "Papers with Code URL": "",
+        "ArXiv URL": "https://arxiv.org/abs/2304.03277",
+        "Semantic Scholar Corpus ID": 257985497,
         "Languages": [
             "English"
         ],
         "Task Categories": [
-            "Binary Classification Question Answering.",
+            "Binary Classification Question Answering",
             "Goal Setting Question Answering",
             "Shopping List Generation",
             "Instruction Following",
-            "Story Generation",
+            "Narrative Generation",
             "Summarization",
             "Multiple Choice Necessity Classification",
             "Interpretive Art Analysis",
             "Open-Domain Question Answering",
-            "Hyponym Identification"
+            "Hypernym Classification"
         ],
         "Text Domains": [
             "Miscellaneous"
@@ -56,7 +56,7 @@
             },
             {
                 "License": "OpenAI",
-                "License URL": "https://arxiv.org/abs/2304.08485"
+                "License URL": "https://arxiv.org/abs/2304.03277"
             }
         ],
         "License Notes": "",
@@ -69,12 +69,9 @@
             "HF Config": "teknium--GPT4-LLM-Cleaned",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 2330,
-            "HF Likes (June 2023)": 72,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "2023-04-17",
-            "S2 Citation Count (June 2023)": 77,
             "S2 Date": "2023-04-17",
             "GitHub License": "Apache License 2.0",
             "Text Topics": [
@@ -88,7 +85,23 @@
                 "Animal behavior",
                 "Language",
                 "Vocabulary"
+            ],
+            "Github Date": "",
+            "HF Date": "2023-05-02",
+            "HF Downloads (September 2023)": 1784,
+            "HF Likes (September 2023)": 80,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 154,
+            "GitHub Stars": 3348,
+            "GitHub Topics": [
+                "alpaca",
+                "chatgpt",
+                "gpt-4",
+                "instruction-tuning",
+                "llama"
             ]
-        }
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
     }
 }

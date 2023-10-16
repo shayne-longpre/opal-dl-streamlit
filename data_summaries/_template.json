@@ -1,47 +1,41 @@
 {
     "dataset-name (must match unique identifier)": {
-        "Unique Dataset Identifier": "string: dataset-name (formatted as <collection>-<dataset>)",
+        "Unique Dataset Identifier": "string: dataset-name (formatted as <collection_abbreviation>-<dataset>)",
         "Dataset Name": "string: Common name of dataset",
         "Paper Title": "string (''): The title of the associated paper.",
         "Dataset URL": "string (''): The URL to the dataset's original github repository, website, or best available resource.",
         "GitHub URL": "string (''): The URL to the dataset's github repository.",
-        "Hugging Face URL": "string (''): The URL to the dataset's Hugging Face page.",
-        "Papers with Code URL": "string (''): The URL to the dataset's 'Papers with Code' page.",
+        "Hugging Face URL": "string (''): The URL to the dataset's main Hugging Face page.",
+        "Papers with Code URL": "string (''): The URL to the dataset's (not the paper's) 'Papers with Code' page.",
         "ArXiv URL": "string (''): The URL to the ArXiv abstract page if the dataset is accompanied by a paper.",
-        "Semantic Scholar Corpus ID": "int (''): The Corpus ID associated with the dataset's paper on semantic scholar.",
-        "Collection": "string: The collection from which this version of the dataset is a part. Put down the name of this json file, without extension.",
+        "Semantic Scholar Corpus ID": "int (''): The 'Corpus ID' associated with the dataset's paper on semantic scholar.",
+        "Collection": "string: The collection from which this version of the dataset is a part. Should be the name of this json file, without the .json extension.",
         "Collection URL": "string: The URL of the collection's github repository or website.",
         "Languages": [
             "list[string]: A list of the natural or coding languages represented in the text.",
-            "Please refer to LANGUAGE_GROUPS in constants.py"
+            "Please use languages listed in `constants/language_groups.json` or add to it."
         ],
         "Task Categories": [
             "list[string]: A list of the tasks represented in the dataset.",
-            "Please refer to TASK_CATEGORY_GROUPS in constants.py"
+            "Please use tasks listed in `constants/task_groups.json` or add to it."
         ],
-        "Text Domains": [
-            "list[string]:  A list of text domains represented in the text, including Wikipedia, News, Books, Academic, Biomedical, Legal, etc.."
+        "Text Sources": [
+            "list[string]:  A list of sources from which the text was scraped/derived, including online/offline sources, if applicable.",
+            "Please use source URLs listed in `constants/domain_groups.json` or add to it."
         ],
-        "Text Metrics": "list[int] (null): Statistics on the minimum, mean, and maximum word tokens for each example's input and output, and the number of dialog turns if applicable.",
+        "Model Generated": ["list[str] (null): The model(s) used to generate this dataset if applicable."],
         "Format": [
             "list[string] (''): A list of the formats in which the dataset is available.",
-            "Please refer to DATA_FORMATS in constants.py"
-        ],
-        "Model Generated": ["list[str] (null): The model used to generate this dataset if applicable."],
-        "Text Sources": [
-            "list[string] (''): A list of sources from which the text was scraped or generated, including online/offline sources, and text generation models, if applicable.",
-            "For example, Wikipedia, Project Gutenberg, Internet Archive, Reddit, etc.."
+            "Please refer to `constants/data_formats.json` for options."
         ],
         "Creators": [
-            "list[string] (''): A list of the creators/compiler of the dataset. It should be institutions, corporations, or organizations."
+            "list[string] (''): A list of the institutions/corporations (not people) creators/compiler of the ML dataset.",
+            "Please use organizations listed in `constants/creator_groups.json`, or add to it."
         ],
         "Licenses": [
             {
-                "list[dictionary]": "A list of licenses associated with the dataset."
-            },
-            {
-                "License": "string: The name of the license.",
-                "License URL": "string: The URL to the license."
+                "License": "string (''): The name of the license, taken from `constants/license_classes.json`.",
+                "License URL": "string (''): The URL to the webpage where this license is mentioned in association with this dataset."
             }
         ],
         "License Notes": "string (''): Any notes from the human annotator regarding the license information they retrieved.",

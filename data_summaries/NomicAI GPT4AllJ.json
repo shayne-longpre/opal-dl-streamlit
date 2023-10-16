@@ -36,7 +36,7 @@
             "Mean Dialog Turns": 2.0
         },
         "Text Sources": [
-            "Stackoverflow"
+            "stackoverflow.com"
         ],
         "Model Generated": [
             "OpenAI ChatGPT"
@@ -61,12 +61,9 @@
             "HF Config": "nomic-ai--gpt4all-j-prompt-generations",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 1998,
-            "HF Likes (June 2023)": 121,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": null,
             "S2 Date": "",
             "GitHub License": "",
             "Text Topics": [
@@ -80,8 +77,18 @@
                 "Coding",
                 "Software development",
                 "Android development"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
     },
     "nomicai-gpt4allj-nomic": {
         "Unique Dataset Identifier": "nomicai-gpt4allj-nomic",
@@ -146,12 +153,9 @@
             "HF Config": "nomic-ai--gpt4all-j-prompt-generations",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 1998,
-            "HF Likes (June 2023)": 121,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": null,
             "S2 Date": "",
             "GitHub License": "",
             "Text Topics": [
@@ -165,8 +169,18 @@
                 "Music",
                 "Science",
                 "Art and creativity"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
     },
     "nomicai-gpt4allj-chip2": {
         "Unique Dataset Identifier": "nomicai-gpt4allj-chip2",
@@ -191,7 +205,7 @@
             "Open-Domain Question Answering",
             "Generative Storytelling",
             "Associative Memory Retrieval Question Answering",
-            "Scene Generation.",
+            "Scene Generation",
             "Named Entity Recognition",
             "Open-Ended Question Answering"
         ],
@@ -241,12 +255,9 @@
             "HF Config": "nomic-ai--gpt4all-j-prompt-generations",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 1998,
-            "HF Likes (June 2023)": 121,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": null,
             "S2 Date": "",
             "GitHub License": "",
             "Text Topics": [
@@ -260,8 +271,18 @@
                 "Personal finance",
                 "Chemistry",
                 "Nature and the environment"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
     },
     "nomicai-gpt4allj-unifiedskg": {
         "Unique Dataset Identifier": "nomicai-gpt4allj-unifiedskg",
@@ -280,15 +301,13 @@
         ],
         "Task Categories": [
             "Multiple Choice Question Answering",
-            "Open-Domain Factoid Question Answering",
+            "Open-Domain Question Answering",
             "Named Entity Recognition (NER)",
             "Named Entity Recognition",
             "Natural Language Understanding (NLU)",
-            "Open-Domain Question Answering",
             "Boolean Expression Evaluation",
             "Information Retrieval",
-            "Open-Domain Name Retrieval",
-            "Multiple Choice Question Answering (MCQA)"
+            "Open-Domain Name Retrieval"
         ],
         "Text Domains": [
             "Miscellaneous"
@@ -336,12 +355,9 @@
             "HF Config": "nomic-ai--gpt4all-j-prompt-generations",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 1998,
-            "HF Likes (June 2023)": 121,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": null,
             "S2 Date": "",
             "GitHub License": "",
             "Text Topics": [
@@ -355,8 +371,18 @@
                 "General knowledge",
                 "Technology",
                 "Programming"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
     },
     "nomicai-gpt4allj-unifiedmultisum": {
         "Unique Dataset Identifier": "nomicai-gpt4allj-unifiedmultisum",
@@ -421,12 +447,9 @@
             "HF Config": "nomic-ai--gpt4all-j-prompt-generations",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 1998,
-            "HF Likes (June 2023)": 121,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": null,
             "S2 Date": "",
             "GitHub License": "",
             "Text Topics": [
@@ -440,8 +463,18 @@
                 "Crime and safety",
                 "Fitness and exercise",
                 "Environmental conservation"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
     },
     "nomicai-gpt4allj-abstractinfill": {
         "Unique Dataset Identifier": "nomicai-gpt4allj-abstractinfill",
@@ -459,7 +492,7 @@
             "English"
         ],
         "Task Categories": [
-            "Dialog"
+            "Dialogue Generation"
         ],
         "Text Domains": [
             "Wikipedia",
@@ -508,12 +541,9 @@
             "HF Config": "nomic-ai--gpt4all-j-prompt-generations",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 1998,
-            "HF Likes (June 2023)": 121,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": null,
             "S2 Date": "",
             "GitHub License": "",
             "Text Topics": [
@@ -527,8 +557,18 @@
                 "Entomology",
                 "Taxonomy",
                 "Politics"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
     },
     "nomicai-gpt4allj-hc3": {
         "Unique Dataset Identifier": "nomicai-gpt4allj-hc3",
@@ -551,7 +591,6 @@
             "Open-Domain Question Answering",
             "Explanation Generation",
             "Geographical Map Making Question Answering",
-            "Open-Domain Factoid Question Answering",
             "Tax-Exempt Charitable Organization Donation Advice Question Answering",
             "Natural Language Understanding (NLU)",
             "Mortgage Loan Satisfaction Question Answering",
@@ -602,12 +641,9 @@
             "HF Config": "nomic-ai--gpt4all-j-prompt-generations",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 1998,
-            "HF Likes (June 2023)": 121,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": null,
             "S2 Date": "",
             "GitHub License": "",
             "Text Topics": [
@@ -621,7 +657,17 @@
                 "Mortgage loans",
                 "Physics",
                 "Astronomy"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "",
+            "HF Downloads (September 2023)": "",
+            "HF Likes (September 2023)": "",
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": "",
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Human Annotation": "No",
+        "Derived from Datasets": []
     }
 }

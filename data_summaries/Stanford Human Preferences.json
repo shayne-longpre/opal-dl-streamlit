@@ -12,10 +12,14 @@
         "ArXiv URL": "https://arxiv.org/abs/2110.08420",
         "Semantic Scholar Corpus ID": 250340652,
         "Languages": [
-            "English"
+            "English",
+            "Code"
         ],
         "Task Categories": [
-            "Forum QA"
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation",
+            "Text to Code"
         ],
         "Text Domains": [
             "Social Media -> Reddit"
@@ -36,7 +40,7 @@
             "Mean Dialog Turns": 3.0
         },
         "Text Sources": [
-            "Reddit"
+            "reddit"
         ],
         "Model Generated": [],
         "Creators": [
@@ -60,13 +64,10 @@
             "HF Config": "stanfordnlp--SHP",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 3547,
-            "HF Likes (June 2023)": 200,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 20,
-            "S2 Date": "",
+            "S2 Date": "2021-10-16",
             "GitHub License": "",
             "Text Topics": [
                 "Engineering",
@@ -79,8 +80,18 @@
                 "Career advancement",
                 "Physics",
                 "Fluid dynamics"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "shp-askculinary": {
         "Unique Dataset Identifier": "shp-askculinary",
@@ -98,7 +109,10 @@
             "English"
         ],
         "Task Categories": [
-            "Forum QA"
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation",
+            "Cooking Instruction Understanding"
         ],
         "Text Domains": [
             "Social Media -> Reddit"
@@ -119,7 +133,7 @@
             "Mean Dialog Turns": 3.0
         },
         "Text Sources": [
-            "Reddit"
+            "reddit"
         ],
         "Model Generated": [],
         "Creators": [
@@ -143,13 +157,10 @@
             "HF Config": "stanfordnlp--SHP",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 3547,
-            "HF Likes (June 2023)": 200,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 20,
-            "S2 Date": "",
+            "S2 Date": "2021-10-16",
             "GitHub License": "",
             "Text Topics": [
                 "Cooking techniques",
@@ -162,8 +173,18 @@
                 "Baking and cooking techniques",
                 "Culinary creativity",
                 "Kitchen equipment"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "shp-askbaking": {
         "Unique Dataset Identifier": "shp-askbaking",
@@ -181,7 +202,10 @@
             "English"
         ],
         "Task Categories": [
-            "Forum QA"
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation",
+            "Cooking Instruction Understanding"
         ],
         "Text Domains": [
             "Social Media -> Reddit"
@@ -202,7 +226,7 @@
             "Mean Dialog Turns": 3.0
         },
         "Text Sources": [
-            "Reddit"
+            "reddit"
         ],
         "Model Generated": [],
         "Creators": [
@@ -226,13 +250,10 @@
             "HF Config": "stanfordnlp--SHP",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 3547,
-            "HF Likes (June 2023)": 200,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 20,
-            "S2 Date": "",
+            "S2 Date": "2021-10-16",
             "GitHub License": "",
             "Text Topics": [
                 "Baking and cooking",
@@ -245,8 +266,18 @@
                 "Baking tips and tricks",
                 "Baking and cooking techniques",
                 "Baking"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "shp-changemyview": {
         "Unique Dataset Identifier": "shp-changemyview",
@@ -264,7 +295,9 @@
             "English"
         ],
         "Task Categories": [
-            "Forum QA"
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
         ],
         "Text Domains": [
             "Social Media -> Reddit"
@@ -285,7 +318,7 @@
             "Mean Dialog Turns": 3.0
         },
         "Text Sources": [
-            "Reddit"
+            "reddit"
         ],
         "Model Generated": [],
         "Creators": [
@@ -309,13 +342,10 @@
             "HF Config": "stanfordnlp--SHP",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 3547,
-            "HF Likes (June 2023)": 200,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 20,
-            "S2 Date": "",
+            "S2 Date": "2021-10-16",
             "GitHub License": "",
             "Text Topics": [
                 "Education",
@@ -328,8 +358,18 @@
                 "Politics",
                 "Education policy",
                 "Freedom of speech"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "shp-askacademia": {
         "Unique Dataset Identifier": "shp-askacademia",
@@ -347,7 +387,9 @@
             "English"
         ],
         "Task Categories": [
-            "Forum QA"
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
         ],
         "Text Domains": [
             "Social Media -> Reddit"
@@ -368,7 +410,7 @@
             "Mean Dialog Turns": 3.0
         },
         "Text Sources": [
-            "Reddit"
+            "reddit"
         ],
         "Model Generated": [],
         "Creators": [
@@ -392,13 +434,10 @@
             "HF Config": "stanfordnlp--SHP",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 3547,
-            "HF Likes (June 2023)": 200,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 20,
-            "S2 Date": "",
+            "S2 Date": "2021-10-16",
             "GitHub License": "",
             "Text Topics": [
                 "Education",
@@ -411,8 +450,18 @@
                 "Academic writing",
                 "Email etiquette",
                 "Communication with professors"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "shp-asksciencefiction": {
         "Unique Dataset Identifier": "shp-asksciencefiction",
@@ -430,7 +479,9 @@
             "English"
         ],
         "Task Categories": [
-            "Forum QA"
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
         ],
         "Text Domains": [
             "Social Media -> Reddit"
@@ -451,7 +502,7 @@
             "Mean Dialog Turns": 3.0
         },
         "Text Sources": [
-            "Reddit"
+            "reddit"
         ],
         "Model Generated": [],
         "Creators": [
@@ -475,13 +526,10 @@
             "HF Config": "stanfordnlp--SHP",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 3547,
-            "HF Likes (June 2023)": 200,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 20,
-            "S2 Date": "",
+            "S2 Date": "2021-10-16",
             "GitHub License": "",
             "Text Topics": [
                 "Marvel Cinematic Universe (MCU)",
@@ -494,8 +542,18 @@
                 "Marvel comics",
                 "Superhero movies",
                 "Science fiction"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "shp-legaladvice": {
         "Unique Dataset Identifier": "shp-legaladvice",
@@ -513,7 +571,9 @@
             "English"
         ],
         "Task Categories": [
-            "Forum QA"
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
         ],
         "Text Domains": [
             "Social Media -> Reddit"
@@ -534,7 +594,7 @@
             "Mean Dialog Turns": 3.0
         },
         "Text Sources": [
-            "Reddit"
+            "reddit"
         ],
         "Model Generated": [],
         "Creators": [
@@ -558,13 +618,10 @@
             "HF Config": "stanfordnlp--SHP",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 3547,
-            "HF Likes (June 2023)": 200,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 20,
-            "S2 Date": "",
+            "S2 Date": "2021-10-16",
             "GitHub License": "",
             "Text Topics": [
                 "Family dynamics and relationships",
@@ -577,8 +634,18 @@
                 "Tenant rights and responsibilities",
                 "Tenant rights and legal options",
                 "Legal advice and custody battles"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "shp-explainlikeimfive": {
         "Unique Dataset Identifier": "shp-explainlikeimfive",
@@ -596,7 +663,9 @@
             "English"
         ],
         "Task Categories": [
-            "Forum QA"
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
         ],
         "Text Domains": [
             "Social Media -> Reddit"
@@ -617,7 +686,7 @@
             "Mean Dialog Turns": 3.0
         },
         "Text Sources": [
-            "Reddit"
+            "reddit"
         ],
         "Model Generated": [],
         "Creators": [
@@ -641,13 +710,10 @@
             "HF Config": "stanfordnlp--SHP",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 3547,
-            "HF Likes (June 2023)": 200,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 20,
-            "S2 Date": "",
+            "S2 Date": "2021-10-16",
             "GitHub License": "",
             "Text Topics": [
                 "Physics",
@@ -660,8 +726,18 @@
                 "Reproduction",
                 "Space exploration",
                 "Technology"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "shp-askscience": {
         "Unique Dataset Identifier": "shp-askscience",
@@ -679,7 +755,10 @@
             "English"
         ],
         "Task Categories": [
-            "Forum QA"
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation",
+            "Logical Reasoning"
         ],
         "Text Domains": [
             "Social Media -> Reddit"
@@ -700,7 +779,7 @@
             "Mean Dialog Turns": 3.0
         },
         "Text Sources": [
-            "Reddit"
+            "reddit"
         ],
         "Model Generated": [],
         "Creators": [
@@ -724,13 +803,10 @@
             "HF Config": "stanfordnlp--SHP",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 3547,
-            "HF Likes (June 2023)": 200,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 20,
-            "S2 Date": "",
+            "S2 Date": "2021-10-16",
             "GitHub License": "",
             "Text Topics": [
                 "Astronomy",
@@ -743,8 +819,18 @@
                 "Biology",
                 "Paleontology",
                 "Genetics"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "shp-askphilosophy": {
         "Unique Dataset Identifier": "shp-askphilosophy",
@@ -762,7 +848,10 @@
             "English"
         ],
         "Task Categories": [
-            "Forum QA"
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation",
+            "Logical Reasoning"
         ],
         "Text Domains": [
             "Social Media -> Reddit"
@@ -783,7 +872,7 @@
             "Mean Dialog Turns": 3.0
         },
         "Text Sources": [
-            "Reddit"
+            "reddit"
         ],
         "Model Generated": [],
         "Creators": [
@@ -807,13 +896,10 @@
             "HF Config": "stanfordnlp--SHP",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 3547,
-            "HF Likes (June 2023)": 200,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 20,
-            "S2 Date": "",
+            "S2 Date": "2021-10-16",
             "GitHub License": "",
             "Text Topics": [
                 "Philosophy",
@@ -826,8 +912,18 @@
                 "Philosophy of Mind",
                 "Literature",
                 "Existentialism"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "shp-askhr": {
         "Unique Dataset Identifier": "shp-askhr",
@@ -845,7 +941,9 @@
             "English"
         ],
         "Task Categories": [
-            "Forum QA"
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
         ],
         "Text Domains": [
             "Social Media -> Reddit"
@@ -866,7 +964,7 @@
             "Mean Dialog Turns": 3.0
         },
         "Text Sources": [
-            "Reddit"
+            "reddit"
         ],
         "Model Generated": [],
         "Creators": [
@@ -890,13 +988,10 @@
             "HF Config": "stanfordnlp--SHP",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 3547,
-            "HF Likes (June 2023)": 200,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 20,
-            "S2 Date": "",
+            "S2 Date": "2021-10-16",
             "GitHub License": "",
             "Text Topics": [
                 "Job search strategies",
@@ -909,8 +1004,18 @@
                 "Interview preparation",
                 "Workplace dynamics and interpersonal relationships",
                 "Employee privacy and confidentiality"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "shp-askphysics": {
         "Unique Dataset Identifier": "shp-askphysics",
@@ -928,7 +1033,9 @@
             "English"
         ],
         "Task Categories": [
-            "Forum QA"
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
         ],
         "Text Domains": [
             "Social Media -> Reddit"
@@ -949,7 +1056,7 @@
             "Mean Dialog Turns": 3.0
         },
         "Text Sources": [
-            "Reddit"
+            "reddit"
         ],
         "Model Generated": [],
         "Creators": [
@@ -973,13 +1080,10 @@
             "HF Config": "stanfordnlp--SHP",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 3547,
-            "HF Likes (June 2023)": 200,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 20,
-            "S2 Date": "",
+            "S2 Date": "2021-10-16",
             "GitHub License": "",
             "Text Topics": [
                 "Physics",
@@ -992,8 +1096,18 @@
                 "Physics jokes",
                 "Astronomy",
                 "Special relativity"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "shp-askdocs": {
         "Unique Dataset Identifier": "shp-askdocs",
@@ -1011,7 +1125,9 @@
             "English"
         ],
         "Task Categories": [
-            "Forum QA"
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
         ],
         "Text Domains": [
             "Social Media -> Reddit"
@@ -1032,7 +1148,7 @@
             "Mean Dialog Turns": 3.0
         },
         "Text Sources": [
-            "Reddit"
+            "reddit"
         ],
         "Model Generated": [],
         "Creators": [
@@ -1056,13 +1172,10 @@
             "HF Config": "stanfordnlp--SHP",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 3547,
-            "HF Likes (June 2023)": 200,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 20,
-            "S2 Date": "",
+            "S2 Date": "2021-10-16",
             "GitHub License": "",
             "Text Topics": [
                 "Health",
@@ -1075,8 +1188,18 @@
                 "Emergency medical care",
                 "Medical condition and treatment options",
                 "Pain management"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "shp-askanthropology": {
         "Unique Dataset Identifier": "shp-askanthropology",
@@ -1094,7 +1217,9 @@
             "English"
         ],
         "Task Categories": [
-            "Forum QA"
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
         ],
         "Text Domains": [
             "Social Media -> Reddit"
@@ -1115,7 +1240,7 @@
             "Mean Dialog Turns": 3.0
         },
         "Text Sources": [
-            "Reddit"
+            "reddit"
         ],
         "Model Generated": [],
         "Creators": [
@@ -1139,13 +1264,10 @@
             "HF Config": "stanfordnlp--SHP",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 3547,
-            "HF Likes (June 2023)": 200,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 20,
-            "S2 Date": "",
+            "S2 Date": "2021-10-16",
             "GitHub License": "",
             "Text Topics": [
                 "Anthropology",
@@ -1158,8 +1280,18 @@
                 "Cultural identity",
                 "Cultural practices and traditions",
                 "Anthropology and its subfields"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "shp-askvet": {
         "Unique Dataset Identifier": "shp-askvet",
@@ -1177,7 +1309,9 @@
             "English"
         ],
         "Task Categories": [
-            "Forum QA"
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
         ],
         "Text Domains": [
             "Social Media -> Reddit"
@@ -1198,7 +1332,7 @@
             "Mean Dialog Turns": 3.0
         },
         "Text Sources": [
-            "Reddit"
+            "reddit"
         ],
         "Model Generated": [],
         "Creators": [
@@ -1222,13 +1356,10 @@
             "HF Config": "stanfordnlp--SHP",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 3547,
-            "HF Likes (June 2023)": 200,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 20,
-            "S2 Date": "",
+            "S2 Date": "2021-10-16",
             "GitHub License": "",
             "Text Topics": [
                 "Veterinary medicine",
@@ -1241,8 +1372,18 @@
                 "Ethical considerations of declawing cats",
                 "Animal welfare",
                 "Animal welfare and ethics"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "shp-askhistorians": {
         "Unique Dataset Identifier": "shp-askhistorians",
@@ -1260,7 +1401,9 @@
             "English"
         ],
         "Task Categories": [
-            "Forum QA"
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
         ],
         "Text Domains": [
             "Social Media -> Reddit"
@@ -1281,7 +1424,7 @@
             "Mean Dialog Turns": 3.0
         },
         "Text Sources": [
-            "Reddit"
+            "reddit"
         ],
         "Model Generated": [],
         "Creators": [
@@ -1305,13 +1448,10 @@
             "HF Config": "stanfordnlp--SHP",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 3547,
-            "HF Likes (June 2023)": 200,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 20,
-            "S2 Date": "",
+            "S2 Date": "2021-10-16",
             "GitHub License": "",
             "Text Topics": [
                 "History",
@@ -1324,8 +1464,18 @@
                 "Pursuing a PhD in history",
                 "Challenges and discouragement in academia",
                 "Education"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "shp-askcarguys": {
         "Unique Dataset Identifier": "shp-askcarguys",
@@ -1343,7 +1493,9 @@
             "English"
         ],
         "Task Categories": [
-            "Forum QA"
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
         ],
         "Text Domains": [
             "Social Media -> Reddit"
@@ -1364,7 +1516,7 @@
             "Mean Dialog Turns": 3.0
         },
         "Text Sources": [
-            "Reddit"
+            "reddit"
         ],
         "Model Generated": [],
         "Creators": [
@@ -1388,13 +1540,10 @@
             "HF Config": "stanfordnlp--SHP",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 3547,
-            "HF Likes (June 2023)": 200,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 20,
-            "S2 Date": "",
+            "S2 Date": "2021-10-16",
             "GitHub License": "",
             "Text Topics": [
                 "Automotive maintenance",
@@ -1407,8 +1556,18 @@
                 "Cars and automotive knowledge",
                 "Automotive engineering",
                 "Automotive maintenance and repairs"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     },
     "shp-asksocialscience": {
         "Unique Dataset Identifier": "shp-asksocialscience",
@@ -1426,7 +1585,9 @@
             "English"
         ],
         "Task Categories": [
-            "Forum QA"
+            "Question Answering",
+            "Response Ranking",
+            "Dialog Generation"
         ],
         "Text Domains": [
             "Social Media -> Reddit"
@@ -1447,7 +1608,7 @@
             "Mean Dialog Turns": 3.0
         },
         "Text Sources": [
-            "Reddit"
+            "reddit"
         ],
         "Model Generated": [],
         "Creators": [
@@ -1471,13 +1632,10 @@
             "HF Config": "stanfordnlp--SHP",
             "HF Config License": "",
             "HF Yaml License": "",
-            "HF Downloads (June 2023)": 3547,
-            "HF Likes (June 2023)": 200,
             "PwC License Name": "",
             "PwC License URL": "",
             "PwC Date": "",
-            "S2 Citation Count (June 2023)": 20,
-            "S2 Date": "",
+            "S2 Date": "2021-10-16",
             "GitHub License": "",
             "Text Topics": [
                 "Economics",
@@ -1490,7 +1648,17 @@
                 "Cultural differences",
                 "Non-fiction books",
                 "Book recommendations"
-            ]
-        }
+            ],
+            "Github Date": "",
+            "HF Date": "2023-02-18",
+            "HF Downloads (September 2023)": 2515,
+            "HF Likes (September 2023)": 220,
+            "PwC Description": "",
+            "S2 Citation Count (September 2023)": 27,
+            "GitHub Stars": "",
+            "GitHub Topics": []
+        },
+        "Derived from Datasets": [],
+        "Human Annotation": "No"
     }
 }
