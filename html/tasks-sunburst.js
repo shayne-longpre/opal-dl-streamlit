@@ -42,7 +42,7 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm").then(module =
         //.attr("viewBox", [-width / 1.35, -height / 1.35, width * 1.5, width * 1.5])
         //resize viewport
         // .attr("width","100%")
-        .attr("height", 600)
+        .attr("height", height)
         .style("font", "10px sans-serif");
     
         // Append the arcs.
