@@ -135,11 +135,10 @@ def streamlit_app():
     if submitted:
         start_time = time_range_selection[0].strftime('%Y-%m-%d')
         end_time = time_range_selection[1].strftime('%Y-%m-%d') 
+        # We do this check to make sure we include No-Time datasets.
         if start_time == "2000-01-01":
-            st.write("Yessss")
             start_time = None
-        if end_time == "2023-12-01":
-            st.write("Yessss")
+        if end_time == "2023-12-01": 
             end_time = None
         filtered_df = filter_util.apply_filters(
             INFO["data"], 
