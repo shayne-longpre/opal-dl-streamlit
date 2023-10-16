@@ -11,5 +11,5 @@ CREATOR_COUNTRY_CONSTANTS_FP = "html/constants/creator_groups_by_country.json"
 FORMATS_CONSTANTS_FP = "html/constants/data_formats.json"
 DOMAINS_CONSTANTS_FP = "html/constants/domain_groups.json"
 
-LICENSE_USE_TYPES = ['Commercial', 'Unspecified', 'Non-Commercial', 'Unclear', 'Academic-Only']
+LICENSE_USE_TYPES = ['Commercial', 'Unspecified', 'Non-Commercial', 'Academic-Only']
 LICENSE_USE_CLASSES = ['Commercial', 'Unspecified', 'Non-Commercial', 'Academic-Only']
