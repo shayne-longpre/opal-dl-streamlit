@@ -77,6 +77,7 @@ def insert_metric_container(title, key, metrics):
 def streamlit_app():
     st.set_page_config(page_title="Data Provenance Explorer", layout="wide")#, initial_sidebar_state='collapsed')
     INFO["constants"] = load_constants()
+    st.write(INFO["constants"].keys())
     INFO["data"] = load_data()
 
     df_metadata = util.compute_metrics(INFO["data"])
@@ -116,7 +117,7 @@ def streamlit_app():
 
                 domain_multiselect = st.multiselect(
                     'Select the domain types to cover in your datasets',
-                    ["All"] + INFO["constants"]["DOMAINS"],
+                    ["All"] + INFO["constants"]["DOMAINS"].keys(),
                     # ["All", "Books", "Code", "Wiki", "News", "Biomedical", "Legal", "Web", "Math+Science"],
                     ["All"])
 
