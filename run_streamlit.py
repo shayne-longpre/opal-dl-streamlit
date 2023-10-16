@@ -139,7 +139,7 @@ def streamlit_app():
         filtered_df = filter_util.apply_filters(
             INFO["data"], 
             INFO["constants"],
-            "All", 
+            None, 
             None, # Select all licenses.
             license_multiselect,
             str(1 - int(license_attribution)),
