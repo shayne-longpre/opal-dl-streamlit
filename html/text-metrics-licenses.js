@@ -127,7 +127,10 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm").then(module =
         domain: uniqueLicenseClasses,
         range: ["#d62728", "#1f77b4", '#2ca02c'] //category10 red, blue, green
       },
-      symbol: { legend: true },
+      symbol: {
+        legend: true,
+        range: ["circle", "times", "triangle"]
+      }, //restrict category symbols
       marks: marks
     })
   );
