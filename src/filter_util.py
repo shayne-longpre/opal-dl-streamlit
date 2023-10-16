@@ -178,35 +178,35 @@ def apply_filters(
             filtered_df["License Share Alike (DataProvenance)"].apply(lambda x: x <= int(selected_license_sharealike))
         ]
 
-    if selected_languages:
+    if "All" not in selected_languages:
         lang_strs = set(
             [
                 lang_str
                 for k in selected_languages
-                for lang_str in all_constants["LANGUAGE_GROUPS"][k]
+                for lang_str in all_constants["LANGUAGE_GROUPS"].get(k, [])
             ]
         )
         filtered_df = filtered_df[
             filtered_df["Languages"].apply(lambda x: lang_strs >= set(x))
         ]
 
-    if selected_task_categories:
+    if "All" not in selected_task_categories:
         taskcat_strs = set(
             [
                 taskcat_str
                 for k in selected_task_categories
-                for taskcat_str in all_constants["TASK_GROUPS"][k]
+                for taskcat_str in all_constants["TASK_GROUPS"].get(k, [])
             ]
         )
         filtered_df = filtered_df[
             filtered_df["Task Categories"].apply(lambda x: taskcat_strs >= set(x))
         ]
-    if selected_domains:
+    if "All" not in selected_domains:
         text_source_strs = set(
             [
                 source_str
                 for k in selected_domains
-                for source_str in all_constants["DOMAIN_GROUPS"][k]
+                for source_str in all_constants["DOMAIN_GROUPS"].get(k, [])
             ]
         )
         filtered_df = filtered_df[
