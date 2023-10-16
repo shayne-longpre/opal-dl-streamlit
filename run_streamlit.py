@@ -117,7 +117,7 @@ def streamlit_app():
 
                 domain_multiselect = st.multiselect(
                     'Select the domain types to cover in your datasets',
-                    ["All"] + INFO["constants"]["DOMAINS"].keys(),
+                    ["All"] + list(INFO["constants"]["DOMAINS"].keys()),
                     # ["All", "Books", "Code", "Wiki", "News", "Biomedical", "Legal", "Web", "Math+Science"],
                     ["All"])
 
