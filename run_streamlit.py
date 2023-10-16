@@ -109,14 +109,15 @@ def streamlit_app():
 
             with st.expander("More advanced criteria"):
 
-                format_multiselect = st.multiselect(
-                    'Select the format types to cover in your datasets',
-                    ["All"] + INFO["constants"]["FORMATS"],
-                    ["All"])
+                # format_multiselect = st.multiselect(
+                #     'Select the format types to cover in your datasets',
+                #     ["All"] + INFO["constants"]["FORMATS"],
+                #     ["All"])
 
                 domain_multiselect = st.multiselect(
                     'Select the domain types to cover in your datasets',
-                    ["All", "Books", "Code", "Wiki", "News", "Biomedical", "Legal", "Web", "Math+Science"],
+                    ["All"] + INFO["constants"]["DOMAINS"],
+                    # ["All", "Books", "Code", "Wiki", "News", "Biomedical", "Legal", "Web", "Math+Science"],
                     ["All"])
 
                 time_range_selection = st.slider(
@@ -129,6 +130,7 @@ def streamlit_app():
 
     # st.write(len(INFO["data"]))
     if submitted:
+        st.write(time_range_selection)
         filtered_df = filter_util.apply_filters(
             INFO["data"], 
             INFO["constants"],
@@ -139,8 +141,9 @@ def streamlit_app():
             language_multiselect, 
             taskcats_multiselect,
             # format_multiselect,
-            # ["All"], #domain_multiselect,
-            # time_range_selection,
+            domain_multiselect,
+            time_range_selection,
+            time_range_selection,
         )
         filtered_data_summary = {row["Unique Dataset Identifier"]: row for row in filtered_df.to_dict(orient='records')}
 

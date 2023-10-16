@@ -108,7 +108,6 @@ def map_license_criteria(data_summary, all_constants, openai_override=False):
 
     return data_summary
 
-
 def apply_filters(
     df,
     all_constants,

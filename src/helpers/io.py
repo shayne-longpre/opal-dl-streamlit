@@ -103,6 +103,7 @@ def read_all_constants():
     custom_license_classes = read_json(constants.CUSTOM_LICENSE_CONSTANTS_FP)
     language_groups = read_json(constants.LANGUAGE_CONSTANTS_FP)
     task_groups = read_json(constants.TASK_CONSTANTS_FP)
+    source_groups = read_json(constants.DOMAINS_CONSTANTS_FP)
     model_groups = read_json(constants.MODEL_CONSTANTS_FP)
     creator_groups = read_json(constants.CREATOR_CONSTANTS_FP)
     all_formats = read_json(constants.FORMATS_CONSTANTS_FP)
@@ -112,6 +113,7 @@ def read_all_constants():
         "CUSTOM_LICENSE_CLASSES": custom_license_classes,
         "LANGUAGE_GROUPS": language_groups,
         "TASK_GROUPS": task_groups,
+        "DOMAINS": source_groups,
         "MODEL_GROUPS": model_groups,
         "CREATOR_GROUPS": creator_groups,
         "FORMATS": all_formats,
