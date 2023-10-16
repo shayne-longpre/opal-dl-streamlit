@@ -6,7 +6,7 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm").then(module =
 
     function sunburst(data, name) {
         // Specify the chart’s dimensions.
-        const width = 1200;
+        const width = 1500;
         const height = width;
         const radius = width / 6;
         const pctWidth = 40; //padding for percentages outside the circle
