@@ -136,6 +136,7 @@ def streamlit_app():
             INFO["data"], 
             INFO["constants"],
             "All", 
+            None, # Select all licenses.
             license_multiselect,
             str(1 - int(license_attribution)),
             str(1 - int(license_sharealike)),
@@ -143,8 +144,8 @@ def streamlit_app():
             taskcats_multiselect,
             # format_multiselect,
             domain_multiselect,
-            time_range_selection,
-            time_range_selection,
+            time_range_selection[0].strftime('%Y-%m-%d'),
+            time_range_selection[1].strftime('%Y-%m-%d'),
         )
         filtered_data_summary = {row["Unique Dataset Identifier"]: row for row in filtered_df.to_dict(orient='records')}
 
