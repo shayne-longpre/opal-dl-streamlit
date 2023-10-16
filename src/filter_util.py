@@ -161,6 +161,7 @@ def apply_filters(
         ]
 
     if selected_license_attribution:
+        st.write(filtered_df.columns)
         filtered_df = filtered_df[
             filtered_df["License Attribution (DataProvenance)"].apply(lambda x: x <= int(selected_license_attribution))
         ]
