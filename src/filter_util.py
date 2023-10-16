@@ -205,7 +205,6 @@ def apply_filters(
             filtered_df["Text Sources"].apply(lambda x: text_source_strs >= set(x))
         ]
 
-    st.write(len(filtered_df))
     if selected_start_time or selected_end_time:
 
         def get_min_date(metadata):
@@ -222,5 +221,4 @@ def apply_filters(
         if selected_end_time:
             filtered_df = filtered_df[filtered_df['Estimated Creation Date'] <= pd.to_datetime(selected_end_time)]
 
-    st.write(len(filtered_df))
     return filtered_df
