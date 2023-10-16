@@ -169,6 +169,8 @@ def apply_filters(
         ]
 
     if selected_license_sharealike:
+        st.write(filtered_df.columns)
+        st.write(filtered_df["License Share Alike (DataProvenance)"])
         filtered_df = filtered_df[
             filtered_df["License Share Alike (DataProvenance)"].apply(lambda x: x <= int(selected_license_sharealike))
         ]
