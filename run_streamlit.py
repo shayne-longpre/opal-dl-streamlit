@@ -93,7 +93,7 @@ def streamlit_app():
             license_multiselect = st.select_slider(
                 'Select the datasets licensed for these use cases',
                 options=constants.LICENSE_USE_CLASSES,
-                value="Commercial")
+                value="Academic-Only")
 
             license_attribution = st.toggle('Exclude Datasets w/ Attribution Requirements', value=False)
             license_sharealike = st.toggle('Exclude Datasets w/ Share Alike Requirements', value=False)
