@@ -13,7 +13,8 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm").then(module =
     
         // Create the color scale.
         // const color = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1));
-        const color = d3.scaleOrdinal(d3.quantize(d3.interpolateHclLong("blue", "orange"), data.children.length + 1))
+        // const color = d3.scaleOrdinal(d3.quantize(d3.interpolateHclLong("blue", "orange"), data.children.length + 1))
+        const color = d3.scaleOrdinal(d3.quantize(d3.interpolateSpectral, data.children.length + 1));
     
         // Compute the layout.
         const hierarchy = d3.hierarchy(data)
@@ -35,9 +36,14 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm").then(module =
     
         // Create the SVG container.
         const svg = d3.create("svg")
-            .attr("viewBox", [-width / 2 - pctWidth, -height / 2 - pctWidth, width+2*pctWidth, width+2*pctWidth])
-            //.attr("height", vh) //restrict viewport height, height of SVG remains fixed, no responsive sizing
-            .style("font", "10px sans-serif");
+        //.attr("viewBox", [0, 0, width, width]) //(0,0) is the center of the circle
+        //.attr("viewBox", [-width / 2, -height / 2, width, width]) //this displays whole donut chart, but outer percentages get cut off
+        .attr("viewBox", [-width / 2 - pctWidth, -height / 2 - pctWidth, width+2*pctWidth, width+2*pctWidth]) //add padding for the percentages
+        //.attr("viewBox", [-width / 1.35, -height / 1.35, width * 1.5, width * 1.5])
+        //resize viewport
+        // .attr("width","100%")
+        .attr("height", 600)
+        .style("font", "10px sans-serif");
     
         // Append the arcs.
         const path = svg.append("g")

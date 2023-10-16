@@ -278,7 +278,7 @@ def streamlit_app():
                 filtered_data_summary,
                 "creator-sunburst.js", {
                     "CREATOR_GROUPS": "html/constants/creator_groups.json",
-                }, 1200)
+                }, 1600)
 
     with tab3:
         st.header("Data Licenses :vertical_traffic_light:")
@@ -318,7 +318,7 @@ def streamlit_app():
                 filtered_data_summary,
                 "tasks-sunburst.js", {
                     "TASK_GROUPS": "html/constants/task_groups.json",
-                },1200)
+                },1500)
                 
 
     with tab5:
