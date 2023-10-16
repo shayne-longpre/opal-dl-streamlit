@@ -144,34 +144,35 @@ def apply_filters(
     )
     assert all_sources >= option_sources, f"Missing Text Sources: {option_sources - all_sources}"
 
-    if selected_collection:
+    if not filtered_df.empty and selected_collection:
         filtered_df = filtered_df[filtered_df["Collection"] == selected_collection]
 
-    if selected_licenses:
+    st.write(len(filtered_df))
+    if not filtered_df.empty and selected_licenses:
         license_strs = set(all_constants["LICENSE_CLASSES"].keys())
         filtered_df = filtered_df[
             filtered_df["Licenses"].apply(lambda xs: license_strs >= set([x["License"] for x in xs]))
         ]
-
-    if selected_license_use:
+    st.write(len(filtered_df))
+    if not filtered_df.empty and selected_license_use:
         valid_license_use_idx = constants.LICENSE_USE_TYPES.index(selected_license_use)
         valid_license_uses = constants.LICENSE_USE_TYPES[:valid_license_use_idx+1]
         filtered_df = filtered_df[
             filtered_df["License Use (DataProvenance)"].apply(lambda x: x in valid_license_uses)
         ]
-
-    if selected_license_attribution:
+    st.write(len(filtered_df))
+    if not filtered_df.empty and selected_license_attribution:
         st.write(filtered_df.columns)
         filtered_df = filtered_df[
             filtered_df["License Attribution (DataProvenance)"].apply(lambda x: x <= int(selected_license_attribution))
         ]
-
-    if selected_license_sharealike:
+    st.write(len(filtered_df))
+    if not filtered_df.empty and selected_license_sharealike:
         filtered_df = filtered_df[
             filtered_df["License Share Alike (DataProvenance)"].apply(lambda x: x <= int(selected_license_sharealike))
         ]
 
-    if selected_languages:
+    if not filtered_df.empty and selected_languages:
         lang_strs = set(
             [
                 lang_str
@@ -183,7 +184,7 @@ def apply_filters(
             filtered_df["Languages"].apply(lambda x: lang_strs >= set(x))
         ]
 
-    if selected_task_categories:
+    if not filtered_df.empty and selected_task_categories:
         taskcat_strs = set(
             [
                 taskcat_str
@@ -194,7 +195,7 @@ def apply_filters(
         filtered_df = filtered_df[
             filtered_df["Task Categories"].apply(lambda x: taskcat_strs >= set(x))
         ]
-    if selected_domains:
+    if not filtered_df.empty and selected_domains:
         text_source_strs = set(
             [
                 source_str
@@ -205,7 +206,7 @@ def apply_filters(
         filtered_df = filtered_df[
             filtered_df["Text Sources"].apply(lambda x: text_source_strs >= set(x))
         ]
-    if selected_start_time or selected_end_time:
+    if not filtered_df.empty and (selected_start_time or selected_end_time):
 
         def get_min_date(metadata):
             date_columns = ["S2 Date", "HF Date", "GitHub Date"]
