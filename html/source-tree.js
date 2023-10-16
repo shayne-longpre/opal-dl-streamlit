@@ -10,7 +10,7 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6.11/+esm").then(modul
     
     // import data from '../constants/domain_source_counts.json' assert { type: 'json' };
     
-    const clean = prepareDataSummary(data)
+    const clean = prepareDataSummary(dataSummary)
     
     // Step 1: Reverse the DOMAIN_GROUPS dictionary to get source-to-domain mapping
     const reversedDomainGroups = {};
@@ -73,11 +73,11 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6.11/+esm").then(modul
         })
     }
     
-    // const treeDiv = document.createElement("div")
-    // treeDiv.setAttribute("class", "treeDiv")
-    // const treeId = `treeDiv${document.getElementsByClassName("treeDiv").length + 1}` //count the existing treeDivs and assign a new id by incrementing count
-    // treeDiv.setAttribute("id", treeId)
-    // document.querySelector('#container').append(treeDiv)
+    const treeDiv = document.createElement("div")
+    treeDiv.setAttribute("class", "treeDiv")
+    const treeId = `treeDiv${document.getElementsByClassName("treeDiv").length + 1}` //count the existing treeDivs and assign a new id by incrementing count
+    treeDiv.setAttribute("id", treeId)
+    document.querySelector('#container').append(treeDiv)
     document.querySelector(`#${treeId}`).append(Plot.plot({
         axis: null,
         height: 1500,
