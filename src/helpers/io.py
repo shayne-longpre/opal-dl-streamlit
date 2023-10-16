@@ -113,7 +113,7 @@ def read_all_constants():
         "CUSTOM_LICENSE_CLASSES": custom_license_classes,
         "LANGUAGE_GROUPS": language_groups,
         "TASK_GROUPS": task_groups,
-        "DOMAINS": source_groups,
+        "DOMAIN_GROUPS": source_groups,
         "MODEL_GROUPS": model_groups,
         "CREATOR_GROUPS": creator_groups,
         "FORMATS": all_formats,

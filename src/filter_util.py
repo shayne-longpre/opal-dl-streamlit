@@ -108,6 +108,19 @@ def map_license_criteria(data_summary, all_constants, openai_override=False):
 
     return data_summary
 
+            INFO["data"], 
+            INFO["constants"],
+            "All", 
+            license_multiselect,
+            str(1 - int(license_attribution)),
+            str(1 - int(license_sharealike)),
+            language_multiselect, 
+            taskcats_multiselect,
+            # format_multiselect,
+            domain_multiselect,
+            time_range_selection,
+            time_range_selection,
+            
 def apply_filters(
     df,
     all_constants,
