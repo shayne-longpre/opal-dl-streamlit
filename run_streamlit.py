@@ -125,7 +125,7 @@ def streamlit_app():
 
                 time_range_selection = st.slider(
                     "Select data release time constraints",
-                    value=(datetime(1900, 1, 1), datetime(2023, 12, 1)))
+                    value=(datetime(2000, 1, 1), datetime(2023, 12, 1)))
 
             # Every form must have a submit button.
             submitted = st.form_submit_button("Submit Selection")
@@ -133,7 +133,14 @@ def streamlit_app():
 
     # st.write(len(INFO["data"]))
     if submitted:
-        # st.write(time_range_selection)
+        start_time = time_range_selection[0].strftime('%Y-%m-%d')
+        end_time = time_range_selection[1].strftime('%Y-%m-%d') 
+        if start_time == "2000-01-01":
+            st.write("Yessss")
+            start_time = None
+        if end_time == "2023-12-01":
+            st.write("Yessss")
+            end_time = None
         filtered_df = filter_util.apply_filters(
             INFO["data"], 
             INFO["constants"],
@@ -146,8 +153,8 @@ def streamlit_app():
             taskcats_multiselect,
             # format_multiselect,
             domain_multiselect,
-            time_range_selection[0].strftime('%Y-%m-%d'),
-            time_range_selection[1].strftime('%Y-%m-%d'),
+            start_time,
+            end_time,
         )
         def format_datetime(value):
             if isinstance(value, pd.Timestamp):
