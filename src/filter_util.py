@@ -27,7 +27,7 @@ def resolve_multiple_licenses(license_criterias):
     share_alikes = [l["share_alike"] for l in license_criterias]
 
     if "?" in use_cases:
-        resolved_use_case = "unclear"
+        resolved_use_case = "academic-only"
     elif "Acad" in use_cases:
         resolved_use_case = "academic-only"
     elif "NC" in use_cases:
@@ -41,18 +41,21 @@ def resolve_multiple_licenses(license_criterias):
     resolved_share_alikes = max(share_alikes)
     return resolved_use_case, resolved_attribution, resolved_share_alikes
 
-# extract licenses and license_urls for each aggregator.
-# classify each set of pairs, and resolve them, then assign them to new fields
-def map_license_criteria(data_summary, all_constants):
+
+def map_license_criteria(data_summary, all_constants, openai_override=False):
 
     # Unpack licenses for each dataset
     our_uid_to_license_infos = defaultdict(list)
     hf_uid_to_license_infos = defaultdict(list)
     github_uid_to_license_infos = defaultdict(list)
     pwc_uid_to_license_infos = defaultdict(list)
+
     for row in data_summary:
         uid = row["Unique Dataset Identifier"]
         for license_info in row["Licenses"]:
+            # Do not count OpenAI licenses if override is active.
+            if openai_override and license_info["License"] == "OpenAI":
+                continue
             license_name = license_info["License"]
             license_url = license_info["License URL"]
             our_uid_to_license_infos[uid].append((license_name, license_url))
@@ -70,6 +73,10 @@ def map_license_criteria(data_summary, all_constants):
         if pwc_license:
             pwc_uid_to_license_infos[uid].append((pwc_license, None))
 
+    # valid_licenses = list(all_constants["LICENSE_CLASSES"].keys())
+    # print(set([v for vs in pwc_uid_to_license_infos.values() for (v, _) in vs]) - set(valid_licenses))
+    # print(set([v for vs in github_uid_to_license_infos.values() for (v, _) in vs]) - set(valid_licenses))
+
     def classify_and_resolve_licenses(license_infos, all_constants):
         classified_licenses = []
         for (license_name, license_url) in license_infos:
@@ -85,19 +92,6 @@ def map_license_criteria(data_summary, all_constants):
         hf_resolved[uid] = classify_and_resolve_licenses(hf_uid_to_license_infos[uid], all_constants)
         gh_resolved[uid] = classify_and_resolve_licenses(github_uid_to_license_infos[uid], all_constants)
         pwc_resolved[uid] = classify_and_resolve_licenses(pwc_uid_to_license_infos[uid], all_constants)
-
-
-    # def apply_license_classes_to_df(df, resolved_classes, aggregator):
-    #     # update dataframe with columns for use, attribution, share_alike
-    #     df[f'License Use ({aggregator})'] = df['Unique Dataset Identifier'].map(lambda x: resolved_classes.get(x)[0])
-    #     df[f'License Attribution ({aggregator})'] = df['Unique Dataset Identifier'].map(lambda x: resolved_classes.get(x)[1])
-    #     df[f'License Share Alike ({aggregator})'] = df['Unique Dataset Identifier'].map(lambda x: resolved_classes.get(x)[2])
-    #     return df
-
-    # df = apply_license_classes_to_df(df, ours_resolved, "DataProvenance")
-    # df = apply_license_classes_to_df(df, hf_resolved, "HuggingFace")
-    # df = apply_license_classes_to_df(df, gh_resolved, "GitHub")
-    # df = apply_license_classes_to_df(df, pwc_resolved, "PapersWithCode")
 
     def add_license_classes_to_summaries(data_summary, resolved_classes, aggregator):
         # update dataframe with columns for use, attribution, share_alike
@@ -118,15 +112,18 @@ def map_license_criteria(data_summary, all_constants):
 def apply_filters(
     df,
     all_constants,
+    selected_collection,
     selected_licenses,
     selected_license_use,
-    selected_license_attribtution,
+    selected_license_attribution,
     selected_license_sharealike,
     selected_languages,
     selected_task_categories,
+    selected_domains,
+    selected_start_time,
+    selected_end_time,
 ):
     filtered_df = df
-    # st.write(len(filtered_df))
 
     # Some sanity checks:
     all_langs = set([v for vs in all_constants["LANGUAGE_GROUPS"].values() for v in vs])
@@ -138,36 +135,42 @@ def apply_filters(
     option_tcats = set(
         [tc for tcs in filtered_df["Task Categories"].tolist() for tc in tcs]
     )
-    # assert (
-    #         all_tcats >= option_tcats
-    # ), f"Missing Task Categories: {option_tcats - all_tcats}"
+    assert (
+            all_tcats >= option_tcats
+    ), f"Missing Task Categories: {option_tcats - all_tcats}"
+    all_sources = set([v for vs in all_constants["DOMAIN_GROUPS"].values() for v in vs])
+    option_sources = set(
+        [src for sources in filtered_df["Text Sources"].tolist() for src in sources]
+    )
+    assert all_sources >= option_sources, f"Missing Text Sources: {option_sources - all_sources}"
 
-    if selected_licenses and "All" not in selected_licenses:
+    if selected_collection:
+        filtered_df = filtered_df[filtered_df["Collection"] == selected_collection]
+
+    if selected_licenses:
         license_strs = set(all_constants["LICENSE_CLASSES"].keys())
         filtered_df = filtered_df[
             filtered_df["Licenses"].apply(lambda xs: license_strs >= set([x["License"] for x in xs]))
         ]
-    # st.write(len(filtered_df))
 
     if selected_license_use:
         valid_license_use_idx = constants.LICENSE_USE_TYPES.index(selected_license_use)
-        valid_license_uses = [x.lower() for x in constants.LICENSE_USE_TYPES[:valid_license_use_idx+1]]
+        valid_license_uses = constants.LICENSE_USE_TYPES[:valid_license_use_idx+1]
         filtered_df = filtered_df[
             filtered_df["License Use (DataProvenance)"].apply(lambda x: x in valid_license_uses)
         ]
 
-    # st.write(len(filtered_df))
-    if selected_license_attribtution:
+    if selected_license_attribution:
         filtered_df = filtered_df[
-            filtered_df["License Attribution (DataProvenance)"].apply(lambda x: x <= int(selected_license_attribtution))
+            filtered_df["License Attribution (DataProvenance)"].apply(lambda x: x <= int(selected_license_attribution))
         ]
-    # st.write(len(filtered_df))
+
     if selected_license_sharealike:
         filtered_df = filtered_df[
             filtered_df["License Share Alike (DataProvenance)"].apply(lambda x: x <= int(selected_license_sharealike))
         ]
-    # st.write(len(filtered_df))
-    if selected_languages and "All" not in selected_languages:
+
+    if selected_languages:
         lang_strs = set(
             [
                 lang_str
@@ -178,17 +181,43 @@ def apply_filters(
         filtered_df = filtered_df[
             filtered_df["Languages"].apply(lambda x: lang_strs >= set(x))
         ]
-    # st.write(len(filtered_df))
-    if selected_task_categories and "All" not in selected_task_categories:
+
+    if selected_task_categories:
         taskcat_strs = set(
             [
                 taskcat_str
                 for k in selected_task_categories
-                for taskcat_str in all_constants["TASK_GROUPS"].get(k, "Other Tasks")
+                for taskcat_str in all_constants["TASK_GROUPS"][k]
             ]
         )
         filtered_df = filtered_df[
             filtered_df["Task Categories"].apply(lambda x: taskcat_strs >= set(x))
         ]
-    # st.write(len(filtered_df))
+    if selected_domains:
+        text_source_strs = set(
+            [
+                source_str
+                for k in selected_domains
+                for source_str in all_constants["DOMAIN_GROUPS"][k]
+            ]
+        )
+        filtered_df = filtered_df[
+            filtered_df["Text Sources"].apply(lambda x: text_source_strs >= set(x))
+        ]
+    if selected_start_time or selected_end_time:
+
+        def get_min_date(metadata):
+            date_columns = ["S2 Date", "HF Date", "GitHub Date"]
+            dates = [metadata.get(col, "") for col in date_columns]
+            valid_dates = [pd.to_datetime(date, format='%Y-%m-%d', errors='coerce') for date in dates if date]
+            if valid_dates:
+                return min(valid_dates)
+            return pd.NaT
+
+        filtered_df['Estimated Creation Date'] = filtered_df['Inferred Metadata'].apply(get_min_date)
+        if selected_start_time:
+            filtered_df = filtered_df[filtered_df['Estimated Creation Date'] >= pd.to_datetime(selected_start_time)]
+        if selected_end_time:
+            filtered_df = filtered_df[filtered_df['Estimated Creation Date'] <= pd.to_datetime(selected_end_time)]
+
     return filtered_df

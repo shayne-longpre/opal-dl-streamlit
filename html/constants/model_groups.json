@@ -10,6 +10,12 @@
         "Anthropic Internal Models",
         "CTRL",
         "T5-XXL",
-        "StarCoder"
+        "StarCoder",
+        "Flan-T5",
+        "wikisql",
+        "Grover",
+        "XLNet",
+        "T5",
+        "Instruct-GPT-J"
     ]
 }
