@@ -156,6 +156,7 @@ def apply_filters(
             filtered_df["Licenses"].apply(lambda xs: license_strs >= set([x["License"] for x in xs]))
         ]
 
+    st.write(len(filtered_df))
     if selected_license_use:
         valid_license_use_idx = constants.LICENSE_USE_TYPES.index(selected_license_use)
         valid_license_uses = constants.LICENSE_USE_TYPES[:valid_license_use_idx+1]
@@ -163,11 +164,13 @@ def apply_filters(
             filtered_df["License Use (DataProvenance)"].apply(lambda x: x in valid_license_uses)
         ]
 
+    st.write(len(filtered_df))
     if selected_license_attribution:
         filtered_df = filtered_df[
             filtered_df["License Attribution (DataProvenance)"].apply(lambda x: x <= int(selected_license_attribution))
         ]
 
+    st.write(len(filtered_df))
     if selected_license_sharealike:
         st.write(filtered_df.columns)
         st.write(filtered_df["License Share Alike (DataProvenance)"])
