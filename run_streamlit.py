@@ -393,10 +393,10 @@ def streamlit_app():
 
                 def extract_infos(df, key):
                     if isinstance(key, tuple):
-                        dd = df[key[0]]
-                        st.write(type(dd))
-                        st.write(dd)
-                        entries = dd.get(key[1], None)
+                        dds = df[key[0]].tolist()
+                        # st.write(type(dd))
+                        # st.write(dd)
+                        entries = [x for dd in dds for x in dd.get(key[1], [])]
                         # st.write(df[key[0]])
                         # st.write(entries)
                     else:
