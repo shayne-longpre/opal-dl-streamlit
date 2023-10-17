@@ -7,6 +7,7 @@ import streamlit as st
 
 from src import constants
 
+
 def classify_license(license_name, license_url, all_constants):
     if license_name == "Custom":
         use_case, attribution, share_alike = all_constants["CUSTOM_LICENSE_CLASSES"].get(license_url, ("?", "?", "?"))
@@ -42,23 +43,27 @@ def resolve_multiple_licenses(license_criterias):
     return resolved_use_case, resolved_attribution, resolved_share_alikes
 
 
-def map_license_criteria(data_summary, all_constants, openai_override=False):
+def map_license_criteria(data_summary, all_constants):
 
-    # Unpack licenses for each dataset
+    # Unpack licenses for each dataset. {uid --> (license_name, license_url)}
     our_uid_to_license_infos = defaultdict(list)
     hf_uid_to_license_infos = defaultdict(list)
     github_uid_to_license_infos = defaultdict(list)
     pwc_uid_to_license_infos = defaultdict(list)
+    # Same as ours, but excludes OpenAI Terms:
+    our_uid_to_license_infos_no_openai = defaultdict(list)
 
     for row in data_summary:
         uid = row["Unique Dataset Identifier"]
         for license_info in row["Licenses"]:
-            # Do not count OpenAI licenses if override is active.
-            if openai_override and license_info["License"] == "OpenAI":
-                continue
             license_name = license_info["License"]
             license_url = license_info["License URL"]
             our_uid_to_license_infos[uid].append((license_name, license_url))
+            if license_info["License"] != "OpenAI":
+                our_uid_to_license_infos_no_openai[uid].append((license_name, license_url))
+        # If OpenAI was the only license, we add Unspecified so there isn't nothing there.
+        if len(our_uid_to_license_infos_no_openai[uid]) == 0:
+            our_uid_to_license_infos_no_openai[uid].append(("Unspecified", None))
 
         gh_license = row.get("Inferred Metadata", {}).get("GitHub License", None)
         hfy_license = row.get("Inferred Metadata", {}).get("HF Yaml License", None)
@@ -86,9 +91,10 @@ def map_license_criteria(data_summary, all_constants, openai_override=False):
         return resolved_criteria
 
     # classify and resolve licenses for each dataset and each aggregator
-    ours_resolved, hf_resolved, gh_resolved, pwc_resolved = {}, {}, {}, {}
+    ours_resolved, ours_openai_resolved, hf_resolved, gh_resolved, pwc_resolved = {}, {}, {}, {}, {}
     for uid in our_uid_to_license_infos.keys():
         ours_resolved[uid] = classify_and_resolve_licenses(our_uid_to_license_infos[uid], all_constants)
+        ours_openai_resolved[uid] = classify_and_resolve_licenses(our_uid_to_license_infos_no_openai[uid], all_constants)
         hf_resolved[uid] = classify_and_resolve_licenses(hf_uid_to_license_infos[uid], all_constants)
         gh_resolved[uid] = classify_and_resolve_licenses(github_uid_to_license_infos[uid], all_constants)
         pwc_resolved[uid] = classify_and_resolve_licenses(pwc_uid_to_license_infos[uid], all_constants)
@@ -102,6 +108,7 @@ def map_license_criteria(data_summary, all_constants, openai_override=False):
         return data_summary
 
     data_summary = add_license_classes_to_summaries(data_summary, ours_resolved, "DataProvenance")
+    data_summary = add_license_classes_to_summaries(data_summary, ours_openai_resolved, "DataProvenance IgnoreOpenAI")
     data_summary = add_license_classes_to_summaries(data_summary, hf_resolved, "HuggingFace")
     data_summary = add_license_classes_to_summaries(data_summary, gh_resolved, "GitHub")
     data_summary = add_license_classes_to_summaries(data_summary, pwc_resolved, "PapersWithCode")
@@ -115,6 +122,7 @@ def apply_filters(
     selected_collection,
     selected_licenses,
     selected_license_use,
+    openai_license_override,
     selected_license_attribution,
     selected_license_sharealike,
     selected_languages,
@@ -147,30 +155,31 @@ def apply_filters(
     if selected_collection:
         filtered_df = filtered_df[filtered_df["Collection"] == selected_collection]
 
-    if selected_licenses:
+    if not filtered_df.empty and selected_licenses:
         license_strs = set(all_constants["LICENSE_CLASSES"].keys())
         filtered_df = filtered_df[
             filtered_df["Licenses"].apply(lambda xs: license_strs >= set([x["License"] for x in xs]))
         ]
 
-    if selected_license_use:
+    if not filtered_df.empty and selected_license_use:
+        use_key = "License Use (DataProvenance IgnoreOpenAI)" if openai_license_override else "License Use (DataProvenance)"
         valid_license_use_idx = constants.LICENSE_USE_TYPES.index(selected_license_use)
         valid_license_uses = [x.lower() for x in constants.LICENSE_USE_TYPES[:valid_license_use_idx+1]]
         filtered_df = filtered_df[
-            filtered_df["License Use (DataProvenance)"].apply(lambda x: x in valid_license_uses)
+            filtered_df[use_key].apply(lambda x: x in valid_license_uses)
         ]
 
-    if selected_license_attribution:
+    if not filtered_df.empty and selected_license_attribution:
         filtered_df = filtered_df[
             filtered_df["License Attribution (DataProvenance)"].apply(lambda x: x <= int(selected_license_attribution))
         ]
 
-    if selected_license_sharealike:
+    if not filtered_df.empty and selected_license_sharealike:
         filtered_df = filtered_df[
             filtered_df["License Share Alike (DataProvenance)"].apply(lambda x: x <= int(selected_license_sharealike))
         ]
 
-    if "All" not in selected_languages:
+    if not filtered_df.empty and "All" not in selected_languages:
         lang_strs = set(
             [
                 lang_str
@@ -182,7 +191,7 @@ def apply_filters(
             filtered_df["Languages"].apply(lambda x: lang_strs >= set(x))
         ]
 
-    if "All" not in selected_task_categories:
+    if not filtered_df.empty and "All" not in selected_task_categories:
         taskcat_strs = set(
             [
                 taskcat_str
@@ -193,7 +202,7 @@ def apply_filters(
         filtered_df = filtered_df[
             filtered_df["Task Categories"].apply(lambda x: taskcat_strs >= set(x))
         ]
-    if "All" not in selected_domains:
+    if not filtered_df.empty and "All" not in selected_domains:
         text_source_strs = set(
             [
                 source_str
@@ -205,7 +214,7 @@ def apply_filters(
             filtered_df["Text Sources"].apply(lambda x: text_source_strs >= set(x))
         ]
 
-    if selected_start_time or selected_end_time:
+    if not filtered_df.empty and (selected_start_time or selected_end_time):
 
         def get_min_date(metadata):
             date_columns = ["S2 Date", "HF Date", "GitHub Date"]

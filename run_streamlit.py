@@ -97,6 +97,7 @@ def streamlit_app():
 
             license_attribution = st.toggle('Exclude Datasets w/ Attribution Requirements', value=False)
             license_sharealike = st.toggle('Exclude Datasets w/ Share Alike Requirements', value=False)
+            openai_license_override = st.toggle('Include Datasets w/ OpenAI-generated data', value=False)
 
             # with data_select_cols[1]:
             language_multiselect = st.multiselect(
@@ -146,6 +147,7 @@ def streamlit_app():
             None, 
             None, # Select all licenses.
             license_multiselect,
+            openai_license_override,
             str(1 - int(license_attribution)),
             str(1 - int(license_sharealike)),
             language_multiselect, 
@@ -165,8 +167,8 @@ def streamlit_app():
 
     st.title("Data Provenance Explorer")
 
-    st.write("The Data Provenance Initiative is a large-scale audit of AI datasets used to train large language models. As the first step, we've cataloged 1800+ popular, text-to-text finetuning datasets from origin to creation, tracing their data sources, licenses, creators, and other metadata, for researchers to explore using this tool.")
-    st.write("Coming soon: you will be able to download the data according to your chosen filters.")
+    st.write("The Data Provenance Initiative is a large-scale audit of AI datasets used to train large language models. As a first step, we've traced 1800+ popular, text-to-text finetuning datasets from origin to creation, cataloging their data sources, licenses, creators, and other metadata, for researchers to explore using this tool.")
+    st.write("You can download this data (with filters) directly from the [Data Provenance Collection](https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection).")
     st.write("NB: This data is compiled voluntarily by the best efforts of academic & independent researchers, and is :red[**NOT** to be taken as legal advice].")
 
     st.subheader("Instructions")
@@ -325,7 +327,7 @@ def streamlit_app():
 
             # tree    
             st.subheader("Text Source Domains")
-            # st.write("...")
+            st.write("Many datasets are originally scraped from the web or other sources. For the data you've selected, we cluster the original sources by Domain, quantify them and show the top sources 5 per domain.")
             html_util.compose_html_component(
                 filtered_data_summary,
                 "source-tree.js", {
