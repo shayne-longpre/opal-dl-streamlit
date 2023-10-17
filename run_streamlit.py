@@ -200,10 +200,10 @@ def streamlit_app():
         st.write(form_instructions)
 
     tab1, tab2, tab3, tab4, tab5 = st.tabs([
-        "Data Summary", 
+        "Data Summary",
         ":rainbow[Global Representation] :earth_africa:", 
-        "Data Licenses :vertical_traffic_light:", 
         "Text Characteristics :test_tube:",
+        "Data Licenses :vertical_traffic_light:", 
         "Inspect Individual Datasets :mag:"])
 
     with tab1:
@@ -286,24 +286,6 @@ def streamlit_app():
                 }, 1600)
 
     with tab3:
-        st.header("Data Licenses :vertical_traffic_light:")
-        tab3_intro = """This section explores the *self-reported* data licenses by the creators of each dataset.
-        Note a few important limitations:
-
-        * The legal status of data licenses is not always clear and may be different by jurisdiction.
-
-        * Despite our best efforts, omissions or mistakes are possible.
-
-        * This transparency initative is **not** intended as legal advice, and bears no responsibility on how the *self-reported* licenses are used.
-        """
-        st.write(tab3_intro)
-
-        if submitted:
-            st.subheader("License Distribution")
-            st.write("Here we see the license distribution of those collected by the Data Provenance Initiative.")
-            insert_metric_container("License Distribution", "licenses", metrics)
-
-    with tab4:
         st.header("Text Characteristics :test_tube:")
         st.write("This section covers various characteristics of the text in the datasets.")
 
@@ -336,6 +318,25 @@ def streamlit_app():
                 "source-tree.js", {
                     "DOMAIN_GROUPS": "html/constants/domain_groups.json",
                 },2400)
+
+    with tab4:
+
+        st.header("Data Licenses :vertical_traffic_light:")
+        tab4_intro = """This section explores the *self-reported* data licenses by the creators of each dataset.
+        Note a few important limitations:
+
+        * The legal status of data licenses is not always clear and may be different by jurisdiction.
+
+        * Despite our best efforts, omissions or mistakes are possible.
+
+        * This transparency initative is **not** intended as legal advice, and bears no responsibility on how the *self-reported* licenses are used.
+        """
+        st.write(tab4_intro)
+
+        if submitted:
+            st.subheader("License Distribution")
+            st.write("Here we see the license distribution of those collected by the Data Provenance Initiative.")
+            insert_metric_container("License Distribution", "licenses", metrics)
 
     with tab5:
         st.header("Inspect Individual Datasets :mag:")
@@ -383,14 +384,18 @@ def streamlit_app():
                     "Hugging Face URL",
                 ]
                 data_characteristics_info_keys = [
-                    "Format", "Languages", "Task Categories", 
+                    "Format", "Languages", "Task Categories",
+                    ("Inferred Metadata", "Text Topics"),
                     # "Text Topics", 
                     # "Text Domains", "Number of Examples", "Text Length Metrics",
                 ]
                 data_provenance_info_keys = ["Creators", "Text Sources", "Licenses"]
 
                 def extract_infos(df, key):
-                    entries = df[key].tolist()
+                    if isinstance(key, tuple):
+                        entries = df[key[0]].get(key[1], None)
+                    else:
+                        entries = df[key].tolist()
                     if not entries:
                         return []
                     elif key == "Licenses":
@@ -404,26 +409,44 @@ def streamlit_app():
                 # for info_key in collection_info_keys:
                 #     st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
 
-                def format_markdown_entry(df, info_key):
-                    dset_info = extract_infos(df, info_key)
+                def format_markdown_entry(dset_info, info_key):
                     if dset_info:
+                        info_key = info_key if isinstance(info_key, str) else dset_info[1]
                         markdown_txt = dset_info
                         if isinstance(dset_info, list) or isinstance(dset_info, set):
                             markdown_txt = "\n* " + '\n* '.join(dset_info)
                         st.markdown(f"{info_key}: {markdown_txt}")
 
                 if dataset_select != "All":
-                    st.caption("Dataset Information")
+                    st.subheader("Dataset Information")
                     for info_key in dataset_info_keys:
-                        format_markdown_entry(tab2_selected_df, info_key)
+                        dset_info = extract_infos(tab2_selected_df, info_key)
+                        format_markdown_entry(dset_info, info_key)
 
-                st.caption("Data Characteristics")
+                st.subheader("Data Characteristics")
                 for info_key in data_characteristics_info_keys:
-                    format_markdown_entry(tab2_selected_df, info_key)
+                    dset_info = extract_infos(tab2_selected_df, info_key)
+                    format_markdown_entry(dset_info, info_key)
 
-                st.caption("Data Provenance")
+                st.subheader("Data Statistics")
+                for info_key in data_characteristics_info_keys:
+                    dset_info = extract_infos(tab2_selected_df, ("Text Metrics", "Num Dialogs"))
+                    format_markdown_entry(dset_info, info_key)
+                    dset_infos = [extract_infos(tab2_selected_df, info_key) in [
+                        ("Text Metrics", "Min Inputs Length"),
+                        ("Text Metrics", "Mean Inputs Length"),
+                        ("Text Metrics", "Max Inputs Length")]]
+                    format_markdown_entry(" | ".join([str(round(x, 1)) for x in dset_infos]), "Minimum | Mean | Maximum Input Length (words)")
+                    dset_infos = [extract_infos(tab2_selected_df, info_key) in [
+                        ("Text Metrics", "Min Targets Length"),
+                        ("Text Metrics", "Mean Targets Length"),
+                        ("Text Metrics", "Max Targets Length")]]
+                    format_markdown_entry(" | ".join([str(round(x, 1)) for x in dset_infos]), "Minimum | Mean | Maximum Target Length (words)")
+
+                st.subheader("Data Provenance")
                 for info_key in data_provenance_info_keys:
-                    format_markdown_entry(tab2_selected_df, info_key)
+                    dset_info = extract_infos(tab2_selected_df, info_key)
+                    format_markdown_entry(dset_info, info_key)
 
         
 
