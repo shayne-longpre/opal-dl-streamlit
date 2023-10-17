@@ -394,6 +394,8 @@ def streamlit_app():
                 def extract_infos(df, key):
                     if isinstance(key, tuple):
                         entries = df[key[0]].get(key[1], None)
+                        st.write(df[key[0]])
+                        st.write(entries)
                     else:
                         entries = df[key].tolist()
                     if not entries:
