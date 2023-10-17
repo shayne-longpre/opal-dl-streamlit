@@ -112,7 +112,7 @@ def prep_collection_table(df, original_df, metrics):
         subset_datasets = set(subset_df["Unique Dataset Identifier"])
         subset_langs = set([lang for row in subset_df["Languages"] for lang in row])
         subset_taskcats = set([tc for row in subset_df["Task Categories"] for tc in row])
-        subset_topics = set([tc for row in subset_df["Inferred Metadata"] for tc in row["Text Topics"]])
+        subset_topics = set([tc for row in subset_df["Inferred Metadata"] for tc in row.get("Text Topics", [])])
         subset_sources = set([tc for row in subset_df["Text Sources"] for tc in row])
         subset_model_gen = Counter([tc for row in subset_df["Model Generated"] for tc in row]).most_common(1)
         subset_mean_inp_len = np.mean([row["Mean Inputs Length"] for row in subset_df["Text Metrics"]])
