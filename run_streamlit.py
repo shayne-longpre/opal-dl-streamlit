@@ -443,12 +443,12 @@ def streamlit_app():
                 # for info_key in data_characteristics_info_keys:
                 dset_info = extract_infos(tab2_selected_df, ("Text Metrics", "Num Dialogs"))
                 format_markdown_entry(dset_info, "Num Exs")
-                dset_infos = [extract_infos(tab2_selected_df, info_key) for info_key in [
+                dset_infos = [extract_infos(tab2_selected_df, info_key, numerical=True) for info_key in [
                     ("Text Metrics", "Min Inputs Length"),
                     ("Text Metrics", "Mean Inputs Length"),
                     ("Text Metrics", "Max Inputs Length")]]
                 format_markdown_entry(" | ".join([str(round(x, 1)) for x in dset_infos]), "Minimum | Mean | Maximum Input Length (words)")
-                dset_infos = [extract_infos(tab2_selected_df, info_key) for info_key in [
+                dset_infos = [extract_infos(tab2_selected_df, info_key, numerical=True) for info_key in [
                     ("Text Metrics", "Min Targets Length"),
                     ("Text Metrics", "Mean Targets Length"),
                     ("Text Metrics", "Max Targets Length")]]
