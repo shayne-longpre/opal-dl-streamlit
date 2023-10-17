@@ -132,7 +132,7 @@ def apply_filters(
     selected_end_time,
 ):
     filtered_df = df
-    st.write(filtered_df.columns)
+    # st.write(filtered_df.columns)
 
     # Some sanity checks:
     all_langs = set([v for vs in all_constants["LANGUAGE_GROUPS"].values() for v in vs])

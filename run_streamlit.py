@@ -35,7 +35,7 @@ def load_data():
     data_summary = io.read_data_summary_json("data_summaries/")
     data_summary = filter_util.map_license_criteria(data_summary, INFO["constants"])
     # st.write([r["Unique Dataset Identifier"] for r in data_summary if "License Attribution (DataProvenance)" not in r])
-    st.write(data_summary[0].keys())
+    # st.write(data_summary[0].keys())
     return pd.DataFrame(data_summary).fillna("")
 
 
