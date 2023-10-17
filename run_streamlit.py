@@ -420,7 +420,7 @@ def streamlit_app():
                             # if len(dset_info) == 1:
                             #     markdown_txt = list(dset_info)[0]
                             # else:
-                            markdown_txt = "\n* " + "\n* ".join(dset_info)
+                            markdown_txt = "\n* " + "\n* ".join([str(x) for x in dset_info])
                         st.markdown(f"{info_key}: {markdown_txt}")
 
                 if dataset_select != "All":
