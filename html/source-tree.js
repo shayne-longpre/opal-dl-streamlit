@@ -42,6 +42,28 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6.11/+esm").then(modul
             nestedDict[domain] = { [source]: count };
         }
     }
+
+    // Step 4: Filter out domains
+    const filterList = ["Unsure", "Others", "Models"]; // Replace with your actual filter list
+    filterList.forEach(domain => {
+        if (nestedDict.hasOwnProperty(domain)) {
+            delete nestedDict[domain];
+        }
+    });
+
+    // Step 5: Populate Model generated:
+    if (!nestedDict["Models"]) {
+        nestedDict["Models"] = {};
+    }
+    
+    clean.forEach(entry => {
+        const model = entry.modelGenerated;
+        if (nestedDict["Models"][model]) {
+            nestedDict["Models"][model] += 1;
+        } else {
+            nestedDict["Models"][model] = 1;
+        }
+    });
     
     //tree formatting
     let treedata = [];
@@ -68,7 +90,7 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6.11/+esm").then(modul
         }
     
         cleanArr.forEach((s) => {
-            var treeStr = domain + ` (${(sumDom / sumAll * 100).toFixed(2)}%)` + "]" + `${s[0].length < 15 ? s[0] : s[0].slice(0, 14) + '...'}` + ` (${(s[1] / sumAll * 100).toFixed(2)}%)`;
+            var treeStr = domain + ` (${(sumDom / sumAll * 100).toFixed(2)}%)` + "]" + `${s[0].length < 20 ? s[0] : s[0].slice(0, 19) + '...'}` + ` (${(s[1] / sumAll * 100).toFixed(2)}%)`;
             treedata.push(treeStr)
         })
     }

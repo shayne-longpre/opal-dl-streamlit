@@ -324,7 +324,7 @@ def streamlit_app():
         st.header("Data Licenses :vertical_traffic_light:")
         tab4_intro = """This section explores the *self-reported* data licenses by the creators of each dataset.
         Note a few important limitations:
-
+        
         * The legal status of data licenses is not always clear and may be different by jurisdiction.
 
         * Despite our best efforts, omissions or mistakes are possible.
@@ -438,7 +438,7 @@ def streamlit_app():
                 st.subheader("Data Statistics")
                 # for info_key in data_characteristics_info_keys:
                 dset_info = extract_infos(tab2_selected_df, ("Text Metrics", "Num Dialogs"), numerical=True)
-                format_markdown_entry(dset_info, "Num Exs")
+                format_markdown_entry(round(dset_info, 0), "Num Exs")
                 dset_infos = [extract_infos(tab2_selected_df, info_key, numerical=True) for info_key in [
                     ("Text Metrics", "Min Inputs Length"),
                     ("Text Metrics", "Mean Inputs Length"),
