@@ -414,7 +414,10 @@ def streamlit_app():
                         info_key = info_key if isinstance(info_key, str) else dset_info[1]
                         markdown_txt = dset_info
                         if isinstance(dset_info, list) or isinstance(dset_info, set):
-                            markdown_txt = "\n* " + '\n* '.join(dset_info)
+                            if len(dset_info) == 1:
+                                markdown_txt = dset_info[0]
+                            else:
+                                markdown_txt = "\n* " + "\n* ".join(dset_info)
                         st.markdown(f"{info_key}: {markdown_txt}")
 
                 if dataset_select != "All":
@@ -426,22 +429,23 @@ def streamlit_app():
                 st.subheader("Data Characteristics")
                 for info_key in data_characteristics_info_keys:
                     dset_info = extract_infos(tab2_selected_df, info_key)
+                    st.write(dset_info)
                     format_markdown_entry(dset_info, info_key)
 
                 st.subheader("Data Statistics")
-                for info_key in data_characteristics_info_keys:
-                    dset_info = extract_infos(tab2_selected_df, ("Text Metrics", "Num Dialogs"))
-                    format_markdown_entry(dset_info, info_key)
-                    dset_infos = [extract_infos(tab2_selected_df, info_key) in [
-                        ("Text Metrics", "Min Inputs Length"),
-                        ("Text Metrics", "Mean Inputs Length"),
-                        ("Text Metrics", "Max Inputs Length")]]
-                    format_markdown_entry(" | ".join([str(round(x, 1)) for x in dset_infos]), "Minimum | Mean | Maximum Input Length (words)")
-                    dset_infos = [extract_infos(tab2_selected_df, info_key) in [
-                        ("Text Metrics", "Min Targets Length"),
-                        ("Text Metrics", "Mean Targets Length"),
-                        ("Text Metrics", "Max Targets Length")]]
-                    format_markdown_entry(" | ".join([str(round(x, 1)) for x in dset_infos]), "Minimum | Mean | Maximum Target Length (words)")
+                # for info_key in data_characteristics_info_keys:
+                dset_info = extract_infos(tab2_selected_df, ("Text Metrics", "Num Dialogs"))
+                format_markdown_entry(dset_info, info_key)
+                dset_infos = [extract_infos(tab2_selected_df, info_key) in [
+                    ("Text Metrics", "Min Inputs Length"),
+                    ("Text Metrics", "Mean Inputs Length"),
+                    ("Text Metrics", "Max Inputs Length")]]
+                format_markdown_entry(" | ".join([str(round(x, 1)) for x in dset_infos]), "Minimum | Mean | Maximum Input Length (words)")
+                dset_infos = [extract_infos(tab2_selected_df, info_key) in [
+                    ("Text Metrics", "Min Targets Length"),
+                    ("Text Metrics", "Mean Targets Length"),
+                    ("Text Metrics", "Max Targets Length")]]
+                format_markdown_entry(" | ".join([str(round(x, 1)) for x in dset_infos]), "Minimum | Mean | Maximum Target Length (words)")
 
                 st.subheader("Data Provenance")
                 for info_key in data_provenance_info_keys:
