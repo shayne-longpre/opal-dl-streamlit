@@ -375,7 +375,6 @@ def streamlit_app():
                     "Collection URL",
                     "Collection Hugging Face URL",
                     "Collection Paper Title",
-                    "Collection Creators",
                 ]
                 dataset_info_keys = [
                     "Unique Dataset Identifier",
@@ -386,8 +385,7 @@ def streamlit_app():
                 data_characteristics_info_keys = [
                     "Format", "Languages", "Task Categories",
                     ("Inferred Metadata", "Text Topics"),
-                    # "Text Topics", 
-                    # "Text Domains", "Number of Examples", "Text Length Metrics",
+                    # "Text Domains", 
                 ]
                 data_provenance_info_keys = ["Creators", "Text Sources", "Licenses"]
 
@@ -402,15 +400,13 @@ def streamlit_app():
                     if not entries:
                         return []
                     elif numerical:
-                        aaa = np.mean([x for x in entries if x])
-                        st.write(aaa)
-                        return aaa
+                        return np.mean([x for x in entries if x])
                     elif key == "Licenses":
                             return set([x["License"] for xs in entries for x in xs if x and x["License"]])
                     elif isinstance(entries[0], list):
-                        return set([x for xs in entries if xs for x in xs if x])
+                        return list(set([x for xs in entries if xs for x in xs if x]))
                     else:
-                        return set([x for x in entries if x])
+                        return list(set([x for x in entries if x]))
 
                 # st.caption("Collection Information")
                 # for info_key in collection_info_keys:
@@ -430,7 +426,7 @@ def streamlit_app():
                 if dataset_select != "All":
                     st.subheader("Dataset Information")
                     for info_key in dataset_info_keys:
-                        dset_info = extract_infos(tab2_selected_df, info_key)
+                        dset_info = extract_infos(tab2_selected_df, info_key)[0]
                         format_markdown_entry(dset_info, info_key)
 
                 st.subheader("Data Characteristics")
@@ -441,18 +437,18 @@ def streamlit_app():
 
                 st.subheader("Data Statistics")
                 # for info_key in data_characteristics_info_keys:
-                dset_info = extract_infos(tab2_selected_df, ("Text Metrics", "Num Dialogs"))
+                dset_info = extract_infos(tab2_selected_df, ("Text Metrics", "Num Dialogs"), numerical=True)
                 format_markdown_entry(dset_info, "Num Exs")
                 dset_infos = [extract_infos(tab2_selected_df, info_key, numerical=True) for info_key in [
                     ("Text Metrics", "Min Inputs Length"),
                     ("Text Metrics", "Mean Inputs Length"),
                     ("Text Metrics", "Max Inputs Length")]]
-                format_markdown_entry(" | ".join([str(round(x, 1)) for x in dset_infos]), "Minimum | Mean | Maximum Input Length (words)")
+                format_markdown_entry("   |   ".join([str(round(x, 1)) for x in dset_infos]), "Input Length (words) [Minimum | Mean | Maximum]")
                 dset_infos = [extract_infos(tab2_selected_df, info_key, numerical=True) for info_key in [
                     ("Text Metrics", "Min Targets Length"),
                     ("Text Metrics", "Mean Targets Length"),
                     ("Text Metrics", "Max Targets Length")]]
-                format_markdown_entry(" | ".join([str(round(x, 1)) for x in dset_infos]), "Minimum | Mean | Maximum Target Length (words)")
+                format_markdown_entry("   |   ".join([str(round(x, 1)) for x in dset_infos]), "Target Length (words) [Minimum | Mean | Maximum]")
 
                 st.subheader("Data Provenance")
                 for info_key in data_provenance_info_keys:
