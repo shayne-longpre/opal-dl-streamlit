@@ -289,8 +289,11 @@ def streamlit_app():
         st.header("Data Licenses :vertical_traffic_light:")
         tab3_intro = """This section explores the *self-reported* data licenses by the creators of each dataset.
         Note a few important limitations:
+
         * The legal status of data licenses is not always clear and may be different by jurisdiction.
+
         * Despite our best efforts, omissions or mistakes are possible.
+        
         * This transparency initative is **not** intended as legal advice, and bears no responsibility on how the *self-reported* licenses are used.
         """
         st.write(tab3_intro)
