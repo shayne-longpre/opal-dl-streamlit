@@ -391,16 +391,20 @@ def streamlit_app():
                 ]
                 data_provenance_info_keys = ["Creators", "Text Sources", "Licenses"]
 
-                def extract_infos(df, key):
+                def extract_infos(df, key, numerical=False):
                     if isinstance(key, tuple):
                         dds = df[key[0]].tolist()
-                        st.write(dds)
+                        # st.write(dds)
                         entries = [dd.get(key[1], []) for dd in dds]
-                        st.write(entries)
+                        # st.write(entries)
                     else:
                         entries = df[key].tolist()
                     if not entries:
                         return []
+                    elif numerical:
+                        aaa = np.mean([x for x in entries if x])
+                        st.write(aaa)
+                        return aaa
                     elif key == "Licenses":
                             return set([x["License"] for xs in entries for x in xs if x and x["License"]])
                     elif isinstance(entries[0], list):
