@@ -394,11 +394,7 @@ def streamlit_app():
                 def extract_infos(df, key):
                     if isinstance(key, tuple):
                         dds = df[key[0]].tolist()
-                        # st.write(type(dd))
-                        # st.write(dd)
                         entries = [x for dd in dds for x in dd.get(key[1], [])]
-                        # st.write(df[key[0]])
-                        # st.write(entries)
                     else:
                         entries = df[key].tolist()
                     if not entries:
@@ -416,7 +412,7 @@ def streamlit_app():
 
                 def format_markdown_entry(dset_info, info_key):
                     if dset_info:
-                        info_key = info_key if isinstance(info_key, str) else dset_info[1]
+                        info_key = info_key if isinstance(info_key, str) else info_key[1]
                         markdown_txt = dset_info
                         if isinstance(dset_info, list) or isinstance(dset_info, set):
                             if len(dset_info) == 1:
@@ -434,7 +430,7 @@ def streamlit_app():
                 st.subheader("Data Characteristics")
                 for info_key in data_characteristics_info_keys:
                     dset_info = extract_infos(tab2_selected_df, info_key)
-                    st.write(dset_info)
+                    # st.write(dset_info)
                     format_markdown_entry(dset_info, info_key)
 
                 st.subheader("Data Statistics")
