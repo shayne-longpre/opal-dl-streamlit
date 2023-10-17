@@ -393,7 +393,9 @@ def streamlit_app():
 
                 def extract_infos(df, key):
                     if isinstance(key, tuple):
-                        dd = json.loads(df[key[0]])
+                        dd = df[key[0]]
+                        st.write(type(dd))
+                        st.write(dd)
                         entries = dd.get(key[1], None)
                         # st.write(df[key[0]])
                         # st.write(entries)
