@@ -415,7 +415,7 @@ def streamlit_app():
                         markdown_txt = dset_info
                         if isinstance(dset_info, list) or isinstance(dset_info, set):
                             if len(dset_info) == 1:
-                                markdown_txt = dset_info[0]
+                                markdown_txt = list(dset_info)[0]
                             else:
                                 markdown_txt = "\n* " + "\n* ".join(dset_info)
                         st.markdown(f"{info_key}: {markdown_txt}")
