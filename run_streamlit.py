@@ -232,12 +232,12 @@ def streamlit_app():
                 "Select data release time constraints",
                 value=(datetime(2000, 1, 1), datetime(2023, 12, 1)))
 
-            st.write("")
-            st.write("")
-            st.divider()
+            # st.write("")
+            # st.write("")
+            # st.divider()
 
             # Every form must have a submit button.
-            submitted = st.form_submit_button("SUBMIT SELECTION")
+        submitted = st.form_submit_button("Submit Selection")
 
 
 
