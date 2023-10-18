@@ -81,12 +81,16 @@ def insert_metric_container(title, key, metrics):
 def add_instructions():
     st.title("Data Provenance Explorer")
 
-    st.write("The Data Provenance Initiative is a large-scale audit of AI datasets used to train large language models. As a first step, we've traced 1800+ popular, text-to-text finetuning datasets from origin to creation, cataloging their data sources, licenses, creators, and other metadata, for researchers to explore using this tool.")
-    st.write("You can download this data (with filters) directly from the [Data Provenance Collection](https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection).")
-    st.write("NB: This data is compiled voluntarily by the best efforts of academic & independent researchers, and is :red[**NOT** to be taken as legal advice].")
+    col1, col2 = st.columns(2)
 
-    image = Image.open('dpi.png')
-    st.image(image)#, caption='Sunrise by the mountains')
+    with col1:
+        st.write("The Data Provenance Initiative is a large-scale audit of AI datasets used to train large language models. As a first step, we've traced 1800+ popular, text-to-text finetuning datasets from origin to creation, cataloging their data sources, licenses, creators, and other metadata, for researchers to explore using this tool.")
+        st.write("You can download this data (with filters) directly from the [Data Provenance Collection](https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection).")
+        st.write("NB: This data is compiled voluntarily by the best efforts of academic & independent researchers, and is :red[**NOT** to be taken as legal advice].")
+
+    with col2:
+        image = Image.open('dpi.png')
+        st.image(image)#, caption='Sunrise by the mountains')
 
     st.subheader("Instructions")
     form_instructions = """
