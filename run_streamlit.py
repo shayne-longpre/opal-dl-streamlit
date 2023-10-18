@@ -119,7 +119,7 @@ def add_instructions():
     with col1:
         intro_sents = "The Data Provenance Initiative is a large-scale audit of AI datasets used to train large language models. As a first step, we've traced 1800+ popular, text-to-text finetuning datasets from origin to creation, cataloging their data sources, licenses, creators, and other metadata, for researchers to explore using this tool."
         follow_sents = "The purpose of this work is to improve transparency, documentation, and informed use of datasets in AI. "
-        st.write(" ".join(intro_sents, follow_sents))
+        st.write(" ".join([intro_sents, follow_sents]))
         st.write("You can download this data (with filters) directly from the [Data Provenance Collection](https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection).")
         st.write("If you wish to contribute or discuss, please feel free to [contact the organizers](mailto:data.provenance.init@gmail.com).")
         # st.write("NB: This data is compiled voluntarily by the best efforts of academic & independent researchers, and is :red[**NOT** to be taken as legal advice].")
