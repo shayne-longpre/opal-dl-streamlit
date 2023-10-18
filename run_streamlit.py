@@ -81,7 +81,7 @@ def insert_metric_container(title, key, metrics):
 def add_instructions():
     st.title("Data Provenance Explorer")
 
-    col1, col2 = st.columns(2, [0.7, 0.3], gap="medium")
+    col1, col2 = st.columns(2, spec=[0.7, 0.3], gap="medium")
 
     with col1:
         st.write("The Data Provenance Initiative is a large-scale audit of AI datasets used to train large language models. As a first step, we've traced 1800+ popular, text-to-text finetuning datasets from origin to creation, cataloging their data sources, licenses, creators, and other metadata, for researchers to explore using this tool.")
