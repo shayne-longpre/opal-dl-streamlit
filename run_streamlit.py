@@ -64,7 +64,8 @@ def custom_metric(caption, score, delta=None):
     st.markdown("## :green[" + str(score) + "]")
     # st.subheader("     :green[" + str(score) + "]")
     if delta:
-        st.markdown("     " + str(delta) + f"\n\n:gray[{caption}]")
+        st.markdown("     " + str(delta))
+    st.markdown(f"\n\n:gray[{caption}]")
     # st.caption(caption)
 
     # :red[**NOT** to be taken as legal advice]
