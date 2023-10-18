@@ -188,7 +188,7 @@ def streamlit_app():
 
     with st.form("data_selection"):
 
-        col1, col2, col3 = st.columns(3, gap="medium")
+        col1, col2, col3 = st.columns([1,1,1], gap="medium")
 
         with col1:
             # st.write("Select the acceptable license values for constituent datasets")
@@ -237,7 +237,7 @@ def streamlit_app():
             # st.divider()
 
             # Every form must have a submit button.
-        submitted = st.form_submit_button("Submit Selection")
+            submitted = st.form_submit_button("Submit Selection")
 
 
 
