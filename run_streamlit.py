@@ -90,7 +90,7 @@ def add_instructions():
 
     with col2:
         image = Image.open('dpi.png')
-        st.image(image)#, caption='Sunrise by the mountains')
+        st.image(image, width=100)#, caption='Sunrise by the mountains')
 
     st.subheader("Instructions")
     form_instructions = """
@@ -201,16 +201,6 @@ def streamlit_app():
             license_sharealike = st.toggle('Exclude Datasets w/ Share Alike Requirements', value=False)
             openai_license_override = st.toggle('Include Datasets w/ OpenAI-generated data', value=False)
 
-        with col2:
-            language_multiselect = st.multiselect(
-                'Select the languages to cover in your datasets',
-                ["All"] + list(INFO["constants"]["LANGUAGE_GROUPS"].keys()),
-                ["All"])
-
-            time_range_selection = st.slider(
-                "Select data release time constraints",
-                value=(datetime(2000, 1, 1), datetime(2023, 12, 1)))
-
         with col3:
             
             taskcats_multiselect = st.multiselect(
@@ -231,10 +221,19 @@ def streamlit_app():
                 # ["All", "Books", "Code", "Wiki", "News", "Biomedical", "Legal", "Web", "Math+Science"],
                 ["All"])
 
+        with col2:
+            language_multiselect = st.multiselect(
+                'Select the languages to cover in your datasets',
+                ["All"] + list(INFO["constants"]["LANGUAGE_GROUPS"].keys()),
+                ["All"])
 
+            time_range_selection = st.slider(
+                "Select data release time constraints",
+                value=(datetime(2000, 1, 1), datetime(2023, 12, 1)))
 
-        # Every form must have a submit button.
-        submitted = st.form_submit_button("Submit Selection")
+            # Every form must have a submit button.
+            submitted = st.form_submit_button("Submit Selection")
+
 
 
 
