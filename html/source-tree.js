@@ -52,22 +52,22 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6.11/+esm").then(modul
     });
 
     // Step 5: Populate Model generated:
-    // if (!nestedDict["Models"]) {
-    //     nestedDict["Models"] = {};
-    // }
+    if (!nestedDict["Models"]) {
+        nestedDict["Models"] = {};
+    }
     
-    // clean.forEach(entry => {
-    //     const models = entry.modelGenerated;
-    //     for (const model of models) {
-    //         if (model && model.trim() !== "") { // Ensure model is not an empty string or just whitespace
-    //             if (nestedDict["Model"][model]) {
-    //                 nestedDict["Model"][model] += 1;
-    //             } else {
-    //                 nestedDict["Model"][model] = 1;
-    //             }
-    //         }
-    //     }
-    // });
+    clean.forEach(entry => {
+        const models = entry.modelGenerated;
+        for (const model of models) {
+            if (model && model.trim() !== "") { // Ensure model is not an empty string or just whitespace
+                if (nestedDict["Models"][model]) {
+                    nestedDict["Models"][model] += 1;
+                } else {
+                    nestedDict["Models"][model] = 1;
+                }
+            }
+        }
+    });
     
     //tree formatting
     let treedata = [];
