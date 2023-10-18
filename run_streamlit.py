@@ -62,9 +62,9 @@ def insert_main_viz():
 
 def custom_metric(caption, score, delta=None):
     st.caption(caption)
-    st.subheader(str(score))
+    st.subheader("     :green[" + str(score) + "]")
     if delta:
-        st.write("     :green[" + str(delta) + "]")
+        st.write("     str(delta)")
 
     # :red[**NOT** to be taken as legal advice]
 
@@ -333,7 +333,7 @@ def streamlit_app():
             display_metrics(metrics, df_metadata)
 
             # st.divider()
-            st.markdown('#')
+            # st.markdown('#')
             # st.markdown('#')
 
             # insert_metric_container("Language Distribution", "languages", metrics)
