@@ -402,8 +402,8 @@ def streamlit_app():
         st.header("Data Licenses :vertical_traffic_light:")
         st.write("This section explores the *self-reported* data licenses by the creators of each dataset.")
 
-        tab4_intro = \
-        """Note a few important limitations:
+        tab4_intro = """
+        Note a few important limitations:
 
         * The legal status of data licenses is not always clear and may be different by jurisdiction.
         * Despite our best efforts, omissions or mistakes are possible.
