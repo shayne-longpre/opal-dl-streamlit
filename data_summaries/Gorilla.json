@@ -22,9 +22,6 @@
             "API Endpoint Creation Question Answering",
             "Open-form Text Generation"
         ],
-        "Text Domains": [
-            "Code"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -41,7 +38,9 @@
             "Mean Dialog Turns": 2.0
         },
         "Text Sources": [
-            "huggingface.com", "torch hub", "tensorflow hub"
+            "huggingface.com",
+            "torch hub",
+            "tensorflow hub"
         ],
         "Model Generated": [
             "OpenAI GPT-4"

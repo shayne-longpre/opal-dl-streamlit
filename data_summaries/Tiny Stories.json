@@ -21,7 +21,6 @@
             "Dialogue Generation",
             "Open-form Text Generation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -42,7 +41,9 @@
             "OpenAI GPT-3",
             "OpenAI GPT-4"
         ],
-        "Creators": ["Microsoft Research"],
+        "Creators": [
+            "Microsoft Research"
+        ],
         "Licenses": [
             {
                 "License": "OpenAI",

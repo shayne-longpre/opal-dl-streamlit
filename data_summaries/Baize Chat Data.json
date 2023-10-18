@@ -26,9 +26,6 @@
             "Literary Analysis",
             "Dialogue Generation"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -129,10 +126,6 @@
             "Definition Retrieval",
             "Information Retrieval",
             "Data Analysis"
-        ],
-        "Text Domains": [
-            "Medicine",
-            "Healthcare"
         ],
         "Format": [
             "Zero-shot"
@@ -237,9 +230,6 @@
             "Commonsense Reasoning",
             "Explanation"
         ],
-        "Text Domains": [
-            "Quora"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -341,9 +331,6 @@
             "Code Modification Question Answering",
             "Question Answering",
             "Commonsense Reasoning"
-        ],
-        "Text Domains": [
-            "StackOverflow"
         ],
         "Format": [
             "Zero-shot"

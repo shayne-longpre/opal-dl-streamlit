@@ -25,7 +25,6 @@
             "Algebraic Expression Evaluation",
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -118,9 +117,6 @@
             "Multiple Choice Question Answering",
             "File Search and Replace Generation"
         ],
-        "Text Domains": [
-            "Code"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -212,9 +208,6 @@
             "Information Retrieval",
             "Webpage Content Retrieval"
         ],
-        "Text Domains": [
-            "Code"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -298,7 +291,6 @@
         "Task Categories": [
             "Roleplay"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],

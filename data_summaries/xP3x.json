@@ -17,9 +17,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -109,9 +106,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -187,9 +181,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -267,9 +258,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -345,9 +333,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -434,9 +419,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -512,9 +494,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -592,9 +571,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -670,9 +646,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -750,9 +723,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -828,9 +798,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -908,9 +875,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -987,9 +951,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -1065,9 +1026,6 @@
         ],
         "Task Categories": [
             "Simplification"
-        ],
-        "Text Domains": [
-            "Language Exams"
         ],
         "Format": [
             "Zero-shot"
@@ -1158,9 +1116,6 @@
         "Task Categories": [
             "Simplification"
         ],
-        "Text Domains": [
-            "Language Exams"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -1237,9 +1192,6 @@
         ],
         "Task Categories": [
             "Simplification"
-        ],
-        "Text Domains": [
-            "Language Exams"
         ],
         "Format": [
             "Zero-shot"
@@ -1318,9 +1270,6 @@
         "Task Categories": [
             "Simplification"
         ],
-        "Text Domains": [
-            "Language Exams"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -1398,9 +1347,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -1476,9 +1422,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -1556,9 +1499,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -1634,9 +1574,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -1714,9 +1651,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -1792,9 +1726,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -1872,9 +1803,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -1950,9 +1878,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -2042,9 +1967,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -2120,9 +2042,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -2200,9 +2119,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -2278,9 +2194,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -2358,9 +2271,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -2436,9 +2346,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -2516,9 +2423,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -2594,9 +2498,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -2674,9 +2575,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -2752,9 +2650,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -2832,9 +2727,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -2910,9 +2802,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -2990,9 +2879,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -3068,9 +2954,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -3148,9 +3031,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -3226,9 +3106,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -3306,9 +3183,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -3384,9 +3258,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -3464,9 +3335,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -3542,9 +3410,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -3622,9 +3487,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -3700,9 +3562,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -3780,9 +3639,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -3858,9 +3714,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -3938,9 +3791,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -4016,9 +3866,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -4096,9 +3943,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -4174,9 +4018,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -4254,9 +4095,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -4332,9 +4170,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -4412,9 +4247,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -4490,9 +4322,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -4570,9 +4399,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -4648,9 +4474,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -4728,9 +4551,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -4806,9 +4626,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -4886,9 +4703,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -4964,9 +4778,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "wikihow"
         ],
         "Format": [
             "Zero-shot"
@@ -5052,9 +4863,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "wikihow"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -5128,9 +4936,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "wikihow"
         ],
         "Format": [
             "Zero-shot"
@@ -5206,9 +5011,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "wikihow"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -5282,9 +5084,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "wikihow"
         ],
         "Format": [
             "Zero-shot"
@@ -5360,9 +5159,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "wikihow"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -5436,9 +5232,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "wikihow"
         ],
         "Format": [
             "Zero-shot"
@@ -5514,9 +5307,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "wikihow"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -5590,9 +5380,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "wikihow"
         ],
         "Format": [
             "Zero-shot"
@@ -5668,9 +5455,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "wikihow"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -5744,9 +5528,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "wikihow"
         ],
         "Format": [
             "Zero-shot"
@@ -5822,9 +5603,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "wikihow"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -5898,9 +5676,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "wikihow"
         ],
         "Format": [
             "Zero-shot"
@@ -5976,9 +5751,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "wikihow"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -6052,9 +5824,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "wikihow"
         ],
         "Format": [
             "Zero-shot"
@@ -6130,9 +5899,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "wikihow"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -6206,9 +5972,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "wikihow"
         ],
         "Format": [
             "Zero-shot"
@@ -6284,9 +6047,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "wikihow"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -6360,9 +6120,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Legal"
         ],
         "Format": [
             "Zero-shot"
@@ -6449,9 +6206,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Legal"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -6527,9 +6281,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Legal"
         ],
         "Format": [
             "Zero-shot"
@@ -6607,9 +6358,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Legal"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -6685,9 +6433,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Legal"
         ],
         "Format": [
             "Zero-shot"
@@ -6765,9 +6510,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Legal"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -6843,9 +6585,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Legal"
         ],
         "Format": [
             "Zero-shot"
@@ -6923,9 +6662,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Legal"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -7001,9 +6737,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Legal"
         ],
         "Format": [
             "Zero-shot"
@@ -7081,9 +6814,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Legal"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -7159,9 +6889,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Legal"
         ],
         "Format": [
             "Zero-shot"
@@ -7239,9 +6966,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Legal"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -7317,9 +7041,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Legal"
         ],
         "Format": [
             "Zero-shot"
@@ -7397,9 +7118,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Legal"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -7475,9 +7193,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Legal"
         ],
         "Format": [
             "Zero-shot"
@@ -7555,9 +7270,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Legal"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -7633,9 +7345,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Legal"
         ],
         "Format": [
             "Zero-shot"
@@ -7713,9 +7422,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Legal"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -7791,9 +7497,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Legal"
         ],
         "Format": [
             "Zero-shot"
@@ -7871,9 +7574,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Legal"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -7949,9 +7649,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Legal"
         ],
         "Format": [
             "Zero-shot"
@@ -8029,9 +7726,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Legal"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -8107,9 +7801,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Legal"
         ],
         "Format": [
             "Zero-shot"
@@ -8187,7 +7878,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -8318,7 +8008,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -8449,7 +8138,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -8580,7 +8268,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -8711,7 +8398,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -8842,7 +8528,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -8973,7 +8658,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -9104,7 +8788,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -9235,7 +8918,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -9366,7 +9048,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -9497,7 +9178,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -9628,7 +9308,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -9759,7 +9438,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -9890,7 +9568,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -10021,7 +9698,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -10152,7 +9828,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -10283,7 +9958,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -10414,7 +10088,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -10557,7 +10230,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -10688,7 +10360,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -10819,7 +10490,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -10950,7 +10620,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -11081,7 +10750,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -11212,7 +10880,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -11343,7 +11010,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -11474,7 +11140,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -11605,7 +11270,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -11736,7 +11400,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -11867,7 +11530,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -11998,7 +11660,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -12129,7 +11790,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -12260,7 +11920,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -12391,7 +12050,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -12522,7 +12180,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -12653,7 +12310,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -12784,7 +12440,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -12915,7 +12570,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -13046,7 +12700,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -13177,7 +12830,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -13308,7 +12960,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -13439,7 +13090,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -13570,7 +13220,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -13701,7 +13350,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -13832,7 +13480,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -13963,7 +13610,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -14094,7 +13740,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -14225,7 +13870,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -14356,7 +14000,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -14487,7 +14130,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -14618,7 +14260,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -14749,7 +14390,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -14880,7 +14520,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -15011,7 +14650,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -15142,7 +14780,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -15273,7 +14910,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -15404,7 +15040,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -15535,7 +15170,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -15666,7 +15300,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -15797,7 +15430,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -15928,7 +15560,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -16059,7 +15690,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -16190,7 +15820,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -16321,7 +15950,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -16452,7 +16080,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -16583,7 +16210,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -16714,7 +16340,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -16845,7 +16470,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -16976,7 +16600,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -17107,7 +16730,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -17238,7 +16860,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -17369,7 +16990,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -17500,7 +17120,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -17631,7 +17250,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -17762,7 +17380,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -17893,7 +17510,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -18024,7 +17640,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -18155,7 +17770,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -18286,7 +17900,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -18417,7 +18030,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -18548,7 +18160,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -18679,7 +18290,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -18810,7 +18420,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -18941,7 +18550,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -19072,7 +18680,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -19203,7 +18810,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -19334,7 +18940,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -19465,7 +19070,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -19596,7 +19200,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -19727,7 +19330,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -19858,7 +19460,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -19989,7 +19590,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -20120,7 +19720,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -20251,7 +19850,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -20382,7 +19980,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -20513,7 +20110,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -20644,7 +20240,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -20775,7 +20370,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -20906,9 +20500,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -20992,9 +20583,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -21068,9 +20656,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -21146,9 +20731,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -21222,9 +20804,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -21300,9 +20879,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -21377,9 +20953,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -21453,9 +21026,6 @@
         ],
         "Task Categories": [
             "Paraphrase Detection"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -21546,9 +21116,6 @@
         "Task Categories": [
             "Paraphrase Detection"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -21626,9 +21193,6 @@
         ],
         "Task Categories": [
             "Paraphrase Detection"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -21708,9 +21272,6 @@
         "Task Categories": [
             "Paraphrase Detection"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -21788,9 +21349,6 @@
         ],
         "Task Categories": [
             "Paraphrase Detection"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -21870,9 +21428,6 @@
         "Task Categories": [
             "Paraphrase Detection"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -21950,9 +21505,6 @@
         ],
         "Task Categories": [
             "Paraphrase Detection"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -22032,9 +21584,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -22108,9 +21657,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -22183,9 +21729,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -22270,9 +21813,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -22345,9 +21885,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -22422,9 +21959,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -22497,9 +22031,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -22574,9 +22105,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -22649,9 +22177,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -22726,9 +22251,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -22801,9 +22323,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -22878,9 +22397,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -22954,9 +22470,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -23029,9 +22542,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -23116,9 +22626,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -23191,9 +22698,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -23268,9 +22772,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -23343,9 +22844,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -23420,9 +22918,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -23495,9 +22990,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -23572,9 +23064,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -23648,9 +23137,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -23723,9 +23209,6 @@
         ],
         "Task Categories": [
             "Code Synthesis"
-        ],
-        "Text Domains": [
-            "Coding problems"
         ],
         "Format": [
             "Zero-shot"
@@ -23811,9 +23294,6 @@
         "Task Categories": [
             "Code Repair"
         ],
-        "Text Domains": [
-            "GitHub"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -23891,9 +23371,6 @@
         ],
         "Task Categories": [
             "Code Search"
-        ],
-        "Text Domains": [
-            "GitHub"
         ],
         "Format": [
             "Zero-shot"
@@ -23976,9 +23453,6 @@
         "Task Categories": [
             "Code Complexity Prediction"
         ],
-        "Text Domains": [
-            "Codeforces"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -24058,9 +23532,6 @@
         ],
         "Task Categories": [
             "Code Synthesis"
-        ],
-        "Text Domains": [
-            "GitHub"
         ],
         "Format": [
             "Zero-shot"
@@ -24142,15 +23613,6 @@
         ],
         "Task Categories": [
             "Code Synthesis"
-        ],
-        "Text Domains": [
-            "AtCoder",
-            "CodeChef",
-            "Codeforces",
-            "Codewars",
-            "HackerRank",
-            "Kattis",
-            "LeetCode"
         ],
         "Format": [
             "Zero-shot"
@@ -24246,9 +23708,6 @@
         "Task Categories": [
             "Code Synthesis"
         ],
-        "Text Domains": [
-            "GeeksForGeek"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -24334,9 +23793,6 @@
         ],
         "Task Categories": [
             "Code Synthesis"
-        ],
-        "Text Domains": [
-            "Codeforces"
         ],
         "Format": [
             "Zero-shot"
@@ -24424,9 +23880,6 @@
         ],
         "Task Categories": [
             "Code Synthesis"
-        ],
-        "Text Domains": [
-            "GitHub"
         ],
         "Format": [
             "Zero-shot"
@@ -24519,10 +23972,6 @@
         "Task Categories": [
             "Code Synthesis"
         ],
-        "Text Domains": [
-            "CodeChef",
-            "HackerRank"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -24601,9 +24050,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "Scientific Publications"
         ],
         "Format": [
             "Zero-shot"
@@ -24687,9 +24133,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -24772,9 +24215,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -24855,9 +24295,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Language Exams"
         ],
         "Format": [
             "Zero-shot"
@@ -24945,9 +24382,6 @@
         "Task Categories": [
             "Word Sense Disambiguation"
         ],
-        "Text Domains": [
-            "Language Exams"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -25031,9 +24465,6 @@
         "Task Categories": [
             "Word Sense Disambiguation"
         ],
-        "Text Domains": [
-            "Language Exams"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -25111,9 +24542,6 @@
         ],
         "Task Categories": [
             "Word Sense Disambiguation"
-        ],
-        "Text Domains": [
-            "Language Exams"
         ],
         "Format": [
             "Zero-shot"
@@ -25193,9 +24621,6 @@
         "Task Categories": [
             "Word Sense Disambiguation"
         ],
-        "Text Domains": [
-            "Language Exams"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -25273,9 +24698,6 @@
         ],
         "Task Categories": [
             "Word Sense Disambiguation"
-        ],
-        "Text Domains": [
-            "Language Exams"
         ],
         "Format": [
             "Zero-shot"
@@ -25355,9 +24777,6 @@
         "Task Categories": [
             "Word Sense Disambiguation"
         ],
-        "Text Domains": [
-            "Language Exams"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -25435,9 +24854,6 @@
         ],
         "Task Categories": [
             "Word Sense Disambiguation"
-        ],
-        "Text Domains": [
-            "Language Exams"
         ],
         "Format": [
             "Zero-shot"
@@ -25517,9 +24933,6 @@
         "Task Categories": [
             "Word Sense Disambiguation"
         ],
-        "Text Domains": [
-            "Language Exams"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -25597,9 +25010,6 @@
         ],
         "Task Categories": [
             "Word Sense Disambiguation"
-        ],
-        "Text Domains": [
-            "Language Exams"
         ],
         "Format": [
             "Zero-shot"
@@ -25679,9 +25089,6 @@
         "Task Categories": [
             "Word Sense Disambiguation"
         ],
-        "Text Domains": [
-            "Language Exams"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -25759,9 +25166,6 @@
         ],
         "Task Categories": [
             "Word Sense Disambiguation"
-        ],
-        "Text Domains": [
-            "Language Exams"
         ],
         "Format": [
             "Zero-shot"
@@ -25841,9 +25245,6 @@
         "Task Categories": [
             "Word Sense Disambiguation"
         ],
-        "Text Domains": [
-            "Language Exams"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -25921,9 +25322,6 @@
         ],
         "Task Categories": [
             "Word Sense Disambiguation"
-        ],
-        "Text Domains": [
-            "Language Exams"
         ],
         "Format": [
             "Zero-shot"
@@ -26003,9 +25401,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -26078,9 +25473,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -26155,9 +25547,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -26230,9 +25619,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -26307,9 +25693,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -26382,9 +25765,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -26459,9 +25839,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -26534,9 +25911,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -26611,9 +25985,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -26686,9 +26057,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -26763,9 +26131,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -26838,9 +26203,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -26915,9 +26277,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -26990,9 +26349,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -27067,9 +26423,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -27142,9 +26495,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -27219,9 +26569,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -27294,9 +26641,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -27371,9 +26715,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -27446,9 +26787,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -27523,9 +26861,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -27598,9 +26933,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -27675,9 +27007,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -27750,9 +27079,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -27827,9 +27153,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -27902,9 +27225,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -27979,9 +27299,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -28054,9 +27371,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -28131,9 +27445,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -28206,9 +27517,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -28283,9 +27591,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -28358,9 +27663,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -28435,9 +27737,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -28510,9 +27809,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -28587,9 +27883,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -28662,9 +27955,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -28739,9 +28029,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -28814,9 +28101,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -28891,9 +28175,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -28966,9 +28247,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -29043,9 +28321,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -29118,9 +28393,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -29195,9 +28467,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -29270,9 +28539,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -29347,9 +28613,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -29422,9 +28685,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -29499,9 +28759,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -29574,9 +28831,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -29659,9 +28913,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -29734,9 +28985,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -29811,9 +29059,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -29886,9 +29131,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -29963,9 +29205,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -30038,9 +29277,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -30115,9 +29351,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -30190,9 +29423,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -30267,9 +29497,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -30342,9 +29569,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -30419,9 +29643,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -30494,9 +29715,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -30571,9 +29789,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -30646,9 +29861,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -30723,9 +29935,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -30798,9 +30007,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -30875,9 +30081,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -30950,9 +30153,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -31027,9 +30227,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -31102,9 +30299,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -31179,9 +30373,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -31254,9 +30445,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -31331,9 +30519,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -31406,9 +30591,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -31483,9 +30665,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -31558,9 +30737,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -31635,9 +30811,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -31710,9 +30883,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -31787,9 +30957,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -31862,9 +31029,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -31939,9 +31103,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -32014,9 +31175,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -32091,9 +31249,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -32166,9 +31321,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -32243,9 +31395,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -32318,9 +31467,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -32395,9 +31541,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -32470,9 +31613,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -32547,9 +31687,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -32622,9 +31759,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -32699,9 +31833,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -32774,9 +31905,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -32851,9 +31979,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -32926,9 +32051,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -33003,9 +32125,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -33078,9 +32197,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -33155,9 +32271,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -33230,9 +32343,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -33307,9 +32417,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -33382,9 +32489,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -33459,9 +32563,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -33534,9 +32635,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -33611,9 +32709,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -33686,9 +32781,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -33763,9 +32855,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -33838,9 +32927,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -33915,9 +33001,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -33990,9 +33073,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -34067,9 +33147,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -34142,9 +33219,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -34219,9 +33293,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -34294,9 +33365,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -34371,9 +33439,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -34446,9 +33511,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -34523,9 +33585,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -34598,9 +33657,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -34675,9 +33731,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -34750,9 +33803,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -34827,9 +33877,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -34902,9 +33949,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -34979,9 +34023,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -35054,9 +34095,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -35131,9 +34169,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -35206,9 +34241,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -35283,9 +34315,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -35358,9 +34387,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -35435,9 +34461,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -35510,9 +34533,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -35587,9 +34607,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -35662,9 +34679,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -35739,9 +34753,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -35814,9 +34825,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -35891,9 +34899,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -35966,9 +34971,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -36043,9 +35045,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -36118,9 +35117,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -36195,9 +35191,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -36270,9 +35263,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -36347,9 +35337,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -36422,9 +35409,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -36499,9 +35483,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -36574,9 +35555,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -36651,9 +35629,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -36726,9 +35701,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -36803,9 +35775,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -36878,9 +35847,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -36955,9 +35921,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -37030,9 +35993,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -37107,9 +36067,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -37182,9 +36139,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -37259,9 +36213,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -37334,9 +36285,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -37411,9 +36359,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -37486,9 +36431,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -37563,9 +36505,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -37638,9 +36577,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -37715,9 +36651,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -37790,9 +36723,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -37867,9 +36797,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -37942,9 +36869,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -38019,9 +36943,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -38094,9 +37015,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -38171,9 +37089,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -38246,9 +37161,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -38323,9 +37235,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -38398,9 +37307,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -38475,9 +37381,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -38550,9 +37453,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -38627,9 +37527,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -38702,9 +37599,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -38779,9 +37673,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -38854,9 +37745,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -38931,9 +37819,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -39006,9 +37891,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -39083,9 +37965,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -39158,9 +38037,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -39235,9 +38111,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -39310,9 +38183,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -39387,9 +38257,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -39462,9 +38329,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -39539,9 +38403,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -39614,9 +38475,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -39691,9 +38549,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -39766,9 +38621,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -39843,9 +38695,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -39918,9 +38767,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -39995,9 +38841,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -40070,9 +38913,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -40147,9 +38987,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -40222,9 +39059,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -40299,9 +39133,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -40374,9 +39205,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -40451,9 +39279,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -40526,9 +39351,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -40603,9 +39425,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -40678,9 +39497,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -40755,9 +39571,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -40830,9 +39643,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -40907,9 +39717,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -40982,9 +39789,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -41059,9 +39863,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -41134,9 +39935,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -41211,9 +40009,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -41286,9 +40081,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"
@@ -41363,9 +40155,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -41438,9 +40227,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot"

@@ -17,9 +17,6 @@
         "Task Categories": [
             "Narrative Generation"
         ],
-        "Text Domains": [
-            "Commonsense -> Stories"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -100,10 +97,6 @@
         ],
         "Task Categories": [
             "Named Entity Recognition"
-        ],
-        "Text Domains": [
-            "Biology -> Clinical Knowledge",
-            "Healthcare"
         ],
         "Format": [
             "Zero-shot",
@@ -190,9 +183,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -281,9 +271,6 @@
         "Task Categories": [
             "Answerability Classification"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -361,9 +348,6 @@
         ],
         "Task Categories": [
             "Text Matching"
-        ],
-        "Text Domains": [
-            "Government and Politics"
         ],
         "Format": [
             "Zero-shot",
@@ -447,9 +431,6 @@
         ],
         "Task Categories": [
             "Text Classification"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot",
@@ -538,9 +519,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Mathematics"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -624,9 +602,6 @@
         ],
         "Task Categories": [
             "Intent Identification"
-        ],
-        "Text Domains": [
-            "Dialogue"
         ],
         "Format": [
             "Zero-shot",
@@ -716,9 +691,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [
-            "Social Media -> Twitter"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -802,9 +774,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [
-            "Reviews"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -886,9 +855,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [
-            "Reviews -> Movies"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -969,9 +935,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "Reviews"
         ],
         "Format": [
             "Zero-shot",
@@ -1066,9 +1029,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [
-            "Reviews -> Food"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -1149,9 +1109,6 @@
         ],
         "Task Categories": [
             "Sentiment Analysis"
-        ],
-        "Text Domains": [
-            "Reviews -> Electronics and Grocery"
         ],
         "Format": [
             "Zero-shot",
@@ -1245,9 +1202,6 @@
         "Task Categories": [
             "Title Generation"
         ],
-        "Text Domains": [
-            "Reviews"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -1330,9 +1284,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -1423,9 +1374,6 @@
         "Task Categories": [
             "Named Entity Recognition"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -1496,9 +1444,6 @@
         ],
         "Task Categories": [
             "Named Entity Recognition"
-        ],
-        "Text Domains": [
-            "Biology -> Clinical Knowledge"
         ],
         "Format": [
             "Zero-shot",
@@ -1589,9 +1534,6 @@
         ],
         "Task Categories": [
             "Textual Entailment"
-        ],
-        "Text Domains": [
-            "Miscellaneous"
         ],
         "Format": [
             "Zero-shot",
@@ -1687,9 +1629,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [
-            "Reviews"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -1770,9 +1709,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Mathematics"
         ],
         "Format": [
             "Zero-shot",
@@ -1857,9 +1793,6 @@
         "Task Categories": [
             "Question Generation"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -1943,9 +1876,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "School Science Textbooks"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -2027,14 +1957,6 @@
         ],
         "Task Categories": [
             "Text Matching"
-        ],
-        "Text Domains": [
-            "Reviews",
-            "Law",
-            "Dialogue",
-            "Government and Politics",
-            "Philosophy",
-            "World Religions"
         ],
         "Format": [
             "Zero-shot",
@@ -2120,9 +2042,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -2207,9 +2126,6 @@
         ],
         "Task Categories": [
             "Simplification"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -2302,10 +2218,6 @@
         "Task Categories": [
             "Commonsense Classification"
         ],
-        "Text Domains": [
-            "Sociology",
-            "Commonsense -> Concepts and Relations -> Social Commonsense"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -2397,9 +2309,6 @@
         "Task Categories": [
             "Question Generation"
         ],
-        "Text Domains": [
-            "Commonsense -> Concepts and Relations -> Spatial Commonsense"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -2484,9 +2393,6 @@
         ],
         "Task Categories": [
             "Word Analogy"
-        ],
-        "Text Domains": [
-            "Commonsense"
         ],
         "Format": [
             "Zero-shot",
@@ -2580,9 +2486,6 @@
         "Task Categories": [
             "Named Entity Recognition"
         ],
-        "Text Domains": [
-            "Biology -> Bioinformatics"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -2662,10 +2565,6 @@
         ],
         "Task Categories": [
             "Text Classification"
-        ],
-        "Text Domains": [
-            "Social Media",
-            "Dialogue"
         ],
         "Format": [
             "Zero-shot",
@@ -2777,10 +2676,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [
-            "Public Places -> Restaurants",
-            "Reviews -> Restaurants"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -2873,9 +2768,6 @@
         "Task Categories": [
             "Text Matching"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -2955,9 +2847,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "Government and Politics"
         ],
         "Format": [
             "Zero-shot",
@@ -3046,10 +2935,6 @@
         "Task Categories": [
             "Named Entity Recognition"
         ],
-        "Text Domains": [
-            "Biology -> Clinical Knowledge",
-            "Healthcare"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -3132,10 +3017,6 @@
         ],
         "Task Categories": [
             "Word Relation Classification"
-        ],
-        "Text Domains": [
-            "Animals",
-            "Commonsense"
         ],
         "Format": [
             "Zero-shot",
@@ -3224,9 +3105,6 @@
         "Task Categories": [
             "Linguistic Probing"
         ],
-        "Text Domains": [
-            "Linguistics"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -3313,9 +3191,6 @@
         "Task Categories": [
             "Question Generation"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -3401,9 +3276,6 @@
         ],
         "Task Categories": [
             "Question Decomposition"
-        ],
-        "Text Domains": [
-            "Miscellaneous"
         ],
         "Format": [
             "Zero-shot",
@@ -3501,10 +3373,6 @@
         "Task Categories": [
             "Named Entity Recognition"
         ],
-        "Text Domains": [
-            "Geography",
-            "Social Media -> Twitter"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -3600,9 +3468,6 @@
         "Task Categories": [
             "Part-of-Speech Tagging"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -3686,9 +3551,6 @@
         ],
         "Task Categories": [
             "Toxicity Detection"
-        ],
-        "Text Domains": [
-            "Social Media -> Twitter"
         ],
         "Format": [
             "Zero-shot",
@@ -3779,11 +3641,6 @@
         "Task Categories": [
             "Information Extraction"
         ],
-        "Text Domains": [
-            "Justice",
-            "Jurisprudence",
-            "Law"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -3872,9 +3729,6 @@
         "Task Categories": [
             "Fill in The Blank"
         ],
-        "Text Domains": [
-            "Law"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -3957,9 +3811,6 @@
         ],
         "Task Categories": [
             "Negotiation Strategy Detection"
-        ],
-        "Text Domains": [
-            "Dialogue"
         ],
         "Format": [
             "Zero-shot",
@@ -4049,10 +3900,6 @@
         "Task Categories": [
             "Stance Detection"
         ],
-        "Text Domains": [
-            "Medicine",
-            "Healthcare"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -4141,9 +3988,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Web"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -4231,9 +4075,6 @@
         "Task Categories": [
             "Toxicity Detection"
         ],
-        "Text Domains": [
-            "Social Media -> Twitter"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -4320,9 +4161,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [
-            "Social Media"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -4406,9 +4244,6 @@
         ],
         "Task Categories": [
             "Text to Code"
-        ],
-        "Text Domains": [
-            "Code -> Language -> SQL"
         ],
         "Format": [
             "Zero-shot",
@@ -4494,9 +4329,6 @@
         "Task Categories": [
             "Named Entity Recognition"
         ],
-        "Text Domains": [
-            "Biology -> Bioinformatics"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -4576,9 +4408,6 @@
         ],
         "Task Categories": [
             "Dialogue Generation"
-        ],
-        "Text Domains": [
-            "Dialogue"
         ],
         "Format": [
             "Zero-shot",
@@ -4665,10 +4494,6 @@
         "Task Categories": [
             "Toxicity Detection"
         ],
-        "Text Domains": [
-            "Dialogue",
-            "Social Media"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -4754,9 +4579,6 @@
         ],
         "Task Categories": [
             "Question Generation"
-        ],
-        "Text Domains": [
-            "Dialogue"
         ],
         "Format": [
             "Zero-shot",
@@ -4848,9 +4670,6 @@
         "Task Categories": [
             "Title Generation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -4935,9 +4754,6 @@
         ],
         "Task Categories": [
             "Sentiment Analysis"
-        ],
-        "Text Domains": [
-            "Reviews -> Books"
         ],
         "Format": [
             "Zero-shot",
@@ -5025,9 +4841,6 @@
         ],
         "Task Categories": [
             "Question Generation"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -5121,9 +4934,6 @@
         "Task Categories": [
             "Question Generation"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -5204,9 +5014,6 @@
         ],
         "Task Categories": [
             "Speaker Identification"
-        ],
-        "Text Domains": [
-            "Dialogue"
         ],
         "Format": [
             "Zero-shot",
@@ -5292,9 +5099,6 @@
         "Task Categories": [
             "Cause Effect Classification"
         ],
-        "Text Domains": [
-            "Commonsense"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -5378,9 +5182,6 @@
         ],
         "Task Categories": [
             "Title Generation"
-        ],
-        "Text Domains": [
-            "Scientific Research Papers"
         ],
         "Format": [
             "Zero-shot",
@@ -5471,9 +5272,6 @@
         "Task Categories": [
             "Fill in The Blank"
         ],
-        "Text Domains": [
-            "Commonsense -> Concepts and Relations"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -5559,9 +5357,6 @@
         ],
         "Task Categories": [
             "Misc."
-        ],
-        "Text Domains": [
-            "Code"
         ],
         "Format": [
             "Zero-shot",
@@ -5650,9 +5445,6 @@
         "Task Categories": [
             "Question Rewriting"
         ],
-        "Text Domains": [
-            "Web"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -5737,9 +5529,6 @@
         ],
         "Task Categories": [
             "Commonsense Classification"
-        ],
-        "Text Domains": [
-            "Commonsense -> Concepts and Relations"
         ],
         "Format": [
             "Zero-shot",
@@ -5828,9 +5617,6 @@
         ],
         "Task Categories": [
             "Data to Text"
-        ],
-        "Text Domains": [
-            "Captions -> Image Captions"
         ],
         "Format": [
             "Zero-shot",
@@ -5928,9 +5714,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Commonsense -> Concepts and Relations"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -6015,9 +5798,6 @@
         ],
         "Task Categories": [
             "Program Execution"
-        ],
-        "Text Domains": [
-            "Code -> Repo -> Stack Overflow"
         ],
         "Format": [
             "Zero-shot",
@@ -6106,9 +5886,6 @@
         "Task Categories": [
             "Part-of-Speech Tagging"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -6192,9 +5969,6 @@
         ],
         "Task Categories": [
             "Named Entity Recognition"
-        ],
-        "Text Domains": [
-            "Miscellaneous"
         ],
         "Format": [
             "Zero-shot",
@@ -6284,9 +6058,6 @@
         ],
         "Task Categories": [
             "Speaker Identification"
-        ],
-        "Text Domains": [
-            "Dialogue"
         ],
         "Format": [
             "Zero-shot",
@@ -6380,9 +6151,6 @@
         "Task Categories": [
             "Cause Effect Classification"
         ],
-        "Text Domains": [
-            "Commonsense -> Concepts and Relations"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -6471,9 +6239,6 @@
         ],
         "Task Categories": [
             "Toxicity Detection"
-        ],
-        "Text Domains": [
-            "Personal Narratives"
         ],
         "Format": [
             "Zero-shot",
@@ -6564,9 +6329,6 @@
         "Task Categories": [
             "Misc."
         ],
-        "Text Domains": [
-            "Countries"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -6650,9 +6412,6 @@
         "Task Categories": [
             "Misc."
         ],
-        "Text Domains": [
-            "Countries"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -6734,9 +6493,6 @@
         ],
         "Task Categories": [
             "Misc."
-        ],
-        "Text Domains": [
-            "Countries"
         ],
         "Format": [
             "Zero-shot",
@@ -6820,9 +6576,6 @@
         "Task Categories": [
             "Misc."
         ],
-        "Text Domains": [
-            "Countries"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -6904,9 +6657,6 @@
         ],
         "Task Categories": [
             "Misc."
-        ],
-        "Text Domains": [
-            "Countries"
         ],
         "Format": [
             "Zero-shot",
@@ -6991,9 +6741,6 @@
         "Task Categories": [
             "Misc."
         ],
-        "Text Domains": [
-            "Countries"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -7074,9 +6821,6 @@
         ],
         "Task Categories": [
             "Misc."
-        ],
-        "Text Domains": [
-            "Countries"
         ],
         "Format": [
             "Zero-shot",
@@ -7161,9 +6905,6 @@
         ],
         "Task Categories": [
             "Misc."
-        ],
-        "Text Domains": [
-            "Countries"
         ],
         "Format": [
             "Zero-shot",
@@ -7251,9 +6992,6 @@
         "Task Categories": [
             "Misc."
         ],
-        "Text Domains": [
-            "Countries"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -7334,9 +7072,6 @@
         "Task Categories": [
             "Misc."
         ],
-        "Text Domains": [
-            "Countries"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -7416,9 +7151,6 @@
         ],
         "Task Categories": [
             "Misc."
-        ],
-        "Text Domains": [
-            "Countries"
         ],
         "Format": [
             "Zero-shot",
@@ -7505,9 +7237,6 @@
         "Task Categories": [
             "Misc."
         ],
-        "Text Domains": [
-            "Countries"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -7587,9 +7316,6 @@
         ],
         "Task Categories": [
             "Dialogue State Tracking"
-        ],
-        "Text Domains": [
-            "Dialogue"
         ],
         "Format": [
             "Zero-shot",
@@ -7672,9 +7398,6 @@
         ],
         "Task Categories": [
             "Fact Verification"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -7759,9 +7482,6 @@
         "Task Categories": [
             "Stereotype Detection"
         ],
-        "Text Domains": [
-            "Stereotypes"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -7836,9 +7556,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Law"
         ],
         "Format": [
             "Zero-shot",
@@ -7926,10 +7643,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Code -> Repo -> Stack Overflow",
-            "Linguistics"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -8013,10 +7726,6 @@
         ],
         "Task Categories": [
             "Dialogue Generation"
-        ],
-        "Text Domains": [
-            "Dialogue",
-            "Commonsense -> Concepts and Relations -> Social Commonsense"
         ],
         "Format": [
             "Zero-shot",
@@ -8105,9 +7814,6 @@
         "Task Categories": [
             "Dialogue Act Recognition"
         ],
-        "Text Domains": [
-            "Dialogue"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -8192,9 +7898,6 @@
         ],
         "Task Categories": [
             "Paraphrase Generation"
-        ],
-        "Text Domains": [
-            "Commonsense"
         ],
         "Format": [
             "Zero-shot",
@@ -8282,9 +7985,6 @@
         ],
         "Task Categories": [
             "Text Classification"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -8376,9 +8076,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [
-            "Government and Politics"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -8465,10 +8162,6 @@
         "Task Categories": [
             "Dialogue State Tracking"
         ],
-        "Text Domains": [
-            "Dialogue",
-            "Commonsense -> Concepts and Relations -> Social Commonsense"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -8554,9 +8247,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [
-            "Reviews"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -8635,9 +8325,6 @@
         ],
         "Task Categories": [
             "Textual Entailment"
-        ],
-        "Text Domains": [
-            "Commonsense -> Concepts and Relations"
         ],
         "Format": [
             "Zero-shot",
@@ -8730,9 +8417,6 @@
         "Task Categories": [
             "Toxicity Detection"
         ],
-        "Text Domains": [
-            "Social Media -> Twitter"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -8810,9 +8494,6 @@
         ],
         "Task Categories": [
             "Speaker Identification"
-        ],
-        "Text Domains": [
-            "Dialogue"
         ],
         "Format": [
             "Zero-shot",
@@ -8900,10 +8581,6 @@
         "Task Categories": [
             "Dialogue Generation"
         ],
-        "Text Domains": [
-            "Game",
-            "Dialogue"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -8987,9 +8664,6 @@
         ],
         "Task Categories": [
             "Sentence Composition"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -9076,9 +8750,6 @@
         ],
         "Task Categories": [
             "Question Rewriting"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -9170,11 +8841,6 @@
         "Task Categories": [
             "Question Generation"
         ],
-        "Text Domains": [
-            "Nutrition",
-            "Dialogue",
-            "Food"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -9261,10 +8927,6 @@
         ],
         "Task Categories": [
             "Question Generation"
-        ],
-        "Text Domains": [
-            "Dialogue",
-            "Natural Science -> School Science Textbooks"
         ],
         "Format": [
             "Zero-shot",
@@ -9356,10 +9018,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "Public Places",
-            "Dialogue"
         ],
         "Format": [
             "Zero-shot",
@@ -9453,9 +9111,6 @@
         "Task Categories": [
             "Style Transfer"
         ],
-        "Text Domains": [
-            "Reviews"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -9547,9 +9202,6 @@
         ],
         "Task Categories": [
             "Question Generation"
-        ],
-        "Text Domains": [
-            "Movies"
         ],
         "Format": [
             "Zero-shot",
@@ -9643,9 +9295,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -9736,9 +9385,6 @@
         "Task Categories": [
             "Data to Text"
         ],
-        "Text Domains": [
-            "Public Places -> Restaurants"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -9823,9 +9469,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Miscellaneous"
         ],
         "Format": [
             "Zero-shot",
@@ -9917,9 +9560,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [
-            "Dialogue"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -10004,9 +9644,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [
-            "Social Media -> Twitter"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -10090,9 +9727,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Captions -> Image Captions"
         ],
         "Format": [
             "Zero-shot",
@@ -10188,10 +9822,6 @@
         "Task Categories": [
             "Coreference Resolution"
         ],
-        "Text Domains": [
-            "Dialogue",
-            "Narrative"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -10284,9 +9914,6 @@
         "Task Categories": [
             "Question Generation"
         ],
-        "Text Domains": [
-            "Natural Science -> School Science Textbooks"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -10363,11 +9990,6 @@
         ],
         "Task Categories": [
             "Gender Classification"
-        ],
-        "Text Domains": [
-            "Commonsense",
-            "Dialogue",
-            "Narrative"
         ],
         "Format": [
             "Zero-shot",
@@ -10449,9 +10071,6 @@
         "Task Categories": [
             "Misc."
         ],
-        "Text Domains": [
-            "Natural Science"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -10529,9 +10148,6 @@
         ],
         "Task Categories": [
             "Toxicity Detection"
-        ],
-        "Text Domains": [
-            "Social Media"
         ],
         "Format": [
             "Zero-shot",
@@ -10616,9 +10232,6 @@
         ],
         "Task Categories": [
             "Title Generation"
-        ],
-        "Text Domains": [
-            "Law"
         ],
         "Format": [
             "Zero-shot",
@@ -10707,10 +10320,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Healthcare",
-            "Professions"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -10792,9 +10401,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Government and Politics"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -10874,9 +10480,6 @@
         ],
         "Task Categories": [
             "Word Relation Classification"
-        ],
-        "Text Domains": [
-            "Commonsense"
         ],
         "Format": [
             "Zero-shot",
@@ -10964,11 +10567,6 @@
         ],
         "Task Categories": [
             "Misc."
-        ],
-        "Text Domains": [
-            "Stereotypes",
-            "Sociology",
-            "Commonsense -> Concepts and Relations -> Social Commonsense"
         ],
         "Format": [
             "Zero-shot",
@@ -11061,9 +10659,6 @@
         "Task Categories": [
             "Narrative Generation"
         ],
-        "Text Domains": [
-            "Story"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -11150,10 +10745,6 @@
         ],
         "Task Categories": [
             "Textual Entailment"
-        ],
-        "Text Domains": [
-            "History",
-            "World Religions"
         ],
         "Format": [
             "Zero-shot",
@@ -11248,9 +10839,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -11336,9 +10924,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -11430,9 +11015,6 @@
         "Task Categories": [
             "Question Generation"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -11517,9 +11099,6 @@
         "Task Categories": [
             "Coreference Resolution"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -11601,9 +11180,6 @@
         ],
         "Task Categories": [
             "Sentiment Analysis"
-        ],
-        "Text Domains": [
-            "Reviews"
         ],
         "Format": [
             "Zero-shot",
@@ -11702,9 +11278,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -11798,9 +11371,6 @@
         "Task Categories": [
             "Cause Effect Classification"
         ],
-        "Text Domains": [
-            "Story"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -11888,10 +11458,6 @@
         ],
         "Task Categories": [
             "Sentiment Analysis"
-        ],
-        "Text Domains": [
-            "Narrative",
-            "Dialogue"
         ],
         "Format": [
             "Zero-shot",
@@ -11981,9 +11547,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Web"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -12072,9 +11635,6 @@
         "Task Categories": [
             "Question Understanding"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -12161,9 +11721,6 @@
         ],
         "Task Categories": [
             "Question Rewriting"
-        ],
-        "Text Domains": [
-            "Knowledge Base -> Freebase"
         ],
         "Format": [
             "Zero-shot",
@@ -12254,9 +11811,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [
-            "Economics"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -12336,10 +11890,6 @@
         ],
         "Task Categories": [
             "Sentence Composition"
-        ],
-        "Text Domains": [
-            "Reviews -> Movies",
-            "Movies"
         ],
         "Format": [
             "Zero-shot",
@@ -12427,9 +11977,6 @@
         ],
         "Task Categories": [
             "Entity Generation"
-        ],
-        "Text Domains": [
-            "Natural Science"
         ],
         "Format": [
             "Zero-shot",
@@ -12519,9 +12066,6 @@
         "Task Categories": [
             "Toxicity Detection"
         ],
-        "Text Domains": [
-            "Social Media -> Twitter"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -12609,9 +12153,6 @@
         "Task Categories": [
             "Toxicity Detection"
         ],
-        "Text Domains": [
-            "Social Media -> Twitter"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -12691,9 +12232,6 @@
         ],
         "Task Categories": [
             "Toxicity Detection"
-        ],
-        "Text Domains": [
-            "Social Media -> Twitter"
         ],
         "Format": [
             "Zero-shot",
@@ -12794,9 +12332,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Healthcare"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -12881,9 +12416,6 @@
         ],
         "Task Categories": [
             "Fact Verification"
-        ],
-        "Text Domains": [
-            "Healthcare"
         ],
         "Format": [
             "Zero-shot",
@@ -12976,9 +12508,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [
-            "Social Media -> Reddit"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -13069,12 +12598,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Books",
-            "News",
-            "Wikipedia",
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -13161,11 +12684,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "News",
-            "TED Talks",
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -13244,9 +12762,6 @@
         ],
         "Task Categories": [
             "Narrative Generation"
-        ],
-        "Text Domains": [
-            "Story"
         ],
         "Format": [
             "Zero-shot",
@@ -13337,9 +12852,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [
-            "Social Media"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -13424,9 +12936,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -13518,10 +13027,6 @@
         "Task Categories": [
             "Text Quality Evaluation"
         ],
-        "Text Domains": [
-            "Dialogue",
-            "Public Places -> Restaurants"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -13600,9 +13105,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -13690,9 +13192,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -13779,9 +13278,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [
-            "Reviews -> Movies"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -13860,9 +13356,6 @@
         ],
         "Task Categories": [
             "Sentence Composition"
-        ],
-        "Text Domains": [
-            "Commonsense"
         ],
         "Format": [
             "Zero-shot",
@@ -13951,9 +13444,6 @@
         "Task Categories": [
             "Misc."
         ],
-        "Text Domains": [
-            "Food"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -14038,9 +13528,6 @@
         ],
         "Task Categories": [
             "Cause Effect Classification"
-        ],
-        "Text Domains": [
-            "Commonsense -> Concepts and Relations"
         ],
         "Format": [
             "Zero-shot",
@@ -14130,9 +13617,6 @@
         "Task Categories": [
             "Question Generation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -14220,9 +13704,6 @@
         "Task Categories": [
             "Misc."
         ],
-        "Text Domains": [
-            "Knowledge Base"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -14304,10 +13785,6 @@
         ],
         "Task Categories": [
             "Grammar Error Correction"
-        ],
-        "Text Domains": [
-            "English Exams",
-            "Miscellaneous"
         ],
         "Format": [
             "Zero-shot",
@@ -14398,9 +13875,6 @@
         "Task Categories": [
             "Toxicity Detection"
         ],
-        "Text Domains": [
-            "Social Media"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -14484,9 +13958,6 @@
         ],
         "Task Categories": [
             "Named Entity Recognition"
-        ],
-        "Text Domains": [
-            "Biology -> Bioinformatics"
         ],
         "Format": [
             "Zero-shot",
@@ -14580,9 +14051,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Computer Science"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -14674,9 +14142,6 @@
         "Task Categories": [
             "Text to Code"
         ],
-        "Text Domains": [
-            "Mathematics"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -14755,10 +14220,6 @@
         ],
         "Task Categories": [
             "Text Classification"
-        ],
-        "Text Domains": [
-            "Government and Politics",
-            "News"
         ],
         "Format": [
             "Zero-shot",
@@ -14843,9 +14304,6 @@
         "Task Categories": [
             "Fill in The Blank"
         ],
-        "Text Domains": [
-            "Books"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -14926,10 +14384,6 @@
         ],
         "Task Categories": [
             "Information Extraction"
-        ],
-        "Text Domains": [
-            "News",
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -15017,9 +14471,6 @@
         "Task Categories": [
             "Named Entity Recognition"
         ],
-        "Text Domains": [
-            "Biology -> Bioinformatics"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -15100,9 +14551,6 @@
         ],
         "Task Categories": [
             "Number Conversion"
-        ],
-        "Text Domains": [
-            "Books"
         ],
         "Format": [
             "Zero-shot",
@@ -15198,10 +14646,6 @@
         "Task Categories": [
             "Text to Code"
         ],
-        "Text Domains": [
-            "Wikipedia",
-            "Logic -> Propositional Logic"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -15290,9 +14734,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Mathematics"
         ],
         "Format": [
             "Zero-shot",
@@ -15384,9 +14825,6 @@
         "Task Categories": [
             "Question Understanding"
         ],
-        "Text Domains": [
-            "Mathematics"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -15467,9 +14905,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Mathematics"
         ],
         "Format": [
             "Zero-shot",
@@ -15560,9 +14995,6 @@
         "Task Categories": [
             "Misc."
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -15646,9 +15078,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Narrative -> Everyday Events"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -15731,17 +15160,6 @@
         ],
         "Task Categories": [
             "Question Generation"
-        ],
-        "Text Domains": [
-            "News",
-            "Wikipedia",
-            "Law",
-            "Justice",
-            "History",
-            "History -> 9/11 Reports",
-            "Anthropology",
-            "School Science Textbooks",
-            "Fiction"
         ],
         "Format": [
             "Zero-shot",
@@ -15840,11 +15258,6 @@
         "Task Categories": [
             "Sentence Perturbation"
         ],
-        "Text Domains": [
-            "Wikipedia",
-            "Dialogue",
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -15938,10 +15351,6 @@
         "Task Categories": [
             "Text Matching"
         ],
-        "Text Domains": [
-            "Medicine",
-            "Healthcare"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -16030,12 +15439,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "News",
-            "TED Talks",
-            "Captions -> Video Captions",
-            "Natural Science"
         ],
         "Format": [
             "Zero-shot",
@@ -16136,10 +15539,6 @@
         "Task Categories": [
             "Dialogue Act Recognition"
         ],
-        "Text Domains": [
-            "Dialogue",
-            "Commonsense -> Concepts and Relations -> Social Commonsense"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -16224,9 +15623,6 @@
         ],
         "Task Categories": [
             "Text Classification"
-        ],
-        "Text Domains": [
-            "Dialogue"
         ],
         "Format": [
             "Zero-shot",
@@ -16323,9 +15719,6 @@
         "Task Categories": [
             "Question Generation"
         ],
-        "Text Domains": [
-            "Web"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -16407,10 +15800,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Captions -> Video Captions",
-            "Government and Politics"
         ],
         "Format": [
             "Zero-shot",
@@ -16497,13 +15886,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia",
-            "Books",
-            "Movies",
-            "Story",
-            "History"
         ],
         "Format": [
             "Zero-shot",
@@ -16604,10 +15986,6 @@
         ],
         "Task Categories": [
             "Sentiment Analysis"
-        ],
-        "Text Domains": [
-            "Reviews -> Movies",
-            "Movies"
         ],
         "Format": [
             "Zero-shot",
@@ -16717,10 +16095,6 @@
         "Task Categories": [
             "Text Matching"
         ],
-        "Text Domains": [
-            "News",
-            "Web"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -16806,11 +16180,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia",
-            "News",
-            "Natural Science"
         ],
         "Format": [
             "Zero-shot",
@@ -16930,9 +16299,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Global Facts"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -17016,11 +16382,6 @@
         ],
         "Task Categories": [
             "Question Generation"
-        ],
-        "Text Domains": [
-            "Sports",
-            "Statistics",
-            "News"
         ],
         "Format": [
             "Zero-shot",
@@ -17110,11 +16471,6 @@
         "Task Categories": [
             "Sentence Compression"
         ],
-        "Text Domains": [
-            "News",
-            "Dialogue",
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -17201,9 +16557,6 @@
         "Task Categories": [
             "Speaker Identification"
         ],
-        "Text Domains": [
-            "Dialogue"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -17288,9 +16641,6 @@
         ],
         "Task Categories": [
             "Text Classification"
-        ],
-        "Text Domains": [
-            "Reviews"
         ],
         "Format": [
             "Zero-shot",
@@ -17379,10 +16729,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "TED Talks",
-            "Captions -> Video Captions"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -17465,13 +16811,6 @@
         ],
         "Task Categories": [
             "Text Classification"
-        ],
-        "Text Domains": [
-            "History",
-            "Fiction",
-            "Dialogue",
-            "Law",
-            "Government and Politics"
         ],
         "Format": [
             "Zero-shot",
@@ -17556,9 +16895,6 @@
         ],
         "Task Categories": [
             "Dialogue Generation"
-        ],
-        "Text Domains": [
-            "Dialogue"
         ],
         "Format": [
             "Zero-shot",
@@ -17645,9 +16981,6 @@
         ],
         "Task Categories": [
             "Question Generation"
-        ],
-        "Text Domains": [
-            "Commonsense"
         ],
         "Format": [
             "Zero-shot",
@@ -17760,10 +17093,6 @@
         "Task Categories": [
             "Question Generation"
         ],
-        "Text Domains": [
-            "Books",
-            "Movies"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -17850,10 +17179,6 @@
         ],
         "Task Categories": [
             "Named Entity Recognition"
-        ],
-        "Text Domains": [
-            "Biology -> Clinical Knowledge",
-            "Healthcare"
         ],
         "Format": [
             "Zero-shot",
@@ -17947,9 +17272,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -18038,9 +17360,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -18121,9 +17440,6 @@
         ],
         "Task Categories": [
             "Text Classification"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot",
@@ -18212,9 +17528,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -18299,9 +17612,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Mathematics"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -18385,9 +17695,6 @@
         ],
         "Task Categories": [
             "Coreference Resolution"
-        ],
-        "Text Domains": [
-            "Dialogue"
         ],
         "Format": [
             "Zero-shot",
@@ -18477,10 +17784,6 @@
         "Task Categories": [
             "Fill in The Blank"
         ],
-        "Text Domains": [
-            "Commonsense -> Concepts and Relations",
-            "Animals"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -18567,9 +17870,6 @@
         "Task Categories": [
             "Information Extraction"
         ],
-        "Text Domains": [
-            "Public Places -> Restaurants"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -18654,9 +17954,6 @@
         "Task Categories": [
             "Word Semantics"
         ],
-        "Text Domains": [
-            "Game -> Card Game"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -18735,9 +18032,6 @@
         "Task Categories": [
             "Toxicity Detection"
         ],
-        "Text Domains": [
-            "Social Media"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -18815,9 +18109,6 @@
         ],
         "Task Categories": [
             "Title Generation"
-        ],
-        "Text Domains": [
-            "Reviews"
         ],
         "Format": [
             "Zero-shot",
@@ -18899,9 +18190,6 @@
         ],
         "Task Categories": [
             "Toxicity Detection"
-        ],
-        "Text Domains": [
-            "Social Media -> Twitter"
         ],
         "Format": [
             "Zero-shot",
@@ -18987,9 +18275,6 @@
         ],
         "Task Categories": [
             "Information Extraction"
-        ],
-        "Text Domains": [
-            "Narrative"
         ],
         "Format": [
             "Zero-shot",
@@ -19080,9 +18365,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [
-            "Web"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -19171,11 +18453,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Commonsense -> Concepts and Relations",
-            "Dialogue",
-            "Narrative"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -19263,9 +18540,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [
-            "Social Media"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -19345,10 +18619,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Books",
-            "Miscellaneous"
         ],
         "Format": [
             "Zero-shot",
@@ -19441,9 +18711,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Books"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -19526,9 +18793,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Web"
         ],
         "Format": [
             "Zero-shot",
@@ -19619,10 +18883,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "TED Talks",
-            "Captions -> Video Captions"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -19705,9 +18965,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Miscellaneous"
         ],
         "Format": [
             "Zero-shot",
@@ -19799,9 +19056,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [
-            "Law"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -19885,9 +19139,6 @@
         "Task Categories": [
             "Paper Review"
         ],
-        "Text Domains": [
-            "Conference"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -19969,9 +19220,6 @@
         "Task Categories": [
             "Paraphrase Generation"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -20046,9 +19294,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Natural Science"
         ],
         "Format": [
             "Zero-shot",
@@ -20138,9 +19383,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Dialogue"
         ],
         "Format": [
             "Zero-shot",
@@ -20273,9 +19515,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -20407,9 +19646,6 @@
         "Task Categories": [
             "Text Matching"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -20498,9 +19734,6 @@
         "Task Categories": [
             "Paraphrase Generation"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -20588,9 +19821,6 @@
         ],
         "Task Categories": [
             "Sentiment Analysis"
-        ],
-        "Text Domains": [
-            "Social Media -> Reddit"
         ],
         "Format": [
             "Zero-shot",
@@ -20681,9 +19911,6 @@
         "Task Categories": [
             "Title Generation"
         ],
-        "Text Domains": [
-            "Computer Science"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -20769,10 +19996,6 @@
         "Task Categories": [
             "Part-of-Speech Tagging"
         ],
-        "Text Domains": [
-            "News",
-            "Story"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -20851,9 +20074,6 @@
         ],
         "Task Categories": [
             "Title Generation"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot",
@@ -20947,9 +20167,6 @@
         ],
         "Task Categories": [
             "Question Generation"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -21045,9 +20262,6 @@
         "Task Categories": [
             "Dialogue Generation"
         ],
-        "Text Domains": [
-            "Dialogue"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -21134,9 +20348,6 @@
         ],
         "Task Categories": [
             "Textual Entailment"
-        ],
-        "Text Domains": [
-            "Debatepedia"
         ],
         "Format": [
             "Zero-shot",
@@ -21229,10 +20440,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Sociology",
-            "News"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -21318,9 +20525,6 @@
         ],
         "Task Categories": [
             "Information Extraction"
-        ],
-        "Text Domains": [
-            "Medicine"
         ],
         "Format": [
             "Zero-shot",
@@ -21411,9 +20615,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [
-            "Literature"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -21501,9 +20702,6 @@
         ],
         "Task Categories": [
             "Overlap Extraction"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot",
@@ -21593,9 +20791,6 @@
         "Task Categories": [
             "Poem Generation"
         ],
-        "Text Domains": [
-            "Books"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -21682,9 +20877,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -21763,9 +20955,6 @@
         ],
         "Task Categories": [
             "Preposition Prediction"
-        ],
-        "Text Domains": [
-            "Linguistics"
         ],
         "Format": [
             "Zero-shot",
@@ -21852,9 +21041,6 @@
         "Task Categories": [
             "Named Entity Recognition"
         ],
-        "Text Domains": [
-            "Natural Science"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -21939,9 +21125,6 @@
         "Task Categories": [
             "Question Generation"
         ],
-        "Text Domains": [
-            "Commonsense -> Concepts and Relations"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -22024,9 +21207,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Web"
         ],
         "Format": [
             "Zero-shot",
@@ -22113,9 +21293,6 @@
         ],
         "Task Categories": [
             "Question Generation"
-        ],
-        "Text Domains": [
-            "Medicine"
         ],
         "Format": [
             "Zero-shot",
@@ -22204,10 +21381,6 @@
         ],
         "Task Categories": [
             "Question Generation"
-        ],
-        "Text Domains": [
-            "News",
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -22308,13 +21481,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [
-            "Art",
-            "Literature",
-            "History",
-            "Sociology",
-            "Natural Science"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -22404,9 +21570,6 @@
         "Task Categories": [
             "Keyword Tagging"
         ],
-        "Text Domains": [
-            "Natural Science"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -22495,9 +21658,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Scientific Research Papers"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -22583,9 +21743,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -22677,9 +21834,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Captions -> Video Captions"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -22766,9 +21920,6 @@
         "Task Categories": [
             "Text Matching"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -22851,11 +22002,6 @@
         "Task Categories": [
             "Question Generation"
         ],
-        "Text Domains": [
-            "Narrative",
-            "Fiction",
-            "News"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -22936,10 +22082,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Story",
-            "Commonsense -> Concepts and Relations"
         ],
         "Format": [
             "Zero-shot",
@@ -23024,9 +22166,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Natural Science"
         ],
         "Format": [
             "Zero-shot",
@@ -23113,9 +22252,6 @@
         ],
         "Task Categories": [
             "Question Generation"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -23206,9 +22342,6 @@
         "Task Categories": [
             "Question Generation"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -23294,9 +22427,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "English Exams"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -23380,9 +22510,6 @@
         ],
         "Task Categories": [
             "Title Generation"
-        ],
-        "Text Domains": [
-            "Food"
         ],
         "Format": [
             "Zero-shot",
@@ -23470,9 +22597,6 @@
         "Task Categories": [
             "Title Generation"
         ],
-        "Text Domains": [
-            "Social Media -> Reddit"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -23557,9 +22681,6 @@
         ],
         "Task Categories": [
             "Text Matching"
-        ],
-        "Text Domains": [
-            "Miscellaneous"
         ],
         "Format": [
             "Zero-shot",
@@ -23658,9 +22779,6 @@
         "Task Categories": [
             "Translation"
         ],
-        "Text Domains": [
-            "Commonsense"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -23743,9 +22861,6 @@
         "Task Categories": [
             "Fill in The Blank"
         ],
-        "Text Domains": [
-            "Story"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -23824,10 +22939,6 @@
         ],
         "Task Categories": [
             "Fill in The Blank"
-        ],
-        "Text Domains": [
-            "Narrative",
-            "Story"
         ],
         "Format": [
             "Zero-shot",
@@ -23914,9 +23025,6 @@
         "Task Categories": [
             "Word Relation Classification"
         ],
-        "Text Domains": [
-            "Commonsense -> Concepts and Relations"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -24000,11 +23108,6 @@
         ],
         "Task Categories": [
             "Narrative Generation"
-        ],
-        "Text Domains": [
-            "Wikipedia",
-            "Natural Science",
-            "School Science Textbooks"
         ],
         "Format": [
             "Zero-shot",
@@ -24090,9 +23193,6 @@
         ],
         "Task Categories": [
             "Sentiment Analysis"
-        ],
-        "Text Domains": [
-            "Reviews -> Movies"
         ],
         "Format": [
             "Zero-shot",
@@ -24181,9 +23281,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [
-            "Social Media"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -24254,9 +23351,6 @@
         ],
         "Task Categories": [
             "Fact Verification"
-        ],
-        "Text Domains": [
-            "Commonsense -> Concepts and Relations"
         ],
         "Format": [
             "Zero-shot",
@@ -24343,9 +23437,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [
-            "Social Media -> Twitter"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -24428,9 +23519,6 @@
         ],
         "Task Categories": [
             "Toxicity Detection"
-        ],
-        "Text Domains": [
-            "Social Media -> Twitter"
         ],
         "Format": [
             "Zero-shot",
@@ -24522,9 +23610,6 @@
         "Task Categories": [
             "Text to Code"
         ],
-        "Text Domains": [
-            "Computer Science -> Machine Learning"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -24611,9 +23696,6 @@
         "Task Categories": [
             "Dialogue Act Recognition"
         ],
-        "Text Domains": [
-            "Dialogue"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -24695,9 +23777,6 @@
         ],
         "Task Categories": [
             "Title Generation"
-        ],
-        "Text Domains": [
-            "Scientific Research Papers"
         ],
         "Format": [
             "Zero-shot",
@@ -24784,9 +23863,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Natural Science -> School Science Textbooks"
         ],
         "Format": [
             "Zero-shot",
@@ -24876,10 +23952,6 @@
         "Task Categories": [
             "Question Generation"
         ],
-        "Text Domains": [
-            "Web",
-            "Natural Science -> School Science Textbooks"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -24965,9 +24037,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [
-            "Natural Science"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -25042,9 +24111,6 @@
         ],
         "Task Categories": [
             "Summarization"
-        ],
-        "Text Domains": [
-            "Scientific Research Papers"
         ],
         "Format": [
             "Zero-shot",
@@ -25131,9 +24197,6 @@
         "Task Categories": [
             "Ethics Classification"
         ],
-        "Text Domains": [
-            "Story"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -25215,9 +24278,6 @@
         ],
         "Task Categories": [
             "Translation"
-        ],
-        "Text Domains": [
-            "Public Places"
         ],
         "Format": [
             "Zero-shot",
@@ -25307,9 +24367,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [
-            "Social Media -> Twitter"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -25398,9 +24455,6 @@
         ],
         "Task Categories": [
             "Irony Detection"
-        ],
-        "Text Domains": [
-            "Social Media -> Twitter"
         ],
         "Format": [
             "Zero-shot",
@@ -25492,9 +24546,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Mathematics"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -25576,9 +24627,6 @@
         ],
         "Task Categories": [
             "Text Classification"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot",
@@ -25666,9 +24714,6 @@
         ],
         "Task Categories": [
             "Commonsense Classification"
-        ],
-        "Text Domains": [
-            "Commonsense -> Concepts and Relations"
         ],
         "Format": [
             "Zero-shot",
@@ -25759,9 +24804,6 @@
         "Task Categories": [
             "Text Matching"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -25844,9 +24886,6 @@
         ],
         "Task Categories": [
             "Linguistic Probing"
-        ],
-        "Text Domains": [
-            "Narrative"
         ],
         "Format": [
             "Zero-shot",
@@ -25947,9 +24986,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [
-            "Formal logic"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -26041,10 +25077,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [
-            "Captions -> Video Captions",
-            "Captions -> Image Captions"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -26135,10 +25167,6 @@
         "Task Categories": [
             "Speaker Identification"
         ],
-        "Text Domains": [
-            "Commonsense -> Concepts and Relations -> Social Commonsense",
-            "Dialogue"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -26224,9 +25252,6 @@
         "Task Categories": [
             "Spam Classification"
         ],
-        "Text Domains": [
-            "Social Media -> Text Message"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -26305,9 +25330,6 @@
         ],
         "Task Categories": [
             "Question Understanding"
-        ],
-        "Text Domains": [
-            "Commonsense -> Concepts and Relations -> Social Commonsense"
         ],
         "Format": [
             "Zero-shot",
@@ -26394,9 +25416,6 @@
         "Task Categories": [
             "Text to Code"
         ],
-        "Text Domains": [
-            "SQL"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -26481,9 +25500,6 @@
         "Task Categories": [
             "Dialogue Generation"
         ],
-        "Text Domains": [
-            "Dialogue"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -26567,10 +25583,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia",
-            "News"
         ],
         "Format": [
             "Zero-shot",
@@ -26670,9 +25682,6 @@
         "Task Categories": [
             "Question Generation"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -26748,9 +25757,6 @@
         "Task Categories": [
             "Question Generation"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -26825,9 +25831,6 @@
         ],
         "Task Categories": [
             "Stance Detection"
-        ],
-        "Text Domains": [
-            "Debatepedia"
         ],
         "Format": [
             "Zero-shot",
@@ -26911,9 +25914,6 @@
         ],
         "Task Categories": [
             "Fill in The Blank"
-        ],
-        "Text Domains": [
-            "Stereotypes"
         ],
         "Format": [
             "Zero-shot",
@@ -27002,9 +26002,6 @@
         "Task Categories": [
             "Information Extraction"
         ],
-        "Text Domains": [
-            "Story"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -27091,9 +26088,6 @@
         ],
         "Task Categories": [
             "Question Generation"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -27185,10 +26179,6 @@
         "Task Categories": [
             "Text Matching"
         ],
-        "Text Domains": [
-            "Books",
-            "Dialogue"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -27269,14 +26259,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Reviews -> Movies",
-            "Reviews -> TripAdvisor",
-            "Reviews -> Restaurants",
-            "Reviews -> Movies",
-            "Reviews -> Books",
-            "Reviews -> Electronics and Grocery"
         ],
         "Format": [
             "Zero-shot",
@@ -27369,9 +26351,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Mathematics"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -27457,10 +26436,6 @@
         ],
         "Task Categories": [
             "Fill in The Blank"
-        ],
-        "Text Domains": [
-            "Captions -> Video Captions",
-            "Story"
         ],
         "Format": [
             "Zero-shot",
@@ -27561,9 +26536,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -27654,9 +26626,6 @@
         "Task Categories": [
             "Answerability Classification"
         ],
-        "Text Domains": [
-            "Story"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -27741,9 +26710,6 @@
         ],
         "Task Categories": [
             "Coherence Classification"
-        ],
-        "Text Domains": [
-            "Commonsense -> Stories"
         ],
         "Format": [
             "Zero-shot",
@@ -27832,9 +26798,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Commonsense -> Stories"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -27922,9 +26885,6 @@
         ],
         "Task Categories": [
             "Information Extraction"
-        ],
-        "Text Domains": [
-            "News"
         ],
         "Format": [
             "Zero-shot",
@@ -28024,10 +26984,6 @@
         "Task Categories": [
             "Question Generation"
         ],
-        "Text Domains": [
-            "Movies",
-            "Narrative"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -28106,10 +27062,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Web",
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -28196,9 +27148,6 @@
         ],
         "Task Categories": [
             "Simplification"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -28288,9 +27237,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Social Media -> Twitter"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -28377,9 +27323,6 @@
         "Task Categories": [
             "Part-of-Speech Tagging"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -28460,9 +27403,6 @@
         ],
         "Task Categories": [
             "Question Generation"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -28553,9 +27493,6 @@
         "Task Categories": [
             "Data to Text"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -28642,9 +27579,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Knowledge Base -> Freebase"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -28727,9 +27661,6 @@
         ],
         "Task Categories": [
             "Simplification"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -28822,9 +27753,6 @@
         "Task Categories": [
             "Keyword Tagging"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -28909,9 +27837,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -28999,9 +27924,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Movies"
         ],
         "Format": [
             "Zero-shot",
@@ -29092,9 +28014,6 @@
         "Task Categories": [
             "Answer Verification"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -29181,9 +28100,6 @@
         "Task Categories": [
             "Title Generation"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -29258,10 +28174,6 @@
         ],
         "Task Categories": [
             "Coreference Resolution"
-        ],
-        "Text Domains": [
-            "Professions",
-            "Commonsense"
         ],
         "Format": [
             "Zero-shot",
@@ -29350,9 +28262,6 @@
         "Task Categories": [
             "Information Extraction"
         ],
-        "Text Domains": [
-            "Narrative"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -29434,9 +28343,6 @@
         ],
         "Task Categories": [
             "Gender Classification"
-        ],
-        "Text Domains": [
-            "Miscellaneous"
         ],
         "Format": [
             "Zero-shot",
@@ -29525,9 +28431,6 @@
         "Task Categories": [
             "Coreference Resolution"
         ],
-        "Text Domains": [
-            "Commonsense -> Concepts and Relations"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -29614,9 +28517,6 @@
         "Task Categories": [
             "Sentence Ordering"
         ],
-        "Text Domains": [
-            "Natural Science"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -29700,9 +28600,6 @@
         "Task Categories": [
             "Word Semantics"
         ],
-        "Text Domains": [
-            "Global Facts"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -29784,10 +28681,6 @@
         "Task Categories": [
             "Coreference Resolution"
         ],
-        "Text Domains": [
-            "Fiction",
-            "Books"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -29866,10 +28759,6 @@
         ],
         "Task Categories": [
             "Sentence Perturbation"
-        ],
-        "Text Domains": [
-            "Dialogue",
-            "Narrative"
         ],
         "Format": [
             "Zero-shot",
@@ -29952,9 +28841,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Commonsense"
         ],
         "Format": [
             "Zero-shot",
@@ -30048,10 +28934,6 @@
         "Task Categories": [
             "Cause Effect Classification"
         ],
-        "Text Domains": [
-            "Commonsense",
-            "Narrative"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -30139,10 +29021,6 @@
         ],
         "Task Categories": [
             "Sentence Perturbation"
-        ],
-        "Text Domains": [
-            "Commonsense",
-            "Knowledge Base -> Wikidata"
         ],
         "Format": [
             "Zero-shot",
@@ -30236,9 +29114,6 @@
         "Task Categories": [
             "Word Semantics"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -30327,9 +29202,6 @@
         "Task Categories": [
             "Title Generation"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -30416,9 +29288,6 @@
         ],
         "Task Categories": [
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -30507,9 +29376,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -30597,9 +29463,6 @@
         ],
         "Task Categories": [
             "Sentiment Analysis"
-        ],
-        "Text Domains": [
-            "Reviews -> Movies"
         ],
         "Format": [
             "Zero-shot",
@@ -30692,9 +29555,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [
-            "Reviews"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -30777,9 +29637,6 @@
         ],
         "Task Categories": [
             "Sentiment Analysis"
-        ],
-        "Text Domains": [
-            "Reviews"
         ],
         "Format": [
             "Zero-shot",
@@ -30874,9 +29731,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [
-            "News"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -30970,10 +29824,6 @@
         "Task Categories": [
             "Grammar Error Correction"
         ],
-        "Text Domains": [
-            "Computer Science -> Machine Learning",
-            "Captions -> Video Captions"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -31056,9 +29906,6 @@
         ],
         "Task Categories": [
             "Question Generation"
-        ],
-        "Text Domains": [
-            "Government and Politics"
         ],
         "Format": [
             "Zero-shot",

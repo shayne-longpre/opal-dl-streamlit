@@ -21,9 +21,6 @@
             "Dialog Generation",
             "Text to Code"
         ],
-        "Text Domains": [
-            "Social Media -> Reddit"
-        ],
         "Format": [
             "Response Ranking"
         ],
@@ -113,9 +110,6 @@
             "Response Ranking",
             "Dialog Generation",
             "Cooking Instruction Understanding"
-        ],
-        "Text Domains": [
-            "Social Media -> Reddit"
         ],
         "Format": [
             "Response Ranking"
@@ -207,9 +201,6 @@
             "Dialog Generation",
             "Cooking Instruction Understanding"
         ],
-        "Text Domains": [
-            "Social Media -> Reddit"
-        ],
         "Format": [
             "Response Ranking"
         ],
@@ -298,9 +289,6 @@
             "Question Answering",
             "Response Ranking",
             "Dialog Generation"
-        ],
-        "Text Domains": [
-            "Social Media -> Reddit"
         ],
         "Format": [
             "Response Ranking"
@@ -391,9 +379,6 @@
             "Response Ranking",
             "Dialog Generation"
         ],
-        "Text Domains": [
-            "Social Media -> Reddit"
-        ],
         "Format": [
             "Response Ranking"
         ],
@@ -482,9 +467,6 @@
             "Question Answering",
             "Response Ranking",
             "Dialog Generation"
-        ],
-        "Text Domains": [
-            "Social Media -> Reddit"
         ],
         "Format": [
             "Response Ranking"
@@ -575,9 +557,6 @@
             "Response Ranking",
             "Dialog Generation"
         ],
-        "Text Domains": [
-            "Social Media -> Reddit"
-        ],
         "Format": [
             "Response Ranking"
         ],
@@ -666,9 +645,6 @@
             "Question Answering",
             "Response Ranking",
             "Dialog Generation"
-        ],
-        "Text Domains": [
-            "Social Media -> Reddit"
         ],
         "Format": [
             "Response Ranking"
@@ -760,9 +736,6 @@
             "Dialog Generation",
             "Logical Reasoning"
         ],
-        "Text Domains": [
-            "Social Media -> Reddit"
-        ],
         "Format": [
             "Response Ranking"
         ],
@@ -853,9 +826,6 @@
             "Dialog Generation",
             "Logical Reasoning"
         ],
-        "Text Domains": [
-            "Social Media -> Reddit"
-        ],
         "Format": [
             "Response Ranking"
         ],
@@ -944,9 +914,6 @@
             "Question Answering",
             "Response Ranking",
             "Dialog Generation"
-        ],
-        "Text Domains": [
-            "Social Media -> Reddit"
         ],
         "Format": [
             "Response Ranking"
@@ -1037,9 +1004,6 @@
             "Response Ranking",
             "Dialog Generation"
         ],
-        "Text Domains": [
-            "Social Media -> Reddit"
-        ],
         "Format": [
             "Response Ranking"
         ],
@@ -1128,9 +1092,6 @@
             "Question Answering",
             "Response Ranking",
             "Dialog Generation"
-        ],
-        "Text Domains": [
-            "Social Media -> Reddit"
         ],
         "Format": [
             "Response Ranking"
@@ -1221,9 +1182,6 @@
             "Response Ranking",
             "Dialog Generation"
         ],
-        "Text Domains": [
-            "Social Media -> Reddit"
-        ],
         "Format": [
             "Response Ranking"
         ],
@@ -1312,9 +1270,6 @@
             "Question Answering",
             "Response Ranking",
             "Dialog Generation"
-        ],
-        "Text Domains": [
-            "Social Media -> Reddit"
         ],
         "Format": [
             "Response Ranking"
@@ -1405,9 +1360,6 @@
             "Response Ranking",
             "Dialog Generation"
         ],
-        "Text Domains": [
-            "Social Media -> Reddit"
-        ],
         "Format": [
             "Response Ranking"
         ],
@@ -1497,9 +1449,6 @@
             "Response Ranking",
             "Dialog Generation"
         ],
-        "Text Domains": [
-            "Social Media -> Reddit"
-        ],
         "Format": [
             "Response Ranking"
         ],
@@ -1588,9 +1537,6 @@
             "Question Answering",
             "Response Ranking",
             "Dialog Generation"
-        ],
-        "Text Domains": [
-            "Social Media -> Reddit"
         ],
         "Format": [
             "Response Ranking"

@@ -24,7 +24,6 @@
             "Sentence Ordering",
             "Sentence Completion"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],

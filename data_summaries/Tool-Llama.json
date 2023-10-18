@@ -20,9 +20,6 @@
             "Text to Code",
             "Open-form Text Generation"
         ],
-        "Text Domains": [
-            "Code"
-        ],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -38,7 +35,9 @@
             "Max Dialog Turns": 2,
             "Mean Dialog Turns": 2.0
         },
-        "Text Sources": ["rapidapi hub"],
+        "Text Sources": [
+            "rapidapi hub"
+        ],
         "Model Generated": [
             "OpenAI ChatGPT"
         ],

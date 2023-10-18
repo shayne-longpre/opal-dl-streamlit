@@ -21,9 +21,6 @@
             "Factual Knowledge Question Answering",
             "Logical Reasoning"
         ],
-        "Text Domains": [
-            "Physics"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -129,9 +126,6 @@
             "Factual Knowledge Question Answering",
             "Logical Reasoning"
         ],
-        "Text Domains": [
-            "Chemistry"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -236,9 +230,6 @@
             "Data Analysis",
             "Factual Knowledge Question Answering",
             "Logical Reasoning"
-        ],
-        "Text Domains": [
-            "Biology"
         ],
         "Format": [
             "Zero-shot"

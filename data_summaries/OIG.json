@@ -20,7 +20,6 @@
             "Creative Writing",
             "Commonsense Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -36,9 +35,7 @@
             "Max Dialog Turns": 16,
             "Mean Dialog Turns": 5.4028
         },
-        "Text Sources": [
-            "OpenAI ChatGPT"
-        ],
+        "Text Sources": [],
         "Model Generated": [
             "OpenAI GPT-3",
             "OpenAI ChatGPT"
@@ -54,6 +51,10 @@
         "Licenses": [
             {
                 "License": "CC BY 4.0",
+                "License URL": "https://huggingface.co/datasets/allenai/soda"
+            },
+            {
+                "License": "OpenAI",
                 "License URL": "https://huggingface.co/datasets/allenai/soda"
             }
         ],
@@ -118,9 +119,6 @@
         ],
         "Task Categories": [
             "Dialogue Generation"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Multi-turn Dialog"
@@ -212,7 +210,6 @@
             "Question Answering",
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -302,7 +299,6 @@
             "Chain-of-Thought",
             "Algebraic Expression Evaluation"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -388,7 +384,6 @@
         "Task Categories": [
             "Poem Generation"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -471,7 +466,6 @@
         "Task Categories": [
             "Song Generation"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -556,7 +550,6 @@
             "Span Generation",
             "Fill in The Blank"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -636,7 +629,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -719,7 +711,6 @@
             "Fill in The Blank",
             "Creative Writing"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -801,7 +792,6 @@
             "Creative Writing",
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -883,7 +873,6 @@
             "Chain-of-Thought",
             "Algebraic Expression Evaluation"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -967,7 +956,6 @@
             "Code Generation",
             "Program Execution"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -1047,7 +1035,6 @@
         "Task Categories": [
             "Brainstorming"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -1127,7 +1114,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -1207,7 +1193,6 @@
         "Task Categories": [
             "Explanation Generation"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -1287,7 +1272,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -1370,7 +1354,6 @@
             "Dialogue Generation",
             "Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -1477,7 +1460,6 @@
             "Code Generation",
             "Program Execution"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -1557,7 +1539,6 @@
         "Task Categories": [
             "Context Generation"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -1639,7 +1620,6 @@
             "Narrative Generation",
             "Creative Writing"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -1720,7 +1700,6 @@
             "Dialogue Generation",
             "Creative Writing"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -1806,7 +1785,6 @@
             "Question Answering",
             "Algebraic Expression Evaluation"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -1891,7 +1869,6 @@
             "Question Answering",
             "Explanation"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -2003,7 +1980,6 @@
             "Dialogue Generation",
             "Fill in The Blank"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -2086,7 +2062,6 @@
             "Dialogue Generation",
             "Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -2169,7 +2144,6 @@
             "Dialogue Generation",
             "Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],

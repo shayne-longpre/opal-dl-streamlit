@@ -27,9 +27,6 @@
             "Sentiment Analysis",
             "String Anagram Detection"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot"
         ],

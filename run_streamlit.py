@@ -197,9 +197,9 @@ def streamlit_app():
                 options=constants.LICENSE_USE_CLASSES,
                 value="Academic-Only")
 
-            license_attribution = st.toggle('Exclude Datasets w/ Attribution Requirements', value=False)
-            license_sharealike = st.toggle('Exclude Datasets w/ Share Alike Requirements', value=False)
-            openai_license_override = st.toggle('Include Datasets w/ OpenAI-generated data', value=False)
+            license_attribution = st.toggle('Include Datasets w/ Attribution Requirements', value=True)
+            license_sharealike = st.toggle('Include Datasets w/ Share Alike Requirements', value=True)
+            openai_license_override = st.toggle('Always include datasets w/ OpenAI-generated data', value=False)
 
         with col3:
             
@@ -237,7 +237,7 @@ def streamlit_app():
             st.divider()
 
             # Every form must have a submit button.
-            submitted = st.form_submit_button("Submit Selection")
+            submitted = st.form_submit_button("SUBMIT SELECTION")
 
 
 
@@ -260,8 +260,8 @@ def streamlit_app():
             None, # Select all licenses.
             license_multiselect,
             openai_license_override,
-            str(1 - int(license_attribution)),
-            str(1 - int(license_sharealike)),
+            str(int(license_attribution)),
+            str(int(license_sharealike)),
             language_multiselect, 
             taskcats_multiselect,
             # format_multiselect,

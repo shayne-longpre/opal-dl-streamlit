@@ -29,9 +29,6 @@
             "Introduction Generation",
             "Comparative Analysis Question Answering"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot"
         ],

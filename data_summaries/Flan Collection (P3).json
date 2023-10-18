@@ -19,9 +19,6 @@
             "Question Generation",
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -123,9 +120,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [
-            "Reviews -> Electronics and Grocery"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -224,9 +218,6 @@
             "Context Generation",
             "Sentiment Analysis"
         ],
-        "Text Domains": [
-            "Reviews"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -312,7 +303,6 @@
             "Explanation Generation",
             "Multiple Choice Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -411,9 +401,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -508,10 +495,6 @@
             "Dialog Turn Prediction",
             "Multiple Choice Question Answering",
             "Wrong Candidate Generation"
-        ],
-        "Text Domains": [
-            "Dialogue",
-            "Natural Science -> School Science Textbooks"
         ],
         "Format": [
             "Zero-shot",
@@ -610,7 +593,6 @@
             "Title Generation",
             "Question Generation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -713,7 +695,6 @@
             "Title Generation",
             "Question Generation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -813,9 +794,6 @@
             "Closed-Book Question Answering",
             "Explanation"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -910,9 +888,6 @@
         "Task Categories": [
             "Multiple Choice Question Answering",
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Natural Science -> School Science Textbooks"
         ],
         "Format": [
             "Zero-shot",
@@ -1010,11 +985,6 @@
             "Multiple Choice Question Answering",
             "Question Answering"
         ],
-        "Text Domains": [
-            "Narrative",
-            "Fiction",
-            "News"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -1109,10 +1079,6 @@
             "Multiple Choice Question Answering",
             "Wrong Candidate Generation"
         ],
-        "Text Domains": [
-            "Story",
-            "Commonsense -> Concepts and Relations"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -1199,9 +1165,6 @@
         "Task Categories": [
             "Multiple Choice Question Answering",
             "Explanation"
-        ],
-        "Text Domains": [
-            "Natural Science"
         ],
         "Format": [
             "Zero-shot",
@@ -1293,9 +1256,6 @@
         "Task Categories": [
             "Span Selection Question Answering",
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -1393,9 +1353,6 @@
             "Multiple Choice Question Answering",
             "Span Generation",
             "Question Generation"
-        ],
-        "Text Domains": [
-            "English Exams"
         ],
         "Format": [
             "Zero-shot",
@@ -1495,11 +1452,6 @@
         "Task Categories": [
             "Span Selection Question Answering",
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia",
-            "Natural Science",
-            "School Science Textbooks"
         ],
         "Format": [
             "Zero-shot",
@@ -1601,9 +1553,6 @@
             "Multiple Choice Question Answering",
             "Question Generation"
         ],
-        "Text Domains": [
-            "Natural Science -> School Science Textbooks"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -1696,9 +1645,6 @@
             "Multiple Choice Question Answering",
             "Question Generation"
         ],
-        "Text Domains": [
-            "Commonsense -> Concepts and Relations -> Social Commonsense"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -1790,9 +1736,6 @@
             "Closed-Book Question Answering",
             "Question Generation"
         ],
-        "Text Domains": [
-            "Knowledge Base -> Freebase"
-        ],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -1881,7 +1824,6 @@
         "Task Categories": [
             "Structured Data to Text"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -1973,9 +1915,6 @@
         "Task Categories": [
             "Multiple Choice Question Answering",
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -2072,9 +2011,6 @@
             "Closed-Book Question Answering",
             "Question Generation",
             "Answer Verification"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot",
@@ -2174,9 +2110,6 @@
         "Task Categories": [
             "Multiple Choice Question Answering",
             "Question Answering"
-        ],
-        "Text Domains": [
-            "Natural Science"
         ],
         "Format": [
             "Zero-shot",

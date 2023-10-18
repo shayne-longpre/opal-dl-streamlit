@@ -26,9 +26,6 @@
             "Open-Domain Question Answering",
             "Hypernym Classification"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot"
         ],
