@@ -41,7 +41,7 @@ def compute_metrics(df, all_constants):
         "task_categories": taskcat_counts,
         "topics": topics_count,
         "sources": sources_count,
-        "domains": domain_count,
+        "domains": domains_count,
         "synthetic_pct": synthetic_pct,
         "licenses": license_counts,
         "formats": format_counts,
