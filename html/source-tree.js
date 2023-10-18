@@ -58,7 +58,7 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6.11/+esm").then(modul
     
     clean.forEach(entry => {
         const models = entry.modelGenerated;
-        for (const model in models) {
+        for (const model of models) {
             if (model && model.trim() !== "") { // Ensure model is not an empty string or just whitespace
                 if (nestedDict["Model"][model]) {
                     nestedDict["Model"][model] += 1;
