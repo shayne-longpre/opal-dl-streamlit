@@ -201,6 +201,10 @@ def streamlit_app():
             license_sharealike = st.toggle('Exclude Datasets w/ Share Alike Requirements', value=False)
             openai_license_override = st.toggle('Include Datasets w/ OpenAI-generated data', value=False)
 
+            st.write("")
+            st.write("")
+            st.divider()
+
         with col3:
             
             taskcats_multiselect = st.multiselect(
@@ -221,6 +225,10 @@ def streamlit_app():
                 # ["All", "Books", "Code", "Wiki", "News", "Biomedical", "Legal", "Web", "Math+Science"],
                 ["All"])
 
+            st.write("")
+            st.write("")
+            st.divider()
+
         with col2:
             language_multiselect = st.multiselect(
                 'Select the languages to cover in your datasets',
@@ -234,7 +242,6 @@ def streamlit_app():
             st.write("")
             st.write("")
             st.divider()
-            st.write("")
 
             # Every form must have a submit button.
             submitted = st.form_submit_button("Submit Selection")
