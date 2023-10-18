@@ -60,7 +60,12 @@ def insert_main_viz():
     sketch += '</script>'
     components.html(sketch, height=800, scrolling=True)
 
+def custom_metric(score, delta=None):
+    st.subheader(str(score))
+    if delta:
+        st.write("     :green[" + str(delta) "]")
 
+    # :red[**NOT** to be taken as legal advice]
 
 
 def display_metrics(metrics, df_metadata):
@@ -70,18 +75,30 @@ def display_metrics(metrics, df_metadata):
     # metric_columns[2].metric("Languages", len(metrics["languages"]), delta=f"/ {len(df_metadata['languages'])}")
     # metric_columns[3].metric("Task Categories", len(metrics["task_categories"]), delta=f"/ {len(df_metadata['task_categories'])}")
     metric_columns = st.columns(3)
+    # with metric_columns[0]:
+    #     st.metric("Collections", len(metrics["collections"]), delta=f"/ {len(df_metadata['collections'])}")#, delta_color="off")
+    #     st.metric("Datasets", len(metrics["datasets"]), delta=f"/ {len(df_metadata['datasets'])}")
+    #     st.metric("Dialogs", metrics["dialogs"], delta=f"/ {df_metadata['dialogs']}")
+    # with metric_columns[1]:
+    #     st.metric("Languages", len(metrics["languages"]), delta=f"/ {len(df_metadata['languages'])}")
+    #     st.metric("Task Categories", len(metrics["task_categories"]), delta=f"/ {len(df_metadata['task_categories'])}")
+    #     st.metric("Topics", len(metrics["topics"]), delta=f"/ {len(df_metadata['topics'])}")
+    # with metric_columns[2]:
+    #     st.metric("Text Domains", len(metrics["domains"]), delta=f"/ {len(df_metadata['domains'])}")
+    #     st.metric("Text Sources", len(metrics["sources"]), delta=f"/ {len(df_metadata['sources'])}")
+    #     st.metric("% Synthetic Text", metrics["synthetic_pct"])
     with metric_columns[0]:
-        st.metric("Collections", len(metrics["collections"]), delta=f"/ {len(df_metadata['collections'])}")#, delta_color="off")
-        st.metric("Datasets", len(metrics["datasets"]), delta=f"/ {len(df_metadata['datasets'])}")
-        st.metric("Dialogs", metrics["dialogs"], delta=f"/ {df_metadata['dialogs']}")
+        custom_metric("Collections", len(metrics["collections"]), delta=f"/ {len(df_metadata['collections'])}")#, delta_color="off")
+        custom_metric("Datasets", len(metrics["datasets"]), delta=f"/ {len(df_metadata['datasets'])}")
+        custom_metric("Dialogs", metrics["dialogs"], delta=f"/ {df_metadata['dialogs']}")
     with metric_columns[1]:
-        st.metric("Languages", len(metrics["languages"]), delta=f"/ {len(df_metadata['languages'])}")
-        st.metric("Task Categories", len(metrics["task_categories"]), delta=f"/ {len(df_metadata['task_categories'])}")
-        st.metric("Topics", len(metrics["topics"]), delta=f"/ {len(df_metadata['topics'])}")
+        custom_metric("Languages", len(metrics["languages"]), delta=f"/ {len(df_metadata['languages'])}")
+        custom_metric("Task Categories", len(metrics["task_categories"]), delta=f"/ {len(df_metadata['task_categories'])}")
+        custom_metric("Topics", len(metrics["topics"]), delta=f"/ {len(df_metadata['topics'])}")
     with metric_columns[2]:
-        st.metric("Text Domains", len(metrics["domains"]), delta=f"/ {len(df_metadata['domains'])}")
-        st.metric("Text Sources", len(metrics["sources"]), delta=f"/ {len(df_metadata['sources'])}")
-        st.metric("% Synthetic Text", metrics["synthetic_pct"]) #, delta=f" Avg: {df_metadata['synthetic_pct'])}")
+        custom_metric("Text Domains", len(metrics["domains"]), delta=f"/ {len(df_metadata['domains'])}")
+        custom_metric("Text Sources", len(metrics["sources"]), delta=f"/ {len(df_metadata['sources'])}")
+        custom_metric("% Synthetic Text", metrics["synthetic_pct"])
 
 
 def insert_metric_container(title, key, metrics):
