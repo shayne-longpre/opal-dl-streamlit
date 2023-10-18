@@ -63,7 +63,7 @@ def insert_main_viz():
 def custom_metric(score, delta=None):
     st.subheader(str(score))
     if delta:
-        st.write("     :green[" + str(delta) "]")
+        st.write("     :green[" + str(delta) + "]")
 
     # :red[**NOT** to be taken as legal advice]
 
