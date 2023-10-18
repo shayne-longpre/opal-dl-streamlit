@@ -23,6 +23,9 @@ from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 import streamlit.components.v1 as components
 import requests
 
+from PIL import Image
+
+
 INFO = {}
 
 
@@ -75,6 +78,43 @@ def insert_metric_container(title, key, metrics):
         # fig = util.plot_altair_piechart(metrics[key], title)
         st.altair_chart(fig, use_container_width=True, theme="streamlit")
 
+def add_instructions():
+    st.title("Data Provenance Explorer")
+
+    st.write("The Data Provenance Initiative is a large-scale audit of AI datasets used to train large language models. As a first step, we've traced 1800+ popular, text-to-text finetuning datasets from origin to creation, cataloging their data sources, licenses, creators, and other metadata, for researchers to explore using this tool.")
+    st.write("You can download this data (with filters) directly from the [Data Provenance Collection](https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection).")
+    st.write("NB: This data is compiled voluntarily by the best efforts of academic & independent researchers, and is :red[**NOT** to be taken as legal advice].")
+
+    image = Image.open('dpi.png')
+    st.image(image)#, caption='Sunrise by the mountains')
+
+    st.subheader("Instructions")
+    form_instructions = """
+    1. **Select from the licensed data use cases**. The options range from least to most strict:
+    `Commercial`, `Unspecified`, `Non-Commercial`, `Academic-Only`.
+    
+    * `Commercial` will select only the data with licenses explicitly permitting commercial use. 
+    * `Unspecified` includes Commercial plus datasets with no license found attached, which may suggest the curator does not prohibit commercial use.
+    * `Non-Commercial` includes Commercial and Unspecified datasets plus those licensed for non-commercial use.
+    * `Academic-Only` will select all available datasets, including those that restrict to only academic uses.
+
+    Note that these categories reflect the *self-reported* licenses attached to datasets, and assume fair use of any data they are derived from (e.g. scraped from the web).
+
+    2. Select whether to exclude datasets with **Attribution requirements in their licenses**.
+
+    3. Select whether to exclude datasets with **`Share-Alike` requirements in their licenses**. 
+    Share-Alike means a copyright left license, that allows other to re-use, re-mix, and modify works, but requires that derivative work is distributed under the same terms and conditions.
+
+    4. **Select Language Families** to include.
+
+    5. **Select Task Categories** to include.
+
+    6. More advanced selection criteria are also available in the drop down box.
+
+    Finally, Submit Selection when ready!
+    """
+    with st.expander("Expand for Instructions!"):
+        st.write(form_instructions)
 
 def streamlit_app():
     st.set_page_config(page_title="Data Provenance Explorer", layout="wide")#, initial_sidebar_state='collapsed')
@@ -84,11 +124,69 @@ def streamlit_app():
 
     df_metadata = util.compute_metrics(INFO["data"])
 
-    with st.sidebar:
-        st.markdown("""Select the preferred criteria for your datasets.""")
+    add_instructions()
 
-        with st.form("data_selection"):
+    ### SIDEBAR STARTS HERE
 
+    # with st.sidebar:
+        
+    #     st.markdown("""Select the preferred criteria for your datasets.""")
+
+    #     with st.form("data_selection"):
+
+    #         # st.write("Select the acceptable license values for constituent datasets")
+    #         license_multiselect = st.select_slider(
+    #             'Select the datasets licensed for these use cases',
+    #             options=constants.LICENSE_USE_CLASSES,
+    #             value="Academic-Only")
+
+    #         license_attribution = st.toggle('Exclude Datasets w/ Attribution Requirements', value=False)
+    #         license_sharealike = st.toggle('Exclude Datasets w/ Share Alike Requirements', value=False)
+    #         openai_license_override = st.toggle('Include Datasets w/ OpenAI-generated data', value=False)
+
+    #         # with data_select_cols[1]:
+    #         language_multiselect = st.multiselect(
+    #             'Select the languages to cover in your datasets',
+    #             ["All"] + list(INFO["constants"]["LANGUAGE_GROUPS"].keys()),
+    #             ["All"])
+
+    #         # with data_select_cols[2]:
+    #         taskcats_multiselect = st.multiselect(
+    #             'Select the task categories to cover in your datasets',
+    #             ["All"] + list(INFO["constants"]["TASK_GROUPS"].keys()),
+    #             ["All"])
+
+    #         with st.expander("More advanced criteria"):
+
+    #             # format_multiselect = st.multiselect(
+    #             #     'Select the format types to cover in your datasets',
+    #             #     ["All"] + INFO["constants"]["FORMATS"],
+    #             #     ["All"])
+
+    #             domain_multiselect = st.multiselect(
+    #                 'Select the domain types to cover in your datasets',
+    #                 ["All"] + list(INFO["constants"]["DOMAIN_GROUPS"].keys()),
+    #                 # ["All", "Books", "Code", "Wiki", "News", "Biomedical", "Legal", "Web", "Math+Science"],
+    #                 ["All"])
+
+    #             time_range_selection = st.slider(
+    #                 "Select data release time constraints",
+    #                 value=(datetime(2000, 1, 1), datetime(2023, 12, 1)))
+
+    #         # Every form must have a submit button.
+    #         submitted = st.form_submit_button("Submit Selection")
+
+    #### SIDEBAR ENDS HERE
+
+
+    #### ALTERNATIVE STARTS HERE
+    st.markdown("""Select the preferred criteria for your datasets.""")
+
+    with st.form("data_selection"):
+
+        col1, col2, col3 = st.columns(3)
+
+        with col1:
             # st.write("Select the acceptable license values for constituent datasets")
             license_multiselect = st.select_slider(
                 'Select the datasets licensed for these use cases',
@@ -99,38 +197,44 @@ def streamlit_app():
             license_sharealike = st.toggle('Exclude Datasets w/ Share Alike Requirements', value=False)
             openai_license_override = st.toggle('Include Datasets w/ OpenAI-generated data', value=False)
 
-            # with data_select_cols[1]:
+        with col2:
             language_multiselect = st.multiselect(
                 'Select the languages to cover in your datasets',
                 ["All"] + list(INFO["constants"]["LANGUAGE_GROUPS"].keys()),
                 ["All"])
 
-            # with data_select_cols[2]:
+            time_range_selection = st.slider(
+                "Select data release time constraints",
+                value=(datetime(2000, 1, 1), datetime(2023, 12, 1)))
+
+        with col3:
+            
             taskcats_multiselect = st.multiselect(
                 'Select the task categories to cover in your datasets',
                 ["All"] + list(INFO["constants"]["TASK_GROUPS"].keys()),
                 ["All"])
 
-            with st.expander("More advanced criteria"):
+        # with st.expander("More advanced criteria"):
 
-                # format_multiselect = st.multiselect(
-                #     'Select the format types to cover in your datasets',
-                #     ["All"] + INFO["constants"]["FORMATS"],
-                #     ["All"])
+            # format_multiselect = st.multiselect(
+            #     'Select the format types to cover in your datasets',
+            #     ["All"] + INFO["constants"]["FORMATS"],
+            #     ["All"])
 
-                domain_multiselect = st.multiselect(
-                    'Select the domain types to cover in your datasets',
-                    ["All"] + list(INFO["constants"]["DOMAIN_GROUPS"].keys()),
-                    # ["All", "Books", "Code", "Wiki", "News", "Biomedical", "Legal", "Web", "Math+Science"],
-                    ["All"])
+            domain_multiselect = st.multiselect(
+                'Select the domain types to cover in your datasets',
+                ["All"] + list(INFO["constants"]["DOMAIN_GROUPS"].keys()),
+                # ["All", "Books", "Code", "Wiki", "News", "Biomedical", "Legal", "Web", "Math+Science"],
+                ["All"])
 
-                time_range_selection = st.slider(
-                    "Select data release time constraints",
-                    value=(datetime(2000, 1, 1), datetime(2023, 12, 1)))
 
-            # Every form must have a submit button.
-            submitted = st.form_submit_button("Submit Selection")
 
+        # Every form must have a submit button.
+        submitted = st.form_submit_button("Submit Selection")
+
+
+
+    #### ALTERNATIVE ENDS HERE
 
     # st.write(len(INFO["data"]))
     if submitted:
@@ -164,40 +268,6 @@ def streamlit_app():
         formatted_df = filtered_df.applymap(format_datetime)
         filtered_data_summary = {row["Unique Dataset Identifier"]: row for row in formatted_df.to_dict(orient='records')}
 
-
-    st.title("Data Provenance Explorer")
-
-    st.write("The Data Provenance Initiative is a large-scale audit of AI datasets used to train large language models. As a first step, we've traced 1800+ popular, text-to-text finetuning datasets from origin to creation, cataloging their data sources, licenses, creators, and other metadata, for researchers to explore using this tool.")
-    st.write("You can download this data (with filters) directly from the [Data Provenance Collection](https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection).")
-    st.write("NB: This data is compiled voluntarily by the best efforts of academic & independent researchers, and is :red[**NOT** to be taken as legal advice].")
-
-    st.subheader("Instructions")
-    form_instructions = """
-    1. **Select from the licensed data use cases**. The options range from least to most strict:
-    `Commercial`, `Unspecified`, `Non-Commercial`, `Academic-Only`.
-    
-    * `Commercial` will select only the data with licenses explicitly permitting commercial use. 
-    * `Unspecified` includes Commercial plus datasets with no license found attached, which may suggest the curator does not prohibit commercial use.
-    * `Non-Commercial` includes Commercial and Unspecified datasets plus those licensed for non-commercial use.
-    * `Academic-Only` will select all available datasets, including those that restrict to only academic uses.
-
-    Note that these categories reflect the *self-reported* licenses attached to datasets, and assume fair use of any data they are derived from (e.g. scraped from the web).
-
-    2. Select whether to exclude datasets with **Attribution requirements in their licenses**.
-
-    3. Select whether to exclude datasets with **`Share-Alike` requirements in their licenses**. 
-    Share-Alike means a copyright left license, that allows other to re-use, re-mix, and modify works, but requires that derivative work is distributed under the same terms and conditions.
-
-    4. **Select Language Families** to include.
-
-    5. **Select Task Categories** to include.
-
-    6. More advanced selection criteria are also available in the drop down box.
-
-    Finally, Submit Selection when ready!
-    """
-    with st.expander("Expand for Instructions!"):
-        st.write(form_instructions)
 
     tab1, tab2, tab3, tab4, tab5 = st.tabs([
         "Data Summary",
