@@ -61,10 +61,11 @@ def insert_main_viz():
     components.html(sketch, height=800, scrolling=True)
 
 def custom_metric(caption, score, delta=None):
-    st.caption(caption)
-    st.subheader("     :green[" + str(score) + "]")
+    st.markdown("# :green[" + str(score) + "]")
+    # st.subheader("     :green[" + str(score) + "]")
     if delta:
-        st.write("     str(delta)")
+        st.write("     " + str(delta))
+    st.caption(caption)
 
     # :red[**NOT** to be taken as legal advice]
 
