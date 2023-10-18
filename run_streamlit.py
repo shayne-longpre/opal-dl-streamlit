@@ -64,11 +64,24 @@ def insert_main_viz():
 
 
 def display_metrics(metrics, df_metadata):
-    metric_columns = st.columns(4)
-    metric_columns[0].metric("Collections", len(metrics["collections"]), delta=f"/ {len(df_metadata['collections'])}")#, delta_color="off")
-    metric_columns[1].metric("Datasets", len(metrics["datasets"]), delta=f"/ {len(df_metadata['datasets'])}")
-    metric_columns[2].metric("Languages", len(metrics["languages"]), delta=f"/ {len(df_metadata['languages'])}")
-    metric_columns[3].metric("Task Categories", len(metrics["task_categories"]), delta=f"/ {len(df_metadata['task_categories'])}")
+    # metric_columns = st.columns(4)
+    # metric_columns[0].metric("Collections", len(metrics["collections"]), delta=f"/ {len(df_metadata['collections'])}")#, delta_color="off")
+    # metric_columns[1].metric("Datasets", len(metrics["datasets"]), delta=f"/ {len(df_metadata['datasets'])}")
+    # metric_columns[2].metric("Languages", len(metrics["languages"]), delta=f"/ {len(df_metadata['languages'])}")
+    # metric_columns[3].metric("Task Categories", len(metrics["task_categories"]), delta=f"/ {len(df_metadata['task_categories'])}")
+    metric_columns = st.columns(3)
+    with metric_columns[0]:
+        st.metric("Collections", len(metrics["collections"]), delta=f"/ {len(df_metadata['collections'])}")#, delta_color="off")
+        st.metric("Datasets", len(metrics["datasets"]), delta=f"/ {len(df_metadata['datasets'])}")
+        st.metric("Dialogs", metrics["dialogs"], delta=f"/ {df_metadata['dialogs']}")
+    with metric_columns[1]:
+        st.metric("Languages", len(metrics["languages"]), delta=f"/ {len(df_metadata['languages'])}")
+        st.metric("Task Categories", len(metrics["task_categories"]), delta=f"/ {len(df_metadata['task_categories'])}")
+        st.metric("Topics", len(metrics["topics"]), delta=f"/ {len(df_metadata['topics'])}")
+    with metric_columns[2]:
+        st.metric("Text Domains", len(metrics["domains"]), delta=f"/ {len(df_metadata['domains'])}")
+        st.metric("Text Sources", len(metrics["sources"]), delta=f"/ {len(df_metadata['sources'])}")
+        st.metric("% Synthetic Text", metrics["synthetic_pct"]) #, delta=f" Avg: {df_metadata['synthetic_pct'])}")
 
 
 def insert_metric_container(title, key, metrics):
@@ -126,7 +139,7 @@ def streamlit_app():
     # st.write(INFO["constants"].keys())
     INFO["data"] = load_data()
 
-    df_metadata = util.compute_metrics(INFO["data"])
+    df_metadata = util.compute_metrics(INFO["data"], INFO["constants"])
 
     add_instructions()
 
@@ -233,7 +246,7 @@ def streamlit_app():
                 value=(datetime(2000, 1, 1), datetime(2023, 12, 1)))
 
             # st.write("")
-        st.write("")
+        # st.write("")
         st.divider()
 
         # Every form must have a submit button.
@@ -291,7 +304,7 @@ def streamlit_app():
             st.write("When you're ready, fill out your data filtering criteria on the left, and click Submit!\n\n")
 
         elif submitted:
-            metrics = util.compute_metrics(filtered_df)
+            metrics = util.compute_metrics(filtered_df, INFO["constants"])
 
             st.subheader('General Properties of your collection')
             # st.text("See what data fits your criteria.")
@@ -444,7 +457,7 @@ def streamlit_app():
             # else:
             tab2_selected_df = INFO["data"][INFO["data"]["Unique Dataset Identifier"] == dataset_select]
 
-            tab2_metrics = util.compute_metrics(tab2_selected_df)
+            tab2_metrics = util.compute_metrics(tab2_selected_df, INFO["constants"])
             display_metrics(tab2_metrics, df_metadata)
 
             with st.container():

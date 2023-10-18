@@ -14,24 +14,35 @@ import streamlit as st
 from src import constants
 
 
-def compute_metrics(df):
+def compute_metrics(df, all_constants):
     # Datasets with the same Dataset Name may have different languages
     # but not different tasks, topics, or licenses. Let's not double count these.
     # Drop duplicate rows based on 'Dataset Name' column
     df_unique = df.drop_duplicates(subset='Dataset Name')
+    source_to_domain = {v: k for k, vs in all_constants["DOMAIN_GROUPS"].items() for v in vs}
 
     datasets_count = dict(Counter(df["Unique Dataset Identifier"]))
     collections_count = dict(Counter(df["Collection"]))
+    dialogs_count = sum([r["Num Dialogs"] for r in df["Text Metrics"].tolist()])
     language_counts = dict(Counter([lang for row in df["Languages"] for lang in row]))
     taskcat_counts = dict(Counter([tc for row in df_unique["Task Categories"] for tc in row]))
+    topics_count = dict(Counter([tc for row in subset_df["Inferred Metadata"] for tc in row.get("Text Topics", [])]))
+    sources_count = dict(Counter([tc for row in subset_df["Text Sources"] for tc in row]))
+    domains_count = dict(Counter([source_to_domain[tc] for row in subset_df["Text Sources"] for tc in row]))
+    synthetic_pct = round(100 * sum([1 if row else 0 for row in subset_df["Model Generated"]]) / len(subset_df), 1)
     format_counts = dict(Counter([fmt for row in df_unique["Format"] for fmt in row]))
     license_counts = dict(Counter([license_info["License"] for licenses in df_unique["Licenses"] for license_info in licenses if license_info["License"]]))
 
     return {
         "collections": collections_count,
         "datasets": datasets_count,
+        "dialogs": dialogs_count,
         "languages": language_counts,
         "task_categories": taskcat_counts,
+        "topics": topics_count,
+        "sources": sources_count,
+        "domains": domain_count,
+        "synthetic_pct": synthetic_pct,
         "licenses": license_counts,
         "formats": format_counts,
     }
