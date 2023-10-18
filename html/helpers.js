@@ -69,7 +69,7 @@ function prepareDataSummary(data) {
     obj['licenseUseCategory'] = licenseClassRemapper[dataset["License Use (DataProvenance)"]] || dataset["License Use (DataProvenance)"];
     obj['synthetic'] = Array.from(dataset["Model Generated"]).length > 0 ? "Synthetic" : "Regular";
     obj['modelGenerated'] = Array.from(dataset["Model Generated"]);
-    
+
     const models = ["OpenAI GPT-3", "OpenAI ChatGPT", "OpenAI GPT-4", "OpenAI Codex"];
     if (Array.from(dataset["Model Generated"]).length > 0) {
       if (models.includes(dataset["Model Generated"][0])) {
