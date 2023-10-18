@@ -51,8 +51,10 @@ def prep_collection_table(df, original_df, metrics):
         subset_sources = set([tc for row in subset_df["Text Sources"] for tc in row])
         subset_model_gen = Counter([tc for row in subset_df["Model Generated"] for tc in row]).most_common(1)
         if subset_model_gen:
-            # Select one with "OpenAI" in string if it exists
-            model_idx = next((i for i, s in enumerate(subset_model_gen[0]) if "OpenAI" in s), 0)
+            def find_openai_index(lst):
+                # Select one with "OpenAI" in string if it exists
+                return next((i for i, s in enumerate(lst) if "OpenAI" in s), 0)
+            model_idx = find_openai_index(subset_model_gen)
             selected_model = subset_model_gen[model_idx]
         else:
             selected_model = ""
