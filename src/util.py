@@ -29,7 +29,7 @@ def compute_metrics(df, all_constants):
     topics_count = dict(Counter([tc for row in df["Inferred Metadata"] for tc in row.get("Text Topics", [])]))
     sources_count = dict(Counter([tc for row in df["Text Sources"] for tc in row]))
     domains_count = dict(Counter([source_to_domain[tc] for row in df["Text Sources"] for tc in row]))
-    synthetic_pct = round(100 * sum([1 if row else 0 for row in df["Model Generated"]]) / len(subset_df), 1)
+    synthetic_pct = round(100 * sum([1 if row else 0 for row in df["Model Generated"]]) / len(df), 1)
     format_counts = dict(Counter([fmt for row in df_unique["Format"] for fmt in row]))
     license_counts = dict(Counter([license_info["License"] for licenses in df_unique["Licenses"] for license_info in licenses if license_info["License"]]))
 
