@@ -81,7 +81,7 @@ def insert_metric_container(title, key, metrics):
 def add_instructions():
     st.title("Data Provenance Explorer")
 
-    col1, col2 = st.columns(2)
+    col1, col2 = st.columns(2, [0.7, 0.3], gap="medium")
 
     with col1:
         st.write("The Data Provenance Initiative is a large-scale audit of AI datasets used to train large language models. As a first step, we've traced 1800+ popular, text-to-text finetuning datasets from origin to creation, cataloging their data sources, licenses, creators, and other metadata, for researchers to explore using this tool.")
@@ -90,7 +90,7 @@ def add_instructions():
 
     with col2:
         image = Image.open('dpi.png')
-        st.image(image, width=100)#, caption='Sunrise by the mountains')
+        st.image(image)#, caption='Sunrise by the mountains')
 
     st.subheader("Instructions")
     form_instructions = """
@@ -188,7 +188,7 @@ def streamlit_app():
 
     with st.form("data_selection"):
 
-        col1, col2, col3 = st.columns(3)
+        col1, col2, col3 = st.columns(3, gap="medium")
 
         with col1:
             # st.write("Select the acceptable license values for constituent datasets")
