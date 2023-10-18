@@ -60,7 +60,7 @@ def prep_collection_table(df, original_df, metrics):
         subset_taskcats = set([tc for row in subset_df["Task Categories"] for tc in row])
         subset_topics = set([tc for row in subset_df["Inferred Metadata"] for tc in row.get("Text Topics", [])])
         subset_sources = set([tc for row in subset_df["Text Sources"] for tc in row])
-        subset_model_gen = [x[0] for x inCounter([tc for row in subset_df["Model Generated"] for tc in row]).most_common()]
+        subset_model_gen = [x[0] for x in Counter([tc for row in subset_df["Model Generated"] for tc in row]).most_common()]
         if subset_model_gen:
             def find_openai_index(lst):
                 # Select one with "OpenAI" in string if it exists
