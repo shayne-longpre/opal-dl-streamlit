@@ -60,7 +60,8 @@ def insert_main_viz():
     sketch += '</script>'
     components.html(sketch, height=800, scrolling=True)
 
-def custom_metric(score, delta=None):
+def custom_metric(caption, score, delta=None):
+    st.caption(caption)
     st.subheader(str(score))
     if delta:
         st.write("     :green[" + str(delta) + "]")
