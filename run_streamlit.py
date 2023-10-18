@@ -221,9 +221,6 @@ def streamlit_app():
                 # ["All", "Books", "Code", "Wiki", "News", "Biomedical", "Legal", "Web", "Math+Science"],
                 ["All"])
 
-            st.write("")
-            st.write("")
-            st.divider()
 
         with col2:
             language_multiselect = st.multiselect(
@@ -234,6 +231,10 @@ def streamlit_app():
             time_range_selection = st.slider(
                 "Select data release time constraints",
                 value=(datetime(2000, 1, 1), datetime(2023, 12, 1)))
+
+            st.write("")
+            st.write("")
+            st.divider()
 
             # Every form must have a submit button.
             submitted = st.form_submit_button("Submit Selection")
@@ -403,12 +404,12 @@ def streamlit_app():
 
         tab4_intro = \
         """Note a few important limitations:
-        
+
         * The legal status of data licenses is not always clear and may be different by jurisdiction.
         * Despite our best efforts, omissions or mistakes are possible.
         * This transparency initative is **not** intended as legal advice, and bears no responsibility on how the *self-reported* licenses are used.
         """
-        st.write(tab4_intro)
+        st.markdown(tab4_intro)
 
         if submitted:
             st.subheader("License Distribution")
