@@ -564,12 +564,12 @@ def streamlit_app():
                     ("Text Metrics", "Min Inputs Length"),
                     ("Text Metrics", "Mean Inputs Length"),
                     ("Text Metrics", "Max Inputs Length")]]
-                format_markdown_entry("   |   ".join([str(round(x, 1)) for x in dset_infos]), "Input Length (words) [Minimum | Mean | Maximum]")
+                format_markdown_entry("   |   ".join([str(round(x, 1)) for x in dset_infos]), "Input Length (characters) [Minimum | Mean | Maximum]")
                 dset_infos = [extract_infos(tab2_selected_df, info_key, numerical=True) for info_key in [
                     ("Text Metrics", "Min Targets Length"),
                     ("Text Metrics", "Mean Targets Length"),
                     ("Text Metrics", "Max Targets Length")]]
-                format_markdown_entry("   |   ".join([str(round(x, 1)) for x in dset_infos]), "Target Length (words) [Minimum | Mean | Maximum]")
+                format_markdown_entry("   |   ".join([str(round(x, 1)) for x in dset_infos]), "Target Length (characters) [Minimum | Mean | Maximum]")
 
                 st.subheader("Data Provenance")
                 for info_key in data_provenance_info_keys:
