@@ -49,7 +49,7 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm").then(module =
     ...uniqueLicenseClasses.map(licenseClass => {
       return Plot.density(
         clean.filter(d => d.licenseUseCategory === licenseClass),
-        { x: "inputTextLen", y: "targetTextLen", stroke: "licenseUseCategory", strokeOpacity: 0.35, }
+        { x: "inputTextLen", y: "targetTextLen", stroke: "licenseUseCategory", strokeOpacity: 0.55, }
       )
     }),
     ...uniqueLicenseClasses.map(licenseClass => {
