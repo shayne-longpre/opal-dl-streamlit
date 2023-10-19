@@ -14,89 +14,36 @@ import streamlit as st
 from src import constants
 
 
-# def apply_filters(
-#     df,
-#     selected_licenses,
-#     selected_languages,
-#     selected_task_categories,
-#     selected_formats,
-#     selected_text_domains,
-#     time_range_selection,
-# ):
-#     filtered_df = df
-
-#     # Some sanity checks:
-#     all_langs = set([v for vs in constants.LANGUAGE_GROUPS.values() for v in vs])
-#     option_langs = set(
-#         [lang for langs in filtered_df["Languages"].tolist() for lang in langs]
-#     )
-#     assert all_langs >= option_langs, f"Missing Languages: {option_langs - all_langs}"
-#     all_tcats = set([v for vs in constants.TASK_CATEGORY_GROUPS.values() for v in vs])
-#     option_tcats = set(
-#         [tc for tcs in filtered_df["Task Categories"].tolist() for tc in tcs]
-#     )
-#     assert (
-#         all_tcats >= option_tcats
-#     ), f"Missing Task Categories: {option_tcats - all_tcats}"
-
-#     if selected_licenses and "All" not in selected_licenses:
-#         license_strs = set(
-#             [
-#                 license_str
-#                 for k in selected_licenses
-#                 for license_str in constants.LICENSE_GROUPS[k]
-#             ]
-#         )
-#         filtered_df = filtered_df[
-#             filtered_df["Licenses"].apply(lambda xs: license_strs >= set([x["License"] for x in xs]))
-#         ]
-
-#     def filter_on_key(df, selection_criteria, key, options):
-#         if selection_criteria and "All" not in selection_criteria:
-#             selected_strs = set(
-#                 [
-#                     select_str
-#                     for k in selection_criteria
-#                     for select_str in options[k]
-#                 ]
-#             )
-#             df = df[
-#                 df[key].apply(lambda x: selected_strs >= set(x))
-#             ]
-#         return df
-
-#     filtered_df = filter_on_key(filtered_df, selected_languages, "Languages", constants.LANGUAGE_GROUPS)
-#     filtered_df = filter_on_key(filtered_df, selected_task_categories, "Task Categories", constants.TASK_CATEGORY_GROUPS)
-#     filtered_df = filter_on_key(filtered_df, selected_formats, "Format", constants.FORMAT_GROUPS)
-#     filtered_df = filter_on_key(filtered_df, selected_text_domains, "Text Domains", constants.DOMAIN_GROUPS)
-#     return filtered_df
-
-    # datasets_count = dict(Counter(df["Unique Dataset Identifier"]))
-    # collections_count = dict(Counter(df["Collection"].tolist()).most_common())
-    # language_counts = dict(Counter([lang for row in df["Languages"] for lang in row]).most_common())
-    # taskcat_counts = dict(Counter([tc for row in df["Task Categories"] for tc in row]).most_common())
-    # format_counts = dict(Counter([fmt for row in df["Format"] for fmt in row]).most_common())
-    # license_counts = dict(Counter([license_info["License"] for licenses in df["Licenses"].tolist() for license_info in licenses if license_info["License"]]).most_common())
-    
-
-def compute_metrics(df):
+def compute_metrics(df, all_constants):
     # Datasets with the same Dataset Name may have different languages
     # but not different tasks, topics, or licenses. Let's not double count these.
     # Drop duplicate rows based on 'Dataset Name' column
     df_unique = df.drop_duplicates(subset='Dataset Name')
+    source_to_domain = {v: k for k, vs in all_constants["DOMAIN_GROUPS"].items() for v in vs}
 
     datasets_count = dict(Counter(df["Unique Dataset Identifier"]))
     collections_count = dict(Counter(df["Collection"]))
+    dialogs_count = sum([r["Num Dialogs"] for r in df["Text Metrics"].tolist()])
     language_counts = dict(Counter([lang for row in df["Languages"] for lang in row]))
     taskcat_counts = dict(Counter([tc for row in df_unique["Task Categories"] for tc in row]))
+    topics_count = dict(Counter([tc for row in df["Inferred Metadata"] for tc in row.get("Text Topics", [])]))
+    sources_count = dict(Counter([tc for row in df["Text Sources"] for tc in row]))
+    domains_count = dict(Counter([source_to_domain[tc] for row in df["Text Sources"] for tc in row]))
+    num_models = sum([1 if row else 0 for row in df["Model Generated"]])
+    synthetic_pct = round(100 * num_models / len(df), 1) if num_models else 0.0
     format_counts = dict(Counter([fmt for row in df_unique["Format"] for fmt in row]))
     license_counts = dict(Counter([license_info["License"] for licenses in df_unique["Licenses"] for license_info in licenses if license_info["License"]]))
 
     return {
         "collections": collections_count,
         "datasets": datasets_count,
+        "dialogs": dialogs_count,
         "languages": language_counts,
         "task_categories": taskcat_counts,
+        "topics": topics_count,
+        "sources": sources_count,
+        "domains": domains_count,
+        "synthetic_pct": synthetic_pct,
         "licenses": license_counts,
         "formats": format_counts,
     }
@@ -112,11 +59,29 @@ def prep_collection_table(df, original_df, metrics):
         subset_datasets = set(subset_df["Unique Dataset Identifier"])
         subset_langs = set([lang for row in subset_df["Languages"] for lang in row])
         subset_taskcats = set([tc for row in subset_df["Task Categories"] for tc in row])
+        subset_topics = set([tc for row in subset_df["Inferred Metadata"] for tc in row.get("Text Topics", [])])
+        subset_sources = set([tc for row in subset_df["Text Sources"] for tc in row])
+        subset_model_gen = [x[0] for x in Counter([tc for row in subset_df["Model Generated"] for tc in row]).most_common()]
+        if subset_model_gen:
+            def find_openai_index(lst):
+                # Select one with "OpenAI" in string if it exists
+                return next((i for i, s in enumerate(lst) if "OpenAI" in s), 0)
+            model_idx = find_openai_index(subset_model_gen)
+            selected_model = subset_model_gen[model_idx]
+        else:
+            selected_model = ""
+        subset_mean_inp_len = np.mean([row["Mean Inputs Length"] for row in subset_df["Text Metrics"]])
+        subset_mean_tar_len = np.mean([row["Mean Targets Length"] for row in subset_df["Text Metrics"]])
         total_dialogs = subset_df['Text Metrics'].apply(lambda x: x.get('Num Dialogs') if isinstance(x, dict) else 0).fillna(0).sum()
-        table["Num Datasets"].append(len(subset_datasets))
-        table["Num Languages"].append(len(subset_langs)) 
-        table["Num Tasks"].append(len(subset_taskcats))
-        table["Num Exs"].append(total_dialogs)
+        table["# Datasets"].append(len(subset_datasets))
+        table["# Exs"].append(total_dialogs)
+        table["# Languages"].append(len(subset_langs)) 
+        table["# Tasks"].append(len(subset_taskcats))
+        table["# Topics"].append(len(subset_topics))
+        table["# Sources"].append(len(subset_sources))
+        table["Generated By"].append(selected_model)
+        table["Mean Input Chars"].append(round(subset_mean_inp_len, 1))
+        table["Mean Target Chars"].append(round(subset_mean_tar_len, 1))
         table["% Datasets Used"].append(f"{round(100* len(subset_datasets) / len(original_datasets), 1)} %")
     return pd.DataFrame(table)
 

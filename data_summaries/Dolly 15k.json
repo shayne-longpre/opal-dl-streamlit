@@ -17,9 +17,6 @@
         "Task Categories": [
             "Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -106,9 +103,6 @@
         "Task Categories": [
             "Closed-Book Question Answering"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -193,9 +187,6 @@
         ],
         "Task Categories": [
             "Text Classification"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -282,9 +273,6 @@
         "Task Categories": [
             "Brainstorming"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -369,9 +357,6 @@
         ],
         "Task Categories": [
             "Information Extraction"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -458,9 +443,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "Wikipedia"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -545,9 +527,6 @@
         ],
         "Task Categories": [
             "Creative Writing"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"

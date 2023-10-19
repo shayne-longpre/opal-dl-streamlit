@@ -23,6 +23,9 @@ from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode
 import streamlit.components.v1 as components
 import requests
 
+from PIL import Image
+
+
 INFO = {}
 
 
@@ -57,15 +60,48 @@ def insert_main_viz():
     sketch += '</script>'
     components.html(sketch, height=800, scrolling=True)
 
+def custom_metric(caption, score, delta=None):
+    st.markdown("## :green[" + str(score) + "]")
+    # st.subheader("     :green[" + str(score) + "]")
+    if delta:
+        st.markdown("     " + str(delta))
+    st.markdown(f":gray[{caption}]")
+    # st.caption(caption)
 
+    # :red[**NOT** to be taken as legal advice]
 
 
 def display_metrics(metrics, df_metadata):
-    metric_columns = st.columns(4)
-    metric_columns[0].metric("Collections", len(metrics["collections"]), delta=f"/ {len(df_metadata['collections'])}")#, delta_color="off")
-    metric_columns[1].metric("Datasets", len(metrics["datasets"]), delta=f"/ {len(df_metadata['datasets'])}")
-    metric_columns[2].metric("Languages", len(metrics["languages"]), delta=f"/ {len(df_metadata['languages'])}")
-    metric_columns[3].metric("Task Categories", len(metrics["task_categories"]), delta=f"/ {len(df_metadata['task_categories'])}")
+    # metric_columns = st.columns(4)
+    # metric_columns[0].metric("Collections", len(metrics["collections"]), delta=f"/ {len(df_metadata['collections'])}")#, delta_color="off")
+    # metric_columns[1].metric("Datasets", len(metrics["datasets"]), delta=f"/ {len(df_metadata['datasets'])}")
+    # metric_columns[2].metric("Languages", len(metrics["languages"]), delta=f"/ {len(df_metadata['languages'])}")
+    # metric_columns[3].metric("Task Categories", len(metrics["task_categories"]), delta=f"/ {len(df_metadata['task_categories'])}")
+    metric_columns = st.columns(3)
+    # with metric_columns[0]:
+    #     st.metric("Collections", len(metrics["collections"]), delta=f"/ {len(df_metadata['collections'])}")#, delta_color="off")
+    #     st.metric("Datasets", len(metrics["datasets"]), delta=f"/ {len(df_metadata['datasets'])}")
+    #     st.metric("Dialogs", metrics["dialogs"], delta=f"/ {df_metadata['dialogs']}")
+    # with metric_columns[1]:
+    #     st.metric("Languages", len(metrics["languages"]), delta=f"/ {len(df_metadata['languages'])}")
+    #     st.metric("Task Categories", len(metrics["task_categories"]), delta=f"/ {len(df_metadata['task_categories'])}")
+    #     st.metric("Topics", len(metrics["topics"]), delta=f"/ {len(df_metadata['topics'])}")
+    # with metric_columns[2]:
+    #     st.metric("Text Domains", len(metrics["domains"]), delta=f"/ {len(df_metadata['domains'])}")
+    #     st.metric("Text Sources", len(metrics["sources"]), delta=f"/ {len(df_metadata['sources'])}")
+    #     st.metric("% Synthetic Text", metrics["synthetic_pct"])
+    with metric_columns[0]:
+        custom_metric("Collections", len(metrics["collections"]), delta=f"/ {len(df_metadata['collections'])}")#, delta_color="off")
+        custom_metric("Datasets", len(metrics["datasets"]), delta=f"/ {len(df_metadata['datasets'])}")
+        custom_metric("Dialogs", metrics["dialogs"], delta=f"/ {df_metadata['dialogs']}")
+    with metric_columns[1]:
+        custom_metric("Languages", len(metrics["languages"]), delta=f"/ {len(df_metadata['languages'])}")
+        custom_metric("Task Categories", len(metrics["task_categories"]), delta=f"/ {len(df_metadata['task_categories'])}")
+        custom_metric("Topics", len(metrics["topics"]), delta=f"/ {len(df_metadata['topics'])}")
+    with metric_columns[2]:
+        custom_metric("Text Domains", len(metrics["domains"]), delta=f"/ {len(df_metadata['domains'])}")
+        custom_metric("Text Sources", len(metrics["sources"]), delta=f"/ {len(df_metadata['sources'])}")
+        custom_metric("% Synthetic Text", metrics["synthetic_pct"])
 
 
 def insert_metric_container(title, key, metrics):
@@ -75,6 +111,57 @@ def insert_metric_container(title, key, metrics):
         # fig = util.plot_altair_piechart(metrics[key], title)
         st.altair_chart(fig, use_container_width=True, theme="streamlit")
 
+def add_instructions():
+    st.title("Data Provenance Explorer")
+
+    col1, col2 = st.columns([0.7, 0.3], gap="medium")
+
+    with col1:
+        intro_sents = "The Data Provenance Initiative is a large-scale audit of AI datasets used to train large language models. As a first step, we've traced 1800+ popular, text-to-text finetuning datasets from origin to creation, cataloging their data sources, licenses, creators, and other metadata, for researchers to explore using this tool."
+        follow_sents = "The purpose of this work is to improve transparency, documentation, and informed use of datasets in AI. "
+        st.write(" ".join([intro_sents, follow_sents]))
+        st.write("You can download this data (with filters) directly from the [Data Provenance Collection](https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection).")
+        st.write("If you wish to contribute or discuss, please feel free to [contact the organizers](mailto:data.provenance.init@gmail.com).")
+        # st.write("NB: This data is compiled voluntarily by the best efforts of academic & independent researchers, and is :red[**NOT** to be taken as legal advice].")
+
+        st.write("NB: It is important to note we collect *self-reported licenses*, from the papers and repositories that released these datasets, and categorize them according to our best efforts, as a volunteer research and transparency initiative. The information provided by any of our works and any outputs of the Data Provenance Initiative :red[do **NOT**, and are **NOT** intended to, constitute legal advice]; instead, all information, content, and materials are for general informational purposes only.")
+
+    with col2:
+        image = Image.open('dpi.png')
+        st.image(image)#, caption='Sunrise by the mountains')
+
+    st.subheader("Instructions")
+    form_instructions = """
+    1. **Select from the licensed data use cases**. The options range from least to most strict:
+    `Commercial`, `Unspecified`, `Non-Commercial`, `Academic-Only`.
+    
+    * `Commercial` will select only the data with licenses explicitly permitting commercial use. 
+    * `Unspecified` includes Commercial plus datasets with no license found attached, which may suggest the curator does not prohibit commercial use.
+    * `Non-Commercial` includes Commercial and Unspecified datasets plus those licensed for non-commercial use.
+    * `Academic-Only` will select all available datasets, including those that restrict to only academic uses.
+
+    Note that these categories reflect the *self-reported* licenses attached to datasets, and assume fair use of any data they are derived from (e.g. scraped from the web).
+
+    2. Select whether to include datasets with **Attribution requirements in their licenses**.
+
+    3. Select whether to include datasets with **`Share-Alike` requirements in their licenses**. 
+    Share-Alike means a copyright left license, that allows other to re-use, re-mix, and modify works, but requires that derivative work is distributed under the same terms and conditions.
+
+    4. Select whether to *always* include datasets that are at least partially **generated by OpenAI** (inputs, outputs, or both).
+    [OpenAI Terms of Use](https://openai.com/policies/terms-of-use) state you cannot ``use output from the Services to develop models that compete with OpenAI''. See our paper for more discussion on these terms.
+    
+    5. **Select Language Families** to include.
+
+    6. **Select Task Categories** to include.
+
+    7. **Select Time of Collection**. By default it includes all datasets.
+
+    8. **Select the Text Domains** to include.
+
+    Finally, Submit Selection when ready!
+    """
+    with st.expander("Expand for Instructions!"):
+        st.write(form_instructions)
 
 def streamlit_app():
     st.set_page_config(page_title="Data Provenance Explorer", layout="wide")#, initial_sidebar_state='collapsed')
@@ -82,54 +169,123 @@ def streamlit_app():
     # st.write(INFO["constants"].keys())
     INFO["data"] = load_data()
 
-    df_metadata = util.compute_metrics(INFO["data"])
+    df_metadata = util.compute_metrics(INFO["data"], INFO["constants"])
 
-    with st.sidebar:
-        st.markdown("""Select the preferred criteria for your datasets.""")
+    add_instructions()
 
-        with st.form("data_selection"):
+    ### SIDEBAR STARTS HERE
 
+    # with st.sidebar:
+        
+    #     st.markdown("""Select the preferred criteria for your datasets.""")
+
+    #     with st.form("data_selection"):
+
+    #         # st.write("Select the acceptable license values for constituent datasets")
+    #         license_multiselect = st.select_slider(
+    #             'Select the datasets licensed for these use cases',
+    #             options=constants.LICENSE_USE_CLASSES,
+    #             value="Academic-Only")
+
+    #         license_attribution = st.toggle('Exclude Datasets w/ Attribution Requirements', value=False)
+    #         license_sharealike = st.toggle('Exclude Datasets w/ Share Alike Requirements', value=False)
+    #         openai_license_override = st.toggle('Include Datasets w/ OpenAI-generated data', value=False)
+
+    #         # with data_select_cols[1]:
+    #         language_multiselect = st.multiselect(
+    #             'Select the languages to cover in your datasets',
+    #             ["All"] + list(INFO["constants"]["LANGUAGE_GROUPS"].keys()),
+    #             ["All"])
+
+    #         # with data_select_cols[2]:
+    #         taskcats_multiselect = st.multiselect(
+    #             'Select the task categories to cover in your datasets',
+    #             ["All"] + list(INFO["constants"]["TASK_GROUPS"].keys()),
+    #             ["All"])
+
+    #         with st.expander("More advanced criteria"):
+
+    #             # format_multiselect = st.multiselect(
+    #             #     'Select the format types to cover in your datasets',
+    #             #     ["All"] + INFO["constants"]["FORMATS"],
+    #             #     ["All"])
+
+    #             domain_multiselect = st.multiselect(
+    #                 'Select the domain types to cover in your datasets',
+    #                 ["All"] + list(INFO["constants"]["DOMAIN_GROUPS"].keys()),
+    #                 # ["All", "Books", "Code", "Wiki", "News", "Biomedical", "Legal", "Web", "Math+Science"],
+    #                 ["All"])
+
+    #             time_range_selection = st.slider(
+    #                 "Select data release time constraints",
+    #                 value=(datetime(2000, 1, 1), datetime(2023, 12, 1)))
+
+    #         # Every form must have a submit button.
+    #         submitted = st.form_submit_button("Submit Selection")
+
+    #### SIDEBAR ENDS HERE
+
+
+    #### ALTERNATIVE STARTS HERE
+    st.markdown("""Select the preferred criteria for your datasets.""")
+
+    with st.form("data_selection"):
+
+        col1, col2, col3 = st.columns([1,1,1], gap="medium")
+
+        with col1:
             # st.write("Select the acceptable license values for constituent datasets")
             license_multiselect = st.select_slider(
                 'Select the datasets licensed for these use cases',
                 options=constants.LICENSE_USE_CLASSES,
                 value="Academic-Only")
 
-            license_attribution = st.toggle('Exclude Datasets w/ Attribution Requirements', value=False)
-            license_sharealike = st.toggle('Exclude Datasets w/ Share Alike Requirements', value=False)
+            license_attribution = st.toggle('Include Datasets w/ Attribution Requirements', value=True)
+            license_sharealike = st.toggle('Include Datasets w/ Share Alike Requirements', value=True)
+            openai_license_override = st.toggle('Always include datasets w/ OpenAI-generated data', value=False)
 
-            # with data_select_cols[1]:
-            language_multiselect = st.multiselect(
-                'Select the languages to cover in your datasets',
-                ["All"] + list(INFO["constants"]["LANGUAGE_GROUPS"].keys()),
-                ["All"])
-
-            # with data_select_cols[2]:
+        with col3:
+            
             taskcats_multiselect = st.multiselect(
                 'Select the task categories to cover in your datasets',
                 ["All"] + list(INFO["constants"]["TASK_GROUPS"].keys()),
                 ["All"])
 
-            with st.expander("More advanced criteria"):
+        # with st.expander("More advanced criteria"):
 
-                # format_multiselect = st.multiselect(
-                #     'Select the format types to cover in your datasets',
-                #     ["All"] + INFO["constants"]["FORMATS"],
-                #     ["All"])
+            # format_multiselect = st.multiselect(
+            #     'Select the format types to cover in your datasets',
+            #     ["All"] + INFO["constants"]["FORMATS"],
+            #     ["All"])
 
-                domain_multiselect = st.multiselect(
-                    'Select the domain types to cover in your datasets',
-                    ["All"] + list(INFO["constants"]["DOMAIN_GROUPS"].keys()),
-                    # ["All", "Books", "Code", "Wiki", "News", "Biomedical", "Legal", "Web", "Math+Science"],
-                    ["All"])
+            domain_multiselect = st.multiselect(
+                'Select the domain types to cover in your datasets',
+                ["All"] + list(INFO["constants"]["DOMAIN_GROUPS"].keys()),
+                # ["All", "Books", "Code", "Wiki", "News", "Biomedical", "Legal", "Web", "Math+Science"],
+                ["All"])
 
-                time_range_selection = st.slider(
-                    "Select data release time constraints",
-                    value=(datetime(2000, 1, 1), datetime(2023, 12, 1)))
 
-            # Every form must have a submit button.
-            submitted = st.form_submit_button("Submit Selection")
+        with col2:
+            language_multiselect = st.multiselect(
+                'Select the languages to cover in your datasets',
+                ["All"] + list(INFO["constants"]["LANGUAGE_GROUPS"].keys()),
+                ["All"])
 
+            time_range_selection = st.slider(
+                "Select data release time constraints",
+                value=(datetime(2000, 1, 1), datetime(2023, 12, 1)))
+
+            # st.write("")
+        # st.write("")
+        st.divider()
+
+        # Every form must have a submit button.
+        submitted = st.form_submit_button("Submit Selection")
+
+
+
+
+    #### ALTERNATIVE ENDS HERE
 
     # st.write(len(INFO["data"]))
     if submitted:
@@ -146,8 +302,9 @@ def streamlit_app():
             None, 
             None, # Select all licenses.
             license_multiselect,
-            str(1 - int(license_attribution)),
-            str(1 - int(license_sharealike)),
+            openai_license_override,
+            str(int(license_attribution)),
+            str(int(license_sharealike)),
             language_multiselect, 
             taskcats_multiselect,
             # format_multiselect,
@@ -163,45 +320,11 @@ def streamlit_app():
         filtered_data_summary = {row["Unique Dataset Identifier"]: row for row in formatted_df.to_dict(orient='records')}
 
 
-    st.title("Data Provenance Explorer")
-
-    st.write("The Data Provenance Initiative is a large-scale audit of AI datasets used to train large language models. As the first step, we've cataloged 1800+ popular, text-to-text finetuning datasets from origin to creation, tracing their data sources, licenses, creators, and other metadata, for researchers to explore using this tool.")
-    st.write("Coming soon: you will be able to download the data according to your chosen filters.")
-    st.write("NB: This data is compiled voluntarily by the best efforts of academic & independent researchers, and is :red[**NOT** to be taken as legal advice].")
-
-    st.subheader("Instructions")
-    form_instructions = """
-    1. **Select from the licensed data use cases**. The options range from least to most strict:
-    `Commercial`, `Unspecified`, `Non-Commercial`, `Academic-Only`.
-    
-    * `Commercial` will select only the data with licenses explicitly permitting commercial use. 
-    * `Unspecified` includes Commercial plus datasets with no license found attached, which may suggest the curator does not prohibit commercial use.
-    * `Non-Commercial` includes Commercial and Unspecified datasets plus those licensed for non-commercial use.
-    * `Academic-Only` will select all available datasets, including those that restrict to only academic uses.
-
-    Note that these categories reflect the *self-reported* licenses attached to datasets, and assume fair use of any data they are derived from (e.g. scraped from the web).
-
-    2. Select whether to exclude datasets with **Attribution requirements in their licenses**.
-
-    3. Select whether to exclude datasets with **`Share-Alike` requirements in their licenses**. 
-    Share-Alike means a copyright left license, that allows other to re-use, re-mix, and modify works, but requires that derivative work is distributed under the same terms and conditions.
-
-    4. **Select Language Families** to include.
-
-    5. **Select Task Categories** to include.
-
-    6. More advanced selection criteria are also available in the drop down box.
-
-    Finally, Submit Selection when ready!
-    """
-    with st.expander("Expand for Instructions!"):
-        st.write(form_instructions)
-
     tab1, tab2, tab3, tab4, tab5 = st.tabs([
-        "Data Summary", 
+        "Data Summary",
         ":rainbow[Global Representation] :earth_africa:", 
-        "Data Licenses :vertical_traffic_light:", 
         "Text Characteristics :test_tube:",
+        "Data Licenses :vertical_traffic_light:", 
         "Inspect Individual Datasets :mag:"])
 
     with tab1:
@@ -211,18 +334,18 @@ def streamlit_app():
             st.write("When you're ready, fill out your data filtering criteria on the left, and click Submit!\n\n")
 
         elif submitted:
-            metrics = util.compute_metrics(filtered_df)
+            metrics = util.compute_metrics(filtered_df, INFO["constants"])
 
             st.subheader('General Properties of your collection')
-            # st.text("See what data fits your criteria.")
+            st.write("Given your selection, see the quantity of data (collections, datasets, dialogs), the characteristics of the data (languages, tasks, topics), and the sources of data covered (sources, domains, \% synthetically generated by models).")
 
             st.markdown('#')
-            st.markdown('#')
+            # st.markdown('#')
             
             display_metrics(metrics, df_metadata)
 
             # st.divider()
-            st.markdown('#')
+            # st.markdown('#')
             # st.markdown('#')
 
             # insert_metric_container("Language Distribution", "languages", metrics)
@@ -284,21 +407,6 @@ def streamlit_app():
                 }, 1600)
 
     with tab3:
-        st.header("Data Licenses :vertical_traffic_light:")
-        tab3_intro = """This section explores the *self-reported* data licenses by the creators of each dataset.
-        Note a few important limitations:
-        * The legal status of data licenses is not always clear and may be different by jurisdiction.
-        * Despite our best efforts, omissions or mistakes are possible.
-        * This transparency initative is **not** intended as legal advice, and bears no responsibility on how the *self-reported* licenses are used.
-        """
-        st.write(tab3_intro)
-
-        if submitted:
-            st.subheader("License Distribution")
-            st.write("Here we see the license distribution of those collected by the Data Provenance Initiative.")
-            insert_metric_container("License Distribution", "licenses", metrics)
-
-    with tab4:
         st.header("Text Characteristics :test_tube:")
         st.write("This section covers various characteristics of the text in the datasets.")
 
@@ -321,16 +429,35 @@ def streamlit_app():
                 filtered_data_summary,
                 "tasks-sunburst.js", {
                     "TASK_GROUPS": "html/constants/task_groups.json",
-                },1600)
+                },1200)
 
             # tree    
             st.subheader("Text Source Domains")
-            # st.write("...")
+            st.write("Many datasets are originally scraped from the web or other sources. For the data you've selected, we cluster the original sources by Domain, quantify them and show the top sources 5 per domain.")
             html_util.compose_html_component(
                 filtered_data_summary,
                 "source-tree.js", {
                     "DOMAIN_GROUPS": "html/constants/domain_groups.json",
                 },2400)
+
+    with tab4:
+
+        st.header("Data Licenses :vertical_traffic_light:")
+        st.write("This section explores the *self-reported* data licenses by the creators of each dataset.")
+
+        tab4_intro = """
+        Note a few important limitations:
+
+        * The legal status of data licenses is not always clear and may be different by jurisdiction.
+        * Despite our best efforts, omissions or mistakes are possible.
+        * This transparency initative is **not** intended as legal advice, and bears no responsibility on how the *self-reported* licenses are used.
+        """
+        st.markdown(tab4_intro)
+
+        if submitted:
+            st.subheader("License Distribution")
+            st.write("Here we see the license distribution of those collected by the Data Provenance Initiative.")
+            insert_metric_container("License Distribution", "licenses", metrics)
 
     with tab5:
         st.header("Inspect Individual Datasets :mag:")
@@ -360,7 +487,7 @@ def streamlit_app():
             # else:
             tab2_selected_df = INFO["data"][INFO["data"]["Unique Dataset Identifier"] == dataset_select]
 
-            tab2_metrics = util.compute_metrics(tab2_selected_df)
+            tab2_metrics = util.compute_metrics(tab2_selected_df, INFO["constants"])
             display_metrics(tab2_metrics, df_metadata)
 
             with st.container():
@@ -369,7 +496,6 @@ def streamlit_app():
                     "Collection URL",
                     "Collection Hugging Face URL",
                     "Collection Paper Title",
-                    "Collection Creators",
                 ]
                 dataset_info_keys = [
                     "Unique Dataset Identifier",
@@ -378,47 +504,77 @@ def streamlit_app():
                     "Hugging Face URL",
                 ]
                 data_characteristics_info_keys = [
-                    "Format", "Languages", "Task Categories", 
-                    # "Text Topics", 
-                    # "Text Domains", "Number of Examples", "Text Length Metrics",
+                    "Format", "Languages", "Task Categories",
+                    ("Inferred Metadata", "Text Topics"),
+                    # "Text Domains", 
                 ]
                 data_provenance_info_keys = ["Creators", "Text Sources", "Licenses"]
 
-                def extract_infos(df, key):
-                    entries = df[key].tolist()
+                def extract_infos(df, key, numerical=False):
+                    if isinstance(key, tuple):
+                        dds = df[key[0]].tolist()
+                        # st.write(dds)
+                        entries = [dd.get(key[1], []) for dd in dds]
+                        # st.write(entries)
+                    else:
+                        entries = df[key].tolist()
                     if not entries:
                         return []
+                    elif numerical:
+                        return np.mean([x for x in entries if x])
                     elif key == "Licenses":
                             return set([x["License"] for xs in entries for x in xs if x and x["License"]])
                     elif isinstance(entries[0], list):
-                        return set([x for xs in entries if xs for x in xs if x])
+                        return list(set([x for xs in entries if xs for x in xs if x]))
                     else:
-                        return set([x for x in entries if x])
+                        return list(set([x for x in entries if x]))
 
                 # st.caption("Collection Information")
                 # for info_key in collection_info_keys:
                 #     st.text(f"{item}: {extract_infos(tab2_selected_df, info_key)}")
 
-                def format_markdown_entry(df, info_key):
-                    dset_info = extract_infos(df, info_key)
+                def format_markdown_entry(dset_info, info_key):
                     if dset_info:
+                        info_key = info_key if isinstance(info_key, str) else info_key[1]
                         markdown_txt = dset_info
                         if isinstance(dset_info, list) or isinstance(dset_info, set):
-                            markdown_txt = "\n* " + '\n* '.join(dset_info)
+                            # if len(dset_info) == 1:
+                            #     markdown_txt = list(dset_info)[0]
+                            # else:
+                            markdown_txt = "\n* " + "\n* ".join([str(x) for x in dset_info])
                         st.markdown(f"{info_key}: {markdown_txt}")
 
                 if dataset_select != "All":
-                    st.caption("Dataset Information")
+                    st.subheader("Dataset Information")
                     for info_key in dataset_info_keys:
-                        format_markdown_entry(tab2_selected_df, info_key)
+                        dset_info = extract_infos(tab2_selected_df, info_key)[0]
+                        format_markdown_entry(dset_info, info_key)
 
-                st.caption("Data Characteristics")
+                st.subheader("Data Characteristics")
                 for info_key in data_characteristics_info_keys:
-                    format_markdown_entry(tab2_selected_df, info_key)
+                    dset_info = extract_infos(tab2_selected_df, info_key)
+                    # st.write(dset_info)
+                    format_markdown_entry(dset_info, info_key)
 
-                st.caption("Data Provenance")
+                st.subheader("Data Statistics")
+                # for info_key in data_characteristics_info_keys:
+                dset_info = extract_infos(tab2_selected_df, ("Text Metrics", "Num Dialogs"), numerical=True)
+                format_markdown_entry(round(dset_info, 0), "Num Exs")
+                dset_infos = [extract_infos(tab2_selected_df, info_key, numerical=True) for info_key in [
+                    ("Text Metrics", "Min Inputs Length"),
+                    ("Text Metrics", "Mean Inputs Length"),
+                    ("Text Metrics", "Max Inputs Length")]]
+                format_markdown_entry("   |   ".join([str(round(x, 1)) for x in dset_infos]), "Input Length (characters) [Minimum | Mean | Maximum]")
+                dset_infos = [extract_infos(tab2_selected_df, info_key, numerical=True) for info_key in [
+                    ("Text Metrics", "Min Targets Length"),
+                    ("Text Metrics", "Mean Targets Length"),
+                    ("Text Metrics", "Max Targets Length")]]
+                format_markdown_entry("   |   ".join([str(round(x, 1)) for x in dset_infos]), "Target Length (characters) [Minimum | Mean | Maximum]")
+
+                st.subheader("Data Provenance")
                 for info_key in data_provenance_info_keys:
-                    format_markdown_entry(tab2_selected_df, info_key)
+                    dset_info = extract_infos(tab2_selected_df, info_key)
+                    format_markdown_entry(dset_info, info_key)
 
         
 

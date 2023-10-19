@@ -17,7 +17,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -106,7 +105,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -196,7 +194,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -285,7 +282,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -373,7 +369,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -461,7 +456,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -548,7 +542,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -637,7 +630,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -727,7 +719,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -815,7 +806,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -904,7 +894,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -993,7 +982,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -1083,7 +1071,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -1170,7 +1157,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -1257,7 +1243,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -1347,7 +1332,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -1435,7 +1419,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -1523,7 +1506,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -1610,7 +1592,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -1695,7 +1676,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -1796,7 +1776,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -1878,7 +1857,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -1959,7 +1937,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -2041,7 +2018,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -2125,7 +2101,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -2208,7 +2183,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -2290,7 +2264,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -2378,7 +2351,6 @@
             "Logical Reasoning Question Answering",
             "Boolean Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -2492,7 +2464,6 @@
             "Binary Classification",
             "Open-Domain Relation Extraction"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -2590,7 +2561,6 @@
             "Multiple Choice Question Answering",
             "Probabilistic Reasoning Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -2683,7 +2653,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -2774,7 +2743,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -2870,7 +2838,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -2956,7 +2923,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -3039,7 +3005,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -3118,7 +3083,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -3205,7 +3169,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -3290,7 +3253,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -3377,7 +3339,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -3458,7 +3419,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -3541,7 +3501,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -3624,7 +3583,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -3726,7 +3684,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -3821,7 +3778,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -3915,7 +3871,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -4013,7 +3968,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -4110,7 +4064,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -4205,7 +4158,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -4301,7 +4253,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -4395,7 +4346,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -4497,7 +4447,6 @@
             "Natural Language Inference",
             "Temporal Anomaly Detection"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -4591,7 +4540,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -4693,7 +4641,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -4794,7 +4741,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -4897,7 +4843,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -5000,7 +4945,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -5101,7 +5045,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -5203,7 +5146,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -5295,7 +5237,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -5384,7 +5325,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -5472,7 +5412,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -5559,7 +5498,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -5647,7 +5585,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -5736,7 +5673,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -5824,7 +5760,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -5911,7 +5846,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -5999,7 +5933,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -6085,7 +6018,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -6174,7 +6106,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -6263,7 +6194,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -6352,7 +6282,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -6438,7 +6367,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -6524,7 +6452,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -6610,7 +6537,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -6699,7 +6625,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -6786,7 +6711,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -6873,7 +6797,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -6962,7 +6885,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -7050,7 +6972,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -7137,7 +7058,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -7224,7 +7144,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -7311,7 +7230,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -7403,7 +7321,6 @@
         "Task Categories": [
             "Paraphrase Detection"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -7504,7 +7421,6 @@
             "Symptom Prediction Question Answering",
             "Binary Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -7597,7 +7513,6 @@
             "Binary Classification Question Answering",
             "Medical Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -7679,7 +7594,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -7784,7 +7698,6 @@
             "Factual Statement Verification",
             "Named Entity Recognition"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -7872,7 +7785,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -7970,7 +7882,6 @@
             "Multiple Choice Question Answering",
             "Information Retrieval"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -8060,7 +7971,6 @@
             "Dialogue Understanding",
             "Open-Ended Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -8157,7 +8067,6 @@
             "Document Classification",
             "Binary Classification Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -8253,7 +8162,6 @@
             "Multiple Choice Question Answering",
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -8351,7 +8259,6 @@
             "Binary Classification Question Answering",
             "Hashtag Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -8442,7 +8349,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -8539,7 +8445,6 @@
             "Open-Domain Question Answering",
             "Offensive Language Detection"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -8630,7 +8535,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -8719,7 +8623,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -8813,7 +8716,6 @@
             "Algebraic Expression Evaluation",
             "Natural Language Understanding"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -8909,7 +8811,6 @@
             "None-of-the-Above Question Answering",
             "Natural Language Inference"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -9000,7 +8901,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -9107,7 +9007,6 @@
             "Experiential Classification",
             "Natural Language Understanding"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -9194,7 +9093,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -9282,7 +9180,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -9377,7 +9274,6 @@
             "Date Prediction",
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -9462,7 +9358,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -9559,7 +9454,6 @@
             "Sarcasm Detection",
             "Argumentative Dialogue Generation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -9645,7 +9539,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -9730,7 +9623,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -9817,7 +9709,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -9908,7 +9799,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -9994,7 +9884,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -10081,7 +9970,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -10169,7 +10057,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -10255,7 +10142,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -10349,7 +10235,6 @@
             "Information Retrieval",
             "Dialogue Act Recognition"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -10437,7 +10322,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -10529,7 +10413,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -10620,7 +10503,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -10710,7 +10592,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -10797,7 +10678,6 @@
         "Task Categories": [
             "Toxicity Detection"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -10890,7 +10770,6 @@
             "Open-Ended Question Answering",
             "Open-Domain Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -10982,7 +10861,6 @@
             "Sentence Completion",
             "Sentence Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -11063,7 +10941,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -11151,7 +11028,6 @@
         "Task Categories": [
             "Toxicity Detection"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -11244,7 +11120,6 @@
             "Factual Statement Verification",
             "Image Caption Generation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -11325,7 +11200,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -11408,7 +11282,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -11498,7 +11371,6 @@
             "Critical Review Summarization",
             "Citation Analysis"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -11589,7 +11461,6 @@
             "Open-Domain Conversation Generation",
             "Open-Domain Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -11677,7 +11548,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -11766,7 +11636,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -11856,7 +11725,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -11944,7 +11812,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -12039,7 +11906,6 @@
             "Binary Classification",
             "Information Retrieval"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -12129,7 +11995,6 @@
             "Text Classification",
             "Fact Verification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -12213,7 +12078,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -12295,7 +12159,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -12385,7 +12248,6 @@
             "Open-Domain Question Answering",
             "Named Entity Recognition"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -12476,7 +12338,6 @@
             "Sentiment Analysis",
             "Demographic Analysis"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -12559,7 +12420,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -12643,7 +12503,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -12726,7 +12585,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -12815,7 +12673,6 @@
             "Cooking Instruction Understanding",
             "Binary Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -12915,7 +12772,6 @@
             "Binary Question Answering",
             "Request Fulfillment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -13014,7 +12870,6 @@
             "Open-Domain Question Answering",
             "Age-based Restriction Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -13113,7 +12968,6 @@
             "Binary Classification",
             "Fact Verification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -13208,7 +13062,6 @@
         "Task Categories": [
             "Toxicity Detection"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -13315,7 +13168,6 @@
             "Dialogue Understanding",
             "Summarization"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -13401,7 +13253,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -13488,7 +13339,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -13572,7 +13422,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -13666,7 +13515,6 @@
             "Binary Question Answering",
             "Sentiment Analysis"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -13762,7 +13610,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -13854,7 +13701,6 @@
             "Scientific Knowledge Retrieval",
             "Span Selection Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -13951,7 +13797,6 @@
             "Named Entity Recognition",
             "Historical Event Extraction"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -14035,7 +13880,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -14121,7 +13965,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -14207,7 +14050,6 @@
         "Task Categories": [
             "Sentiment Analysis"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -14291,7 +14133,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -14385,7 +14226,6 @@
             "Multiple Choice Question Answering",
             "Binary Classification Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -14474,7 +14314,6 @@
             "Binary Classification",
             "Binary Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -14558,7 +14397,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -14644,7 +14482,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -14734,7 +14571,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -14820,7 +14656,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -14909,7 +14744,6 @@
         "Task Categories": [
             "Toxicity Detection"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -14994,7 +14828,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -15094,7 +14927,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -15204,7 +15036,6 @@
             "Academic Cryptography Weakness Identification Question Answering",
             "Span Selection Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -15297,7 +15128,6 @@
             "Ethical Judgment Question Answering",
             "Moral Dilemma Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -15384,7 +15214,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -15481,7 +15310,6 @@
             "Semantic Relation Classification",
             "Sentiment Analysis"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -15580,7 +15408,6 @@
             "Span Selection Question Answering",
             "Sentence-level Semantic Relationship Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -15668,7 +15495,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -15757,7 +15583,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -15852,7 +15677,6 @@
             "Binary Classification",
             "Boolean Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -15941,7 +15765,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -16034,7 +15857,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -16130,7 +15952,6 @@
             "Paraphrase Detection",
             "Paraphrase Generation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -16217,7 +16038,6 @@
             "Natural Language Inference",
             "Boolean Expression Evaluation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -16310,7 +16130,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -16398,7 +16217,6 @@
             "Open-Ended Question Answering",
             "Binary Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -16479,7 +16297,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -16572,7 +16389,6 @@
             "Object Detection Question Answering",
             "Object Localization Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -16659,7 +16475,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -16750,7 +16565,6 @@
             "Entity Matching",
             "Named Entity Recognition"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -16845,7 +16659,6 @@
             "Binary Classification Question Answering",
             "Natural Language Inference"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -16932,7 +16745,6 @@
             "Critical Analysis of Traditional Chinese Culture",
             "Fact Checking"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -17022,7 +16834,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -17110,7 +16921,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -17200,7 +17010,6 @@
             "Fact Verification",
             "Geographical Location Identification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -17284,7 +17093,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -17378,7 +17186,6 @@
         "Task Categories": [
             "Toxicity Detection"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -17464,7 +17271,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -17552,7 +17358,6 @@
             "Question Answering",
             "Boolean Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -17637,7 +17442,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -17751,7 +17555,6 @@
             "Multiple Choice Question Answering",
             "Sentence Similarity Detection"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -17866,7 +17669,6 @@
             "Natural Language Understanding",
             "Boolean Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -17962,7 +17764,6 @@
             "Sentiment Analysis",
             "Argument Resolution"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -18055,7 +17856,6 @@
             "Natural Language Inference",
             "Open-Domain Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -18161,7 +17961,6 @@
             "Sentence Classification",
             "Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -18246,7 +18045,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -18331,7 +18129,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -18417,7 +18214,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -18505,7 +18301,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -18592,7 +18387,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -18683,7 +18477,6 @@
             "Natural Language Inference",
             "Multiple Choice Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -18775,7 +18568,6 @@
             "Factual Information Retrieval",
             "Comparative Sentence Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -18870,7 +18662,6 @@
             "Fact Checking",
             "Sentiment Analysis"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -18964,7 +18755,6 @@
             "Offensive Language Detection",
             "User Interface Design Suggestion"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -19057,7 +18847,6 @@
             "Binary Classification of Hate Speech",
             "Multiple Choice Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -19152,7 +18941,6 @@
             "Classification",
             "Binary Classification Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -19245,7 +19033,6 @@
             "Binary Classification Question Answering",
             "Binary Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -19340,7 +19127,6 @@
             "Binary Classification Question Answering",
             "Binary Classification of Racial Bias"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -19436,7 +19222,6 @@
             "Natural Language Inference",
             "Discourse Analysis"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -19524,7 +19309,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -19613,7 +19397,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -19704,7 +19487,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -19798,7 +19580,6 @@
         "Task Categories": [
             "Paraphrase Detection"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -19889,7 +19670,6 @@
             "Probabilistic Reasoning",
             "Binary Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -19976,7 +19756,6 @@
             "Natural Language Understanding",
             "Named Entity Recognition"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -20074,7 +19853,6 @@
             "Single Word Classification",
             "Binary Classification Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -20168,7 +19946,6 @@
             "Open-Domain Question Answering",
             "Information Retrieval"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -20258,7 +20035,6 @@
             "Binary Classification",
             "Semantic Role Labeling"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -20352,7 +20128,6 @@
             "Natural Language Understanding",
             "Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -20447,7 +20222,6 @@
             "Factual Statement Verification",
             "Binary Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -20530,7 +20304,6 @@
         "Task Categories": [
             "Text Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -20614,7 +20387,6 @@
         "Task Categories": [
             "Textual Entailment"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -20726,7 +20498,6 @@
             "Comparative Question Answering",
             "Sentence Classification"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],

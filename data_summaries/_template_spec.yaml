@@ -13,7 +13,6 @@
 
     "Languages": [list, True, True],
     "Task Categories": [list, True, True],
-    "Text Domains": [list, True, False],
     "Text Topics": [list, False, True],
     "Format": [list, True, True],
     "Text Metrics": {
@@ -28,9 +27,10 @@
         "Max Dialog Turns": [int, False, True],
         "Mean Dialog Turns": [float, False, True],
     },
-
     "Text Sources": [list, True, False],
     "Model Generated": [list, True, False],
+    "Human Annotation": [str, True, True],
+    "Derived from Datasets": [list, True, False],
     "Creators": [list, True, False],
     "Licenses": [
         {

@@ -26,7 +26,6 @@
             "Open-Ended Question Answering",
             "Humor Generation"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -120,7 +119,6 @@
         "Task Categories": [
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -214,7 +212,6 @@
         "Task Categories": [
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -308,7 +305,6 @@
         "Task Categories": [
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -402,7 +398,6 @@
         "Task Categories": [
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -496,7 +491,6 @@
         "Task Categories": [
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -590,7 +584,6 @@
         "Task Categories": [
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -684,7 +677,6 @@
         "Task Categories": [
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -778,7 +770,6 @@
         "Task Categories": [
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -872,7 +863,6 @@
         "Task Categories": [
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -966,7 +956,6 @@
         "Task Categories": [
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -1060,7 +1049,6 @@
         "Task Categories": [
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -1154,7 +1142,6 @@
         "Task Categories": [
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -1248,7 +1235,6 @@
         "Task Categories": [
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -1342,7 +1328,6 @@
         "Task Categories": [
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -1436,7 +1421,6 @@
         "Task Categories": [
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -1530,7 +1514,6 @@
         "Task Categories": [
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -1624,7 +1607,6 @@
         "Task Categories": [
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -1718,7 +1700,6 @@
         "Task Categories": [
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],

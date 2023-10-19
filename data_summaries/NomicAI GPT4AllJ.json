@@ -17,9 +17,6 @@
         "Task Categories": [
             "Coding"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -107,9 +104,6 @@
         ],
         "Task Categories": [
             "Creative Writing"
-        ],
-        "Text Domains": [
-            "Miscellaneous"
         ],
         "Format": [
             "Zero-shot"
@@ -209,9 +203,6 @@
             "Named Entity Recognition",
             "Open-Ended Question Answering"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -309,9 +300,6 @@
             "Information Retrieval",
             "Open-Domain Name Retrieval"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -402,9 +390,6 @@
         "Task Categories": [
             "Summarization"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -493,10 +478,6 @@
         ],
         "Task Categories": [
             "Dialogue Generation"
-        ],
-        "Text Domains": [
-            "Wikipedia",
-            "Dbpedia"
         ],
         "Format": [
             "Zero-shot"
@@ -595,9 +576,6 @@
             "Natural Language Understanding (NLU)",
             "Mortgage Loan Satisfaction Question Answering",
             "Financial Return on Investment (ROI) Calculation Question Answering"
-        ],
-        "Text Domains": [
-            "Miscellaneous"
         ],
         "Format": [
             "Zero-shot"

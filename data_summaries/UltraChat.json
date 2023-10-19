@@ -24,7 +24,6 @@
             "Creativity",
             "Explanation Generation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot",
             "Multi-turn Dialog"
@@ -42,7 +41,9 @@
             "Mean Dialog Turns": 7.6952
         },
         "Text Sources": [
-            "wikidata", "wikipedia.org", "commoncrawl.org"
+            "wikidata",
+            "wikipedia.org",
+            "commoncrawl.org"
         ],
         "Model Generated": [
             "OpenAI ChatGPT"

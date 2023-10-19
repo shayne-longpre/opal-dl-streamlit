@@ -21,9 +21,6 @@
             "Dialog Generation",
             "Argumentative Dialogue Generation"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Response Ranking"
         ],
@@ -39,7 +36,9 @@
             "Max Dialog Turns": 69,
             "Mean Dialog Turns": 5.6918
         },
-        "Text Sources": ["crowdsourced"],
+        "Text Sources": [
+            "crowdsourced"
+        ],
         "Model Generated": [
             "Anthropic Internal Models"
         ],

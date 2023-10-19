@@ -25,9 +25,6 @@
             "Historical Image Retrieval",
             "Summarization"
         ],
-        "Text Domains": [
-            "Web"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -134,7 +131,6 @@
             "Interview Question Answering",
             "Taxpayer Receipt Generation"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -245,9 +241,6 @@
             "Explanation Question Answering",
             "Breach of Contract Question Answering"
         ],
-        "Text Domains": [
-            "Stack Exchange"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -355,9 +348,6 @@
             "Description Generation",
             "Information Retrieval",
             "Factoid Question Answering"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Zero-shot"
@@ -469,9 +459,6 @@
             "Shotgun Selection Question Answering",
             "Step-by-Step Instruction Generation"
         ],
-        "Text Domains": [
-            "Wiki How"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -580,7 +567,6 @@
             "Historical Fact Retrieval",
             "Document Rewriting"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -689,9 +675,6 @@
             "Protective Order Generation",
             "Natural Language Generation (NLG)",
             "Document Retrieval"
-        ],
-        "Text Domains": [
-            "Email"
         ],
         "Format": [
             "Zero-shot"

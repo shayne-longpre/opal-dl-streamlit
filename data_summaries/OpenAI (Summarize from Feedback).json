@@ -21,10 +21,6 @@
             "Dialog Generation",
             "Open-form Text Generation"
         ],
-        "Text Domains": [
-            "Social Media -> Reddit",
-            "News"
-        ],
         "Format": [
             "Response Ranking"
         ],

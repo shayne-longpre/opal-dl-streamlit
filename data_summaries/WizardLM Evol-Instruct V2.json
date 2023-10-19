@@ -28,9 +28,6 @@
             "Open-Domain Natural Language Understanding (NLU)",
             "Open-Domain Question Answering"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot"
         ],

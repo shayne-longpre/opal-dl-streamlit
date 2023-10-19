@@ -28,9 +28,6 @@
             "Code Summarization",
             "Code Synthesis"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot"
         ],
@@ -40,7 +37,9 @@
         "Model Generated": [
             "StarCoder"
         ],
-        "Creators": ["BigCode"],
+        "Creators": [
+            "BigCode"
+        ],
         "Licenses": [
             {
                 "License": "BigScience OpenRAIL-M",

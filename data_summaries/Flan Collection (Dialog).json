@@ -18,7 +18,6 @@
             "Dialog Context Generation",
             "Conversational Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot",
             "Few-shot"
@@ -114,7 +113,6 @@
             "Dialog Context Generation",
             "Conversational Question Answering"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot",
             "Few-shot"

@@ -21,9 +21,6 @@
             "Open-form Text Generation",
             "Creativity"
         ],
-        "Text Domains": [
-            "Finance"
-        ],
         "Format": [
             "Response Ranking"
         ],
@@ -148,9 +145,6 @@
             "Open-form Text Generation",
             "Creativity"
         ],
-        "Text Domains": [
-            "Medicine"
-        ],
         "Format": [
             "Response Ranking"
         ],
@@ -273,9 +267,6 @@
             "Data Analysis",
             "Open-form Text Generation",
             "Creativity"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Response Ranking"
@@ -400,9 +391,6 @@
             "Open-form Text Generation",
             "Creativity"
         ],
-        "Text Domains": [
-            "Reddit"
-        ],
         "Format": [
             "Response Ranking"
         ],
@@ -525,9 +513,6 @@
             "Data Analysis",
             "Open-form Text Generation",
             "Creativity"
-        ],
-        "Text Domains": [
-            "Wikipedia"
         ],
         "Format": [
             "Response Ranking"

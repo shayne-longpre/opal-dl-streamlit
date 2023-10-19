@@ -20,9 +20,6 @@
             "Commonsense Reasoning",
             "Decision Making"
         ],
-        "Text Domains": [
-            "Social Media -> Reddit"
-        ],
         "Format": [
             "Response Ranking"
         ],
@@ -116,9 +113,6 @@
             "Response Ranking",
             "Commonsense Reasoning",
             "Decision Making"
-        ],
-        "Text Domains": [
-            "Trivia"
         ],
         "Format": [
             "Response Ranking"
@@ -218,9 +212,6 @@
             "Commonsense Reasoning",
             "Decision Making"
         ],
-        "Text Domains": [
-            "Social Media -> Reddit"
-        ],
         "Format": [
             "Response Ranking"
         ],
@@ -315,9 +306,6 @@
             "Commonsense Reasoning",
             "Decision Making",
             "Natural Language Inference"
-        ],
-        "Text Domains": [
-            "School Exam"
         ],
         "Format": [
             "Response Ranking"
@@ -417,9 +405,6 @@
             "Commonsense Reasoning",
             "Decision Making",
             "Natural Language Inference"
-        ],
-        "Text Domains": [
-            "School Exam"
         ],
         "Format": [
             "Response Ranking"

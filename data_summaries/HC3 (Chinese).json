@@ -21,10 +21,6 @@
             "Open-form Text Generation",
             "Creativity"
         ],
-        "Text Domains": [
-            "Wikipedia",
-            "Web"
-        ],
         "Format": [
             "Response Ranking"
         ],
@@ -143,9 +139,6 @@
             "Data Analysis",
             "Open-form Text Generation",
             "Creativity"
-        ],
-        "Text Domains": [
-            "Web"
         ],
         "Format": [
             "Response Ranking"
@@ -266,9 +259,6 @@
             "Open-form Text Generation",
             "Creativity"
         ],
-        "Text Domains": [
-            "Finance"
-        ],
         "Format": [
             "Response Ranking"
         ],
@@ -387,9 +377,6 @@
             "Data Analysis",
             "Open-form Text Generation",
             "Creativity"
-        ],
-        "Text Domains": [
-            "Law"
         ],
         "Format": [
             "Response Ranking"
@@ -510,9 +497,6 @@
             "Open-form Text Generation",
             "Creativity"
         ],
-        "Text Domains": [
-            "Medicine"
-        ],
         "Format": [
             "Response Ranking"
         ],
@@ -632,9 +616,6 @@
             "Open-form Text Generation",
             "Creativity"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Response Ranking"
         ],
@@ -753,9 +734,6 @@
             "Data Analysis",
             "Open-form Text Generation",
             "Creativity"
-        ],
-        "Text Domains": [
-            "Psychology"
         ],
         "Format": [
             "Response Ranking"

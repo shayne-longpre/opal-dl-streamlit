@@ -28,7 +28,6 @@
             "Brainstorming",
             "Miscellaneous"
         ],
-        "Text Domains": [],
         "Format": [
             "Multi-turn Dialog"
         ],
@@ -45,7 +44,8 @@
             "Mean Dialog Turns": 14.6277
         },
         "Text Sources": [
-            "sharegpt.com", "crowdsourced"
+            "sharegpt.com",
+            "crowdsourced"
         ],
         "Model Generated": [
             "OpenAI Playground"

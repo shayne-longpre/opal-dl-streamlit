@@ -20,9 +20,6 @@
             "Wordplay Detection",
             "Humor Detection"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot"
         ],

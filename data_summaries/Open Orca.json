@@ -25,7 +25,6 @@
             "Sequence Tagging",
             "Sentiment Analysis"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -382,7 +381,6 @@
             "Summarization",
             "Commonsense Reasoning"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -501,7 +499,6 @@
             "Logical Reasoning Question Answering",
             "Commonsense Reasoning"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],
@@ -613,7 +610,6 @@
             "Translation",
             "Commonsense Reasoning"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],

@@ -28,7 +28,6 @@
             "Logical Reasoning Question Answering",
             "Commonsense Reasoning"
         ],
-        "Text Domains": [],
         "Format": [
             "Zero-shot"
         ],

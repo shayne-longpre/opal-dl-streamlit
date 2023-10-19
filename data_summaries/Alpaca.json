@@ -25,9 +25,6 @@
             "Summarization",
             "Literary Analysis"
         ],
-        "Text Domains": [
-            "Miscellaneous"
-        ],
         "Format": [
             "Zero-shot"
         ],

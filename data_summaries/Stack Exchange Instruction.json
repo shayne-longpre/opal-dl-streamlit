@@ -28,9 +28,6 @@
             "Code Summarization",
             "Code Synthesis"
         ],
-        "Text Domains": [
-            "Code"
-        ],
         "Format": [
             "Zero-shot"
         ],
