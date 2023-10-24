@@ -127,10 +127,19 @@ def add_instructions():
 
         st.write("NB: It is important to note we collect *self-reported licenses*, from the papers and repositories that released these datasets, and categorize them according to our best efforts, as a volunteer research and transparency initiative. The information provided by any of our works and any outputs of the Data Provenance Initiative :red[do **NOT**, and are **NOT** intended to, constitute legal advice]; instead, all information, content, and materials are for general informational purposes only.")
 
-        if st.button('Paper', type="primary"):
-            webbrowser.open_new_tab('https://www.dataprovenance.org/paper.pdf')
-        if st.button('Download Repository', type="primary"):
-            webbrowser.open_new_tab('https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection')
+        st.link_button('Paper', 'https://www.dataprovenance.org/paper.pdf', type="primary")
+        st.link_button('Download Repository', 'https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection', type="primary")
+        # if st.button('Paper', type="primary"):
+        #     webbrowser.open_new_tab('https://www.dataprovenance.org/paper.pdf')
+        # if st.button('Download Repository', type="primary"):
+        #     webbrowser.open_new_tab('https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection')
+
+        # URL_STRING = "https://streamlit.io/"
+
+        # st.markdown(
+        #     f'<a href="{URL_STRING}" style="display: inline-block; padding: 12px 20px; background-color: #4CAF50; color: white; text-align: center; text-decoration: none; font-size: 16px; border-radius: 4px;">Action Text on Button</a>',
+        #     unsafe_allow_html=True
+        # )
     with col2:
         image = Image.open('dpi.png')
         st.image(image)#, caption='Sunrise by the mountains')
