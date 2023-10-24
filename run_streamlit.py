@@ -127,7 +127,7 @@ def add_instructions():
 
         st.write("NB: It is important to note we collect *self-reported licenses*, from the papers and repositories that released these datasets, and categorize them according to our best efforts, as a volunteer research and transparency initiative. The information provided by any of our works and any outputs of the Data Provenance Initiative :red[do **NOT**, and are **NOT** intended to, constitute legal advice]; instead, all information, content, and materials are for general informational purposes only.")
 
-        col1a, col1b, col1c = st.columns([0.2, 0.2, 0.6], gap="medium")
+        col1a, col1b, col1c = st.columns([0.18, 0.18, 0.64], gap="small")
         with col1a:
             st.link_button("Data Repository", 'https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection', type="primary")
         with col1b:
