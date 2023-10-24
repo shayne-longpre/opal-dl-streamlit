@@ -49,7 +49,7 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm").then(module =
     ...uniqueLicenseClasses.map(licenseClass => {
       return Plot.density(
         clean.filter(d => d.licenseUseCategory === licenseClass),
-        { x: "inputTextLen", y: "targetTextLen", stroke: "licenseUseCategory", strokeOpacity: 0.35, }
+        { x: "inputTextLen", y: "targetTextLen", stroke: "licenseUseCategory", strokeOpacity: 0.55, }
       )
     }),
     ...uniqueLicenseClasses.map(licenseClass => {
@@ -122,20 +122,21 @@ import("https://cdn.jsdelivr.net/npm/@observablehq/plot@0.6/+esm").then(module =
       grid: true,
       x: { type: "log" },
       y: { type: "log" },
-      color: { //*NEW* COLOR MAPPING
+      color: { // COLOR MAPPING
         type: "categorical",
-        domain: uniqueLicenseClasses,
-        range: ["#1f77b4", "#d62728", '#2ca02c'] //category10 red, blue, green
+        domain: ["Commercial", "Non-Commercial/Academic", "Unspecified"],
+        range: ['#82b5cf', '#e15759', '#edc949'] //blue, red, gold
       },
-      symbol: {
+      symbol: { // restrict category symbols
         legend: true,
+        domain: ["Commercial", "Non-Commercial/Academic", "Unspecified"],
         range: ["circle", "times", "triangle"]
-      }, //restrict category symbols
+      },
       marks: marks
     })
   );
 
   document.querySelector(`#${plotId}`).append(xdiv)
   document.querySelector(`#x${plotCount}div`).append(xaxis)
-  
+
 });
