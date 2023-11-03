@@ -122,7 +122,7 @@ def add_instructions():
         follow_sents = "The purpose of this work is to improve transparency, documentation, and informed use of datasets in AI. "
         st.write(" ".join([intro_sents, follow_sents]))
         st.write("You can download this data (with filters) directly from the [Data Provenance Collection](https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection).")
-        st.write("If you wish to contribute or discuss, please feel free to [contact the organizers](mailto:data.provenance.init@gmail.com).")
+        st.write("If you wish to contribute or discuss, please feel free to contact the organizers at [data.provenance.init@gmail.com](mailto:data.provenance.init@gmail.com).")
         # st.write("NB: This data is compiled voluntarily by the best efforts of academic & independent researchers, and is :red[**NOT** to be taken as legal advice].")
 
         st.write("NB: It is important to note we collect *self-reported licenses*, from the papers and repositories that released these datasets, and categorize them according to our best efforts, as a volunteer research and transparency initiative. The information provided by any of our works and any outputs of the Data Provenance Initiative :red[do **NOT**, and are **NOT** intended to, constitute legal advice]; instead, all information, content, and materials are for general informational purposes only.")
