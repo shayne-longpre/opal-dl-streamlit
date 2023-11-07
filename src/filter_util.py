@@ -112,7 +112,7 @@ def map_license_criteria(data_summary, all_constants):
     data_summary = add_license_classes_to_summaries(data_summary, hf_resolved, "HuggingFace")
     data_summary = add_license_classes_to_summaries(data_summary, gh_resolved, "GitHub")
     data_summary = add_license_classes_to_summaries(data_summary, pwc_resolved, "PapersWithCode")
-    st.write([r if r["Collection"] == "GPTeacher" for r in data_summary])
+    st.write([r for r in data_summary if r["Collection"] == "GPTeacher"])
 
     return data_summary
 
