@@ -574,9 +574,9 @@ def streamlit_app():
                     st.subheader("Dataset Information")
                     for info_key in dataset_info_keys:
                         st.write(info_key)
-
-                        dset_info = extract_infos(tab2_selected_df, info_key)[0]
-                        format_markdown_entry(dset_info, info_key)
+                        dset_info = extract_infos(tab2_selected_df, info_key)
+                        if len(dset_info):
+                            format_markdown_entry(dset_info[0], info_key)
 
                 st.subheader("Data Characteristics")
                 for info_key in data_characteristics_info_keys:
