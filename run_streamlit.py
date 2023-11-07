@@ -569,11 +569,11 @@ def streamlit_app():
                             markdown_txt = "\n* " + "\n* ".join([str(x) for x in dset_info])
                         st.markdown(f"{info_key}: {markdown_txt}")
 
-                st.write(tab2_selected_df)
+                # st.write(tab2_selected_df)
                 if dataset_select != "All":
                     st.subheader("Dataset Information")
                     for info_key in dataset_info_keys:
-                        st.write(info_key)
+                        # st.write(info_key)
                         dset_info = extract_infos(tab2_selected_df, info_key)
                         if len(dset_info):
                             format_markdown_entry(dset_info[0], info_key)
