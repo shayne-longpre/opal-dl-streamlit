@@ -198,59 +198,6 @@ def streamlit_app():
 
     add_instructions()
 
-    ### SIDEBAR STARTS HERE
-
-    # with st.sidebar:
-        
-    #     st.markdown("""Select the preferred criteria for your datasets.""")
-
-    #     with st.form("data_selection"):
-
-    #         # st.write("Select the acceptable license values for constituent datasets")
-    #         license_multiselect = st.select_slider(
-    #             'Select the datasets licensed for these use cases',
-    #             options=constants.LICENSE_USE_CLASSES,
-    #             value="Academic-Only")
-
-    #         license_attribution = st.toggle('Exclude Datasets w/ Attribution Requirements', value=False)
-    #         license_sharealike = st.toggle('Exclude Datasets w/ Share Alike Requirements', value=False)
-    #         openai_license_override = st.toggle('Include Datasets w/ OpenAI-generated data', value=False)
-
-    #         # with data_select_cols[1]:
-    #         language_multiselect = st.multiselect(
-    #             'Select the languages to cover in your datasets',
-    #             ["All"] + list(INFO["constants"]["LANGUAGE_GROUPS"].keys()),
-    #             ["All"])
-
-    #         # with data_select_cols[2]:
-    #         taskcats_multiselect = st.multiselect(
-    #             'Select the task categories to cover in your datasets',
-    #             ["All"] + list(INFO["constants"]["TASK_GROUPS"].keys()),
-    #             ["All"])
-
-    #         with st.expander("More advanced criteria"):
-
-    #             # format_multiselect = st.multiselect(
-    #             #     'Select the format types to cover in your datasets',
-    #             #     ["All"] + INFO["constants"]["FORMATS"],
-    #             #     ["All"])
-
-    #             domain_multiselect = st.multiselect(
-    #                 'Select the domain types to cover in your datasets',
-    #                 ["All"] + list(INFO["constants"]["DOMAIN_GROUPS"].keys()),
-    #                 # ["All", "Books", "Code", "Wiki", "News", "Biomedical", "Legal", "Web", "Math+Science"],
-    #                 ["All"])
-
-    #             time_range_selection = st.slider(
-    #                 "Select data release time constraints",
-    #                 value=(datetime(2000, 1, 1), datetime(2023, 12, 1)))
-
-    #         # Every form must have a submit button.
-    #         submitted = st.form_submit_button("Submit Selection")
-
-    #### SIDEBAR ENDS HERE
-
-
     #### ALTERNATIVE STARTS HERE
     st.markdown("""Select the preferred criteria for your datasets.""")
 
@@ -605,6 +552,57 @@ def streamlit_app():
                     format_markdown_entry(dset_info, info_key)
 
         
+    ### SIDEBAR STARTS HERE
+
+    # with st.sidebar:
+        
+    #     st.markdown("""Select the preferred criteria for your datasets.""")
+
+    #     with st.form("data_selection"):
+
+    #         # st.write("Select the acceptable license values for constituent datasets")
+    #         license_multiselect = st.select_slider(
+    #             'Select the datasets licensed for these use cases',
+    #             options=constants.LICENSE_USE_CLASSES,
+    #             value="Academic-Only")
+
+    #         license_attribution = st.toggle('Exclude Datasets w/ Attribution Requirements', value=False)
+    #         license_sharealike = st.toggle('Exclude Datasets w/ Share Alike Requirements', value=False)
+    #         openai_license_override = st.toggle('Include Datasets w/ OpenAI-generated data', value=False)
+
+    #         # with data_select_cols[1]:
+    #         language_multiselect = st.multiselect(
+    #             'Select the languages to cover in your datasets',
+    #             ["All"] + list(INFO["constants"]["LANGUAGE_GROUPS"].keys()),
+    #             ["All"])
+
+    #         # with data_select_cols[2]:
+    #         taskcats_multiselect = st.multiselect(
+    #             'Select the task categories to cover in your datasets',
+    #             ["All"] + list(INFO["constants"]["TASK_GROUPS"].keys()),
+    #             ["All"])
+
+    #         with st.expander("More advanced criteria"):
+
+    #             # format_multiselect = st.multiselect(
+    #             #     'Select the format types to cover in your datasets',
+    #             #     ["All"] + INFO["constants"]["FORMATS"],
+    #             #     ["All"])
+
+    #             domain_multiselect = st.multiselect(
+    #                 'Select the domain types to cover in your datasets',
+    #                 ["All"] + list(INFO["constants"]["DOMAIN_GROUPS"].keys()),
+    #                 # ["All", "Books", "Code", "Wiki", "News", "Biomedical", "Legal", "Web", "Math+Science"],
+    #                 ["All"])
+
+    #             time_range_selection = st.slider(
+    #                 "Select data release time constraints",
+    #                 value=(datetime(2000, 1, 1), datetime(2023, 12, 1)))
+
+    #         # Every form must have a submit button.
+    #         submitted = st.form_submit_button("Submit Selection")
+
+    #### SIDEBAR ENDS HERE
 
             
 

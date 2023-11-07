@@ -112,6 +112,7 @@ def map_license_criteria(data_summary, all_constants):
     data_summary = add_license_classes_to_summaries(data_summary, hf_resolved, "HuggingFace")
     data_summary = add_license_classes_to_summaries(data_summary, gh_resolved, "GitHub")
     data_summary = add_license_classes_to_summaries(data_summary, pwc_resolved, "PapersWithCode")
+    st.write([r if r["Collection"] == "GPTeacher" for r in data_summary])
 
     return data_summary
 
@@ -162,6 +163,7 @@ def apply_filters(
             filtered_df["Licenses"].apply(lambda xs: license_strs >= set([x["License"] for x in xs]))
         ]
 
+    st.write(len(filtered_df))
     if not filtered_df.empty and selected_license_use:
         use_key = "License Use (DataProvenance IgnoreOpenAI)" if openai_license_override else "License Use (DataProvenance)"
         valid_license_use_idx = constants.LICENSE_USE_TYPES.index(selected_license_use)
@@ -170,6 +172,7 @@ def apply_filters(
             filtered_df[use_key].apply(lambda x: x in valid_license_uses)
         ]
 
+    st.write(len(filtered_df))
     if not filtered_df.empty and selected_license_attribution:
         filtered_df = filtered_df[
             filtered_df["License Attribution (DataProvenance)"].apply(lambda x: x <= int(selected_license_attribution))
