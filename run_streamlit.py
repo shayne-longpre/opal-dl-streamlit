@@ -291,7 +291,8 @@ def streamlit_app():
         formatted_df = filtered_df.applymap(format_datetime)
         filtered_data_summary = {row["Unique Dataset Identifier"]: row for row in formatted_df.to_dict(orient='records')}
 
-
+        st.write("testing!!!!")
+        st.write("gpteacher-instruct" in filtered_data_summary)
     tab1, tab2, tab3, tab4, tab5 = st.tabs([
         "Data Summary",
         ":rainbow[Global Representation] :earth_africa:", 
