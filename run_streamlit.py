@@ -26,6 +26,8 @@ import webbrowser
 
 from PIL import Image
 
+import yaml
+
 
 INFO = {}
 
@@ -290,6 +292,32 @@ def streamlit_app():
             return value
         formatted_df = filtered_df.applymap(format_datetime)
         filtered_data_summary = {row["Unique Dataset Identifier"]: row for row in formatted_df.to_dict(orient='records')}
+
+        # save config file
+        config_data = {
+            "collection": None,
+            "license_use": license_multiselect,
+            "openai-license-override": openai_license_override,
+            "license_attribution": int(license_attribution),
+            "license_sharealike": int(license_sharealike),
+            "languages": language_multiselect,
+            "tasks": taskcats_multiselect,
+            "domains": domain_multiselect,
+            "start-time": None if start_time is None else start_time.strftime('%Y-%m-%d'),
+            "end-time": None if end_time is None else end_time.strftime('%Y-%m-%d'),
+            "data-limit": 0,
+            "output-format": "messages",
+            "savedir": "data/",
+        }
+
+        config_str = yaml.dump(config_data, default_flow_style=False, sort_keys=False)
+
+        st.download_button(
+            label="Download Configuration File",
+            data=config_str,
+            file_name="config.yaml",
+            mime="application/x-yaml"
+        )
 
     tab1, tab2, tab3, tab4, tab5 = st.tabs([
         "Data Summary",
