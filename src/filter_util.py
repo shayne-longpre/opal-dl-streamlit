@@ -114,8 +114,6 @@ def map_license_criteria(data_summary, all_constants):
     data_summary = add_license_classes_to_summaries(data_summary, pwc_resolved, "PapersWithCode")
     # st.write([r for r in data_summary if r["Collection"] == "GPTeacher"])
 
-    print(data_summary)
-
     return data_summary
 
 
@@ -169,7 +167,6 @@ def apply_filters(
         # use_key = "License Use (DataProvenance IgnoreOpenAI)" if openai_license_override else "License Use (DataProvenance)"
         valid_license_use_idx = constants.LICENSE_USE_TYPES.index(selected_license_use)
         valid_license_uses = [x.lower() for x in constants.LICENSE_USE_TYPES[:valid_license_use_idx + 1]]
-        print(selected_licenses)
 
         if openai_license_override:
             if "DataProvenance" in selected_licenses:
