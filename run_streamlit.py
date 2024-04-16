@@ -48,7 +48,7 @@ def load_data():
 # def render_tweet(tweet_url):
 #     api = "https://publish.twitter.com/oembed?url={}".format(tweet_url)
 #     response = requests.get(api)
-#     html_result = response.json()["html"] 
+#     html_result = response.json()["html"]
 #     st.text(html_result)
 #     components.html(html_result, height= 360, scrolling=True)
 
@@ -155,7 +155,7 @@ def add_instructions():
         # )
     with col2:
         image = Image.open('dpi.png')
-        st.image(image)#, caption='Sunrise by the mountains')
+        st.image(image)  # , caption='Sunrise by the mountains')
 
     st.subheader("Instructions")
     form_instructions = """
@@ -200,7 +200,7 @@ def streamlit_app():
 
     add_instructions()
 
-    #### ALTERNATIVE STARTS HERE
+    # ### ALTERNATIVE STARTS HERE
     st.markdown("""Select the preferred criteria for your datasets.""")
 
     with st.form("data_selection"):
@@ -208,6 +208,11 @@ def streamlit_app():
         col1, col2, col3 = st.columns([1,1,1], gap="medium")
 
         with col1:
+            licensesource_multiselect = st.multiselect(
+                'Select the license source to select a dataset',
+                ["DataProvenance", "HuggingFace", "GitHub"],
+                ["DataProvenance"])
+
             # st.write("Select the acceptable license values for constituent datasets")
             license_multiselect = st.select_slider(
                 'Select the datasets licensed for these use cases',
@@ -219,7 +224,6 @@ def streamlit_app():
             openai_license_override = st.toggle('Always include datasets w/ OpenAI-generated data. (I.e. See `instructions` above for details.)', value=False)
 
         with col3:
-            
             taskcats_multiselect = st.multiselect(
                 'Select the task categories to cover in your datasets',
                 ["All"] + list(INFO["constants"]["TASK_GROUPS"].keys()),
@@ -238,7 +242,6 @@ def streamlit_app():
                 # ["All", "Books", "Code", "Wiki", "News", "Biomedical", "Legal", "Web", "Math+Science"],
                 ["All"])
 
-
         with col2:
             language_multiselect = st.multiselect(
                 'Select the languages to cover in your datasets',
@@ -249,37 +252,30 @@ def streamlit_app():
                 "Select data release time constraints",
                 value=(datetime(2000, 1, 1), datetime(2023, 12, 1)))
 
-            # st.write("")
-        # st.write("")
         st.divider()
 
         # Every form must have a submit button.
         submitted = st.form_submit_button("Submit Selection")
 
-
-
-
-    #### ALTERNATIVE ENDS HERE
-
-    # st.write(len(INFO["data"]))
     if submitted:
+        print(licensesource_multiselect)
         start_time = time_range_selection[0].strftime('%Y-%m-%d')
-        end_time = time_range_selection[1].strftime('%Y-%m-%d') 
+        end_time = time_range_selection[1].strftime('%Y-%m-%d')
         # We do this check to make sure we include No-Time datasets.
         if start_time == "2000-01-01":
             start_time = None
-        if end_time == "2023-12-01": 
+        if end_time == "2023-12-01":
             end_time = None
         filtered_df = filter_util.apply_filters(
-            INFO["data"], 
+            INFO["data"],
             INFO["constants"],
-            None, 
-            None, # Select all licenses.
+            None,
+            licensesource_multiselect,  # Select all licenses.
             license_multiselect,
             openai_license_override,
             str(int(license_attribution)),
             str(int(license_sharealike)),
-            language_multiselect, 
+            language_multiselect,
             taskcats_multiselect,
             # format_multiselect,
             domain_multiselect,
@@ -297,6 +293,7 @@ def streamlit_app():
         config_data = {
             "collection": None,
             "license_use": license_multiselect,
+            "license_source": licensesource_multiselect,
             "openai-license-override": openai_license_override,
             "license_attribution": int(license_attribution),
             "license_sharealike": int(license_sharealike),
@@ -522,7 +519,7 @@ def streamlit_app():
                     elif numerical:
                         return np.mean([x for x in entries if x])
                     elif key == "Licenses":
-                            return set([x["License"] for xs in entries for x in xs if x and x["License"]])
+                        return set([x["License"] for xs in entries for x in xs if x and x["License"]])
                     elif isinstance(entries[0], list):
                         return list(set([x for xs in entries if xs for x in xs if x]))
                     else:
@@ -578,11 +575,9 @@ def streamlit_app():
                     dset_info = extract_infos(tab2_selected_df, info_key)
                     format_markdown_entry(dset_info, info_key)
 
-        
-    ### SIDEBAR STARTS HERE
+    # ## SIDEBAR STARTS HERE
 
     # with st.sidebar:
-        
     #     st.markdown("""Select the preferred criteria for your datasets.""")
 
     #     with st.form("data_selection"):
@@ -629,11 +624,7 @@ def streamlit_app():
     #         # Every form must have a submit button.
     #         submitted = st.form_submit_button("Submit Selection")
 
-    #### SIDEBAR ENDS HERE
-
-            
-
-
+    # ### SIDEBAR ENDS HERE
 
 if __name__ == "__main__":
     streamlit_app()

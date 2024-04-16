@@ -14,8 +14,8 @@ def classify_license(license_name, license_url, all_constants):
     else:
         use_case, attribution, share_alike = all_constants["LICENSE_CLASSES"][license_name]
     return {
-        "use": use_case, 
-        "attribution": int(attribution) if attribution.isnumeric() else 1, 
+        "use": use_case,
+        "attribution": int(attribution) if attribution.isnumeric() else 1,
         "share_alike": int(share_alike) if share_alike.isnumeric() else 1,
     }
 
@@ -23,9 +23,9 @@ def resolve_multiple_licenses(license_criterias):
     if not license_criterias:
         # Return empty if no licenses from this aggregator
         return ["", "", ""]
-    use_cases = [l["use"] for l in license_criterias]
-    attributions = [l["attribution"] for l in license_criterias]
-    share_alikes = [l["share_alike"] for l in license_criterias]
+    use_cases = [license_criteria["use"] for license_criteria in license_criterias]
+    attributions = [license_criteria["attribution"] for license_criteria in license_criterias]
+    share_alikes = [license_criteria["share_alike"] for license_criteria in license_criterias]
 
     if "?" in use_cases:
         resolved_use_case = "academic-only"
@@ -37,7 +37,7 @@ def resolve_multiple_licenses(license_criterias):
         resolved_use_case = "unspecified"
     elif "All":
         resolved_use_case = "commercial"
-    
+
     resolved_attribution = max(attributions)
     resolved_share_alikes = max(share_alikes)
     return resolved_use_case, resolved_attribution, resolved_share_alikes
@@ -114,6 +114,8 @@ def map_license_criteria(data_summary, all_constants):
     data_summary = add_license_classes_to_summaries(data_summary, pwc_resolved, "PapersWithCode")
     # st.write([r for r in data_summary if r["Collection"] == "GPTeacher"])
 
+
+
     return data_summary
 
 
@@ -146,7 +148,7 @@ def apply_filters(
         [tc for tcs in filtered_df["Task Categories"].tolist() for tc in tcs]
     )
     assert (
-            all_tcats >= option_tcats
+        all_tcats >= option_tcats
     ), f"Missing Task Categories: {option_tcats - all_tcats}"
     all_sources = set([v for vs in all_constants["DOMAIN_GROUPS"].values() for v in vs])
     option_sources = set(
@@ -164,13 +166,29 @@ def apply_filters(
         ]
 
     # st.write(len(filtered_df))
+    print(selected_licenses)
+    print(selected_license_use)
+    print(openai_license_override)
+
     if not filtered_df.empty and selected_license_use:
-        use_key = "License Use (DataProvenance IgnoreOpenAI)" if openai_license_override else "License Use (DataProvenance)"
+        # use_key = "License Use (DataProvenance IgnoreOpenAI)" if openai_license_override else "License Use (DataProvenance)"
         valid_license_use_idx = constants.LICENSE_USE_TYPES.index(selected_license_use)
-        valid_license_uses = [x.lower() for x in constants.LICENSE_USE_TYPES[:valid_license_use_idx+1]]
+        valid_license_uses = [x.lower() for x in constants.LICENSE_USE_TYPES[:valid_license_use_idx + 1]]
+
+        if openai_license_override:
+            if "DataProvenance" in selected_licenses:
+                selected_licenses.remove("DataProvenance")
+            use_keys = ["DataProvenance IgnoreOpenAI"] + selected_licenses
+        else:
+            use_keys = selected_licenses
+
         filtered_df = filtered_df[
-            filtered_df[use_key].apply(lambda x: x in valid_license_uses)
+            filtered_df.apply(lambda row: any(row[f"License Use ({key})"] in valid_license_uses for key in use_keys), axis=1)
         ]
+
+        # filtered_df = filtered_df[
+        #    filtered_df[use_key].apply(lambda x: x in valid_license_uses)
+        # ]
 
     # st.write(len(filtered_df))
     if not filtered_df.empty and selected_license_attribution:
