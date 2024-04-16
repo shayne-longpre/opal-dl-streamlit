@@ -114,7 +114,7 @@ def map_license_criteria(data_summary, all_constants):
     data_summary = add_license_classes_to_summaries(data_summary, pwc_resolved, "PapersWithCode")
     # st.write([r for r in data_summary if r["Collection"] == "GPTeacher"])
 
-
+    print(data_summary)
 
     return data_summary
 
@@ -165,15 +165,11 @@ def apply_filters(
             filtered_df["Licenses"].apply(lambda xs: license_strs >= set([x["License"] for x in xs]))
         ]
 
-    # st.write(len(filtered_df))
-    print(selected_licenses)
-    print(selected_license_use)
-    print(openai_license_override)
-
     if not filtered_df.empty and selected_license_use:
         # use_key = "License Use (DataProvenance IgnoreOpenAI)" if openai_license_override else "License Use (DataProvenance)"
         valid_license_use_idx = constants.LICENSE_USE_TYPES.index(selected_license_use)
         valid_license_uses = [x.lower() for x in constants.LICENSE_USE_TYPES[:valid_license_use_idx + 1]]
+        print(selected_licenses)
 
         if openai_license_override:
             if "DataProvenance" in selected_licenses:
@@ -182,9 +178,19 @@ def apply_filters(
         else:
             use_keys = selected_licenses
 
-        filtered_df = filtered_df[
-            filtered_df.apply(lambda row: any(row[f"License Use ({key})"] in valid_license_uses for key in use_keys), axis=1)
-        ]
+        if "DataProvenance-GitHub" in selected_licenses:
+            filtered_df["License Use (DataProvenance)"] = filtered_df["License Use (DataProvenance)"].apply(
+                lambda x: x if x != "Unspecified" else filtered_df["License Use (GitHub)"]
+            )
+            filtered_df = filtered_df[
+                filtered_df["License Use (DataProvenance)"].apply(lambda x: x in valid_license_uses)
+            ]
+        else:
+            if "DataProvenance-GitHub" in use_keys:
+                selected_licenses.remove("DataProvenance-GitHub")
+            filtered_df = filtered_df[
+                filtered_df.apply(lambda row: any(row[f"License Use ({key})"] in valid_license_uses for key in use_keys), axis=1)
+            ]
 
         # filtered_df = filtered_df[
         #    filtered_df[use_key].apply(lambda x: x in valid_license_uses)
