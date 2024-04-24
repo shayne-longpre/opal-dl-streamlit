@@ -161,6 +161,8 @@ def add_instructions():
 
     st.subheader("Instructions")
     form_instructions = """
+    1. **Select the source from where the license information should be retrieved.** The options are `DataProvenance (ours)`, `HuggingFace`, and `GitHub`.
+
     1. **Select from the licensed data use cases**. The options range from least to most strict:
     `Commercial`, `Unspecified`, `Non-Commercial`, `Academic-Only`.
 
@@ -207,9 +209,10 @@ def streamlit_app():
         col1, col2, col3 = st.columns([1, 1, 1], gap="medium")
 
         with col1:
+            
             licensesource_multiselect = st.multiselect(
                 'Select the license source to select a dataset',
-                ["DataProvenance", "HuggingFace", "GitHub", "DataProvenance-GitHub"],
+                ["DataProvenance", "HuggingFace", "GitHub"],
                 ["DataProvenance"])
 
             # st.write("Select the acceptable license values for constituent datasets")
@@ -265,20 +268,20 @@ def streamlit_app():
         if end_time == "2023-12-01":
             end_time = None
         filtered_df = filter_util.apply_filters(
-            INFO["data"],
-            INFO["constants"],
-            None,
-            licensesource_multiselect,  # Select all licenses.
-            license_multiselect,
-            openai_license_override,
-            str(int(license_attribution)),
-            str(int(license_sharealike)),
-            language_multiselect,
-            taskcats_multiselect,
-            # format_multiselect,
-            domain_multiselect,
-            start_time,
-            end_time,
+            df=INFO["data"],
+            all_constants=INFO["constants"],
+            selected_collection=None,
+            selected_licenses=None,  # Select all licenses.
+            selected_license_sources=licensesource_multiselect,  
+            selected_license_use=license_multiselect,
+            openai_license_override=openai_license_override,
+            selected_license_attribution=str(int(license_attribution)),
+            selected_license_sharealike=str(int(license_sharealike)),
+            selected_languages=language_multiselect,
+            selected_task_categories=taskcats_multiselect,
+            selected_domains=domain_multiselect,
+            selected_start_time=start_time,
+            selected_end_time=end_time,
         )
 
         def format_datetime(value):
@@ -292,7 +295,8 @@ def streamlit_app():
         config_data = {
             "collection": None,
             "license_use": license_multiselect,
-            "license_source": licensesource_multiselect,
+            "licenses": None,
+            "license_sources": licensesource_multiselect,
             "openai-license-override": openai_license_override,
             "license_attribution": int(license_attribution),
             "license_sharealike": int(license_sharealike),
