@@ -4,6 +4,7 @@ import pandas as pd
 from collections import defaultdict  # , Counter
 # import streamlit as st
 from src import constants
+from src.helpers import io
 
 
 def classify_license(license_name, license_url, all_constants):
@@ -129,9 +130,11 @@ def apply_filters(
     selected_languages,
     selected_task_categories,
     selected_domains,
+    no_synthetic_data,
+    text_source_allow_list,
     selected_start_time,
     selected_end_time,
-    dpi_undefined_license_override  # flag to use GitHub license information if not available ("undefined") for our Data Provenance source
+    dpi_undefined_license_override,  # flag to use GitHub license information if not available ("undefined") for our Data Provenance source
 ):
     filtered_df = df
     # st.write(filtered_df.columns)
@@ -154,6 +157,16 @@ def apply_filters(
         [src for sources in filtered_df["Text Sources"].tolist() for src in sources]
     )
     assert all_sources >= option_sources, f"Missing Text Sources: {option_sources - all_sources}"
+
+    all_models = set([v.lower() for vs in all_constants["MODEL_GROUPS"].values() for v in vs])
+    option_models = set(
+        [model.lower() for models in filtered_df["Model Generated"].tolist() for model in models]
+    )
+    assert len(all_models) >= len(option_models), f"Missing Models: {option_models - all_models}"
+
+    # Load text sources allow list if available
+    if text_source_allow_list:
+        text_sources_allow_list = text_source_allow_list
 
     if selected_collection:
         filtered_df = filtered_df[filtered_df["Collection"] == selected_collection]
@@ -277,6 +290,16 @@ def apply_filters(
         )
         filtered_df = filtered_df[
             filtered_df["Text Sources"].apply(lambda x: text_source_strs >= set(x))
+        ]
+
+    if not filtered_df.empty and no_synthetic_data:
+        filtered_df = filtered_df[
+            filtered_df["Model Generated"].apply(lambda x: len(x) == 0)
+        ]
+
+    if not filtered_df.empty and text_sources_allow_list:
+        filtered_df = filtered_df[
+            filtered_df["Text Sources"].apply(lambda x: len(x) == 0 or set(x) <= set(text_sources_allow_list))
         ]
 
     if not filtered_df.empty and (selected_start_time or selected_end_time):
