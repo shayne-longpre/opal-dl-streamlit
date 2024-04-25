@@ -7,10 +7,9 @@ streamlit run ./run_streamlit.py
 """
 
 from datetime import datetime
-import json
 import numpy as np
 import pandas as pd
-import math
+# import math
 
 from src import util
 from src import filter_util
@@ -19,10 +18,10 @@ from src import constants
 from src import html_util
 
 import streamlit as st
-from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode, JsCode
+# from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode, JsCode
 import streamlit.components.v1 as components
-import requests
-import webbrowser
+# import requests
+# import webbrowser
 
 from PIL import Image
 
@@ -35,6 +34,7 @@ INFO = {}
 @st.cache_data
 def load_constants():
     return io.read_all_constants()
+
 
 @st.cache_data
 def load_data():
@@ -53,7 +53,6 @@ def load_data():
 #     components.html(html_result, height= 360, scrolling=True)
 
 def insert_main_viz():
-
     # p5.js embed
     sketch = '<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>'
     sketch += '<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>'
@@ -62,6 +61,7 @@ def insert_main_viz():
     sketch += open("static/sketch.js", 'r', encoding='utf-8').read()
     sketch += '</script>'
     components.html(sketch, height=800, scrolling=True)
+
 
 def custom_metric(caption, score, delta=None):
     st.markdown("## :green[" + str(score) + "]")
@@ -113,6 +113,7 @@ def insert_metric_container(title, key, metrics):
         fig = util.plot_altair_barchart(metrics[key])
         # fig = util.plot_altair_piechart(metrics[key], title)
         st.altair_chart(fig, use_container_width=True, theme="streamlit")
+
 
 def add_instructions():
     st.title("Data Provenance Explorer")
@@ -182,18 +183,23 @@ def add_instructions():
     OpenAI** (inputs, outputs, or both). While the OpenAI terms state you cannot ``use output from the Services to develop models that compete with OpenAI'', there is debate as to their enforceability
     and applicability to third parties who did not generate this data themselves. See our Legal Discussion section in the paper for more discussion on these terms.
 
-    6. **Select Language Families** to include.
+    6. Select to use GitHub license information if not available ("undefined") for our Data Provenance source
+    (i.e. In cases where we do not have complete information about a data source, we have the option to use license information from GitHub as a fallback. This means that if license information is unavailable,
+    we can use the information (if available) from GitHub to fill in the gaps and ensure that we have complete and accurate license information for our Data Provenance source.).
 
-    7. **Select Task Categories** to include.
+    7. **Select Language Families** to include.
 
-    8. **Select Time of Collection**. By default it includes all datasets.
+    8. **Select Task Categories** to include.
 
-    9. **Select the Text Domains** to include.
+    9. **Select Time of Collection**. By default it includes all datasets.
+
+    10. **Select the Text Domains** to include.
 
     Finally, Submit Selection when ready!
     """
     with st.expander("Expand for Instructions!"):
         st.write(form_instructions)
+
 
 def streamlit_app():
     st.set_page_config(page_title="Data Provenance Explorer", layout="wide")  # , initial_sidebar_state='collapsed')
@@ -209,7 +215,6 @@ def streamlit_app():
         col1, col2, col3 = st.columns([1, 1, 1], gap="medium")
 
         with col1:
-            
             licensesource_multiselect = st.multiselect(
                 'Select the license source to select a dataset',
                 ["DataProvenance", "HuggingFace", "GitHub"],
@@ -224,6 +229,7 @@ def streamlit_app():
             license_attribution = st.toggle('Include Datasets w/ Attribution Requirements', value=True)
             license_sharealike = st.toggle('Include Datasets w/ Share Alike Requirements', value=True)
             openai_license_override = st.toggle('Always include datasets w/ OpenAI-generated data. (I.e. See `instructions` above for details.)', value=False)
+            dpi_license_override = st.toggle('Use GitHub Licence information if DataProvenance is undefined. (I.e. See `instructions` above for details.)', value=False)
 
         with col3:
             taskcats_multiselect = st.multiselect(
@@ -272,7 +278,7 @@ def streamlit_app():
             all_constants=INFO["constants"],
             selected_collection=None,
             selected_licenses=None,  # Select all licenses.
-            selected_license_sources=licensesource_multiselect,  
+            selected_license_sources=licensesource_multiselect,
             selected_license_use=license_multiselect,
             openai_license_override=openai_license_override,
             selected_license_attribution=str(int(license_attribution)),
@@ -282,6 +288,7 @@ def streamlit_app():
             selected_domains=domain_multiselect,
             selected_start_time=start_time,
             selected_end_time=end_time,
+            dpi_undefined_license_override=dpi_license_override
         )
 
         def format_datetime(value):
@@ -294,15 +301,16 @@ def streamlit_app():
         # save config file
         config_data = {
             "collection": None,
-            "license_use": license_multiselect,
+            "license_use": license_multiselect.lower(),
             "licenses": None,
             "license_sources": licensesource_multiselect,
-            "openai-license-override": openai_license_override,
+            "dpi-undefined-license-override": int(dpi_license_override),
+            "openai-license-override": int(openai_license_override),
             "license_attribution": int(license_attribution),
             "license_sharealike": int(license_sharealike),
-            "languages": language_multiselect,
-            "tasks": taskcats_multiselect,
-            "domains": domain_multiselect,
+            "languages": [str(language) for language in language_multiselect if language != "All"],
+            "tasks": [str(task) for task in taskcats_multiselect if task != "All"],
+            "domains": [str(domain) for domain in domain_multiselect if domain != "All"],
             "start-time": None if start_time is None else start_time.strftime('%Y-%m-%d'),
             "end-time": None if end_time is None else end_time.strftime('%Y-%m-%d'),
             "data-limit": 0,
@@ -310,12 +318,14 @@ def streamlit_app():
             "savedir": "data/",
         }
 
-        config_str = yaml.dump(config_data, default_flow_style=False, sort_keys=False)
+        config_str = yaml.dump(config_data, default_flow_style=None, sort_keys=False)
+
+        timestep = datetime.now().strftime("%Y%m%d%H%M%S")
 
         st.download_button(
             label="Download Configuration File",
             data=config_str,
-            file_name="config.yaml",
+            file_name=f"{timestep}_config_DPI.yaml",
             mime="application/x-yaml"
         )
 
@@ -610,6 +620,7 @@ def streamlit_app():
     #         submitted = st.form_submit_button("Submit Selection")
 
     # ### SIDEBAR ENDS HERE
+
 
 if __name__ == "__main__":
     streamlit_app()
