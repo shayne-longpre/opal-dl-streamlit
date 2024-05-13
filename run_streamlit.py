@@ -7,10 +7,9 @@ streamlit run ./run_streamlit.py
 """
 
 from datetime import datetime
-import json
 import numpy as np
 import pandas as pd
-import math
+# import math
 
 from src import util
 from src import filter_util
@@ -19,12 +18,14 @@ from src import constants
 from src import html_util
 
 import streamlit as st
-from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode, JsCode
+# from st_aggrid import GridOptionsBuilder, AgGrid, GridUpdateMode, DataReturnMode, JsCode
 import streamlit.components.v1 as components
-import requests
-import webbrowser
+# import requests
+# import webbrowser
 
 from PIL import Image
+
+import yaml
 
 
 INFO = {}
@@ -33,6 +34,7 @@ INFO = {}
 @st.cache_data
 def load_constants():
     return io.read_all_constants()
+
 
 @st.cache_data
 def load_data():
@@ -46,12 +48,11 @@ def load_data():
 # def render_tweet(tweet_url):
 #     api = "https://publish.twitter.com/oembed?url={}".format(tweet_url)
 #     response = requests.get(api)
-#     html_result = response.json()["html"] 
+#     html_result = response.json()["html"]
 #     st.text(html_result)
 #     components.html(html_result, height= 360, scrolling=True)
 
 def insert_main_viz():
-
     # p5.js embed
     sketch = '<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>'
     sketch += '<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>'
@@ -60,6 +61,7 @@ def insert_main_viz():
     sketch += open("static/sketch.js", 'r', encoding='utf-8').read()
     sketch += '</script>'
     components.html(sketch, height=800, scrolling=True)
+
 
 def custom_metric(caption, score, delta=None):
     st.markdown("## :green[" + str(score) + "]")
@@ -92,7 +94,7 @@ def display_metrics(metrics, df_metadata):
     #     st.metric("Text Sources", len(metrics["sources"]), delta=f"/ {len(df_metadata['sources'])}")
     #     st.metric("% Synthetic Text", metrics["synthetic_pct"])
     with metric_columns[0]:
-        custom_metric("Collections", len(metrics["collections"]), delta=f"/ {len(df_metadata['collections'])}")#, delta_color="off")
+        custom_metric("Collections", len(metrics["collections"]), delta=f"/ {len(df_metadata['collections'])}")  # , delta_color="off")
         custom_metric("Datasets", len(metrics["datasets"]), delta=f"/ {len(df_metadata['datasets'])}")
         custom_metric("Dialogs", metrics["dialogs"], delta=f"/ {df_metadata['dialogs']}")
     with metric_columns[1]:
@@ -112,20 +114,29 @@ def insert_metric_container(title, key, metrics):
         # fig = util.plot_altair_piechart(metrics[key], title)
         st.altair_chart(fig, use_container_width=True, theme="streamlit")
 
+
 def add_instructions():
     st.title("Data Provenance Explorer")
 
     col1, col2 = st.columns([0.75, 0.25], gap="medium")
 
     with col1:
-        intro_sents = "The Data Provenance Initiative is a large-scale audit of AI datasets used to train large language models. As a first step, we've traced 1800+ popular, text-to-text finetuning datasets from origin to creation, cataloging their data sources, licenses, creators, and other metadata, for researchers to explore using this tool."
+        intro_sents = """
+        The Data Provenance Initiative is a large-scale audit of AI datasets used to train large language models. As a first step, we've traced 1800+ popular,
+        text-to-text finetuning datasets from origin to creation, cataloging their data sources, licenses, creators, and other metadata, for researchers to explore
+        using this tool.
+        """
         follow_sents = "The purpose of this work is to improve transparency, documentation, and informed use of datasets in AI. "
         st.write(" ".join([intro_sents, follow_sents]))
         st.write("You can download this data (with filters) directly from the [Data Provenance Collection](https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection).")
         st.write("If you wish to contribute or discuss, please feel free to contact the organizers at [data.provenance.init@gmail.com](mailto:data.provenance.init@gmail.com).")
         # st.write("NB: This data is compiled voluntarily by the best efforts of academic & independent researchers, and is :red[**NOT** to be taken as legal advice].")
 
-        st.write("NB: It is important to note we collect *self-reported licenses*, from the papers and repositories that released these datasets, and categorize them according to our best efforts, as a volunteer research and transparency initiative. The information provided by any of our works and any outputs of the Data Provenance Initiative :red[do **NOT**, and are **NOT** intended to, constitute legal advice]; instead, all information, content, and materials are for general informational purposes only.")
+        st.write("""
+        NB: It is important to note we collect *self-reported licenses*, from the papers and repositories that released these datasets, and categorize them according to our best efforts,
+        as a volunteer research and transparency initiative. The information provided by any of our works and any outputs of the Data Provenance Initiative :red[do **NOT**, and are **NOT**
+        intended to, constitute legal advice]; instead, all information, content, and materials are for general informational purposes only.
+        """)
 
         col1a, col1b, col1c = st.columns([0.16, 0.16, 0.68], gap="small")
         with col1a:
@@ -145,67 +156,74 @@ def add_instructions():
         # if st.button('Download Repository', type="primary"):
         #     webbrowser.open_new_tab('https://github.com/Data-Provenance-Initiative/Data-Provenance-Collection')
 
-        # URL_STRING = "https://streamlit.io/"
-
-        # st.markdown(
-        #     f'<a href="{URL_STRING}" style="display: inline-block; padding: 12px 20px; background-color: #4CAF50; color: white; text-align: center; text-decoration: none; font-size: 16px; border-radius: 4px;">Action Text on Button</a>',
-        #     unsafe_allow_html=True
-        # )
     with col2:
         image = Image.open('dpi.png')
-        st.image(image)#, caption='Sunrise by the mountains')
+        st.image(image)  # , caption='Sunrise by the mountains')
 
     st.subheader("Instructions")
     form_instructions = """
-    1. **Select from the licensed data use cases**. The options range from least to most strict:
+    1. **Select the source from where the license information should be retrieved.** The options are `DataProvenance (ours)`, `HuggingFace`, and `GitHub`.
+
+    2. **Select from the licensed data use cases**. The options range from least to most strict:
     `Commercial`, `Unspecified`, `Non-Commercial`, `Academic-Only`.
-    
-    * `Commercial` will select only the data with licenses explicitly permitting commercial use. 
+
+    * `Commercial` will select only the data with licenses explicitly permitting commercial use.
     * `Unspecified` includes Commercial plus datasets with no license found attached, which may suggest the curator does not prohibit commercial use.
     * `Non-Commercial` includes Commercial and Unspecified datasets plus those licensed for non-commercial use.
     * `Academic-Only` will select all available datasets, including those that restrict to only academic uses.
 
     Note that these categories reflect the *self-reported* licenses attached to datasets, and assume fair use of any data they are derived from (e.g. scraped from the web).
 
-    2. Select whether to include datasets with **Attribution requirements in their licenses**.
+    3. Select whether to include datasets with **Attribution requirements in their licenses**.
 
-    3. Select whether to include datasets with **`Share-Alike` requirements in their licenses**. 
+    4. Select whether to include datasets with **`Share-Alike` requirements in their licenses**.
     Share-Alike means a copyright left license, that allows other to re-use, re-mix, and modify works, but requires that derivative work is distributed under the same terms and conditions.
 
-    4. Select whether to ignore the [OpenAI Terms of Use](https://openai.com/policies/terms-of-use) as a Non-Commercial restriction, and include datasets that are at least partially **generated by OpenAI** (inputs, outputs, or both).
-    While the OpenAI terms state you cannot ``use output from the Services to develop models that compete with OpenAI'', there is debate as to their enforceability and applicability to third parties who did not generate this data themselves. See our Legal Discussion section in the paper for more discussion on these terms.
-    
-    5. **Select Language Families** to include.
+    5. Select whether to ignore the [OpenAI Terms of Use](https://openai.com/policies/terms-of-use) as a Non-Commercial restriction, and include datasets that are at least partially **generated by
+    OpenAI** (inputs, outputs, or both). While the OpenAI terms state you cannot ``use output from the Services to develop models that compete with OpenAI'', there is debate as to their enforceability
+    and applicability to third parties who did not generate this data themselves. See our Legal Discussion section in the paper for more discussion on these terms.
 
-    6. **Select Task Categories** to include.
+    6. Select to use GitHub license information if not available ("undefined") for our Data Provenance source
+    (i.e. In cases where we do not have complete information about a data source, we have the option to use license information from GitHub as a fallback. This means that if license information is unavailable,
+    we can use the information (if available) from GitHub to fill in the gaps and ensure that we have complete and accurate license information for our Data Provenance source.).
 
-    7. **Select Time of Collection**. By default it includes all datasets.
+    7. **Select Language Families** to include.
 
-    8. **Select the Text Domains** to include.
+    8. **Select Task Categories** to include.
+
+    9. **Select Time of Collection**. By default it includes all datasets.
+
+    10. **Select the Text Domains** to include.
+
+    11. **Select the allowed text sources**.
+
+    12. **Select whether to include datasets with model generated data**.
 
     Finally, Submit Selection when ready!
     """
     with st.expander("Expand for Instructions!"):
         st.write(form_instructions)
 
+
 def streamlit_app():
-    st.set_page_config(page_title="Data Provenance Explorer", layout="wide")#, initial_sidebar_state='collapsed')
+    st.set_page_config(page_title="Data Provenance Explorer", layout="wide")  # , initial_sidebar_state='collapsed')
     INFO["constants"] = load_constants()
-    # st.write(INFO["constants"].keys())
     INFO["data"] = load_data()
-
     df_metadata = util.compute_metrics(INFO["data"], INFO["constants"])
-
     add_instructions()
 
-    #### ALTERNATIVE STARTS HERE
+    # ### ALTERNATIVE STARTS HERE
     st.markdown("""Select the preferred criteria for your datasets.""")
 
     with st.form("data_selection"):
-
-        col1, col2, col3 = st.columns([1,1,1], gap="medium")
+        col1, col2, col3 = st.columns([1, 1, 1], gap="medium")
 
         with col1:
+            licensesource_multiselect = st.multiselect(
+                'Select the license source to select a dataset',
+                ["DataProvenance", "HuggingFace", "GitHub"],
+                ["DataProvenance"])
+
             # st.write("Select the acceptable license values for constituent datasets")
             license_multiselect = st.select_slider(
                 'Select the datasets licensed for these use cases',
@@ -215,9 +233,9 @@ def streamlit_app():
             license_attribution = st.toggle('Include Datasets w/ Attribution Requirements', value=True)
             license_sharealike = st.toggle('Include Datasets w/ Share Alike Requirements', value=True)
             openai_license_override = st.toggle('Always include datasets w/ OpenAI-generated data. (I.e. See `instructions` above for details.)', value=False)
+            dpi_license_override = st.toggle('Use GitHub Licence information if DataProvenance is undefined. (I.e. See `instructions` above for details.)', value=False)
 
         with col3:
-            
             taskcats_multiselect = st.multiselect(
                 'Select the task categories to cover in your datasets',
                 ["All"] + list(INFO["constants"]["TASK_GROUPS"].keys()),
@@ -236,6 +254,12 @@ def streamlit_app():
                 # ["All", "Books", "Code", "Wiki", "News", "Biomedical", "Legal", "Web", "Math+Science"],
                 ["All"])
 
+            text_sources = st.multiselect(
+                'Select the text sources to cover in your datasets',
+                ["All"] + io.read_txt('src/configs/limited_text_sources.txt'),
+                ["All"])
+
+            model_generated = st.toggle('Include only datasets that are not generated by a model', value=True)
 
         with col2:
             language_multiselect = st.multiselect(
@@ -247,43 +271,39 @@ def streamlit_app():
                 "Select data release time constraints",
                 value=(datetime(2000, 1, 1), datetime(2023, 12, 1)))
 
-            # st.write("")
-        # st.write("")
         st.divider()
 
         # Every form must have a submit button.
         submitted = st.form_submit_button("Submit Selection")
 
-
-
-
-    #### ALTERNATIVE ENDS HERE
-
-    # st.write(len(INFO["data"]))
     if submitted:
         start_time = time_range_selection[0].strftime('%Y-%m-%d')
-        end_time = time_range_selection[1].strftime('%Y-%m-%d') 
+        end_time = time_range_selection[1].strftime('%Y-%m-%d')
         # We do this check to make sure we include No-Time datasets.
         if start_time == "2000-01-01":
             start_time = None
-        if end_time == "2023-12-01": 
+        if end_time == "2023-12-01":
             end_time = None
         filtered_df = filter_util.apply_filters(
-            INFO["data"], 
-            INFO["constants"],
-            None, 
-            None, # Select all licenses.
-            license_multiselect,
-            openai_license_override,
-            str(int(license_attribution)),
-            str(int(license_sharealike)),
-            language_multiselect, 
-            taskcats_multiselect,
-            # format_multiselect,
-            domain_multiselect,
-            start_time,
-            end_time,
+            df=INFO["data"],
+            all_constants=INFO["constants"],
+            selected_collection=None,
+            selected_licenses=None,  # Select all licenses.
+            selected_license_sources=licensesource_multiselect,
+            selected_license_use=license_multiselect,
+            openai_license_override=openai_license_override,
+            selected_license_attribution=str(int(license_attribution)),
+            selected_license_sharealike=str(int(license_sharealike)),
+            selected_languages=language_multiselect,
+            selected_task_categories=taskcats_multiselect,
+            selected_domains=domain_multiselect,
+            selected_start_time=start_time,
+            selected_end_time=end_time,
+            dpi_undefined_license_override=int(dpi_license_override),
+            no_synthetic_data=model_generated,
+            text_source_allow_list=text_sources
         )
+
         def format_datetime(value):
             if isinstance(value, pd.Timestamp):
                 return value.strftime('%Y-%m-%d')
@@ -291,16 +311,47 @@ def streamlit_app():
         formatted_df = filtered_df.applymap(format_datetime)
         filtered_data_summary = {row["Unique Dataset Identifier"]: row for row in formatted_df.to_dict(orient='records')}
 
+        # save config file
+        config_data = {
+            "collection": None,
+            "license_use": license_multiselect.lower(),
+            "licenses": None,
+            "license_sources": licensesource_multiselect,
+            "dpi-undefined-license-override": int(dpi_license_override),
+            "openai-license-override": int(openai_license_override),
+            "license_attribution": int(license_attribution),
+            "license_sharealike": int(license_sharealike),
+            "model-generated": int(model_generated),
+            "languages": [str(language) for language in language_multiselect if language != "All"],
+            "tasks": [str(task) for task in taskcats_multiselect if task != "All"],
+            "domains": [str(domain) for domain in domain_multiselect if domain != "All"],
+            "text-sources": [str(text_source) for text_source in text_sources if text_source != "All"],
+            "start-time": None if start_time is None else start_time.strftime('%Y-%m-%d'),
+            "end-time": None if end_time is None else end_time.strftime('%Y-%m-%d'),
+            "data-limit": 0,
+            "output-format": "messages",
+            "savedir": "data/",
+        }
+
+        config_str = yaml.dump(config_data, default_flow_style=None, sort_keys=False)
+
+        timestep = datetime.now().strftime("%Y%m%d%H%M%S")
+
+        st.download_button(
+            label="Download Configuration File",
+            data=config_str,
+            file_name=f"{timestep}_config_DPI.yaml",
+            mime="application/x-yaml"
+        )
+
     tab1, tab2, tab3, tab4, tab5 = st.tabs([
         "Data Summary",
-        ":rainbow[Global Representation] :earth_africa:", 
+        ":rainbow[Global Representation] :earth_africa:",
         "Text Characteristics :test_tube:",
-        "Data Licenses :vertical_traffic_light:", 
+        "Data Licenses :vertical_traffic_light:",
         "Inspect Individual Datasets :mag:"])
 
     with tab1:
-        # insert_main_viz()
-
         if not submitted:
             st.write("When you're ready, fill out your data filtering criteria on the left, and click Submit!\n\n")
 
@@ -308,28 +359,23 @@ def streamlit_app():
             metrics = util.compute_metrics(filtered_df, INFO["constants"])
 
             st.subheader('General Properties of your collection')
-            st.write("Given your selection, see the quantity of data (collections, datasets, dialogs), the characteristics of the data (languages, tasks, topics), and the sources of data covered (sources, domains, \% synthetically generated by models).")
-
+            st.write(r"""
+            Given your selection, see the quantity of data (collections, datasets, dialogs), the characteristics of the data (languages, tasks, topics),
+            and the sources of data covered (sources, domains, \% synthetically generated by models).
+            """)
             st.markdown('#')
-            # st.markdown('#')
-            
             display_metrics(metrics, df_metadata)
-
-            # st.divider()
-            # st.markdown('#')
-            # st.markdown('#')
 
             # insert_metric_container("Language Distribution", "languages", metrics)
             # insert_metric_container("Task Category Distribution", "task_categories", metrics)
 
-            with st.container(): 
+            with st.container():
                 st.header('Summary of Data Collections')
                 table = util.prep_collection_table(filtered_df, INFO["data"], metrics)
                 html_util.setup_table(table)
 
     with tab2:
         st.header(":rainbow[Global Representation] :earth_africa:")
-
         tab2_intro = """This section explores the representation of text datasets internationally.
         These datasets contain a wide distribution of languages, and are created by many organizations and insitutions.
         We measure both the representation across countries in which these languages are spoken, as well as "who creates these datasets"?
@@ -337,12 +383,12 @@ def streamlit_app():
         st.write(tab2_intro)
 
         if submitted:
-
             st.subheader("Language Representation by Country")
-            # st.write("First we visualize the language representation across countries by measuring **how well a country's population is covered by languages in these datasets**.")
-            st.write("""First we visualize the language coverage per country, according to the spoken languages and their representation in the Data Provenance Collection. 
-            We compute a score $S_k$ for each country $k$, parametrized by $p_{kl}$, the percentage of people in country $k$ that speak language $l$, and $w_{li}$ which is a binary indicator that is 1 if dataset $i \in D$ contains language $l$ and 0 otherwise."""
-            )
+            st.write(r"""
+            First we visualize the language coverage per country, according to the spoken languages and their representation in the Data Provenance Collection.
+            We compute a score $S_k$ for each country $k$, parametrized by $p_{kl}$, the percentage of people in country $k$ that speak language $l$, and $w_{li}$
+            which is a binary indicator that is 1 if dataset $i \in D$ contains language $l$ and 0 otherwise.
+            """)
 
             st.latex(r'''
             S_k = \sum_{l \in L} \left( p_{kl} \times \sum_{i \in D} w_{li} \right)
@@ -357,7 +403,6 @@ def streamlit_app():
                     "countryCodeToLangCodes": "html/country-code-to-language-codes.json",
                 })
             st.write("NB: While many global south countries have large English speaking populations, it may still not mean they are well represented by English text from Western/European origins.")
-            
 
             st.subheader("Dataset Creator Representation by Country")
             st.write("Here we visualize the density of organizations that package/create these datasets for machine learning, in contrast to the above.")
@@ -390,7 +435,10 @@ def streamlit_app():
 
             st.subheader("Text Length Metrics x Regular/Synthetic Text")
             st.write("New text-to-text datasets are often synthetically generated by large models like GPT-4.")
-            st.write("Here each point is a dataset, showing its input text length (in characters), target text length (in characters), and whether it is synthetically generated, or manually/human created.")
+            st.write("""
+            Here each point is a dataset, showing its input text length (in characters), target text length (in characters), and whether it is synthetically generated,
+            or manually/human created.
+            """)
             html_util.compose_html_component(
                 filtered_data_summary, "text-metrics-synthetic.js", {})
 
@@ -400,19 +448,21 @@ def streamlit_app():
                 filtered_data_summary,
                 "tasks-sunburst.js", {
                     "TASK_GROUPS": "html/constants/task_groups.json",
-                },1200)
+                }, 1200)
 
-            # tree    
+            # tree
             st.subheader("Text Source Domains")
-            st.write("Many datasets are originally scraped from the web or other sources. For the data you've selected, we cluster the original sources by Domain, quantify them and show the top sources 5 per domain.")
+            st.write("""
+            Many datasets are originally scraped from the web or other sources. For the data you've selected, we cluster the original sources by Domain,
+            quantify them and show the top sources 5 per domain.
+            """)
             html_util.compose_html_component(
                 filtered_data_summary,
                 "source-tree.js", {
                     "DOMAIN_GROUPS": "html/constants/domain_groups.json",
-                },2400)
+                }, 2400)
 
     with tab4:
-
         st.header("Data Licenses :vertical_traffic_light:")
         st.write("This section explores the *self-reported* data licenses by the creators of each dataset.")
 
@@ -434,40 +484,25 @@ def streamlit_app():
         st.header("Inspect Individual Datasets :mag:")
 
         with st.form("data_explorer"):
-            # collection_select = st.selectbox(
-            #     'Select the collection to inspect',
-            #     ["All"] + list(set(INFO["data"]["Collection"])))
-
-            # if collection_select == ["All"]:
             dataset_select = st.selectbox(
                 'Select the dataset in this collection to inspect',
                 list(set(INFO["data"]["Unique Dataset Identifier"])))
-                # ["All"] + list(set(INFO["data"]["Unique Dataset Identifier"])))
-            # else:
-            #     collection_subset = INFO["data"][INFO["data"]["Collection"] == collection_select]
-            #     dataset_select = st.selectbox(
-            #         'Select the dataset in this collection to inspect',
-            #         ["All"] + list(set(collection_subset["Unique Dataset Identifier"])))
 
             submitted2 = st.form_submit_button("Submit Selection")
 
         if submitted2:
-        
-            # if dataset_select == "All":
-            #     tab2_selected_df = INFO["data"][INFO["data"]["Collection"] == collection_select]
-            # else:
             tab2_selected_df = INFO["data"][INFO["data"]["Unique Dataset Identifier"] == dataset_select]
-
             tab2_metrics = util.compute_metrics(tab2_selected_df, INFO["constants"])
             display_metrics(tab2_metrics, df_metadata)
 
             with st.container():
-                collection_info_keys = [
-                    "Collection Name",
-                    "Collection URL",
-                    "Collection Hugging Face URL",
-                    "Collection Paper Title",
-                ]
+                # do we need this?
+                # collection_info_keys = [
+                #    "Collection Name",
+                #    "Collection URL",
+                #    "Collection Hugging Face URL",
+                #    "Collection Paper Title",
+                # ]
                 dataset_info_keys = [
                     "Unique Dataset Identifier",
                     "Paper Title",
@@ -476,8 +511,7 @@ def streamlit_app():
                 ]
                 data_characteristics_info_keys = [
                     "Format", "Languages", "Task Categories",
-                    ("Inferred Metadata", "Text Topics"),
-                    # "Text Domains", 
+                    ("Inferred Metadata", "Text Topics")
                 ]
                 data_provenance_info_keys = ["Creators", "Text Sources", "Licenses"]
 
@@ -494,7 +528,7 @@ def streamlit_app():
                     elif numerical:
                         return np.mean([x for x in entries if x])
                     elif key == "Licenses":
-                            return set([x["License"] for xs in entries for x in xs if x and x["License"]])
+                        return set([x["License"] for xs in entries for x in xs if x and x["License"]])
                     elif isinstance(entries[0], list):
                         return list(set([x for xs in entries if xs for x in xs if x]))
                     else:
@@ -550,11 +584,9 @@ def streamlit_app():
                     dset_info = extract_infos(tab2_selected_df, info_key)
                     format_markdown_entry(dset_info, info_key)
 
-        
-    ### SIDEBAR STARTS HERE
+    # ## SIDEBAR STARTS HERE
 
     # with st.sidebar:
-        
     #     st.markdown("""Select the preferred criteria for your datasets.""")
 
     #     with st.form("data_selection"):
@@ -601,10 +633,7 @@ def streamlit_app():
     #         # Every form must have a submit button.
     #         submitted = st.form_submit_button("Submit Selection")
 
-    #### SIDEBAR ENDS HERE
-
-            
-
+    # ### SIDEBAR ENDS HERE
 
 
 if __name__ == "__main__":
