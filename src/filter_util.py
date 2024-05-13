@@ -11,6 +11,7 @@ def classify_license(license_name, license_url, all_constants):
     if license_name == "Custom":
         use_case, attribution, share_alike = all_constants["CUSTOM_LICENSE_CLASSES"].get(license_url, ("?", "?", "?"))
     else:
+        print(all_constants["LICENSE_CLASSES"][license_name])
         use_case, attribution, share_alike = all_constants["LICENSE_CLASSES"][license_name]
     return {
         "use": use_case,
