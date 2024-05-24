@@ -3,38 +3,38 @@
         "afl-3.0"
     ],
     "Academic Research Purposes Only": [
-        "The dataset should be used for educational and research purposes only",
-        "For non-commercial research and educational purposes only",
-        "C3 dataset is intended for non-commercial research purpose only.",
-        "DREAM dataset is intended for non-commercial research purpose only.",
-        "This dataset is intended for non-commercial research purpose only.",
-        "Research Only",
         "By accessing the Multilingual Amazon Reviews Corpus (\"Reviews Corpus\"), you agree ...",
+        "C3 dataset is intended for non-commercial research purpose only.",
+        "Custom (research-only)",
         "Custom (research-only, non-commercial)",
+        "DREAM dataset is intended for non-commercial research purpose only.",
+        "For non-commercial research and educational purposes only",
+        "Research Only",
         "Research and Academic Use License",
-        "Custom (research-only)"
+        "The dataset should be used for educational and research purposes only",
+        "This dataset is intended for non-commercial research purpose only."
     ],
     "All Uses-Attribution": [
         "The dataset may be freely used for any purpose, although acknowledgement of",
         "The dataset may be freely used for any purpose, although acknowledgement of Google LLC (\"Google\") as the data source would be appreciated. The dataset is provided \"AS IS\" without any warranty, express or implied. Google disclaims all liability for any damages, direct or indirect, resulting from the use of the dataset."
     ],
     "Apache License 2.0": [
-        "Apache-2.0 License",
-        "Licensed under the Apache License, Version 2.0",
-        "Apache License",
-        "http://www.apache.org/licenses/LICENSE-2.0",
-        "Apache-2.0 license",
-        "apache 2.0",
         "Apache 2.0",
+        "Apache License",
+        "Apache-2.0 License",
+        "Apache-2.0 license",
+        "Licensed under the Apache License, Version 2.0",
+        "Licensed under the Apache License, Version 2.0 (the \"License\"); ...",
+        "apache 2.0",
         "apache-2.0",
-        "Licensed under the Apache License, Version 2.0 (the \"License\"); ..."
+        "http://www.apache.org/licenses/LICENSE-2.0"
     ],
     "BSD 2-Clause License": [],
     "BSD 3-Clause License": [
-        "bsd",
+        "BSD 3-Clause",
         "BSD License",
-        "bsd-3-clause",
-        "BSD 3-Clause"
+        "bsd",
+        "bsd-3-clause"
     ],
     "C-UDA": [
         "Computational Use of Data Agreement (C-UDA) License"
@@ -45,22 +45,22 @@
         "cc-by-3.0"
     ],
     "CC BY 4.0": [
-        "Creative Commons Attribution 4.0 International Licence",
-        "CUAD is licensed under the Creative Commons Attribution 4.0 (CC BY 4.0) license.",
+        "Attribution 4.0 International",
+        "CC-BY",
+        "CC-BY 4.0",
         "CC-BY-4.0",
-        "https://creativecommons.org/licenses/by/4.0/legalcode",
-        "The project is licensed under CC-BY-4.0",
-        "Like the original PersonaChat dataset, this dataset is released under the CC BY 4.0 license.",
+        "CUAD is licensed under the Creative Commons Attribution 4.0 (CC BY 4.0) license.",
+        "Creative Commons Attribution 4.0 International",
+        "Creative Commons Attribution 4.0 International Licence",
+        "Creative Commons Attribution 4.0 International License",
         "Creative Commons Attribution 4.0 International(CC BY 4.0) licence Copyright © EU/ECDC, 1995-2020",
         "Creative Commons Attribution 4.0 License",
-        "The Creative Commons Attribution 4.0 International License. https://creativecommons.org/licenses/by/4.0/",
-        "Creative Commons Attribution 4.0 International License",
-        "Attribution 4.0 International",
         "Disfl-QA dataset is licensed under CC BY 4.0",
-        "Creative Commons Attribution 4.0 International",
-        "CC-BY",
+        "Like the original PersonaChat dataset, this dataset is released under the CC BY 4.0 license.",
+        "The Creative Commons Attribution 4.0 International License. https://creativecommons.org/licenses/by/4.0/",
+        "The project is licensed under CC-BY-4.0",
         "cc-by-4.0",
-        "CC-BY 4.0"
+        "https://creativecommons.org/licenses/by/4.0/legalcode"
     ],
     "CC BY-NC 2.0": [
         "cc-by-nc-2.0"
@@ -69,14 +69,14 @@
         "cc-by-nc-3.0"
     ],
     "CC BY-NC 4.0": [
-        "CC-BY-NC-4.0",
-        "The project is licenced under CC-by-NC",
-        "Creative Common Attribution-NonCommercial 4.0 International",
-        "CC-BY-NC 4.0 (Attr Non-Commercial Inter.)",
-        "cc-by-nc-4.0",
-        "CC-BY-NC 4.0",
         "Attribution-NonCommercial 4.0 International",
-        "Creative Commons Attribution-NonCommercial 4.0 International Public License"
+        "CC-BY-NC 4.0",
+        "CC-BY-NC 4.0 (Attr Non-Commercial Inter.)",
+        "CC-BY-NC-4.0",
+        "Creative Common Attribution-NonCommercial 4.0 International",
+        "Creative Commons Attribution-NonCommercial 4.0 International Public License",
+        "The project is licenced under CC-by-NC",
+        "cc-by-nc-4.0"
     ],
     "CC BY-NC-ND 4.0": [
         "cc-by-nc-nd-4.0"
@@ -91,61 +91,73 @@
         "cc-by-nc-sa-4.0"
     ],
     "CC BY-SA 3.0": [
-        "CC-BY-SA 3.0",
-        "cc-by-sa-3.0",
         "CC BY-SA 3.0 ES",
+        "CC-BY-SA 3.0",
         "Creative Commons Attribution-ShareAlike 3.0 Unported License",
         "Creative Commons Attribution-ShareAlike 3.0 and the GNU Free Documentation License",
-        "The resources in this repository are licensed under the Creative Commons Attribution-ShareAlike 3.0 Spain"
+        "The resources in this repository are licensed under the Creative Commons Attribution-ShareAlike 3.0 Spain",
+        "cc-by-sa-3.0"
     ],
     "CC BY-SA 4.0": [
-        "Creative Commons Attribution-ShareAlike 4.0 International Public License",
         "Attribution-ShareAlike 4.0 International",
-        "CC BY-SA (Creative Commons / Attribution-ShareAlike)",
-        "https://creativecommons.org/licenses/by-sa/4.0/legalcode",
-        "https://creativecommons.org/licenses/by-sa/4.0/",
-        "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
-        "CC-BY-SA-4.0",
         "CC BY- SA 4.0",
-        "Creative Commons Attribution-ShareAlike 4.0 International License",
-        "CC BY-SA 4.0 License",
-        "cc-by-sa-4.0",
+        "CC BY-SA (Creative Commons / Attribution-ShareAlike)",
         "CC BY-SA 4.0",
-        "Creative Commons Attribution-ShareAlike 4.0 International"
+        "CC BY-SA 4.0 License",
+        "CC-BY-SA-4.0",
+        "Creative Commons Attribution-ShareAlike 4.0 International",
+        "Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)",
+        "Creative Commons Attribution-ShareAlike 4.0 International License",
+        "Creative Commons Attribution-ShareAlike 4.0 International Public License",
+        "cc-by-sa-4.0",
+        "https://creativecommons.org/licenses/by-sa/4.0/",
+        "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
     ],
     "CC0 1.0": [
-        "Public domain (CC0)",
-        "cc0-1.0",
-        "CC0",
         "## creative commons",
-        "cc",
-        "Public domain",
+        "CC0",
         "Creative Commons",
+        "Creative Commons Legal Code",
         "Creative Commons Public License (CCPL)",
         "Public Domain Mark 1.0",
-        "Creative Commons Legal Code"
+        "Public domain",
+        "Public domain (CC0)",
+        "cc",
+        "cc0-1.0"
     ],
     "CDLA Permissive 2.0": [],
     "CDLA Sharing 1.0": [
         "# Community Data License Agreement - Sharing - Version 1.0"
     ],
+    "Custom": [
+        "Custom",
+        "Custom (commercial)",
+        "The copyright of RiddleSense dataset is consistent with the terms of use ...",
+        "This Dataset Usage Agreement (\"Agreement\") is a legal agreement with LILY LAB ...",
+        "https://github.com/facebookresearch/curiosity/blob/master/LICENSE",
+        "https://github.com/nlpdata/dialogre/blob/master/license.txt",
+        "https://raw.githubusercontent.com/duorc/duorc/master/LICENSE",
+        "https://raw.githubusercontent.com/knowitall/ollie/master/LICENSE",
+        "https://s3-media3.fl.yelpcdn.com/assets/srv0/engineering_pages/bea5c1e92bf3/assets/vendor/yelp-dataset-agreement.pdf",
+        "https://huggingface.co/datasets/nvidia/OpenMathInstruct-1#license"
+    ],
     "GNU General Public License v3.0": [
-        "gpl-3.0",
-        "GNU GPLv3",
-        "gpl",
-        "GNU GENERAL PUBLIC LICENSE",
         "GNU Affero General Public License v3.0",
-        "agpl-3.0"
+        "GNU GENERAL PUBLIC LICENSE",
+        "GNU GPLv3",
+        "agpl-3.0",
+        "gpl",
+        "gpl-3.0"
     ],
     "MIT License": [
-        "MIT License (https://github.com/uclanlp/corefBias/blob/master/LICENSE)",
-        "MIT License",
         "MIT",
-        "The MIT License (MIT)",
-        "mit",
         "MIT License",
+        "MIT License",
+        "MIT License (https://github.com/uclanlp/corefBias/blob/master/LICENSE)",
+        "Modified MIT License",
         "Permission is hereby granted, free of charge, to any person obtaining a copy ...",
-        "Modified MIT License"
+        "The MIT License (MIT)",
+        "mit"
     ],
     "Microsoft Data Licensing Agreement": [
         "Microsoft Research Data License Agreement",
@@ -153,39 +165,28 @@
     ],
     "No License": [],
     "Non Commercial": [
-        "For non-commercial use because some of the data sources like Ted talks and JW news requires permission for commercial use.",
-        "Custom (non-commercial)"
+        "Custom (non-commercial)",
+        "For non-commercial use because some of the data sources like Ted talks and JW news requires permission for commercial use."
     ],
     "OANC": [],
-    "Unspecified": [
-        "Unknown",
-        "Various (see link)",
-        "other",
-        "unknown",
-        "404: Not Found",
-        "Unknwon",
-        "License information unavailable",
-        "Copyright 2017 Google Inc.",
-        "Copyright <2019> <Oana-Maria Camburu>",
-        "Copyright (c) 2020 Arthur Bražinskas",
-        "Copyright 2017 Google LLC"
-    ],
     "OpenAI": [],
     "Request Form": [],
-    "Various": [
-        "Custom (multiple, see the paper)",
-        "Custom (multiple)",
-        "Custom (various)"
+    "Unspecified": [
+        "404: Not Found",
+        "Copyright (c) 2020 Arthur Bražinskas",
+        "Copyright 2017 Google Inc.",
+        "Copyright 2017 Google LLC",
+        "Copyright <2019> <Oana-Maria Camburu>",
+        "License information unavailable",
+        "Unknown",
+        "Unknwon",
+        "Various (see link)",
+        "other",
+        "unknown"
     ],
-    "Custom": [
-        "https://raw.githubusercontent.com/knowitall/ollie/master/LICENSE",
-        "This Dataset Usage Agreement (\"Agreement\") is a legal agreement with LILY LAB ...",
-        "The copyright of RiddleSense dataset is consistent with the terms of use ...",
-        "https://github.com/nlpdata/dialogre/blob/master/license.txt",
-        "https://github.com/facebookresearch/curiosity/blob/master/LICENSE",
-        "Custom (commercial)",
-        "Custom",
-        "https://raw.githubusercontent.com/duorc/duorc/master/LICENSE",
-        "https://s3-media3.fl.yelpcdn.com/assets/srv0/engineering_pages/bea5c1e92bf3/assets/vendor/yelp-dataset-agreement.pdf"
+    "Various": [
+        "Custom (multiple)",
+        "Custom (multiple, see the paper)",
+        "Custom (various)"
     ]
 }
